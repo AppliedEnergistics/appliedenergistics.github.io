@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - master
+      - source
 
 # See examples on https://github.com/peaceiris/actions-hugo
 jobs:
