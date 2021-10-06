@@ -1,0 +1,70 @@
+
+.root {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+/* Colors, see https://minecraft.fandom.com/wiki/Formatting_codes */
+.root :global(.c-black) {
+    color: #000000;
+}
+
+.root :global(.c-dark_blue) {
+    color: #0000AA;
+}
+
+.root :global(.c-dark_green) {
+    color: #00AA00;
+}
+
+.root :global(.c-dark_aqua) {
+    color: #00AAAA;
+}
+
+.root :global(.c-dark_red) {
+    color: #AA0000;
+}
+
+.root :global(.c-dark_purple) {
+    color: #AA00AA;
+}
+
+.root :global(.c-gold) {
+    color: #FFAA00;
+}
+
+.root :global(.c-gray) {
+    color: #AAAAAA;
+}
+
+.root :global(.c-dark_gray) {
+    color: #555555;
+}
+
+.root :global(.c-blue) {
+    color: #5555FF;
+}
+
+.root :global(.c-green) {
+    color: #55FF55;
+}
+
+.root :global(.c-aqua) {
+    color: #55FFFF;
+}
+
+.root :global(.c-red) {
+    color: #FF5555;
+}
+
+.root :global(.c-light_purple) {
+    color: #FF55FF;
+}
+
+.root :global(.c-yellow) {
+    color: #FFFF55;
+}
+
+.root :global(.c-white) {
+    color: #FFFFFF;
+}
