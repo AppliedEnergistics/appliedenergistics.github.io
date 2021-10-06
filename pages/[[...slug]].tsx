@@ -16,13 +16,17 @@ import path from "path";
 import fs from "fs";
 import MdxImage from "../components/MdxImage";
 import sizeOf from 'image-size';
+import SubCategories from "../components/SubCategories";
+import MdxParagraph from "../components/MdxParagraph";
 
 const components = {
     a: MdxLink,
     img: MdxImage,
     ItemLink,
     RecipeFor,
-    CategoryIndex
+    CategoryIndex,
+    SubCategories,
+    p: MdxParagraph
 }
 
 interface ContentPageProps {

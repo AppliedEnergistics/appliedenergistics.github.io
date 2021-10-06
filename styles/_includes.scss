@@ -1,0 +1,16 @@
+
+@mixin outer-box {
+    background-color: #dddddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+@mixin inner-box {
+    background-color: #bbbbbb;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+@mixin inner-box-hover {
+    background-color: #aaaaaa;
+}

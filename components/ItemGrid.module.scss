@@ -1,0 +1,17 @@
+
+@import "styles/includes";
+
+/* Reset the list */
+.itemGrid {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    @include inner-box;
+    margin: 10px;
+
+    &:hover {
+      @include inner-box-hover;
+    }
+  }
+}

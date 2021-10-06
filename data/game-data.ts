@@ -1,5 +1,4 @@
 import GameDataExport from "../site-export/site_export.json";
-import {ImageProps} from "next/image";
 
 export interface Recipe {
     id: string;
@@ -26,7 +25,7 @@ export interface ItemInfo {
     id: string;
     displayName: string;
     tooltipLines: string[];
-    icon: ImageProps["src"];
+    icon: string;
 }
 
 export const craftingRecipes: Record<string, CraftingRecipe> = GameDataExport.craftingRecipes;
@@ -35,9 +34,7 @@ export const inscriberRecipes: Record<string, InscriberRecipe> = GameDataExport.
 
 const indexByItemId = new Map<string, ItemInfo>(
     Object.values(GameDataExport.items).map(item => {
-        const iconName = item.icon.replaceAll('\\', '/').replaceAll(/^icons\//g, '');
-        const icon = require(__dirname + "/../site-export/icons/" + iconName)
-
+        const icon = item.icon.replaceAll('\\', '/').replaceAll(/^icons\//g, '/icons/');
         return [item.id, {
             ...item,
             icon

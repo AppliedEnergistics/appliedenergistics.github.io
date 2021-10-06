@@ -17,34 +17,18 @@ function NavBar() {
             <div id="navbarBasicExample" className="navbar-menu">
                 <div className="navbar-start">
                     <Link passHref href="/">
-                        <a className="navbar-item">Home</a>
+                        <a className="navbar-item">About</a>
+                    </Link>
+
+                    <Link passHref href="/getting-started/">
+                        <a className="navbar-item">Getting Started</a>
                     </Link>
 
                     <Link passHref href="/frequently-asked-questions/">
                         <a className="navbar-item">FAQ</a>
                     </Link>
 
-                    <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-link">
-                            More
-                        </a>
-
-                        <div className="navbar-dropdown">
-                            <a className="navbar-item">
-                                About
-                            </a>
-                            <a className="navbar-item">
-                                Jobs
-                            </a>
-                            <a className="navbar-item">
-                                Contact
-                            </a>
-                            <hr className="navbar-divider"/>
-                            <a className="navbar-item">
-                                Report an issue
-                            </a>
-                        </div>
-                    </div>
+                    <a className="navbar-item" href="https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files">Downloads</a>
                 </div>
 
             </div>

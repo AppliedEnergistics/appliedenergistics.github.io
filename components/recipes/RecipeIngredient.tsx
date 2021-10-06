@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import css from './recipe.module.css';
+import css from './recipe.module.scss';
 import ItemIcon from "../ItemIcon";
 
 export interface RecipeIngredientProps {

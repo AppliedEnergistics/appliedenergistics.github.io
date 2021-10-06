@@ -1,17 +1,33 @@
 import React from 'react';
 import Link from 'next/link';
-import {allPages} from "../data/site-data";
+import {findCategory} from "../data/site-data";
+import {PageNode} from "../data/page-index";
+import ItemIcon from "./ItemIcon";
+import ItemGrid from "./ItemGrid";
 
 export interface CategoryIndexProps {
     category: string;
 }
 
-function CategoryIndex({category}: CategoryIndexProps) {
-    const entries = allPages.filter(p => p.categories.includes(category));
+function PageTile({page: {title, itemIds, url}}: { page: PageNode }) {
+    if (itemIds.length) {
+        return <Link href={url} passHref><a><ItemIcon itemId={itemIds[0]} nolink/></a></Link>;
+    } else {
+        return <Link href={url}>{title}</Link>;
+    }
+}
 
-    return <ul>
-        {entries.map(({title, itemIds, url}) => (<li key={url}><Link href={url}>{title}</Link></li>))}
-    </ul>;
+function CategoryIndex({category}: CategoryIndexProps) {
+    const {title, pages} = findCategory(category);
+
+    return <>
+        <div>
+            <div className="title is-4">{title}</div>
+        </div>
+        <ItemGrid>
+            {pages.map(page => <PageTile key={page.url} page={page}/>)}
+        </ItemGrid>
+    </>;
 }
 
 export default CategoryIndex;

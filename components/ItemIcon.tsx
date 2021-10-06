@@ -2,22 +2,32 @@ import React from 'react';
 import {getItemInfo} from "../data/game-data";
 import Tooltip from "./Tooltip";
 import ItemLink from "./ItemLink";
-import Image from "next/image";
-import loadImage from "./loadImage";
 
 export interface ItemIconProps {
     itemId: string;
+    nolink?: boolean;
 }
 
-function ItemIcon({itemId}: ItemIconProps) {
+function ItemIcon({itemId, nolink}: ItemIconProps) {
     const itemInfo = getItemInfo(itemId);
 
-    return <Tooltip lines={itemInfo.tooltipLines}>
-        <ItemLink id={itemId}>
-            <Image src={itemInfo.icon} loader={loadImage} alt={itemInfo.displayName} title={itemInfo.displayName}
-                   className="item-icon" unoptimized/>
-        </ItemLink>
-    </Tooltip>;
+    // eslint-disable-next-line @next/next/no-img-element
+    const icon = <img src={itemInfo.icon}
+                      alt={itemInfo.displayName}
+                      title={itemInfo.displayName}
+                      className="item-icon"/>;
+
+    if (!nolink) {
+        return <Tooltip lines={itemInfo.tooltipLines}>
+            <ItemLink id={itemId}>
+                {icon}
+            </ItemLink>
+        </Tooltip>;
+    } else {
+        return <Tooltip lines={itemInfo.tooltipLines}>
+            {icon}
+        </Tooltip>;
+    }
 }
 
 export default ItemIcon;

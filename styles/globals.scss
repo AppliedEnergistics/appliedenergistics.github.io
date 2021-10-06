@@ -9,10 +9,19 @@ $navbar-background-color: #fafafa;
   font-weight: bolder;
   margin-right: 15px;
 
-img {
-  image-rendering: crisp-edges;
-  image-rendering: pixelated;
-  height: 100%;
-  margin-right: 5px;
+  img {
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    height: 100%;
+    margin-right: 5px;
+  }
 }
+
+img.item-icon {
+  width: 64px;
+  height: 64px;
+  max-width: unset;
+  min-width: unset;
+  max-height: unset;
+  min-height: unset;
 }

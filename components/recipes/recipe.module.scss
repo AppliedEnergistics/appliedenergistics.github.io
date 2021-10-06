@@ -1,0 +1,87 @@
+@import "../../styles/_includes.scss";
+
+.recipeContainer {
+  & > div + div {
+    margin-top: 1rem;
+  }
+}
+
+.recipeBoxLayout {
+  display: inline-grid;
+
+  grid-template-rows: auto auto;
+  grid-template-columns: max-content 1fr max-content;
+
+  @include outer-box;
+
+  row-gap: 10px;
+  column-gap: 10px;
+
+  align-items: center;
+}
+
+.recipeBoxLayout > :first-child {
+  grid-column-start: span 3;
+}
+
+@mixin ingredientsBox {
+  display: inline-grid;
+  column-gap: 5px;
+  row-gap: 5px;
+
+  align-self: center;
+  justify-self: start;
+
+}
+
+.ingredientsBox {
+  @include ingredientsBox;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ingredientsBoxShapeless1Col {
+  @include ingredientsBox;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+
+.ingredientsBoxShapeless2Col {
+  @include ingredientsBox;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ingredientsBoxShapeless3Col {
+  @include ingredientsBox;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.recipeArrow {
+  align-self: center;
+  justify-self: center;
+}
+
+.emptyIngredientBox, .ingredientBox {
+  display: inline-block;
+  @include inner-box;
+}
+
+.ingredientBox:hover {
+  @include inner-box-hover;
+}
+
+.smeltingInputBox {
+  display: flex;
+  flex-direction: column;
+  & > :first-child {
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  & > :last-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}

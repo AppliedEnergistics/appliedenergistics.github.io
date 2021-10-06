@@ -3,6 +3,7 @@ import {craftingRecipes, inscriberRecipes, smeltingRecipes} from "../../data/gam
 import CraftingRecipe from "./CraftingRecipe";
 import InscriberRecipe from "./InscriberRecipe";
 import SmeltingRecipe from "./SmeltingRecipe";
+import css from './recipe.module.scss';
 
 export interface RecipeForProps {
     /**
@@ -20,11 +21,13 @@ function RecipeFor({id}: RecipeForProps) {
         throw new Error("No recipes for " + id);
     }
 
-    return <>
-        {crafting.map((recipe, index) => (<CraftingRecipe key={index} recipe={recipe}/>))}
-        {inscriber.map((recipe, index) => (<InscriberRecipe key={index} recipe={recipe}/>))}
-        {smelting.map((recipe, index) => (<SmeltingRecipe key={index} recipe={recipe}/>))}
-    </>;
+    return <div>
+        <div className={css.recipeContainer}>
+            {crafting.map((recipe, index) => (<CraftingRecipe key={recipe.id} recipe={recipe}/>))}
+            {inscriber.map((recipe, index) => (<InscriberRecipe key={recipe.id} recipe={recipe}/>))}
+            {smelting.map((recipe, index) => (<SmeltingRecipe key={recipe.id} recipe={recipe}/>))}
+        </div>
+    </div>;
 }
 
 export default RecipeFor;
