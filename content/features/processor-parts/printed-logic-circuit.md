@@ -21,7 +21,7 @@ id="appliedenergistics2:printed_logic_processor"/>.
 
 ### Processors
 
-<CategoryIndex category="Other Processors" />  
+<CategoryIndex category="Processors" />  
 
 ### Processor Parts
 

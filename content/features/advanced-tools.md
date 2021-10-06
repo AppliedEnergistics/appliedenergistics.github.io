@@ -20,4 +20,4 @@ Applied Energistics 2 offers a variety of unique advanced tools
   
 ### Configuration Tools
 
-<CategoryIndex category="Advanced Tools/Configuration" />
+<CategoryIndex category="Advanced Tools/Configuration Tools" />

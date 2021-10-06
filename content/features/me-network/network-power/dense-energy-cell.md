@@ -20,4 +20,4 @@ Network](../../me-network.md).
 
 ### Other Energy Storage
 
-<CategoryIndex relation="ME Network/Energy Storage" />
+<CategoryIndex category="ME Network/Energy Storage" />

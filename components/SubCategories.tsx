@@ -12,8 +12,8 @@ function SubCategories({category: id}: SubCategoriesProps) {
 
     return (
         <div className={css.subCategories}>
-            {category.categories.map(subCategory => (<div>
-                <CategoryIndex key={subCategory.title} category={subCategory.fullPath}/>
+            {category.categories.map(subCategory => (<div key={subCategory.title}>
+                <CategoryIndex category={subCategory.fullPath}/>
             </div>))}
         </div>
     );

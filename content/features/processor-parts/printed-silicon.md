@@ -18,7 +18,7 @@ title: Printed Silicon
 
 ### Processors
 
-<CategoryIndex category="Other Processors" />  
+<CategoryIndex category="Processors" />  
 
 ### Processor Parts
 

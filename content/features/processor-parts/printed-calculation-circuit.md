@@ -21,7 +21,7 @@ id="appliedenergistics2:calculation_processor"/>.
 
 ### Processors
 
-<CategoryIndex category="Other Processors" />  
+<CategoryIndex category="Processors" />  
 
 ### Processor Parts
 

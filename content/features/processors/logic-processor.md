@@ -1,10 +1,10 @@
 ---
 item_ids:
   - appliedenergistics2:logic_processor
-related:
-- Other Processors
-- Processor Press Plates
-- Processor Parts
+categories:
+  - Processors
+  - Processor Press Plates
+  - Processor Parts
 title: Logic Processor
 ---
 
@@ -20,7 +20,7 @@ Most basic processor.
 
 TODO EXCEPT SELF
 
-<CategoryIndex category="Other Processors" />  
+<CategoryIndex category="Processors" />  
 
 ### Processor Parts
 

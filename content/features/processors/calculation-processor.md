@@ -1,8 +1,8 @@
 ---
 item_ids:
   - appliedenergistics2:calculation_processor
-related:
-- Other Processors
+categories:
+- Processors
 - Processor Press Plates
 - Processor Parts
 title: Calculation Processor
@@ -20,7 +20,7 @@ Medium tier processor.
 
 TODO EXCEPT SELF
 
-<CategoryIndex category="Other Processors" />  
+<CategoryIndex category="Processors" />  
   
 ### Processor Parts
 

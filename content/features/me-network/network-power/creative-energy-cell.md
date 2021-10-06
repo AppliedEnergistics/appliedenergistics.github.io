@@ -13,4 +13,4 @@ They can only be spawned in **Creative Mode**.
 
 ### Other Energy Storage
 
-<CategoryIndex relation="ME Network/Energy Storage" />
+<CategoryIndex category="ME Network/Energy Storage" />

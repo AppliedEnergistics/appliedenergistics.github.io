@@ -1,8 +1,8 @@
 ---
 item_ids:
   - appliedenergistics2:engineering_processor
-related:
-- Other Processors
+categories:
+- Processors
 - Processor Press Plates
 - Processor Parts
 title: Engineering Processor
@@ -20,7 +20,7 @@ Most Advanced Processor.
 
 TODO EXCEPT SELF
 
-<CategoryIndex category="Other Processors" />  
+<CategoryIndex category="Processors" />  
 
 ### Processor Parts
 

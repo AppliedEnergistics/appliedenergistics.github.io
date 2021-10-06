@@ -26,7 +26,7 @@ id="appliedenergistics2:inscriber"/>.
 
 ### Processors
 
-<CategoryIndex category="Other Processors" />  
+<CategoryIndex category="Processors" />  
 
 ### Processor Parts
 
