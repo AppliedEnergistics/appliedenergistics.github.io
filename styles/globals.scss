@@ -7,14 +7,6 @@ $navbar-background-color: #fafafa;
 .navbar-brand {
   white-space: nowrap;
   font-weight: bolder;
-  margin-right: 15px;
-
-  img {
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    height: 100%;
-    margin-right: 5px;
-  }
 }
 
 img.item-icon {
@@ -24,4 +16,5 @@ img.item-icon {
   min-width: unset;
   max-height: unset;
   min-height: unset;
+  display: block;
 }
