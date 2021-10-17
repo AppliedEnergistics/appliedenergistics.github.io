@@ -6,6 +6,10 @@
   }
 }
 
+.recipeContainer + .recipeContainer {
+  margin-top: 1rem;
+}
+
 .recipeBoxLayout {
   display: inline-grid;
 

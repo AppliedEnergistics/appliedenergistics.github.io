@@ -18,3 +18,25 @@ img.item-icon {
   min-height: unset;
   display: block;
 }
+
+.main-container {
+  display: grid;
+  grid-template-columns: 13.25rem 1fr;
+
+  > :first-child {
+    padding: 1.25rem;
+  }
+}
+
+.tippy-box[data-theme~='light'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: tomato;
+}
+.tippy-box[data-theme~='light'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: tomato;
+}
+.tippy-box[data-theme~='light'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: tomato;
+}
+.tippy-box[data-theme~='light'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: tomato;
+}

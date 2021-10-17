@@ -2,9 +2,19 @@
 title: Getting Started
 ---
 
-# Getting Started with Applied Energistics 2
+## Early Game Progression
 
-### My Very First Quartz
+- Mine in the overworld for <ItemLink id="quartz_ore" /> and obtain <ItemLink id="certus_quartz_dust" />, and at least one <ItemLink id="certus_quartz_crystal" />.
+- Build a <ItemLink id="charger" />, and power it with a <ItemLink id="vibration_chamber" /> or a generators from others mods.
+- Use the charger to make a <ItemLink id="charged_certus_quartz_crystal" />, and build a <ItemLink id="sky_compass" />.
+- To progress, you need to create <ItemLink id="fluix_crystal" />. You have two options: 
+  - Use the compass to find a [meteorite](./features/meteorites.md), where you might find some <ItemLink id="fluix_crystal" />.
+  - Grow your first fluix crystals without a <ItemLink id="quartz_growth_accelerator" />. This will be slow,
+    but can be done in bulk, and you don't need to wait around.
+- To craft the processors required for more advanced machines, you'll need the <ItemLink id="inscriber" />. Each type of
+  processor has an associated press, which you will find in [meteorites](./features/meteorites.md).
+
+## My Very First Quartz
 
 The first step to getting started in AE2 is to acquire Quartz. AE2 itself adds
 <ItemLink id="appliedenergistics2:certus_quartz_crystal"/>, and
@@ -12,33 +22,21 @@ makes use of vanilla's <ItemLink id="minecraft:quartz"/> as
 well. The first tier of AE2 tech, such as the <ItemLink
 id="appliedenergistics2:certus_quartz_wrench"/>, <ItemLink
 id="appliedenergistics2:certus_quartz_cutting_knife"/>, and Certus
-Quartz tools, uses Certus Quartz as the primary crafting ingredient. The
-<ItemLink id="appliedenergistics2:certus_quartz_crystal"/> can also
+Quartz tools, uses Certus Quartz as the primary crafting ingredient.
+
+You'll notice that mining <ItemLink id="quartz_ore" /> primarily drops <ItemLink id="certus_quartz_dust" />.
+
+The <ItemLink id="appliedenergistics2:certus_quartz_crystal"/> can also
 be ground up in the Grindstone to produce <ItemLink
 id="appliedenergistics2:certus_quartz_dust"/> (as can Nether
 Quartz), which is then used in Certus Glass (ingredient in most Tech 2 items),
 Tiny TNT (used in the creation of Singularities, a very advanced item in AE2),
 and most importantly to make Seeds.
 
-### Growing Crystals
+To get more than the occasional crystal dropped from <ItemLink id="quartz_ore" />, you need
+to [grow crystals from seeds](./features/crystals.md).
 
-Everything about AE2 is meant to be automated. Everything, right down to the
-aquisition of the most basic ingredients added by the mod. Seeds are one of
-the most important parts of the "early game" of AE2. By combining <ItemLink
-id="appliedenergistics2:certus_quartz_dust"/> or <ItemLink
-id="appliedenergistics2:nether_quartz_dust"/> (produced in the
-Grindstone or similar process in another mod) with Sand, you can create items
-called Seeds.
-
-<CategoryIndex category="Crystal Seeds" />
-  
-These Seeds, when placed in water, will grow into their respective crystal
-types. If you've looked carefully, you'll see that you get 2 seeds per 1 dust,
-this allows you to double your crystals for most uses in AE2. This growth is
-accelerated by (unsurprisingly) <ItemLink
-id="appliedenergistics2:quartz_growth_accelerator"/>.
-
-### Alright, I have a bunch of Nether and Certus Quartz; how do I move up in the world?
+## Alright, I have a bunch of Nether and Certus Quartz; how do I move up in the world?
 
 After some investigation, you've probably noticed that to move up through the
 tech tree you need <ItemLink
@@ -113,7 +111,7 @@ After this is where the fun starts. You now have all the tools to start making
 the complex pieces that Applied Energistics has to offer! Get out there and
 start filling up data drives.
 
-# Matter Energy Tech: ME Networks and Storage
+## Matter Energy Tech: ME Networks and Storage
 
 ### What is ME Storage?
 

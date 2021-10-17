@@ -1,6 +1,5 @@
 import React from 'react';
 import {getItemInfo} from "../data/game-data";
-import Tooltip from "./Tooltip";
 import ItemLink from "./ItemLink";
 
 export interface ItemIconProps {
@@ -18,15 +17,11 @@ function ItemIcon({itemId, nolink}: ItemIconProps) {
                       className="item-icon"/>;
 
     if (!nolink) {
-        return <Tooltip lines={itemInfo.tooltipLines}>
-            <ItemLink id={itemId}>
-                {icon}
-            </ItemLink>
-        </Tooltip>;
-    } else {
-        return <Tooltip lines={itemInfo.tooltipLines}>
+        return <ItemLink id={itemId}>
             {icon}
-        </Tooltip>;
+        </ItemLink>;
+    } else {
+        return icon;
     }
 }
 

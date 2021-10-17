@@ -1,7 +1,6 @@
 ---
 categories:
 - Advanced Tools/Utilities
-- Storage Cells/Integrated Cells
 item_ids:
   - appliedenergistics2:color_applicator
 title: Color Applicator

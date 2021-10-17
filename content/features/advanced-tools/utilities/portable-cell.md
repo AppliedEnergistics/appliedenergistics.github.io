@@ -1,7 +1,6 @@
 ---
 categories:
 - Advanced Tools/Utilities
-- Storage Cells/Integrated Cells
 item_ids:
   - appliedenergistics2:1k_portable_item_cell
   - appliedenergistics2:4k_portable_item_cell

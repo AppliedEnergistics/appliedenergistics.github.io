@@ -1,7 +1,6 @@
 ---
 categories:
 - Advanced Tools/Weapons
-- Storage Cells/Integrated Cells
 item_ids:
   - appliedenergistics2:matter_cannon
 related:

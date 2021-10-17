@@ -1,15 +1,12 @@
 import React from 'react';
-import logo from './controller.png';
-import Image from 'next/image';
 import Link from 'next/link';
-import loadImage from "./loadImage";
 
 function NavBar() {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <a className="navbar-item" href="https://appliedenergistics.github.io">
-                    <Image src={logo} alt="AE2 Logo" loader={loadImage} unoptimized/>
+                    <img alt="" src="/assets/logo/logo_00.png" />
                     Applied Energistics 2
                 </a>
             </div>

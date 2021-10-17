@@ -19,8 +19,8 @@ will need its own channel. The block form lets multiple other blocks connect
 to a single ME interface, using only one channel for the interface.
 
 <ItemGrid>
-  <ItemIcon id="appliedenergistics2:item_interface" />
-  <ItemIcon id="appliedenergistics2:cable_item_interface" />
+  <ItemIcon itemId="appliedenergistics2:item_interface" />
+  <ItemIcon itemId="appliedenergistics2:cable_item_interface" />
 </ItemGrid>
 
 The <ItemLink id="appliedenergistics2:item_interface"/> acts as an in

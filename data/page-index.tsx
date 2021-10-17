@@ -12,6 +12,7 @@ export interface CategoryNode {
 
 export interface PageNode {
     title: string;
+    path: string;
     url: string;
     itemIds: string[];
     categories: string[];

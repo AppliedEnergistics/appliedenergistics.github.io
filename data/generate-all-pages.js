@@ -40,6 +40,7 @@ module.exports = function () {
         categories ??= [];
 
         pages.push({
+            path: pagePath,
             url: getPageUrl(pagePath),
             title,
             categories,

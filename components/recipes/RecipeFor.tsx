@@ -21,12 +21,10 @@ function RecipeFor({id}: RecipeForProps) {
         throw new Error("No recipes for " + id);
     }
 
-    return <div>
-        <div className={css.recipeContainer}>
-            {crafting.map((recipe, index) => (<CraftingRecipe key={recipe.id} recipe={recipe}/>))}
-            {inscriber.map((recipe, index) => (<InscriberRecipe key={recipe.id} recipe={recipe}/>))}
-            {smelting.map((recipe, index) => (<SmeltingRecipe key={recipe.id} recipe={recipe}/>))}
-        </div>
+    return <div className={css.recipeContainer}>
+        {crafting.map((recipe, index) => (<CraftingRecipe key={recipe.id} recipe={recipe}/>))}
+        {inscriber.map((recipe, index) => (<InscriberRecipe key={recipe.id} recipe={recipe}/>))}
+        {smelting.map((recipe, index) => (<SmeltingRecipe key={recipe.id} recipe={recipe}/>))}
     </div>;
 }
 

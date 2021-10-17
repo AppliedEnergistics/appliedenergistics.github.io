@@ -20,7 +20,7 @@ Stacks,while holding 63 Different items.
 
 
 The 64k Storage Cell uses 512 bytes of data to store a single type. [Click
-here for details on how storage math works.](../../me-storage-math.md)
+here for details on how storage math works.](../../storage-cells.md)
 
 
 

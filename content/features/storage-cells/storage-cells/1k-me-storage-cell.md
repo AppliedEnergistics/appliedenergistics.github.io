@@ -20,7 +20,7 @@ Stacks,while holding 63 Different items.
 
 
 The 1k Storage Cell uses 8 bytes of data to store a single type. [Click here
-for details on how storage math works.](../../me-storage-math.md)
+for details on how storage math works.](../../storage-cells.md)
 
 
 

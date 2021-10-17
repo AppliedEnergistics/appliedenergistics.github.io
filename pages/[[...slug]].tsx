@@ -18,14 +18,21 @@ import MdxImage from "../components/MdxImage";
 import sizeOf from 'image-size';
 import SubCategories from "../components/SubCategories";
 import MdxParagraph from "../components/MdxParagraph";
+import InscriberRecipes from "../components/recipes/InscriberRecipes";
+import FeaturesSideNav from "../components/FeaturesSideNav";
+import ItemGrid from "../components/ItemGrid";
+import ItemIcon from "../components/ItemIcon";
 
 const components = {
     a: MdxLink,
     img: MdxImage,
+    ItemGrid,
+    ItemIcon,
     ItemLink,
     RecipeFor,
     CategoryIndex,
     SubCategories,
+    InscriberRecipes,
     p: MdxParagraph
 }
 
@@ -42,9 +49,15 @@ export default function ContentPage({source, frontMatter}: ContentPageProps) {
                 <link rel="icon" href="/favicon.png" sizes="any"/>
             </Head>
             <NavBar/>
-            <div className="container">
-                <main className="content">
-                    <MDXRemote {...source} components={components}/>
+            <div className="main-container">
+                <FeaturesSideNav/>
+                <main>
+                    <div className="container">
+                        <h1 className="title">{frontMatter.title}</h1>
+                        <div className="content">
+                            <MDXRemote {...source} components={components}/>
+                        </div>
+                    </div>
                 </main>
             </div>
         </>
