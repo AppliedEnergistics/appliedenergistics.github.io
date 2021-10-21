@@ -1,4 +1,10 @@
+@import "../styles/_includes.scss";
 
 .itemTooltip {
-  padding: 5px;
+  @include inner-box;
+  padding: 2px;
+
+  & :global(.tippy-svg-arrow) {
+    fill: #bbbbbb;
+  }
 }

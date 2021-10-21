@@ -9,6 +9,8 @@ export interface Recipe {
 export interface CraftingRecipe extends Recipe {
     shapeless: boolean;
     ingredients: string[][];
+    width: number;
+    height: number;
 }
 
 export interface SmeltingRecipe extends Recipe {

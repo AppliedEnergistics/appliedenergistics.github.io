@@ -28,15 +28,17 @@ img.item-icon {
   }
 }
 
-.tippy-box[data-theme~='light'][data-placement^='top'] > .tippy-arrow::before {
-  border-top-color: tomato;
-}
-.tippy-box[data-theme~='light'][data-placement^='bottom'] > .tippy-arrow::before {
-  border-bottom-color: tomato;
-}
-.tippy-box[data-theme~='light'][data-placement^='left'] > .tippy-arrow::before {
-  border-left-color: tomato;
-}
-.tippy-box[data-theme~='light'][data-placement^='right'] > .tippy-arrow::before {
-  border-right-color: tomato;
+.tippy-box {
+  &[data-placement^='top'] > .tippy-arrow::before {
+    border-top-color: tomato;
+  }
+  &[data-placement^='bottom'] > .tippy-arrow::before {
+    border-bottom-color: tomato;
+  }
+  &[data-placement^='left'] > .tippy-arrow::before {
+    border-left-color: tomato;
+  }
+  &[data-placement^='right'] > .tippy-arrow::before {
+    border-right-color: tomato;
+  }
 }

@@ -9,9 +9,10 @@ import ItemTooltip from "./ItemTooltip";
 export interface ItemLinkProps {
     id: string;
     children: ReactNode | undefined;
+    notooltip?: boolean;
 }
 
-function ItemLink({id, children}: ItemLinkProps) {
+function ItemLink({id, children, notooltip}: ItemLinkProps) {
     let {asPath} = useRouter();
 
     let pageUrl: string | undefined;
@@ -36,17 +37,21 @@ function ItemLink({id, children}: ItemLinkProps) {
         asPath += "/";
     }
 
+    let content;
     // Do not render a link if we're already on that page, or there is no link
     if (!pageUrl || asPath === pageUrl) {
-        return <ItemTooltip item={itemInfo}>
-            <span className={css.itemTooltip}>{children}</span>
-        </ItemTooltip>
+        content = <span className={css.itemTooltip}>{children}</span>;
+
     } else {
-        return (
-            <ItemTooltip item={itemInfo}>
-                <Link href={pageUrl} passHref><a>{children}</a></Link>
-            </ItemTooltip>
-        );
+        content = <Link href={pageUrl} passHref><a>{children}</a></Link>;
+    }
+
+    if (notooltip) {
+        return content;
+    } else {
+        return <ItemTooltip item={itemInfo}>
+            {content}
+        </ItemTooltip>;
     }
 }
 

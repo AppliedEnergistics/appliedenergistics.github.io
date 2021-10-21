@@ -7,7 +7,9 @@ const sideNav: MenuEntry[] = [
     {
         header: "Introduction",
         children: [
-            "getting-started.md"
+            "getting-started.md",
+            "frequently-asked-questions.md",
+            "miscellaneous-tips.md",
         ]
     },
     {

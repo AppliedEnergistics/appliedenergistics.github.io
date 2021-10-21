@@ -15,7 +15,7 @@ function CraftingRecipe({recipe}: CraftingRecipeProps) {
         <div>
             <div className={css.recipeBoxLayout}>
                 <strong>{resultItem.displayName} {recipe.shapeless ? " (Shapeless)" : null}</strong>
-                <RecipeIngredientGrid ingredients={recipe.ingredients} shapeless={recipe.shapeless}/>
+                <RecipeIngredientGrid {...recipe} />
                 <svg width="85" height="50" className={css.recipeArrow}>
                     <path d="M 0 20 H 60 V 0 L 85 25 L 60 50 L 60 30 L 0 30 Z" fill="#8b8b8b"/>
                 </svg>

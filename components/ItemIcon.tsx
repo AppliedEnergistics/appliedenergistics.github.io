@@ -17,7 +17,7 @@ function ItemIcon({itemId, nolink}: ItemIconProps) {
                       className="item-icon"/>;
 
     if (!nolink) {
-        return <ItemLink id={itemId}>
+        return <ItemLink id={itemId} notooltip>
             {icon}
         </ItemLink>;
     } else {
