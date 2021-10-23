@@ -9,7 +9,7 @@ export interface NavBarProps {
 
 function EditPageLink({pagePath}: { pagePath: string }) {
     let editBaseUrl = "https://github.com/AppliedEnergistics/appliedenergistics.github.io/edit/source/content";
-    return <a href={editBaseUrl + pagePath} className="button" target="_blank" rel="noopener">
+    return <a href={editBaseUrl + pagePath} className="button" target="_blank" rel="noreferrer">
         <span className="icon">
             <Icon path={mdiFileDocumentEdit}/>
         </span>
