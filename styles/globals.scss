@@ -21,8 +21,7 @@ img.item-icon {
 
 .main-container {
   @include touch {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+    padding: 0.25rem;
   }
 
   @include desktop {

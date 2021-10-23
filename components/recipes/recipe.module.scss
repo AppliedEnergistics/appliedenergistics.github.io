@@ -4,6 +4,28 @@
   & > div + div {
     margin-top: 1rem;
   }
+
+  /**
+    Try to responsively size recipe boxes on mobile
+   */
+  @media screen and (max-width: 1023px) {
+    max-width: 100vw;
+
+    // Center children on mobile
+    & > :first-child {
+      display: flex;
+      justify-content: center;
+    }
+
+    :global(.item-icon) {
+      max-width: 10vw;
+      max-height: 10vw;
+    }
+
+    .recipeArrow {
+      width: 9vw;
+    }
+  }
 }
 
 .recipeContainer + .recipeContainer {
@@ -65,6 +87,8 @@
 .recipeArrow {
   align-self: center;
   justify-self: center;
+  width: 85px;
+  height: 50px;
 }
 
 .emptyIngredientBox, .ingredientBox {

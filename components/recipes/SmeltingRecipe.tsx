@@ -3,6 +3,7 @@ import {getItemInfo, SmeltingRecipe as SmeltingRecipeType} from "../../data/game
 import css from './recipe.module.scss';
 import RecipeIngredient from "./RecipeIngredient";
 import smelt from './smelt.png';
+import RecipeArrow from "./RecipeArrow";
 
 export interface SmeltingRecipeProps {
     recipe: SmeltingRecipeType;
@@ -20,9 +21,7 @@ function SmeltingRecipe({recipe}: SmeltingRecipeProps) {
                     <img className="item-icon" src={smelt.src}/>
                 </div>
             </div>
-            <svg width="85" height="50" className={css.recipeArrow}>
-                <path d="M 0 20 H 60 V 0 L 85 25 L 60 50 L 60 30 L 0 30 Z" fill="#8b8b8b"/>
-            </svg>
+            <RecipeArrow/>
             <RecipeIngredient itemIds={[recipe.resultItem]}/>
         </div>
     );

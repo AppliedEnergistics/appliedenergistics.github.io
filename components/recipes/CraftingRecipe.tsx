@@ -3,6 +3,7 @@ import {CraftingRecipe as CraftingRecipeType, getItemInfo} from "../../data/game
 import RecipeIngredientGrid from "./RecipeIngredientGrid";
 import css from './recipe.module.scss';
 import RecipeIngredient from "./RecipeIngredient";
+import RecipeArrow from "./RecipeArrow";
 
 export interface CraftingRecipeProps {
     recipe: CraftingRecipeType;
@@ -16,9 +17,7 @@ function CraftingRecipe({recipe}: CraftingRecipeProps) {
             <div className={css.recipeBoxLayout}>
                 <strong>{resultItem.displayName} {recipe.shapeless ? " (Shapeless)" : null}</strong>
                 <RecipeIngredientGrid {...recipe} />
-                <svg width="85" height="50" className={css.recipeArrow}>
-                    <path d="M 0 20 H 60 V 0 L 85 25 L 60 50 L 60 30 L 0 30 Z" fill="#8b8b8b"/>
-                </svg>
+                <RecipeArrow />
                 <RecipeIngredient itemIds={[recipe.resultItem]}/>
             </div>
         </div>
