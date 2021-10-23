@@ -6,7 +6,6 @@ import CategoryIndex from "../components/CategoryIndex";
 import {GetStaticProps} from "next";
 import {MDXRemoteSerializeResult} from "next-mdx-remote/dist/types";
 import Head from "next/head";
-import NavBar from "../components/NavBar";
 import {CONTENT_PATH, getPageUrl, pagesFilePaths, readPage} from "../data/pages";
 import MdxLink from "../components/MdxLink";
 import {Plugin} from "unified";
@@ -19,7 +18,6 @@ import sizeOf from 'image-size';
 import SubCategories from "../components/SubCategories";
 import MdxParagraph from "../components/MdxParagraph";
 import InscriberRecipes from "../components/recipes/InscriberRecipes";
-import FeaturesSideNav from "../components/FeaturesSideNav";
 import ItemGrid from "../components/ItemGrid";
 import ItemIcon from "../components/ItemIcon";
 
@@ -42,29 +40,18 @@ interface ContentPageProps {
     pagePath: string;
 }
 
-export default function ContentPage({source, frontMatter, pagePath}: ContentPageProps) {
+export default function ContentPage({source, frontMatter}: ContentPageProps) {
     return (
         <>
             <Head>
                 <title>AE2 - {frontMatter.title}</title>
-                <link rel="icon" href="/favicon.png" sizes="any"/>
             </Head>
-            <NavBar pagePath={pagePath}/>
-            <div className="main-container">
-                <aside className="menu is-hidden-touch">
-                    <FeaturesSideNav/>
-                </aside>
-                <main>
-                    <div className="container">
-                        <h1 className="title">{frontMatter.title}</h1>
-                        <div className="content">
-                            <MDXRemote {...source} components={components}/>
-                        </div>
-                    </div>
-                </main>
+            <h1 className="title">{frontMatter.title}</h1>
+            <div className="content">
+                <MDXRemote {...source} components={components}/>
             </div>
         </>
-    )
+    );
 }
 
 export const getStaticProps: GetStaticProps = async ({params}) => {

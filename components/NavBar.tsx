@@ -59,8 +59,11 @@ function NavBar({pagePath}: NavBarProps) {
                         <a className="navbar-item">Documentation</a>
                     </Link>
 
-                    <a className="navbar-item"
-                       href="https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/all">Download</a>
+                    <Link passHref href="/download">
+                        <a className="navbar-item">
+                            Download
+                        </a>
+                    </Link>
 
                     <a className="navbar-item"
                        href="https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/new/choose">Report
