@@ -51,7 +51,9 @@ export default function ContentPage({source, frontMatter, pagePath}: ContentPage
             </Head>
             <NavBar pagePath={pagePath}/>
             <div className="main-container">
-                <FeaturesSideNav/>
+                <aside className="menu is-hidden-touch">
+                    <FeaturesSideNav/>
+                </aside>
                 <main>
                     <div className="container">
                         <h1 className="title">{frontMatter.title}</h1>

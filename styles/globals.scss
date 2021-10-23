@@ -20,11 +20,18 @@ img.item-icon {
 }
 
 .main-container {
-  display: grid;
-  grid-template-columns: 13.25rem 1fr;
+  @include touch {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
 
-  > :first-child {
-    padding: 1.25rem;
+  @include desktop {
+    display: grid;
+    grid-template-columns: 13.25rem 1fr;
+
+    > :first-child {
+      padding: 1.25rem;
+    }
   }
 }
 

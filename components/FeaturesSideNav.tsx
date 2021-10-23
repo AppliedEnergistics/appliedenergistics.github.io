@@ -92,9 +92,9 @@ function FeaturesSideNav() {
     }
 
     return (
-        <aside className="menu">
+        <>
             {sideNav.map((entry, index) => renderMenuEntry(entry, "" + index))}
-        </aside>
+        </>
     );
 }
 
