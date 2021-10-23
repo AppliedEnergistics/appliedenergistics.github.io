@@ -39,16 +39,17 @@ const components = {
 interface ContentPageProps {
     source: MDXRemoteSerializeResult;
     frontMatter: Record<string, any>;
+    pagePath: string;
 }
 
-export default function ContentPage({source, frontMatter}: ContentPageProps) {
+export default function ContentPage({source, frontMatter, pagePath}: ContentPageProps) {
     return (
         <>
             <Head>
                 <title>AE2 - {frontMatter.title}</title>
                 <link rel="icon" href="/favicon.png" sizes="any"/>
             </Head>
-            <NavBar/>
+            <NavBar pagePath={pagePath}/>
             <div className="main-container">
                 <FeaturesSideNav/>
                 <main>
@@ -137,7 +138,8 @@ export const getStaticProps: GetStaticProps = async ({params}) => {
     return {
         props: {
             source: mdxSource,
-            frontMatter: data
+            frontMatter: data,
+            pagePath
         },
     }
 }
