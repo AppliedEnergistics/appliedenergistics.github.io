@@ -22,7 +22,15 @@ const sideNav: MenuEntry[] = [
   },
   {
     header: "ME Networks",
-    children: ["features/storage-cells.md"],
+    children: [
+      {
+        title: "Overview",
+        path: "features/me-network.md",
+      },
+      "features/channels.md",
+      "features/storage-cells.md",
+      "features/network-energy.md",
+    ],
   },
   {
     header: "Simple Tools",
@@ -50,9 +58,18 @@ const sideNav: MenuEntry[] = [
   },
 ];
 
+interface PageLink {
+  title: string;
+  path: string;
+}
+
 interface MenuEntry {
   header: string;
-  children: (string | MenuEntry)[];
+  children: (string | PageLink)[];
+}
+
+function isPageLink(child: PageLink): boolean {
+  return true;
 }
 
 function FeaturesSideNav() {
@@ -65,25 +82,30 @@ function FeaturesSideNav() {
         <p className="menu-label">{entry.header}</p>
         <ul className="menu-list">
           {entry.children.map((child, index) => {
+            let pagePath: string;
+            let pageTitle: string | undefined = undefined;
             if (typeof child === "string") {
-              const page = allPages.find((p) => p.path === child);
-              if (!page) {
-                throw new Error(`Failed to find page with path '${child}'`);
-              }
-
-              const active = page.url === pageUrl;
-              return (
-                <li key={index}>
-                  <Link href={page.url} passHref>
-                    <a className={active ? "is-active" : undefined}>
-                      {page.title}
-                    </a>
-                  </Link>
-                </li>
-              );
+              pagePath = child;
             } else {
-              return renderMenuEntry(child, "" + index);
+              pagePath = child.path;
+              pageTitle = child.title;
             }
+
+            const page = allPages.find((p) => p.path === pagePath);
+            if (!page) {
+              throw new Error(`Failed to find page with path '${pagePath}'`);
+            }
+
+            const active = page.url === pageUrl;
+            return (
+              <li key={index}>
+                <Link href={page.url} passHref>
+                  <a className={active ? "is-active" : undefined}>
+                    {pageTitle ?? page.title}
+                  </a>
+                </Link>
+              </li>
+            );
           })}
         </ul>
       </React.Fragment>

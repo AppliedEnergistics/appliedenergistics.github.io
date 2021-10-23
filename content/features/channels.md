@@ -2,8 +2,6 @@
 title: Channels
 ---
 
-# Channels
-
 Applied Energistics 2's [ME Networks](me-network.md) require
 Channels to support devices which use networked storage, or other network
 services. Most devices such as standard cables, and machines can only support
@@ -45,8 +43,7 @@ route nature, if any specific spot in your system has two possible routes, you
 may find yourself returning home from a mining trip to see half your devices
 offline. Take a look at the following example:
 
-![Diagram showing that two equal length paths are
-bad.](../../public/assets/channels/badLength.png)
+![Diagram showing that two equal length paths are bad.](../../public/assets/channels/badLength.png)
 
 ---
 
@@ -59,11 +56,23 @@ two possible routes, this can be bad, especially if your exceeding 8 channels
 on cable, or machines for a specific block of machines. Now that you can
 understand that basic issue and diagram look at these other diagrams.
 
-![An example of a good layout](../../public/assets/channels/good_split.png) | ![An
-example of a good layout](../../public/assets/channels/bad_split3.png) | ![An example of
-a bad layout](../../public/assets/channels/bad_split.png) | ![An example of a bad
-layout](../../public/assets/channels/bad_split2.png)  
----|---|---|---
+<div className="tile"><div className="tile">
+
+![An example of a good layout](../../public/assets/channels/good_split.png)
+
+</div><div className="tile">
+
+![An example of a bad layout](../../public/assets/channels/bad_split3.png)
+
+</div><div className="tile">
+
+![An example of a bad layout](../../public/assets/channels/bad_split.png)
+
+</div><div className="tile">
+
+![An example of a bad layout](../../public/assets/channels/bad_split2.png)
+
+</div></div>
 
 You can see that depending on how you run your cable, you might end up with
 different possible outcomes in a block of machines, you can also see that
@@ -85,12 +94,9 @@ controller, and your design is imbalanced, consider using p2p tunnels, since a
 tunnel connection is considered a single "hop" you can get the system to have
 a different outcome.
 
-![Diagram showing how to fix a previous setup with a p2p
-tunnel.](../../public/assets/channels/p2psplit.png)
+![Diagram showing how to fix a previous setup with a p2p tunnel.](../../public/assets/channels/p2psplit.png)
 
----
-
-Using p2p Tunnels to adjust route lengths.
+### Using p2p Tunnels to adjust route lengths
 
 One last important note about this, you can see that the p2p tunnel is
 directly on the controller, and directly on the block of machines at the
