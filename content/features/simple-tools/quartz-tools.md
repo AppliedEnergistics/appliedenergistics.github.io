@@ -1,16 +1,16 @@
 ---
 title: Quartz Tools
 item_ids:
-- appliedenergistics2:certus_quartz_pickaxe
-- appliedenergistics2:certus_quartz_axe
-- appliedenergistics2:certus_quartz_shovel
-- appliedenergistics2:certus_quartz_hoe
-- appliedenergistics2:certus_quartz_sword
-- appliedenergistics2:nether_quartz_pickaxe
-- appliedenergistics2:nether_quartz_axe
-- appliedenergistics2:nether_quartz_shovel
-- appliedenergistics2:nether_quartz_hoe
-- appliedenergistics2:nether_quartz_sword
+  - appliedenergistics2:certus_quartz_pickaxe
+  - appliedenergistics2:certus_quartz_axe
+  - appliedenergistics2:certus_quartz_shovel
+  - appliedenergistics2:certus_quartz_hoe
+  - appliedenergistics2:certus_quartz_sword
+  - appliedenergistics2:nether_quartz_pickaxe
+  - appliedenergistics2:nether_quartz_axe
+  - appliedenergistics2:nether_quartz_shovel
+  - appliedenergistics2:nether_quartz_hoe
+  - appliedenergistics2:nether_quartz_sword
 ---
 
 Basic tools can be made from both <ItemLink id="certus_quartz_crystal" /> and <ItemLink id="minecraft:quartz" />.

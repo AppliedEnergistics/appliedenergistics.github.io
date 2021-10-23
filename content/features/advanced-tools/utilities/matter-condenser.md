@@ -1,6 +1,6 @@
 ---
 categories:
-- Advanced Tools/Utilities
+  - Advanced Tools/Utilities
 item_ids:
   - appliedenergistics2:condenser
 title: Matter Condenser
@@ -10,8 +10,6 @@ title: Matter Condenser
 two key functions, ellimination of excess materials in a cheap manor, and the
 production of <ItemLink id="appliedenergistics2:singularity"/> and
 <ItemLink id="appliedenergistics2:matter_ball"/>.
-
-
 
 Can accept both fluids and items to be destroyed. Each item or fluid will
 count as one additional energy. This energy can be stored on <ItemLink

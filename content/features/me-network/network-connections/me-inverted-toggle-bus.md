@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Network Connections
+  - ME Network/Network Connections
 item_ids:
   - appliedenergistics2:inverted_toggle_bus
 title: ME Inverted Toggle Bus

@@ -46,12 +46,12 @@ may find yourself returning home from a mining trip to see half your devices
 offline. Take a look at the following example:
 
 ![Diagram showing that two equal length paths are
-bad.](../../public/assets/channels/badLength.png)  
----  
+bad.](../../public/assets/channels/badLength.png)
+
+---
+
 Equal Length Route
 
-  
-  
 In the above image the controller is represented by the Green Block, Cables or
 machines by green lines. The blue square indicate which Locations only have 1
 route; this is good, but there is a red block, which indicates that there is
@@ -64,7 +64,7 @@ example of a good layout](../../public/assets/channels/bad_split3.png) | ![An ex
 a bad layout](../../public/assets/channels/bad_split.png) | ![An example of a bad
 layout](../../public/assets/channels/bad_split2.png)  
 ---|---|---|---
-  
+
 You can see that depending on how you run your cable, you might end up with
 different possible outcomes in a block of machines, you can also see that
 using a controller you can ensure that the channels equilibrium is kept from a
@@ -86,10 +86,12 @@ tunnel connection is considered a single "hop" you can get the system to have
 a different outcome.
 
 ![Diagram showing how to fix a previous setup with a p2p
-tunnel.](../../public/assets/channels/p2psplit.png)  
----  
+tunnel.](../../public/assets/channels/p2psplit.png)
+
+---
+
 Using p2p Tunnels to adjust route lengths.
-  
+
 One last important note about this, you can see that the p2p tunnel is
 directly on the controller, and directly on the block of machines at the
 bottom of the setup, this is done because the in and out tunnel are both

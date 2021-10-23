@@ -8,8 +8,8 @@ item_ids:
   - appliedenergistics2:smooth_sky_stone_chest
 title: Sky Stone Chest
 ---
-  
-Chests can be crafted from <ItemLink id="sky_stone_block" /> found in meteorites. 
+
+Chests can be crafted from <ItemLink id="sky_stone_block" /> found in meteorites.
 They are blast resistant and hold up to 36 stacks of items.
 
 <div className="level"><div className="level-left">

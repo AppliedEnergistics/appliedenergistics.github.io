@@ -1,6 +1,6 @@
 ---
 categories:
-- Upgrades
+  - Upgrades
 item_ids:
   - appliedenergistics2:fuzzy_card
 title: Fuzzy Card
@@ -21,29 +21,29 @@ spatial [storage cells](../storage-cells.md).
 Below is an example of how Fuzzy Damage comparison mods work, left side is the
 bus config, top is the compared item.
 
-25% | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick  
----|---|---|---|---  
-Nearly Broken Pick Axe | ✅ | **** | **** | ****  
-Fully Repaired Pick Axe | **** | ✅ | ✅ | ✅
+| 25%                     | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick |
+| ----------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Nearly Broken Pick Axe  | ✅               | \*\*\*\*         | \*\*\*\*         | \*\*\*\*         |
+| Fully Repaired Pick Axe | \*\*\*\*         | ✅               | ✅               | ✅               |
 
-50% | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick  
----|---|---|---|---   
-Nearly Broken Pick Axe | ✅ | ✅ | **** | ****
-Fully Repaired Pick Axe | **** | **** | ✅ | ✅
+| 50%                     | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick |
+| ----------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Nearly Broken Pick Axe  | ✅               | ✅               | \*\*\*\*         | \*\*\*\*         |
+| Fully Repaired Pick Axe | \*\*\*\*         | \*\*\*\*         | ✅               | ✅               |
 
-75% | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick  
----|---|---|---|---
-Nearly Broken Pick Axe | ✅ | ✅ | **** | ****  
-Fully Repaired Pick Axe | **** |  | ✅ | ✅
+| 75%                     | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick |
+| ----------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Nearly Broken Pick Axe  | ✅               | ✅               | \*\*\*\*         | \*\*\*\*         |
+| Fully Repaired Pick Axe | \*\*\*\*         |                  | ✅               | ✅               |
 
-99% | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick  
----|---|---|---|---  
-Nearly Broken Pick Axe | ✅ | ✅ | ✅ | ****  
-Fully Repaired Pick Axe | **** | **** | **** | ✅
+| 99%                     | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick |
+| ----------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Nearly Broken Pick Axe  | ✅               | ✅               | ✅               | \*\*\*\*         |
+| Fully Repaired Pick Axe | \*\*\*\*         | \*\*\*\*         | \*\*\*\*         | ✅               |
 
-Ignore | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick  
----|---|---|---|---  
-Nearly Broken Pick Axe | ✅ | ✅ | ✅ | **✅**  
-Fully Repaired Pick Axe | **✅** | **✅** | **✅** | ✅
+| Ignore                  | 10% Damaged Pick | 30% Damaged Pick | 80% Damaged Pick | Full Repair Pick |
+| ----------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Nearly Broken Pick Axe  | ✅               | ✅               | ✅               | **✅**           |
+| Fully Repaired Pick Axe | **✅**           | **✅**           | **✅**           | ✅               |
 
 <RecipeFor id="appliedenergistics2:fuzzy_card"/>

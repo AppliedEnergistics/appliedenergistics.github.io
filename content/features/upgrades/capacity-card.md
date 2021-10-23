@@ -1,6 +1,6 @@
 ---
 categories:
-- Upgrades
+  - Upgrades
 item_ids:
   - appliedenergistics2:capacity_card
 title: Capacity Card

@@ -1,7 +1,7 @@
 ---
 categories:
-- ME Network/Network HID
-- ME Network/Monitors
+  - ME Network/Network HID
+  - ME Network/Monitors
 item_ids:
   - appliedenergistics2:item_conversion_monitor
 title: ME Conversion Monitor

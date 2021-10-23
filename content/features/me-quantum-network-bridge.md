@@ -35,8 +35,8 @@ identify the connection.
 
 ### Checklist
 
-  1. Are both sides of the Quantum Network Bridge powered? The lights turn on if they are.
-  2. Are the matching pair of <ItemLink id="appliedenergistics2:quantum_entangled_singularity"/> in each bridge?
-  3. Are both sides chunk-loaded?
-  4. Make sure you only have 1 controller, the other side of the bridge is still the same network.
-  5. Power and network connectivty must connect to the 4 edges, not the corners.
+1. Are both sides of the Quantum Network Bridge powered? The lights turn on if they are.
+2. Are the matching pair of <ItemLink id="appliedenergistics2:quantum_entangled_singularity"/> in each bridge?
+3. Are both sides chunk-loaded?
+4. Make sure you only have 1 controller, the other side of the bridge is still the same network.
+5. Power and network connectivty must connect to the 4 edges, not the corners.

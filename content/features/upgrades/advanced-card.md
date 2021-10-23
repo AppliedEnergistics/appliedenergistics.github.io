@@ -1,6 +1,6 @@
 ---
 categories:
-- Upgrades
+  - Upgrades
 item_ids:
   - appliedenergistics2:advanced_card
 title: Advanced Card

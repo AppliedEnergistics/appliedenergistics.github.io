@@ -1,8 +1,8 @@
 ---
 title: Cutting Knife
 item_ids:
-- appliedenergistics2:certus_quartz_cutting_knife
-- appliedenergistics2:nether_quartz_cutting_knife
+  - appliedenergistics2:certus_quartz_cutting_knife
+  - appliedenergistics2:nether_quartz_cutting_knife
 ---
 
 A cutting knife made out of <ItemLink id="appliedenergistics2:certus_quartz_crystal"/> or <ItemLink id="minecraft:quartz"/>.

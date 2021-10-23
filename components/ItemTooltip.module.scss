@@ -5,7 +5,7 @@
   border-radius: 8px;
   padding: 2px;
 
-  &[data-animation='fade'][data-state='hidden'] {
+  &[data-animation="fade"][data-state="hidden"] {
     opacity: 0;
   }
 
@@ -24,12 +24,12 @@
     color: white;
   }
   &.uncommonRarity {
-    color: #FFFF55;
+    color: #ffff55;
   }
   &.rareRarity {
-    color: #55FFFF;
+    color: #55ffff;
   }
   &.epicRarity {
-    color: #FF55FF;
+    color: #ff55ff;
   }
 }

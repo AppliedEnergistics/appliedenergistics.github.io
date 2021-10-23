@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Network Connections
+  - ME Network/Network Connections
 item_ids:
   - appliedenergistics2:white_covered_cable
   - appliedenergistics2:orange_covered_cable
@@ -26,8 +26,6 @@ title: ME Covered Cable
 cable variant, offers no real benefits over its <ItemLink
 id="appliedenergistics2:fluix_glass_cable"/> counter part, however
 can be used as an alternate aesthetic choice if you prefer the covered look.
-
-
 
 Can be colored in the same manner as <ItemLink
 id="appliedenergistics2:fluix_glass_cable"/>. Four <ItemLink

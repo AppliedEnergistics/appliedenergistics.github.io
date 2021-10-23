@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Quantum Network Bridge
+  - ME Network/Quantum Network Bridge
 item_ids:
   - appliedenergistics2:quantum_ring
 title: ME Quantum Ring

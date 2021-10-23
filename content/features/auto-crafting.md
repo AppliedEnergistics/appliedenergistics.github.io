@@ -1,18 +1,18 @@
 ---
 title: Auto-Crafting
 item_ids:
-- appliedenergistics2:blank_pattern
-- appliedenergistics2:crafting_pattern
-- appliedenergistics2:processing_pattern
-- appliedenergistics2:1k_crafting_storage
-- appliedenergistics2:4k_crafting_storage
-- appliedenergistics2:16k_crafting_storage
-- appliedenergistics2:64k_crafting_storage
-- appliedenergistics2:crafting_accelerator
-- appliedenergistics2:crafting_monitor
-- appliedenergistics2:crafting_unit
-- appliedenergistics2:pattern_provider
-- appliedenergistics2:cable_pattern_provider
+  - appliedenergistics2:blank_pattern
+  - appliedenergistics2:crafting_pattern
+  - appliedenergistics2:processing_pattern
+  - appliedenergistics2:1k_crafting_storage
+  - appliedenergistics2:4k_crafting_storage
+  - appliedenergistics2:16k_crafting_storage
+  - appliedenergistics2:64k_crafting_storage
+  - appliedenergistics2:crafting_accelerator
+  - appliedenergistics2:crafting_monitor
+  - appliedenergistics2:crafting_unit
+  - appliedenergistics2:pattern_provider
+  - appliedenergistics2:cable_pattern_provider
 ---
 
 ## Crafting CPU
@@ -32,10 +32,10 @@ complicated, and do not follow the usual ME storage math, but for a first
 approximation, you will need a little over one byte per input item, output
 item, or operation.
 
-You can name your Crafting CPUs by naming any of the crafting units it is made up of with 
+You can name your Crafting CPUs by naming any of the crafting units it is made up of with
 an <ItemLink id="appliedenergistics2:inscriber"/> or an Anvil.
 
-To provide patterns to the autocrafting cpus you can use <ItemLink id="appliedenergistics2:item_interface"/> 
+To provide patterns to the autocrafting cpus you can use <ItemLink id="appliedenergistics2:item_interface"/>
 or <ItemLink id="appliedenergistics2:item_level_emitter"/>.
 
 ### Components
@@ -114,8 +114,8 @@ the ingredients.
 
 ### Blank Pattern
 
-A blank pattern, once encoded as an <ItemLink id="appliedenergistics2:crafting_pattern"/> 
-or <ItemLink id="appliedenergistics2:processing_pattern"/>, is used to control 
+A blank pattern, once encoded as an <ItemLink id="appliedenergistics2:crafting_pattern"/>
+or <ItemLink id="appliedenergistics2:processing_pattern"/>, is used to control
 crafting by inserting them into <ItemLink id="appliedenergistics2:molecular_assembler"/> and <ItemLink
 id="appliedenergistics2:pattern_provider"/>.
 
@@ -125,7 +125,7 @@ Patterns can be encoded in the <ItemLink id="pattern_terminal" />.
 
 ### Crafting Patterns
 
-Encoded version of <ItemLink id="appliedenergistics2:blank_pattern"/> created by using 
+Encoded version of <ItemLink id="appliedenergistics2:blank_pattern"/> created by using
 the <ItemLink id="appliedenergistics2:pattern_terminal"/> in "Crafting Mode".
 
 Crafting Recipes are very specific, and automatically have an output

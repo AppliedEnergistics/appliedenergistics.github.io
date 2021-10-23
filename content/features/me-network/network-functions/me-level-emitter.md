@@ -1,10 +1,10 @@
 ---
 categories:
-- ME Network/Network Functions
+  - ME Network/Network Functions
 item_ids:
   - appliedenergistics2:item_level_emitter
 related:
-- Possible Upgrades
+  - Possible Upgrades
 title: ME Level Emitter
 ---
 
@@ -15,12 +15,8 @@ level. You can set the threshold and if the <ItemLink
 id="appliedenergistics2:item_level_emitter"/> will emit a redstone signal
 or turn it off.
 
-
-
 Requires a [channel](../../channels.md) to function, if its power or
 channel is lost the emitter will switch to an off state.
-
-
 
 These can tap into the crafting system when a crafting card is installed,
 allowing you to output redstone while an item is being crafted, or even

@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Powered Machines
+  - ME Network/Powered Machines
 item_ids:
   - appliedenergistics2:quartz_growth_accelerator
 title: Crystal Growth Accelerator

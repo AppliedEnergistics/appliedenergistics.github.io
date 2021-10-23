@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Network Connections
+  - ME Network/Network Connections
 item_ids:
   - appliedenergistics2:white_covered_dense_cable
   - appliedenergistics2:orange_covered_dense_cable

@@ -57,7 +57,6 @@
 
   align-self: center;
   justify-self: start;
-
 }
 
 .ingredientsBox {
@@ -91,7 +90,8 @@
   height: 50px;
 }
 
-.emptyIngredientBox, .ingredientBox {
+.emptyIngredientBox,
+.ingredientBox {
   display: inline-block;
   @include inner-box;
 }

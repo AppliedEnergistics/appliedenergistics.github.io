@@ -1,31 +1,31 @@
 /** @type {import('next').NextConfig} */
 
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-    reactStrictMode: true,
-    images: {
-        loader: "custom"
-    },
-    webpack: (config) => {
-        config.module.rules = [
-            ...config.module.rules,
-            {
-                test: /all-pages.json$/,
-                use: [
-                    {
-                        loader: "val-loader",
-                        options: {
-                            executableFile: path.resolve(
-                                __dirname,
-                                "data",
-                                "generate-all-pages.js"
-                            ),
-                        },
-                    },
-                ],
+  reactStrictMode: true,
+  images: {
+    loader: "custom",
+  },
+  webpack: (config) => {
+    config.module.rules = [
+      ...config.module.rules,
+      {
+        test: /all-pages.json$/,
+        use: [
+          {
+            loader: "val-loader",
+            options: {
+              executableFile: path.resolve(
+                __dirname,
+                "data",
+                "generate-all-pages.js"
+              ),
             },
-        ];
-        return config;
-    },
+          },
+        ],
+      },
+    ];
+    return config;
+  },
 };

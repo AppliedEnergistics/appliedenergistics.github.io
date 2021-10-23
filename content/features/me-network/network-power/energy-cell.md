@@ -1,7 +1,7 @@
 ---
 categories:
-- ME Network/Network Power
-- ME Network/Energy Storage
+  - ME Network/Network Power
+  - ME Network/Energy Storage
 item_ids:
   - appliedenergistics2:energy_cell
 title: Energy Cell

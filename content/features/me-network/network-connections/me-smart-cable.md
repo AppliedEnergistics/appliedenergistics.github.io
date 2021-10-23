@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Network Connections
+  - ME Network/Network Connections
 item_ids:
   - appliedenergistics2:white_smart_cable
   - appliedenergistics2:orange_smart_cable
@@ -47,8 +47,6 @@ the channels appear as lit colored lines that run along the black stripe on
 the cables giving you an understanding of how your channels are being used on
 your network. The first four channels show as lines matching the color of the
 cable, the next four show as white lines.
-
-
 
 These can also be colored in the same manner as <ItemLink
 id="appliedenergistics2:fluix_glass_cable"/>.

@@ -7,7 +7,7 @@ title: Getting Started
 - Mine in the overworld for <ItemLink id="quartz_ore" /> and obtain <ItemLink id="certus_quartz_dust" />, and at least one <ItemLink id="certus_quartz_crystal" />.
 - Build a <ItemLink id="charger" />, and power it with a <ItemLink id="vibration_chamber" /> or a generators from others mods.
 - Use the charger to make a <ItemLink id="charged_certus_quartz_crystal" />, and build a <ItemLink id="sky_compass" />.
-- To progress, you need to create <ItemLink id="fluix_crystal" />. You have two options: 
+- To progress, you need to create <ItemLink id="fluix_crystal" />. You have two options:
   - Use the compass to find a [meteorite](./features/meteorites.md), where you might find some <ItemLink id="fluix_crystal" />.
   - Grow your first fluix crystals without a <ItemLink id="quartz_growth_accelerator" />. This will be slow,
     but can be done in bulk, and you don't need to wait around.
@@ -44,8 +44,8 @@ id="appliedenergistics2:fluix_crystal"/>. <ItemLink
 id="appliedenergistics2:fluix_crystal"/> are made through two
 processes:
 
-  1. Tossing some Fluix Seeds into water and waiting.
-  2. Throwing Charged Certus, <ItemLink id="minecraft:quartz"/>, and <ItemLink id="minecraft:redstone"/> into a pool of water and waiting.
+1. Tossing some Fluix Seeds into water and waiting.
+2. Throwing Charged Certus, <ItemLink id="minecraft:quartz"/>, and <ItemLink id="minecraft:redstone"/> into a pool of water and waiting.
 
 Alright, sounds simple enough. Just toss some of that Certus and Nether Quartz
 in some water with some of the Redstone you've undoubtedtly collected, and

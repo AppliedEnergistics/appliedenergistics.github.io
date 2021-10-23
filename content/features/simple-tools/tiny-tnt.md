@@ -1,6 +1,6 @@
 ---
 categories:
-- Simple Tools/Misc
+  - Simple Tools/Misc
 item_ids:
   - appliedenergistics2:tiny_tnt
 title: Tiny TNT

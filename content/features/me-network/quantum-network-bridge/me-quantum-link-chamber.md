@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Quantum Network Bridge
+  - ME Network/Quantum Network Bridge
 item_ids:
   - appliedenergistics2:quantum_link
 title: ME Quantum Link Chamber
@@ -12,8 +12,6 @@ surrounded by a <ItemLink id="appliedenergistics2:quantum_ring"/>
 will create a [Quantum Network Bridge](../ME-Quantum-Network-
 Bridge/index.html). This block dosn't connect to any cables and only registers
 as part of the network with the full bridge is made.
-
-
 
 This blocks inventory can only hold a single <ItemLink
 id="appliedenergistics2:quantum_entangled_singularity"/> and is

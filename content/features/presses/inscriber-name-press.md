@@ -1,6 +1,6 @@
 ---
 categories:
-- Presses
+  - Presses
 item_ids:
   - appliedenergistics2:name_press
 title: Inscriber Name Press

@@ -2,9 +2,9 @@
 item_ids:
   - appliedenergistics2:calculation_processor
 categories:
-- Processors
-- Processor Press Plates
-- Processor Parts
+  - Processors
+  - Processor Press Plates
+  - Processor Parts
 title: Calculation Processor
 ---
 

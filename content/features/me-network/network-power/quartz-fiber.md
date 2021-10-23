@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Network Power
+  - ME Network/Network Power
 item_ids:
   - appliedenergistics2:quartz_fiber
 title: Quartz Fiber

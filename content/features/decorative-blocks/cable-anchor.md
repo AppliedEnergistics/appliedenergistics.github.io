@@ -1,6 +1,6 @@
 ---
 categories:
-- Decorative Blocks/Other Features
+  - Decorative Blocks/Other Features
 item_ids:
   - appliedenergistics2:cable_anchor
 title: Cable Anchor

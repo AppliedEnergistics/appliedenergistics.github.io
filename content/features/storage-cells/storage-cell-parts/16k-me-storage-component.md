@@ -1,11 +1,11 @@
 ---
 categories:
-- Storage Cells/Storage Cell Parts
+  - Storage Cells/Storage Cell Parts
 item_ids:
   - appliedenergistics2:16k_item_cell_component
 related:
-- Storage Cell Parts
-- Storage Cells
+  - Storage Cell Parts
+  - Storage Cells
 title: 16k ME Storage Component
 ---
 

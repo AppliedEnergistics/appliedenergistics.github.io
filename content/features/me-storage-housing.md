@@ -2,10 +2,10 @@
 item_ids:
   - appliedenergistics2:empty_storage_cell
 related:
-- Storage Cell Parts
-- Storage Cells
-- Spatial Cell Parts
-- Spatial Cells
+  - Storage Cell Parts
+  - Storage Cells
+  - Spatial Cell Parts
+  - Spatial Cells
 title: ME Storage Housing
 ---
 

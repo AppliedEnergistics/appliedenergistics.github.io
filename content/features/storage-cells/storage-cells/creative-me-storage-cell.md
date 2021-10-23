@@ -1,6 +1,6 @@
 ---
 categories:
-- Storage Cells/Storage Cells
+  - Storage Cells/Storage Cells
 item_ids:
   - appliedenergistics2:creative_item_cell
 title: Creative ME Storage Cell

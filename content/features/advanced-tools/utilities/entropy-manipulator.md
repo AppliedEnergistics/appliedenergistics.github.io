@@ -1,6 +1,6 @@
 ---
 categories:
-- Advanced Tools/Utilities
+  - Advanced Tools/Utilities
 item_ids:
   - appliedenergistics2:entropy_manipulator
 title: Entropy Manipulator
@@ -12,8 +12,6 @@ cool / aging ), or increase the energy in the block ( heating it ) by using it
 normally, if adding heat doesn't do anything it generally will start a fire on
 the block instead. You can also hit mobs or players with it to set them on
 fire.
-
-
 
 Its battery can store 200k ae and consumes 1600 ae per usage, it can be to be
 recharged in a <ItemLink id="appliedenergistics2:charger"/>.

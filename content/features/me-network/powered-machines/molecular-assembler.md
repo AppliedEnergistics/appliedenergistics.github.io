@@ -1,8 +1,8 @@
 ---
 categories:
-- ME Network/Powered Machines
+  - ME Network/Powered Machines
 item_ids:
-- appliedenergistics2:molecular_assembler
+  - appliedenergistics2:molecular_assembler
 title: Molecular Assembler
 ---
 
@@ -24,7 +24,7 @@ inventories.
 
 ### Automatic Crafting Mode
 
-Uses the <ItemLink id="appliedenergistics2:crafting_pattern"/> 
+Uses the <ItemLink id="appliedenergistics2:crafting_pattern"/>
 from attached <ItemLink id="appliedenergistics2:pattern_provider"/> to craft items when they are
 requested by the [Crafting CPU](../../auto-crafting.md).
 

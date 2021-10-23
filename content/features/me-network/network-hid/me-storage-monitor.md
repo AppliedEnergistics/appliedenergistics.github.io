@@ -1,11 +1,11 @@
 ---
 categories:
-- ME Network/Network HID
-- ME Network/Monitors
+  - ME Network/Network HID
+  - ME Network/Monitors
 item_ids:
   - appliedenergistics2:storage_monitor
 related:
-- Other Monitors
+  - Other Monitors
 title: ME Storage Monitor
 ---
 
@@ -16,9 +16,11 @@ interactions to modify it.
 Rightclick with item
 
     Will display the current level of that item if not locked.
+
 Rightclick with hand
 
     Will reset the display if not locked.
+
 Rightclick with wrench
 
     Will toggle the lock.

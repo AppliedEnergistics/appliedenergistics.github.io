@@ -1,13 +1,13 @@
 ---
 categories:
-- Presses
-- Processor Press Plates
+  - Presses
+  - Processor Press Plates
 item_ids:
   - appliedenergistics2:silicon_press
 related:
-- Processors
-- Processor Press Plates
-- Processor Parts
+  - Processors
+  - Processor Press Plates
+  - Processor Parts
 title: Inscriber Silicon Press
 ---
 
@@ -21,11 +21,11 @@ id="appliedenergistics2:inscriber"/>.
 
 ### Processor Press Plates
 
-<CategoryIndex category="Processor Press Plates" />  
+<CategoryIndex category="Processor Press Plates" />
 
 ### Processors
 
-<CategoryIndex category="Processors" />  
+<CategoryIndex category="Processors" />
 
 ### Processor Parts
 

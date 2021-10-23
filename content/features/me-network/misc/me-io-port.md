@@ -1,10 +1,10 @@
 ---
 categories:
-- ME Network/Misc
+  - ME Network/Misc
 item_ids:
   - appliedenergistics2:io_port
 related:
-- Possible Upgrades
+  - Possible Upgrades
 title: ME IO Port
 ---
 
@@ -15,18 +15,12 @@ storage cells, unlike other forms of automation the <ItemLink
 id="appliedenergistics2:io_port"/> can send items without any
 configuration of which items to send.
 
-
-
 The top of the UI indicates which direction you wish to move the data, into
 the cell, or into the networks.
-
-
 
 The <ItemLink id="appliedenergistics2:io_port"/> requires a
 [channel](../../channels.md) to function. When used with automation, the
 input is the top or bottom, and the output is any of the sides.
-
-
 
 If your storing data onto cells its usually a good idea to pre-format them,
 that way you can get just the items you're interested in, and not get tons of

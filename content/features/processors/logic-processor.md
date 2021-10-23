@@ -14,13 +14,13 @@ Most basic processor.
 
 ### Processor Press Plates
 
-<CategoryIndex category="Processor Press Plates" />  
+<CategoryIndex category="Processor Press Plates" />
 
 ### Other Processors
 
 TODO EXCEPT SELF
 
-<CategoryIndex category="Processors" />  
+<CategoryIndex category="Processors" />
 
 ### Processor Parts
 

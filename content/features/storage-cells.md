@@ -47,21 +47,21 @@ a rough estimate of their cost.
 
 #### Storage Cell Contents Vs Cost
 
-| Cell | Bytes | Types | Byte/Type | C-Quartz | N-Quartz | Gold | Diamonds |  
-|---|---|---|---|---|---|---|---| 
-| <ItemLink id="appliedenergistics2:1k_item_storage_cell" /> | 1,024 | 63 | 8 | 5 | 5 | 1 | 0 |  
-| <ItemLink id="appliedenergistics2:4k_item_storage_cell" /> | 4,096 | 63 | 32 | 17 | 5 | 3 | 0  |
-| <ItemLink id="appliedenergistics2:16k_item_storage_cell" /> | 16,384 | 63 | 128 | 51 | 10 | 9 | 1 |  
-| <ItemLink id="appliedenergistics2:64k_item_storage_cell" /> | 65,536 | 63 | 512 | 153 | 20 | 27 | 4 |
+| Cell                                                        | Bytes  | Types | Byte/Type | C-Quartz | N-Quartz | Gold | Diamonds |
+| ----------------------------------------------------------- | ------ | ----- | --------- | -------- | -------- | ---- | -------- |
+| <ItemLink id="appliedenergistics2:1k_item_storage_cell" />  | 1,024  | 63    | 8         | 5        | 5        | 1    | 0        |
+| <ItemLink id="appliedenergistics2:4k_item_storage_cell" />  | 4,096  | 63    | 32        | 17       | 5        | 3    | 0        |
+| <ItemLink id="appliedenergistics2:16k_item_storage_cell" /> | 16,384 | 63    | 128       | 51       | 10       | 9    | 1        |
+| <ItemLink id="appliedenergistics2:64k_item_storage_cell" /> | 65,536 | 63    | 512       | 153      | 20       | 27   | 4        |
 
 #### Storage Capacity with Varying Type Count
 
-Cell | Stacks of items With 1 Item In Cell | Stacks of items With 63 Items in Cell
----|---|---  
-<ItemLink id="appliedenergistics2:1k_item_storage_cell" /> | 127 | 65
-<ItemLink id="appliedenergistics2:4k_item_storage_cell" /> | 508 | 260
-<ItemLink id="appliedenergistics2:16k_item_storage_cell" /> | 2,032 | 1,040
-<ItemLink id="appliedenergistics2:64k_item_storage_cell" /> | 8,128 | 4,160
+| Cell                                                        | Stacks of items With 1 Item In Cell | Stacks of items With 63 Items in Cell |
+| ----------------------------------------------------------- | ----------------------------------- | ------------------------------------- |
+| <ItemLink id="appliedenergistics2:1k_item_storage_cell" />  | 127                                 | 65                                    |
+| <ItemLink id="appliedenergistics2:4k_item_storage_cell" />  | 508                                 | 260                                   |
+| <ItemLink id="appliedenergistics2:16k_item_storage_cell" /> | 2,032                               | 1,040                                 |
+| <ItemLink id="appliedenergistics2:64k_item_storage_cell" /> | 8,128                               | 4,160                                 |
 
 ## Fluid Storage
 

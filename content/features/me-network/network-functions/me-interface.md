@@ -1,11 +1,11 @@
 ---
 categories:
-- ME Network/Network Functions
+  - ME Network/Network Functions
 item_ids:
   - appliedenergistics2:item_interface
   - appliedenergistics2:cable_item_interface
 related:
-- Possible Upgrades
+  - Possible Upgrades
 title: ME Interface
 ---
 
@@ -40,8 +40,6 @@ you configure your interface to explicilty provide specific materials, the
 storage bus will behave as if the interface was a standard chest, disabling
 this advanced feature. (As of this writing, autocrafting in another network
 won't reliably use the items in a configured interface.)
-
-
 
 The <ItemLink id="appliedenergistics2:item_interface"/> require a
 [channel](../../channels.md) to function.

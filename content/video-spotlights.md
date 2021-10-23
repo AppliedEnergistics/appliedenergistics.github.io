@@ -4,15 +4,7 @@ title: Video Spotlights
 
 Below are a set of various spotlights about the mod.
 
-
-
-
-
 ## rv0 : Direwolf 20 - Part 1 / 3
-
-
-
-
 
 ## English
 
@@ -58,9 +50,9 @@ look](https://www.youtube.com/watch?v=xoeGrQyVfCc)
 [Meteors](https://www.youtube.com/watch?v=GPxOiMm6c30)  
 15-02-14 **rv0** | BevoLJ | [Looking at new
 features](https://www.youtube.com/watch?v=6ktv7iKN5pI)  
-05-02-14 **rv0** | BevoLJ  | [AE2
-preview](https://www.youtube.com/watch?v=XEIHvG_4EsA)  
-  
+05-02-14 **rv0** | BevoLJ | [AE2
+preview](https://www.youtube.com/watch?v=XEIHvG_4EsA)
+
 ## Non-English
 
 **Version** | **Youtuber** | **Video  

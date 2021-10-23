@@ -1,14 +1,12 @@
 ---
 categories:
-- Advanced Tools/Utilities
+  - Advanced Tools/Utilities
 item_ids:
   - appliedenergistics2:cell_workbench
 title: Cell Workbench
 ---
 
 ### ![A picture of a cell work bench.](../../../../public/assets/large/cell_workbench.png)
-
-
 
 The <ItemLink id="appliedenergistics2:cell_workbench"/> lets you
 configure how <ItemLink id="appliedenergistics2:view_cell"/> and

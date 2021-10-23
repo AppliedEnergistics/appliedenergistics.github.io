@@ -1,12 +1,12 @@
 ---
 categories:
-- Processor Parts
+  - Processor Parts
 item_ids:
   - appliedenergistics2:printed_engineering_processor
 related:
-- Processors
-- Processor Press Plates
-- Processor Parts
+  - Processors
+  - Processor Press Plates
+  - Processor Parts
 title: Printed Engineering Circuit
 ---
 
@@ -17,11 +17,11 @@ id="appliedenergistics2:engineering_processor"/>.
 
 ### Processor Press Plates
 
-<CategoryIndex category="Processor Press Plates" />  
+<CategoryIndex category="Processor Press Plates" />
 
 ### Processors
 
-<CategoryIndex category="Processors" />  
+<CategoryIndex category="Processors" />
 
 ### Processor Parts
 

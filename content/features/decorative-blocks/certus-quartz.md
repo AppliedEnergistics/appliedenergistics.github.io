@@ -1,9 +1,9 @@
 ---
 title: Certus Quartz
 item_ids:
-- appliedenergistics2:quartz_block
-- appliedenergistics2:quartz_pillar
-- appliedenergistics2:chiseled_quartz_block
+  - appliedenergistics2:quartz_block
+  - appliedenergistics2:quartz_pillar
+  - appliedenergistics2:chiseled_quartz_block
 ---
 
 ![A picture of Certus Quartz Block](../../../public/assets/large/certus_quartz_block.png)

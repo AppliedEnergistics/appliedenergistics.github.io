@@ -1,10 +1,10 @@
 ---
 categories:
-- ME Network/Powered Machines
+  - ME Network/Powered Machines
 item_ids:
   - appliedenergistics2:inscriber
 related:
-- Presses
+  - Presses
 title: Inscriber
 ---
 

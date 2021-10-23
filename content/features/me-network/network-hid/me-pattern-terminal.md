@@ -1,6 +1,6 @@
 ---
 categories:
-- ME Network/Network HID
+  - ME Network/Network HID
 item_ids:
   - appliedenergistics2:pattern_terminal
 title: ME Pattern Terminal

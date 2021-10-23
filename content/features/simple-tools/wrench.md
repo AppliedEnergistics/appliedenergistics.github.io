@@ -1,8 +1,8 @@
 ---
 title: Wrench
 item_ids:
-- appliedenergistics2:certus_quartz_wrench
-- appliedenergistics2:nether_quartz_wrench
+  - appliedenergistics2:certus_quartz_wrench
+  - appliedenergistics2:nether_quartz_wrench
 ---
 
 A wrench made of <ItemLink id="appliedenergistics2:certus_quartz_crystal"/> or <ItemLink id="minecraft:quartz"/>.

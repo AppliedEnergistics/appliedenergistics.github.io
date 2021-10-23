@@ -1,6 +1,6 @@
 ---
 categories:
-- Decorative Blocks
+  - Decorative Blocks
 item_ids:
   - appliedenergistics2:quartz_glass
   - appliedenergistics2:quartz_vibrant_glass
