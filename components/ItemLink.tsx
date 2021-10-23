@@ -4,15 +4,15 @@ import {getItemInfo} from "../data/game-data";
 import Link from 'next/link'
 import {itemIdToPageIndex} from "../data/site-data";
 import css from "./ItemLink.module.scss";
-import ItemTooltip from "./ItemTooltip";
+import ItemTooltip, {TooltipMode} from "./ItemTooltip";
 
 export interface ItemLinkProps {
     id: string;
     children: ReactNode | undefined;
-    notooltip?: boolean;
+    tooltip?: TooltipMode;
 }
 
-function ItemLink({id, children, notooltip}: ItemLinkProps) {
+function ItemLink({id, children, tooltip}: ItemLinkProps) {
     let {asPath} = useRouter();
 
     let pageUrl: string | undefined;
@@ -45,14 +45,9 @@ function ItemLink({id, children, notooltip}: ItemLinkProps) {
     } else {
         content = <Link href={pageUrl} passHref><a>{children}</a></Link>;
     }
-
-    if (notooltip) {
-        return content;
-    } else {
-        return <ItemTooltip item={itemInfo}>
-            {content}
-        </ItemTooltip>;
-    }
+    return <ItemTooltip item={itemInfo} mode={tooltip}>
+        {content}
+    </ItemTooltip>;
 }
 
 export default ItemLink;

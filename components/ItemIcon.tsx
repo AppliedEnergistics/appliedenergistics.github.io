@@ -13,11 +13,10 @@ function ItemIcon({itemId, nolink}: ItemIconProps) {
     // eslint-disable-next-line @next/next/no-img-element
     const icon = <img src={itemInfo.icon}
                       alt={itemInfo.displayName}
-                      title={itemInfo.displayName}
                       className="item-icon"/>;
 
     if (!nolink) {
-        return <ItemLink id={itemId} notooltip>
+        return <ItemLink id={itemId} tooltip="text">
             {icon}
         </ItemLink>;
     } else {
