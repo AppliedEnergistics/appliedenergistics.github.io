@@ -27,4 +27,4 @@ You can remove the <ItemLink
 id="appliedenergistics2:4k_item_cell_component"/> by fully emptying the
 storage cell, and sneak clicking i in your hand.
 
-<RecipeFor id="appliedenergistics2:4k_item_storage_cell"/>
+<RecipeFor id="appliedenergistics2:4k_item_storage_cell" />

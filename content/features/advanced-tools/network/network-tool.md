@@ -15,4 +15,4 @@ which accept upgrades.
 When right clicked on any network component it will give you break down of all
 the attached parts, and power storage / usage details for the network.
 
-<RecipeFor id="appliedenergistics2:network_tool"/>
+<RecipeFor id="appliedenergistics2:network_tool" />

@@ -27,7 +27,8 @@ Once power is available and your [SCS](../Spatial-Containment-
 Structure/index.html) is valid, you need to insert a <ItemLink
 id="appliedenergistics2:2_cubed_spatial_storage_cell"/>, <ItemLink
 id="appliedenergistics2:16_cubed_spatial_storage_cell"/>, or
-<ItemLink id="appliedenergistics2:128_cubed_spatial_storage_cell"/>
+
+<ItemLink id="appliedenergistics2:128_cubed_spatial_storage_cell" />
 depending on the required size you may need a larger or small storage cell.
 
 When everything is ready, and the storage cell is placed inside the <ItemLink
@@ -45,4 +46,4 @@ opt-into this, AE2 provides support for itself, and Vanilla.**
 **Also see[Spatial IO Compat
 Project](https://github.com/AlgorithmX2/SpatialIO-Compat)**
 
-<RecipeFor id="appliedenergistics2:spatial_io_port"/>
+<RecipeFor id="appliedenergistics2:spatial_io_port" />

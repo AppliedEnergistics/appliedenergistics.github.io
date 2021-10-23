@@ -12,5 +12,4 @@ title: 128Cubed Spatial Component
 Largest spatial storage component, used to make <ItemLink
 id="appliedenergistics2:128_cubed_spatial_storage_cell"/>.
 
-<RecipeFor
-id="appliedenergistics2:128_cubed_spatial_cell_component"/>
+<RecipeFor id="appliedenergistics2:128_cubed_spatial_cell_component" />

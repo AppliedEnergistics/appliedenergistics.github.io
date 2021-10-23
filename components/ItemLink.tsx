@@ -15,6 +15,9 @@ export interface ItemLinkProps {
 function ItemLink({ id, children, tooltip }: ItemLinkProps) {
   let { asPath } = useRouter();
 
+  // Markdown Formatting can insert whitespace into MDX attributes
+  id = id.replaceAll(/\s+/g, "");
+
   let pageUrl: string | undefined;
   if (!id.includes(":")) {
     id = "appliedenergistics2:" + id;

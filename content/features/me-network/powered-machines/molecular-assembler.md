@@ -30,4 +30,4 @@ requested by the [Crafting CPU](../../auto-crafting.md).
 
 **NOTE:** This mode requires that the assembler's pattern slot is empty.
 
-<RecipeFor id="appliedenergistics2:molecular_assembler"/>
+<RecipeFor id="appliedenergistics2:molecular_assembler" />

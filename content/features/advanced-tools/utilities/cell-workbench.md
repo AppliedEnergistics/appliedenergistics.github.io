@@ -10,11 +10,11 @@ title: Cell Workbench
 
 The <ItemLink id="appliedenergistics2:cell_workbench"/> lets you
 configure how <ItemLink id="appliedenergistics2:view_cell"/> and
-<ItemLink id="appliedenergistics2:1k_item_storage_cell"/> as well as
-other similar items and Storage Cells store their items, they allow you to
-insert upgrade cards such as <ItemLink
-id="appliedenergistics2:inverter_card"/> and <ItemLink
-id="appliedenergistics2:fuzzy_card"/> into the devices, and select
-what items are accepted or rejected based on the settings from the Upgrades.
 
-<RecipeFor id="appliedenergistics2:cell_workbench"/>
+<ItemLink id="appliedenergistics2:1k_item_storage_cell" /> as well as other similar
+items and Storage Cells store their items, they allow you to insert upgrade cards
+such as <ItemLink id="appliedenergistics2:inverter_card" /> and <ItemLink id="appliedenergistics2:fuzzy_card" /> into
+the devices, and select what items are accepted or rejected based on the settings
+from the Upgrades.
+
+<RecipeFor id="appliedenergistics2:cell_workbench" />

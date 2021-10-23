@@ -16,4 +16,4 @@ fire.
 Its battery can store 200k ae and consumes 1600 ae per usage, it can be to be
 recharged in a <ItemLink id="appliedenergistics2:charger"/>.
 
-<RecipeFor id="appliedenergistics2:entropy_manipulator"/>
+<RecipeFor id="appliedenergistics2:entropy_manipulator" />

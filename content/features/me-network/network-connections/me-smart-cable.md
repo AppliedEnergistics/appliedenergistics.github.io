@@ -51,4 +51,4 @@ cable, the next four show as white lines.
 These can also be colored in the same manner as <ItemLink
 id="appliedenergistics2:fluix_glass_cable"/>.
 
-<RecipeFor id="appliedenergistics2:fluix_smart_cable"/>
+<RecipeFor id="appliedenergistics2:fluix_smart_cable" />

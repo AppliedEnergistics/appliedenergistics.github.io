@@ -7,7 +7,8 @@ item_ids:
 title: Creative Energy Cell
 ---
 
-<ItemLink id="appliedenergistics2:creative_energy_cell"/> contain infinite AE energy and can be used to provide power without needing to generate it.
+<ItemLink id="appliedenergistics2:creative_energy_cell" /> contain infinite AE energy
+and can be used to provide power without needing to generate it.
 
 They can only be spawned in **Creative Mode**.
 

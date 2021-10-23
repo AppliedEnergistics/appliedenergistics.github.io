@@ -62,4 +62,4 @@ access it wirelessly.
 
 ---|---
 
-<RecipeFor id="appliedenergistics2:security_station"/>
+<RecipeFor id="appliedenergistics2:security_station" />

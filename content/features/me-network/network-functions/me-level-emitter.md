@@ -24,4 +24,4 @@ configure the system to output redstone to preform a crafting task, its
 important to note that you cannot mix level emitter craft via redstone with
 interface patterns.
 
-<RecipeFor id="appliedenergistics2:item_level_emitter"/>
+<RecipeFor id="appliedenergistics2:item_level_emitter" />

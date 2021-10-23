@@ -10,4 +10,4 @@ title: Tiny TNT
 
 A smaller, less damaging block of TNT. Useful for less destructive crafting of <ItemLink id="quantum_entangled_singularity" />.
 
-<RecipeFor id="appliedenergistics2:tiny_tnt"/>
+<RecipeFor id="appliedenergistics2:tiny_tnt" />

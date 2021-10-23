@@ -10,7 +10,7 @@ title: Engineering Processor
 
 Most Advanced Processor.
 
-<RecipeFor id="appliedenergistics2:engineering_processor"/>
+<RecipeFor id="appliedenergistics2:engineering_processor" />
 
 ### Processor Press Plates
 

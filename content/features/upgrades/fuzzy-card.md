@@ -46,4 +46,4 @@ bus config, top is the compared item.
 | Nearly Broken Pick Axe  | ✅               | ✅               | ✅               | **✅**           |
 | Fully Repaired Pick Axe | **✅**           | **✅**           | **✅**           | ✅               |
 
-<RecipeFor id="appliedenergistics2:fuzzy_card"/>
+<RecipeFor id="appliedenergistics2:fuzzy_card" />

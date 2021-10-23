@@ -32,4 +32,4 @@ Processing Pattern.
 When designing crafting patterns you can click the output to extract a crafted
 item as long as you have the materials required to craft the item.
 
-<RecipeFor id="appliedenergistics2:pattern_terminal"/>
+<RecipeFor id="appliedenergistics2:pattern_terminal" />

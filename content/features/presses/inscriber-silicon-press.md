@@ -17,7 +17,7 @@ id="appliedenergistics2:sky_stone_chest"/> that spawn in meteorites
 during world generation and can be copied using the <ItemLink
 id="appliedenergistics2:inscriber"/>.
 
-<RecipeFor id="appliedenergistics2:silicon_press"/>
+<RecipeFor id="appliedenergistics2:silicon_press" />
 
 ### Processor Press Plates
 

@@ -32,4 +32,4 @@ panels. Shows load similarly to <ItemLink
 id="appliedenergistics2:fluix_smart_cable"/>, with each line lit
 representing four channels in use.
 
-<RecipeFor id="appliedenergistics2:fluix_covered_dense_cable"/>
+<RecipeFor id="appliedenergistics2:fluix_covered_dense_cable" />

@@ -6,7 +6,7 @@ item_ids:
 title: P2P Tunnel
 ---
 
-<ItemLink id="appliedenergistics2:me_p2p_tunnel"/>
+<ItemLink id="appliedenergistics2:me_p2p_tunnel" />
 
 or "Point to Point Tunnels" are a versatile configurable system to move items
 / redstone / power / and fluids from one location to another though an
@@ -38,4 +38,4 @@ sets the type of the output to match the type of the input.
 Tunnels can be attuned by right clicking on them with different types of
 items:
 
-<RecipeFor id="appliedenergistics2:me_p2p_tunnel"/>
+<RecipeFor id="appliedenergistics2:me_p2p_tunnel" />

@@ -33,4 +33,4 @@ id="appliedenergistics2:fluix_covered_cable"/> can be crafted with
 redstone and glowstone to make <ItemLink
 id="appliedenergistics2:fluix_covered_dense_cable"/>.
 
-<RecipeFor id="appliedenergistics2:fluix_covered_cable"/>
+<RecipeFor id="appliedenergistics2:fluix_covered_cable" />

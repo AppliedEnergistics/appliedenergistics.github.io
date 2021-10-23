@@ -13,7 +13,7 @@ title: Printed Logic Circuit
 Required to make <ItemLink
 id="appliedenergistics2:printed_logic_processor"/>.
 
-<RecipeFor id="appliedenergistics2:printed_logic_processor"/>
+<RecipeFor id="appliedenergistics2:printed_logic_processor" />
 
 ### Processor Press Plates
 

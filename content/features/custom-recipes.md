@@ -53,55 +53,48 @@ you can use "oredictionary:glass" to use any type of glass.
 
 1. shapeless
 
-
-    * takes up to 9 items as input
-    * outputs a single item as output, optionally with quantity
+   - takes up to 9 items as input
+   - outputs a single item as output, optionally with quantity
 
 2. shaped
 
-
-    * takes up to 9 items as input, each row ends with a comma
-    * outputs a single item as output, optionally with quantity
+   - takes up to 9 items as input, each row ends with a comma
+   - outputs a single item as output, optionally with quantity
 
 3. smelt
 
-
-    * takes 1 item as input.
-    * takes 1 item as output, optionally with quantity
+   - takes 1 item as input.
+   - takes 1 item as output, optionally with quantity
 
 4. grind
-1. takes 1 item as input.
-1. takes 1 item as output, optionally with quantity
-1. inscribe
-1. takes 2 or 3 items as input, first item is the center item.
-1. takes 1 item as output, optionally with quantity
-1. center item is consumed.
-1. press
-1. takes 2 or 3 items as input, first item is the center item.
-1. takes 1 item as output, optionally with quantity.
-1. all items are consumed.
+5. takes 1 item as input.
+6. takes 1 item as output, optionally with quantity
+7. inscribe
+8. takes 2 or 3 items as input, first item is the center item.
+9. takes 1 item as output, optionally with quantity
+10. center item is consumed.
+11. press
+12. takes 2 or 3 items as input, first item is the center item.
+13. takes 1 item as output, optionally with quantity.
+14. all items are consumed.
 
 ### Recipe Functions
 
 1. alias
 
-
-    * creates a shorthand for a longer value for instance by default ae2 is mapped to appliedenergistics2
+   - creates a shorthand for a longer value for instance by default ae2 is mapped to appliedenergistics2
 
 2. ore
 
-
-    * lets you add items into an ore dictionary value.
+   - lets you add items into an ore dictionary value.
 
 3. group
 
-
-    * lets you create a item group for 1 or more inputs.
+   - lets you create a item group for 1 or more inputs.
 
 4. import
 
-
-    * lets you load an additional recipe file.
+   - lets you load an additional recipe file.
 
 ## Final Word
 

@@ -4,4 +4,4 @@ item_ids:
 title: Silicon
 ---
 
-<RecipeFor id="appliedenergistics2:silicon"/>
+<RecipeFor id="appliedenergistics2:silicon" />

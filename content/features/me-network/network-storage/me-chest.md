@@ -14,7 +14,7 @@ id="appliedenergistics2:chest"/> is the simplest way to use a
 Storage cell, it will give you direct access to the contents of the cell
 placed inside.
 
-<ItemLink id="appliedenergistics2:chest"/>
+<ItemLink id="appliedenergistics2:chest" />
 
 show their contents and the storage cell status on the front face.
 
@@ -23,7 +23,7 @@ show their contents and the storage cell status on the front face.
 - Green - Indicates the cell can hold more types, or more items.
 - Black - Indicates there is no channel, or power is offline.
 
-<ItemLink id="appliedenergistics2:chest"/>
+<ItemLink id="appliedenergistics2:chest" />
 
 can be powered stand alone with external power, or as part of a [ME
 Network](../../me-network.md). When on a network, the storage of the
@@ -46,4 +46,4 @@ id="appliedenergistics2:chest"/> like any other inventory, however
 items cannot be extracted with automation except via networked functions like
 the <ItemLink id="appliedenergistics2:item_export_bus"/>.
 
-<RecipeFor id="appliedenergistics2:chest"/>
+<RecipeFor id="appliedenergistics2:chest" />

@@ -19,4 +19,4 @@ id="appliedenergistics2:view_cell"/>. It requires a
 Can be upgraded into a <ItemLink
 id="appliedenergistics2:crafting_terminal"/>.
 
-<RecipeFor id="appliedenergistics2:terminal"/>
+<RecipeFor id="appliedenergistics2:terminal" />

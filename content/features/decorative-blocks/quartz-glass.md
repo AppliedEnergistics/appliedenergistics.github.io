@@ -14,7 +14,7 @@ title: Quartz Glass
 Mostly clear glass made with <ItemLink id="appliedenergistics2:certus_quartz_dust"/>.
 Can be used to make vibrant quartz glass and other items.
 
-<RecipeFor id="appliedenergistics2:quartz_glass"/>
+<RecipeFor id="appliedenergistics2:quartz_glass" />
 
 ### Vibrant Quartz Glass
 
@@ -22,4 +22,4 @@ Can be used to make vibrant quartz glass and other items.
 
 A variant of quartz glass that glows like glowstone.
 
-<RecipeFor id="appliedenergistics2:quartz_vibrant_glass"/>
+<RecipeFor id="appliedenergistics2:quartz_vibrant_glass" />

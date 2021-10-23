@@ -8,9 +8,9 @@ title: Energy Acceptor
 ---
 
 ![Picture of a Energy Accepter.](../../../../public/assets/large/energy_accepter.png)The
-<ItemLink id="appliedenergistics2:energy_acceptor"/> converts energy
-from external systems into AE and stores it into the [ME Network](../ME-
-Network/index.html).
+
+<ItemLink id="appliedenergistics2:energy_acceptor" /> converts energy from external
+systems into AE and stores it into the [ME Network](../ME- Network/index.html).
 
 Currently supported energy conversions are:
 
@@ -30,4 +30,4 @@ Mekanism
 
     5 J = 1 AE
 
-<RecipeFor id="appliedenergistics2:energy_acceptor"/>
+<RecipeFor id="appliedenergistics2:energy_acceptor" />

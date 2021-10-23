@@ -4,4 +4,4 @@ item_ids:
 title: Fluix Pearl
 ---
 
-<RecipeFor id="appliedenergistics2:fluix_pearl"/>
+<RecipeFor id="appliedenergistics2:fluix_pearl" />

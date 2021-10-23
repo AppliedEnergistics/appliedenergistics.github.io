@@ -44,4 +44,4 @@ won't reliably use the items in a configured interface.)
 The <ItemLink id="appliedenergistics2:item_interface"/> require a
 [channel](../../channels.md) to function.
 
-<RecipeFor id="appliedenergistics2:item_interface"/>
+<RecipeFor id="appliedenergistics2:item_interface" />

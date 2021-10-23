@@ -32,19 +32,32 @@ img.item-icon {
       padding: 1.25rem;
     }
   }
+
+  .container {
+    padding-top: 1.25rem;
+  }
 }
 
 .tippy-box {
   &[data-placement^="top"] > .tippy-arrow::before {
     border-top-color: tomato;
   }
+
   &[data-placement^="bottom"] > .tippy-arrow::before {
     border-bottom-color: tomato;
   }
+
   &[data-placement^="left"] > .tippy-arrow::before {
     border-left-color: tomato;
   }
+
   &[data-placement^="right"] > .tippy-arrow::before {
     border-right-color: tomato;
   }
+}
+
+.downloadButtons {
+  display: inline-grid;
+  grid-auto-columns: auto;
+  row-gap: 1rem;
 }

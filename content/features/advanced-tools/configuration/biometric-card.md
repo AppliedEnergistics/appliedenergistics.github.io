@@ -14,4 +14,4 @@ When the <ItemLink id="appliedenergistics2:biometric_card"/> has
 been encoded it will show a Identicon for the user so you can tell cards
 apart, each card for the user will have the same Identicon.
 
-<RecipeFor id="appliedenergistics2:biometric_card"/>
+<RecipeFor id="appliedenergistics2:biometric_card" />

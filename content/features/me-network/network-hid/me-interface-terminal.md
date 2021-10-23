@@ -17,4 +17,4 @@ id="appliedenergistics2:interface_terminal"/>.
 Combined with the fact that you can toggle if the interface shows up at all
 this gets you control over your itnerface terminal's display.
 
-<RecipeFor id="appliedenergistics2:interface_terminal"/>
+<RecipeFor id="appliedenergistics2:interface_terminal" />

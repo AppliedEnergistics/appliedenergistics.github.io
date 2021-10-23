@@ -13,4 +13,4 @@ Network/index.html)'s Storage as space is made available.
 
 Requires a [channel](../../channels.md) to function.
 
-<RecipeFor id="appliedenergistics2:item_annihilation_plane"/>
+<RecipeFor id="appliedenergistics2:item_annihilation_plane" />

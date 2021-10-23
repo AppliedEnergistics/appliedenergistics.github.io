@@ -13,7 +13,7 @@ title: Printed Calculation Circuit
 Required to make <ItemLink
 id="appliedenergistics2:calculation_processor"/>.
 
-<RecipeFor id="appliedenergistics2:printed_calculation_processor"/>
+<RecipeFor id="appliedenergistics2:printed_calculation_processor" />
 
 ### Processor Press Plates
 

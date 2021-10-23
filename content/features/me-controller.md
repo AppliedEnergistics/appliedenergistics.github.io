@@ -8,8 +8,8 @@ title: ME Controller
 id="appliedenergistics2:controller"/> is the routing hub of a [ME
 Network](me-network.md). Without it, only up to 8 devices can
 interact, any more and everything stops working. It is not possible to have 2
-<ItemLink id="appliedenergistics2:controller"/> in one [ME
-Network](me-network.md).
+
+<ItemLink id="appliedenergistics2:controller" /> in one [ME Network](me-network.md).
 
 Unlike most [ME Network](me-network.md) devices, the <ItemLink
 id="appliedenergistics2:controller"/> does not require
@@ -37,4 +37,4 @@ few rules that must be followed:
 As long as all rules are followed and powered, the controller should glow and
 cycle colors.
 
-<RecipeFor id="appliedenergistics2:controller"/>
+<RecipeFor id="appliedenergistics2:controller" />

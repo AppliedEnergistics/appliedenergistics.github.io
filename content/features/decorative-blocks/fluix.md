@@ -8,4 +8,4 @@ item_ids:
 
 A Block of <ItemLink id="appliedenergistics2:fluix_crystal"/>.
 
-<RecipeFor id="appliedenergistics2:fluix_block"/>
+<RecipeFor id="appliedenergistics2:fluix_block" />

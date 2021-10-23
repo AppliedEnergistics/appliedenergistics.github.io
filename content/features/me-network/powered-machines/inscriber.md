@@ -16,7 +16,7 @@ The inscriber is used to press items using various Inscriber Plates. Each operat
 
 ### Recipe
 
-<RecipeFor id="appliedenergistics2:inscriber"/>
+<RecipeFor id="appliedenergistics2:inscriber" />
 
 ### The GUI
 

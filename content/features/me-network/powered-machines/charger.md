@@ -20,4 +20,4 @@ other mod power cables. Items can be inserted or removed from any side.
 Can also be used to create <ItemLink id="appliedenergistics2:charged_certus_quartz_crystal"/>
 from <ItemLink id="appliedenergistics2:certus_quartz_crystal"/>.
 
-<RecipeFor id="appliedenergistics2:charger"/>
+<RecipeFor id="appliedenergistics2:charger" />

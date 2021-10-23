@@ -40,4 +40,4 @@ id="appliedenergistics2:fluix_covered_cable"/>, and craft <ItemLink
 id="appliedenergistics2:fluix_smart_cable"/> to get a better idea of
 what is going on with your [Channels](../../channels.md).
 
-<RecipeFor id="appliedenergistics2:fluix_glass_cable"/>
+<RecipeFor id="appliedenergistics2:fluix_glass_cable" />

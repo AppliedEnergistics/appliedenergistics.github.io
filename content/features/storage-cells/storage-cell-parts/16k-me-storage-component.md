@@ -16,4 +16,4 @@ make <ItemLink id="appliedenergistics2:64k_item_cell_component"/>.
 Can be recovered from a crafted <ItemLink id="appliedenergistics2:16k_item_storage_cell"/> by fully emptying the
 [storage cell](../../storage-cells.md), and shift clicking it in your hand.
 
-<RecipeFor id="appliedenergistics2:16k_item_cell_component"/>
+<RecipeFor id="appliedenergistics2:16k_item_cell_component" />

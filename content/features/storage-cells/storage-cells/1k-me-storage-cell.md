@@ -30,4 +30,4 @@ storage cell, and sneak clicking i in your hand.
 The settings can be changed in the <ItemLink
 id="appliedenergistics2:cell_workbench"/>.
 
-<RecipeFor id="appliedenergistics2:1k_item_storage_cell"/>
+<RecipeFor id="appliedenergistics2:1k_item_storage_cell" />

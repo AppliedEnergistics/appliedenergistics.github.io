@@ -18,7 +18,8 @@ the core mechanic, the [ME Network](features/me-network.md).
   - <ItemLink id="appliedenergistics2:item_level_emitter"></ItemLink>
   - <ItemLink id="appliedenergistics2:item_interface"></ItemLink>
   - Unique storage system using <ItemLink id="appliedenergistics2:drive"></ItemLink> and Storage Cells and <ItemLink id="appliedenergistics2:item_storage_bus"></ItemLink>es.
-- <ItemLink id="appliedenergistics2:me_p2p_tunnel"></ItemLink>to transmit signals, items, fluids and other concepts over common cables.
+- <ItemLink id="appliedenergistics2:me_p2p_tunnel"></ItemLink>to transmit signals,
+  items, fluids and other concepts over common cables.
 - Less time wasted walking back to your chests when working in your base with the <ItemLink id="appliedenergistics2:wireless_terminal"></ItemLink>.
 - Hide your cables with <ItemLink id="appliedenergistics2:facade"></ItemLink> and full support for Forge Multipart.
 - Lots of neat new decorative blocks like <ItemLink id="appliedenergistics2:smooth_sky_stone_block"></ItemLink>, <ItemLink id="appliedenergistics2:quartz_pillar"></ItemLink>, <ItemLink id="appliedenergistics2:quartz_glass"></ItemLink> and <ItemLink id="appliedenergistics2:quartz_fixture"></ItemLink>.

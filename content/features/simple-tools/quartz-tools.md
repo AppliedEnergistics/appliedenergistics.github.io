@@ -19,16 +19,16 @@ Their durability and mining speed is equivalent to iron tools.
 
 ## Certus Quartz Tools
 
-<RecipeFor id="appliedenergistics2:certus_quartz_pickaxe"/>
-<RecipeFor id="appliedenergistics2:certus_quartz_axe"/>
-<RecipeFor id="appliedenergistics2:certus_quartz_shovel"/>
-<RecipeFor id="appliedenergistics2:certus_quartz_hoe"/>
-<RecipeFor id="appliedenergistics2:certus_quartz_sword"/>
+<RecipeFor id="appliedenergistics2:certus_quartz_pickaxe" />
+<RecipeFor id="appliedenergistics2:certus_quartz_axe" />
+<RecipeFor id="appliedenergistics2:certus_quartz_shovel" />
+<RecipeFor id="appliedenergistics2:certus_quartz_hoe" />
+<RecipeFor id="appliedenergistics2:certus_quartz_sword" />
 
 ## Nether Quartz Tools
 
-<RecipeFor id="appliedenergistics2:nether_quartz_pickaxe"/>
-<RecipeFor id="appliedenergistics2:nether_quartz_axe"/>
-<RecipeFor id="appliedenergistics2:nether_quartz_shovel"/>
-<RecipeFor id="appliedenergistics2:nether_quartz_hoe"/>
-<RecipeFor id="appliedenergistics2:nether_quartz_sword"/>
+<RecipeFor id="appliedenergistics2:nether_quartz_pickaxe" />
+<RecipeFor id="appliedenergistics2:nether_quartz_axe" />
+<RecipeFor id="appliedenergistics2:nether_quartz_shovel" />
+<RecipeFor id="appliedenergistics2:nether_quartz_hoe" />
+<RecipeFor id="appliedenergistics2:nether_quartz_sword" />

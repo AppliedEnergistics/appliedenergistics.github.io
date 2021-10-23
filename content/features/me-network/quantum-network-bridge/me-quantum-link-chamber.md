@@ -17,4 +17,4 @@ This blocks inventory can only hold a single <ItemLink
 id="appliedenergistics2:quantum_entangled_singularity"/> and is
 automation accessible.
 
-<RecipeFor id="appliedenergistics2:quantum_link"/>
+<RecipeFor id="appliedenergistics2:quantum_link" />

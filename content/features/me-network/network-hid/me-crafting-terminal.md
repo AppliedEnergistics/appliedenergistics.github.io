@@ -18,4 +18,4 @@ Storage.
 Like the <ItemLink id="appliedenergistics2:terminal"/> it also
 requires a [channel](../../channels.md) to function.
 
-<RecipeFor id="appliedenergistics2:crafting_terminal"/>
+<RecipeFor id="appliedenergistics2:crafting_terminal" />

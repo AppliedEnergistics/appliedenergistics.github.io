@@ -6,4 +6,4 @@ title: Annihilation Core
 
 A component which can convert matter into energy.
 
-<RecipeFor id="appliedenergistics2:annihilation_core"/>
+<RecipeFor id="appliedenergistics2:annihilation_core" />

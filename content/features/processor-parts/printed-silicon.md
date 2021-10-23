@@ -10,7 +10,7 @@ related:
 title: Printed Silicon
 ---
 
-<RecipeFor id="appliedenergistics2:printed_silicon"/>
+<RecipeFor id="appliedenergistics2:printed_silicon" />
 
 ### Processor Press Plates
 

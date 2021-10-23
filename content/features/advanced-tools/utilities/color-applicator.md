@@ -27,4 +27,4 @@ cables, and clean paint balls off of walls when you use snow balls inside it.
 Also functions in the dispenser as a means to color blocks that are in front
 of it.
 
-<RecipeFor id="appliedenergistics2:color_applicator"/>
+<RecipeFor id="appliedenergistics2:color_applicator" />

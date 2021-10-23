@@ -21,4 +21,4 @@ monitor is locked, right-clicking attempts to pull out a stack of the item
 displayed. You cannot insert wrenches or network tools, because shift-right-
 click will collect the monitor.
 
-<RecipeFor id="appliedenergistics2:item_conversion_monitor"/>
+<RecipeFor id="appliedenergistics2:item_conversion_monitor" />

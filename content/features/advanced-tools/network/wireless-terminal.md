@@ -16,4 +16,4 @@ Holds 1.6m AE in its battery and drains 1 AE/t for each block you are away
 from the nearest <ItemLink
 id="appliedenergistics2:wireless_access_point"/>.
 
-<RecipeFor id="appliedenergistics2:wireless_terminal"/>
+<RecipeFor id="appliedenergistics2:wireless_terminal" />

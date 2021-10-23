@@ -17,4 +17,4 @@ id="appliedenergistics2:64k_item_storage_cell"/> by fully emptying the
 [storage cell](../../storage-cells.md), and shift clicking i in your
 hand.
 
-<RecipeFor id="appliedenergistics2:64k_item_cell_component"/>
+<RecipeFor id="appliedenergistics2:64k_item_cell_component" />

@@ -6,4 +6,4 @@ title: Wireless Receiver
 
 Component used to send and receive wireless signals.
 
-<RecipeFor id="appliedenergistics2:wireless_receiver"/>
+<RecipeFor id="appliedenergistics2:wireless_receiver" />

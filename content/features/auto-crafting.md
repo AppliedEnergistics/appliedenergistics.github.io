@@ -53,25 +53,25 @@ It is the base for crafting the other functional components of a crafting CPU.
 
 Provides 1024 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:1k_crafting_storage"/>
+<RecipeFor id="appliedenergistics2:1k_crafting_storage" />
 
 ![A picture of a 4k crafting storage unit.](../../public/assets/large/crafting4k.png)
 
 Provides 4,096 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:4k_crafting_storage"/>
+<RecipeFor id="appliedenergistics2:4k_crafting_storage" />
 
 ![A 16k Crafting Storage Unit.](../../public/assets/large/crafting16k.png)
 
 Provides 16,384 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:16k_crafting_storage"/>
+<RecipeFor id="appliedenergistics2:16k_crafting_storage" />
 
 ![A picture of a 64k Crafting Storage Unit](../../public/assets/large/crafting64k.png)
 
 Provides 65,536 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:64k_crafting_storage"/>
+<RecipeFor id="appliedenergistics2:64k_crafting_storage" />
 
 #### Co-Processor
 
@@ -85,7 +85,7 @@ thus increase overall crafting speed. These only help if your setup has steps
 properly separated so the system can run multiple tasks in parallel, or even
 split the same pattern across multiple interfaces.
 
-<RecipeFor id="appliedenergistics2:crafting_accelerator"/>
+<RecipeFor id="appliedenergistics2:crafting_accelerator" />
 
 #### Crafting Monitor
 
@@ -94,7 +94,7 @@ split the same pattern across multiple interfaces.
 Displays the top level job and its current progress so you can see what a particular Crafting CPU is currently
 working on.
 
-<RecipeFor id="appliedenergistics2:crafting_monitor"/>
+<RecipeFor id="appliedenergistics2:crafting_monitor" />
 
 ## Pattern Provider
 
@@ -109,8 +109,8 @@ an <ItemLink id="item_interface" /> or any other means that would import the cra
 assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided
 the ingredients.
 
-<RecipeFor id="appliedenergistics2:pattern_provider"/>
-<RecipeFor id="appliedenergistics2:cable_pattern_provider"/>
+<RecipeFor id="appliedenergistics2:pattern_provider" />
+<RecipeFor id="appliedenergistics2:cable_pattern_provider" />
 
 ### Blank Pattern
 
@@ -121,7 +121,7 @@ id="appliedenergistics2:pattern_provider"/>.
 
 Patterns can be encoded in the <ItemLink id="pattern_terminal" />.
 
-<RecipeFor id="appliedenergistics2:blank_pattern"/>
+<RecipeFor id="appliedenergistics2:blank_pattern" />
 
 ### Crafting Patterns
 

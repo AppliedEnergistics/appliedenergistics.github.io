@@ -47,25 +47,38 @@ This process is very slow without the help of the <ItemLink id="appliedenergisti
 | 5            | 24 seconds |
 
 <div>
-    <video src="/videos/crystal_growth.mp4" width="400" height="400" controls></video>
+  <video
+    src="/videos/crystal_growth.mp4"
+    width="400"
+    height="400"
+    controls
+  ></video>
 </div>
 
 ### Seeds
 
-<RecipeFor id="appliedenergistics2:certus_crystal_seed"/>
+<RecipeFor id="appliedenergistics2:certus_crystal_seed" />
 
-<RecipeFor id="appliedenergistics2:fluix_crystal_seed"/>
+<RecipeFor id="appliedenergistics2:fluix_crystal_seed" />
 
 ### Fluix Crystals
 
 This crystal possesses the unique ability to absorb and convert energy from one
 form to another, and is the foundation of all ME technology.
 
-<ItemLink id="appliedenergistics2:fluix_crystal"/> is crafted in world by
-placing <ItemLink id="appliedenergistics2:charged_certus_quartz_crystal"/>, <ItemLink id="minecraft:quartz"/>
-and <ItemLink id="minecraft:redstone"/> in water. It will quickly start to react, and result in two <ItemLink id="fluix_dust" />.
-The dust can then be used for crafting, or grown into <ItemLink id="fluix_crystal" /> using <ItemLink id="fluix_crystal_seed" />.
+<ItemLink id="appliedenergistics2:fluix_crystal" /> is crafted in world by placing <ItemLink id="appliedenergistics2:charged_certus_quartz_crystal" />
+, <ItemLink id="minecraft:quartz" />
+and <ItemLink id="minecraft:redstone" /> in water. It will quickly start to react,
+and result in two <ItemLink id="fluix_dust" />. The dust can then be used for
+crafting, or grown into <ItemLink id="fluix_crystal" /> using <ItemLink id="fluix_crystal_seed" />
+
+.
 
 <div>
-    <video src="/videos/fluix_crafting.mp4" width="400" height="400" controls></video>
+  <video
+    src="/videos/fluix_crafting.mp4"
+    width="400"
+    height="400"
+    controls
+  ></video>
 </div>

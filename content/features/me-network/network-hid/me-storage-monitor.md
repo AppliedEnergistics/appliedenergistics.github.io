@@ -31,4 +31,4 @@ TODO Exclude this page
 
 <CategoryIndex category="ME Network/Monitors" />
 
-<RecipeFor id="appliedenergistics2:storage_monitor"/>
+<RecipeFor id="appliedenergistics2:storage_monitor" />

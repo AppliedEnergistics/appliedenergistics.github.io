@@ -18,4 +18,4 @@ items it should place. Items are placed instantly when they enter the network.
 
 Requires a [channel](../../channels.md) to function.
 
-<RecipeFor id="appliedenergistics2:item_formation_plane"/>
+<RecipeFor id="appliedenergistics2:item_formation_plane" />

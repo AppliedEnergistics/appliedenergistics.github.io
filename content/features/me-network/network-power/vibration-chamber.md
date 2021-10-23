@@ -17,4 +17,4 @@ almost any solid burnable fuel for power. It will slow, or accelerate the burn
 depending on how much power it is able to store vs what is wasted. Generates
 between 1 and 10 AE/t depending on its burn speed.
 
-<RecipeFor id="appliedenergistics2:vibration_chamber"/>
+<RecipeFor id="appliedenergistics2:vibration_chamber" />

@@ -14,7 +14,7 @@ title: Sky Stone
 
 Block form of <ItemLink id="appliedenergistics2:sky_stone_block"/>.
 
-<RecipeFor id="appliedenergistics2:smooth_sky_stone_block"/>
+<RecipeFor id="appliedenergistics2:smooth_sky_stone_block" />
 
 ### Sky Stone Brick
 
@@ -22,7 +22,7 @@ Block form of <ItemLink id="appliedenergistics2:sky_stone_block"/>.
 
 Brick form of <ItemLink id="appliedenergistics2:sky_stone_block"/>.
 
-<RecipeFor id="appliedenergistics2:sky_stone_brick"/>
+<RecipeFor id="appliedenergistics2:sky_stone_brick" />
 
 ### Sky Stone Small Brick
 
@@ -30,4 +30,4 @@ Brick form of <ItemLink id="appliedenergistics2:sky_stone_block"/>.
 
 Small brick form of <ItemLink id="appliedenergistics2:sky_stone_block"/>.
 
-<RecipeFor id="appliedenergistics2:sky_stone_small_brick"/>
+<RecipeFor id="appliedenergistics2:sky_stone_small_brick" />

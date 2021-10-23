@@ -26,9 +26,10 @@ selection has no effect on what items can be extracted once they are in the
 storage.
 
 The Storage Bus will function with nearly any inventory block, including
-<ItemLink id="appliedenergistics2:item_interface"/>, Minefactory Reloaded
-DSUs, Factorization Barrels, JABBA Barrels, and Better Storage Crates. They
-can also be used to route items passivly into Buildcraft Pipes.
+
+<ItemLink id="appliedenergistics2:item_interface" />, Minefactory Reloaded DSUs,
+Factorization Barrels, JABBA Barrels, and Better Storage Crates. They can also
+be used to route items passivly into Buildcraft Pipes.
 
 If you place a storage bus on an <ItemLink
 id="appliedenergistics2:item_interface"/> the storage bus will be able to
@@ -39,4 +40,4 @@ stored items.
 _ **\* Storage Buses ignore input/output sides for DSUs, Barrels, and Digital
 Chests.**_
 
-<RecipeFor id="appliedenergistics2:item_storage_bus"/>
+<RecipeFor id="appliedenergistics2:item_storage_bus" />

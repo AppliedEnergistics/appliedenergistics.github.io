@@ -10,8 +10,8 @@ services. Most devices such as standard cables, and machines can only support
 up to 8 channels. However <ItemLink
 id="appliedenergistics2:fluix_covered_dense_cable"/> can support up
 to 32 channels, the only other devices capable of transmitting 32 are
-<ItemLink id="appliedenergistics2:me_p2p_tunnel"/> and the [Quantum
-Network Bridge](me-quantum-network-bridge.md)
+
+<ItemLink id="appliedenergistics2:me_p2p_tunnel" /> and the [Quantum Network Bridge](me-quantum-network-bridge.md)
 
 A Network without a <ItemLink id="appliedenergistics2:controller"/>
 is considered to be Ad-Hoc, and can support up to 8 channel using devices.

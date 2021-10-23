@@ -13,6 +13,7 @@ settings.
 
 They are also used to link the input <ItemLink
 id="appliedenergistics2:me_p2p_tunnel"/> to the correct output
-<ItemLink id="appliedenergistics2:me_p2p_tunnel"/>.
 
-<RecipeFor id="appliedenergistics2:memory_card"/>
+<ItemLink id="appliedenergistics2:me_p2p_tunnel" />.
+
+<RecipeFor id="appliedenergistics2:memory_card" />

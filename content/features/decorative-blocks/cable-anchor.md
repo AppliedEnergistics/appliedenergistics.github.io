@@ -13,4 +13,4 @@ connected to the walls around it. Also used to craft <ItemLink id="appliedenergi
 
 Cable anchors prevent connections from forming on the side they're mounted on.
 
-<RecipeFor id="appliedenergistics2:cable_anchor"/>
+<RecipeFor id="appliedenergistics2:cable_anchor" />

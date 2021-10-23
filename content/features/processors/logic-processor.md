@@ -10,7 +10,7 @@ title: Logic Processor
 
 Most basic processor.
 
-<RecipeFor id="appliedenergistics2:logic_processor"/>
+<RecipeFor id="appliedenergistics2:logic_processor" />
 
 ### Processor Press Plates
 

@@ -13,4 +13,4 @@ id="appliedenergistics2:item_formation_plane"/> and the <ItemLink
 id="appliedenergistics2:item_storage_bus"/> changes the standard accepted
 item list into a rejection list.
 
-<RecipeFor id="appliedenergistics2:inverter_card"/>
+<RecipeFor id="appliedenergistics2:inverter_card" />

@@ -24,4 +24,4 @@ Each Spatial Pylon Multiblock requires a [channel](../../channels.md) ( 1
 per strand of blocks, not 1 per <ItemLink
 id="appliedenergistics2:spatial_pylon"/> ) to function.
 
-<RecipeFor id="appliedenergistics2:spatial_pylon"/>
+<RecipeFor id="appliedenergistics2:spatial_pylon" />

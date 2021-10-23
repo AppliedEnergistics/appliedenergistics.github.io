@@ -13,7 +13,7 @@ title: ME Drive
 do one thing, store Storage Cells. This block holds 10 storage cells so you
 can tightly pack your storage into a very small space.
 
-<ItemLink id="appliedenergistics2:drive"/>
+<ItemLink id="appliedenergistics2:drive" />
 
 show their contents and the storage cell status on the front of the drive
 face.
@@ -31,4 +31,4 @@ for each Storage Cell stored inside it.
 The <ItemLink id="appliedenergistics2:drive"/> requires a
 [channel](../../channels.md) to function.
 
-<RecipeFor id="appliedenergistics2:drive"/>
+<RecipeFor id="appliedenergistics2:drive" />

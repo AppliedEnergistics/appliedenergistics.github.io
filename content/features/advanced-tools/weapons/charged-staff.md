@@ -15,4 +15,4 @@ power is depleted.
 The <ItemLink id="appliedenergistics2:charged_staff"/> Holds 8k ae
 in it battery using 300 ae per attack.
 
-<RecipeFor id="appliedenergistics2:charged_staff"/>
+<RecipeFor id="appliedenergistics2:charged_staff" />

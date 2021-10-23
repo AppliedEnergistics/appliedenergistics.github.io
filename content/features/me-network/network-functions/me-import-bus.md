@@ -21,4 +21,4 @@ id="appliedenergistics2:item_import_bus"/> requires a
 This is the functional opposite of the <ItemLink
 id="appliedenergistics2:item_export_bus"/>.
 
-<RecipeFor id="appliedenergistics2:item_import_bus"/>
+<RecipeFor id="appliedenergistics2:item_import_bus" />

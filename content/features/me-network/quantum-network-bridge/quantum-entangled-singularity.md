@@ -8,8 +8,8 @@ Required to create a connection between to [Quantum Network Bridges](../ME-
 Quantum-Network-Bridge/index.html), they are always produced in matching
 pairs, to create a connection place 1 of the pair of <ItemLink
 id="appliedenergistics2:quantum_entangled_singularity"/> into the
-<ItemLink id="appliedenergistics2:quantum_link"/> of
-the bridge on each side.
+
+<ItemLink id="appliedenergistics2:quantum_link" /> of the bridge on each side.
 
 ### Crafting Quantum Entangled Singularities
 
