@@ -29,6 +29,14 @@ function NavBar({pagePath}: NavBarProps) {
         setMenuOpen(o => !o);
     };
 
+    function closeMenuOnNavigation(e: React.MouseEvent) {
+        console.log(e);
+        // Close the menu when a link is clicked
+        if (e.target instanceof HTMLAnchorElement) {
+            setMenuOpen(false);
+        }
+    }
+
     return (
         <nav className="navbar has-shadow" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
@@ -80,7 +88,7 @@ function NavBar({pagePath}: NavBarProps) {
                         </div>
                     </div>
 
-                    <div className="navbar-item is-hidden-desktop">
+                    <div className="navbar-item is-hidden-desktop" onClick={closeMenuOnNavigation}>
                         <FeaturesSideNav/>
                     </div>
                 </div>
