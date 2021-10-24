@@ -4,7 +4,9 @@ import ItemIcon from "./ItemIcon";
 import Tippy from "@tippyjs/react";
 import css from "./ItemTooltip.module.scss";
 import "tippy.js/dist/svg-arrow.css";
-import { roundArrow } from "tippy.js";
+import { roundArrow, inlinePositioning } from "tippy.js";
+
+const tippyPlugins = [inlinePositioning];
 
 export type TooltipMode = "text" | "icon";
 
@@ -65,6 +67,8 @@ function ItemTooltip({
       content={<ItemTooltipContent {...rest} />}
       className={css.itemTooltip}
       arrow={roundArrow}
+      plugins={tippyPlugins}
+      inlinePositioning={true}
     >
       <span>{children}</span>
     </Tippy>

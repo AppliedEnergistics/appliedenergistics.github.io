@@ -30,6 +30,8 @@ const sideNav: MenuEntry[] = [
       "features/me-network/channels.md",
       "features/me-network/storage-cells.md",
       "features/me-network/network-energy.md",
+      "features/me-network/wireless-access.md",
+      "features/me-network/quantum-bridge.md",
     ],
   },
   {
