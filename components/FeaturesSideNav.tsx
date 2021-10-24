@@ -27,9 +27,9 @@ const sideNav: MenuEntry[] = [
         title: "Overview",
         path: "features/me-network.md",
       },
-      "features/channels.md",
-      "features/storage-cells.md",
-      "features/network-energy.md",
+      "features/me-network/channels.md",
+      "features/me-network/storage-cells.md",
+      "features/me-network/network-energy.md",
     ],
   },
   {

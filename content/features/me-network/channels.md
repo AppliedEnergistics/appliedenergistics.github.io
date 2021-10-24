@@ -2,11 +2,10 @@
 title: Channels
 ---
 
-Applied Energistics 2's [ME Networks](me-network.md) require
+Applied Energistics 2's [ME Networks](../me-network.md) require
 Channels to support devices which use networked storage, or other network
 services. Most devices such as standard cables, and machines can only support
-up to 8 channels. However <ItemLink
-id="appliedenergistics2:fluix_covered_dense_cable"/> can support up
+up to 8 channels. However <ItemLink id="appliedenergistics2:fluix_covered_dense_cable"/> can support up
 to 32 channels, the only other devices capable of transmitting 32 are
 
 <ItemLink id="appliedenergistics2:me_p2p_tunnel" /> and the [Quantum Network Bridge](me-quantum-network-bridge.md)
@@ -14,8 +13,7 @@ to 32 channels, the only other devices capable of transmitting 32 are
 A Network without a <ItemLink id="appliedenergistics2:controller"/>
 is considered to be Ad-Hoc, and can support up to 8 channel using devices.
 Once you exceed 8 devices the networks channel using devices will shutdown,
-you can either remove devices, or add a <ItemLink
-id="appliedenergistics2:controller"/>.
+you can either remove devices, or add a <ItemLink id="appliedenergistics2:controller"/>.
 
 While using [Ad-Hoc](ad-hoc-networks.md) networks each device will
 use 1 channel network wide, this is very different from how <ItemLink
@@ -43,7 +41,7 @@ route nature, if any specific spot in your system has two possible routes, you
 may find yourself returning home from a mining trip to see half your devices
 offline. Take a look at the following example:
 
-![Diagram showing that two equal length paths are bad.](../../public/assets/channels/badLength.png)
+![Diagram showing that two equal length paths are bad.](../../../public/assets/channels/badLength.png)
 
 ---
 
@@ -58,19 +56,19 @@ understand that basic issue and diagram look at these other diagrams.
 
 <div className="tile"><div className="tile">
 
-![An example of a good layout](../../public/assets/channels/good_split.png)
+![An example of a good layout](../../../public/assets/channels/good_split.png)
 
 </div><div className="tile">
 
-![An example of a bad layout](../../public/assets/channels/bad_split3.png)
+![An example of a bad layout](../../../public/assets/channels/bad_split3.png)
 
 </div><div className="tile">
 
-![An example of a bad layout](../../public/assets/channels/bad_split.png)
+![An example of a bad layout](../../../public/assets/channels/bad_split.png)
 
 </div><div className="tile">
 
-![An example of a bad layout](../../public/assets/channels/bad_split2.png)
+![An example of a bad layout](../../../public/assets/channels/bad_split2.png)
 
 </div></div>
 
@@ -94,9 +92,9 @@ controller, and your design is imbalanced, consider using p2p tunnels, since a
 tunnel connection is considered a single "hop" you can get the system to have
 a different outcome.
 
-![Diagram showing how to fix a previous setup with a p2p tunnel.](../../public/assets/channels/p2psplit.png)
+![Diagram showing how to fix a previous setup with a p2p tunnel.](../../../public/assets/channels/p2psplit.png)
 
-### Using p2p Tunnels to adjust route lengths
+### Using P2P-Tunnels to adjust route lengths
 
 One last important note about this, you can see that the p2p tunnel is
 directly on the controller, and directly on the block of machines at the

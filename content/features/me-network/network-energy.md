@@ -22,7 +22,7 @@ To see the current energy statistics for your network, right-click any part of i
 
 ## Energy Acceptor
 
-![Picture of a Energy Accepter.](../../../../public/assets/large/energy_accepter.png)
+![Picture of a Energy Accepter.](../../../public/assets/large/energy_accepter.png)
 
 The <ItemLink id="appliedenergistics2:energy_acceptor" /> converts energy from external
 systems into AE and stores it in the network.
@@ -38,17 +38,17 @@ The following energy systems are supported:
 
 ## Energy Storage
 
-![A picture of a uncharged, and charged energy cell.](../../../../public/assets/large/energy_cell.png)
+![A picture of a uncharged, and charged energy cell.](../../../public/assets/large/energy_cell.png)
 
 Stores up to 200,000 AE. They do not accept power directly, but are used to add
-additional power storage to an already existing [ME Network](me-network.md).
+additional power storage to an already existing [ME Network](../me-network.md).
 
 <RecipeFor id="appliedenergistics2:energy_cell" />
 
-![A picture of a uncharged, and charged energy cell.](../../../../public/assets/large/dense_energy_cell.png)
+![A picture of a uncharged, and charged energy cell.](../../../public/assets/large/dense_energy_cell.png)
 
 store AE energy up to 1.6 million units. They do not accept power directly but
-are used to add additional power storage to an already existing [ME Network](me-network.md).
+are used to add additional power storage to an already existing [ME Network](../me-network.md).
 
 <RecipeFor id="appliedenergistics2:dense_energy_cell" />
 
@@ -59,10 +59,10 @@ They can only be spawned in **Creative Mode**.
 
 ### Vibration Chamber
 
-![A picture of a Vibration Chamber.](../../../../public/assets/large/vibration_chamber.png)
+![A picture of a Vibration Chamber.](../../../public/assets/large/vibration_chamber.png)
 
 A modified furnace capable of generating AE Power instead of smelting ores. When
-placed on an [ME Network](me-network.md) it will charge <ItemLink id="appliedenergistics2:energy_cell"/> or
+placed on an [ME Network](../me-network.md) it will charge <ItemLink id="appliedenergistics2:energy_cell"/> or
 power other Network Devices.
 
 The <ItemLink id="appliedenergistics2:vibration_chamber"/> will burn
@@ -74,7 +74,7 @@ between 1 and 10 AE/t depending on its burn speed.
 
 ### Sharing Power Between Networks
 
-A part designed to share energy between two [ME Network](me-network.md)s without sharing anything else, also
+A part designed to share energy between two [ME Network](../me-network.md)s without sharing anything else, also
 used to craft <ItemLink id="appliedenergistics2:fluix_glass_cable" />.
 
 <RecipeFor id="appliedenergistics2:quartz_fiber" />

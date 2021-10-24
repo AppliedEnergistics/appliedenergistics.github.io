@@ -29,6 +29,6 @@ and output items, and requires 2 AE/t power to function, and additional power
 for each Storage Cell stored inside it.
 
 The <ItemLink id="appliedenergistics2:drive"/> requires a
-[channel](../../channels.md) to function.
+[channel](../channels.md) to function.
 
 <RecipeFor id="appliedenergistics2:drive" />

@@ -22,6 +22,6 @@ id="appliedenergistics2:wireless_access_point"/> with any number of
 <ItemLink id="appliedenergistics2:wireless_booster" /> in each one, allowing you
 to optimize power usage and range by altering your setup.
 
-Requires a [channel](../../channels.md) to be operational.
+Requires a [channel](../channels.md) to be operational.
 
 <RecipeFor id="appliedenergistics2:wireless_access_point" />

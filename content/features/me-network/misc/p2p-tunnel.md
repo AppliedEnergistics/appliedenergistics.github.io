@@ -19,7 +19,7 @@ Networks can support any number of tunnels, of any different types, and they
 all function independently.
 
 ME Tunnels can be used to carry channels from one location to another, and can
-carry up to 32 [channels](../../channels.md), same as a <ItemLink
+carry up to 32 [channels](../channels.md), same as a <ItemLink
 id="appliedenergistics2:fluix_covered_dense_cable"/>, while only
 requiring a single channel per point, making tunnels a very powerful tool to
 expand [me networks](../../me-network.md), especially over a distance.

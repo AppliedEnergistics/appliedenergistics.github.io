@@ -22,11 +22,11 @@ item_ids:
 title: ME Glass Cable
 ---
 
-![A Picture of Glass Cable.](../../../../public/assets/large/glass_cable.png)<ItemLink
-id="appliedenergistics2:fluix_glass_cable"/> is the simplest cable
-to make, transfers power and up to 8 [Channels](../../channels.md). It
-comes in 17 diffrent colors, the default being Fluix, and can be dyed any
-color using any of the 16 dyes.
+![A Picture of Glass Cable.](../../../../public/assets/large/glass_cable.png)
+
+<ItemLink id="appliedenergistics2:fluix_glass_cable" /> is the simplest cable to
+make, transfers power and up to 8 [Channels](../channels.md). It comes in 17 diffrent
+colors, the default being Fluix, and can be dyed any color using any of the 16 dyes.
 
 To craft colored cables surround a dye of any type with 8 cables of the same
 type ( color of the cables dosn't matter, but they must be the same type,
@@ -35,9 +35,8 @@ brush in world.
 
 You can craft any colored cable with a water bucket to remove the dye.
 
-You can cover the cable with wool to create <ItemLink
-id="appliedenergistics2:fluix_covered_cable"/>, and craft <ItemLink
-id="appliedenergistics2:fluix_smart_cable"/> to get a better idea of
-what is going on with your [Channels](../../channels.md).
+You can cover the cable with wool to create <ItemLink id="appliedenergistics2:fluix_covered_cable"/>, and craft <ItemLink
+id="appliedenergistics2:fluix_smart_cable"/> to get a better idea of what is going on with
+your [Channels](../channels.md).
 
 <RecipeFor id="appliedenergistics2:fluix_glass_cable" />

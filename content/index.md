@@ -9,7 +9,7 @@ Applied Energistics 2 is a mod for [Minecraft](https://www.minecraft.net/) which
 content, mostly centered around the concept of using Energy, and the Transformation of Energy in a unique way.
 Most features relate, or are part of the core mechanic, the [ME Network](features/me-network.md).
 
-Applied Energistics 2 is available for both the [Fabric](https://fabricmc.net/) and [Forge](https://www.minecraftforge.net) 
+Applied Energistics 2 is available for both the [Fabric](https://fabricmc.net/) and [Forge](https://www.minecraftforge.net)
 modding platforms. Please see the [downloads page](/download) for details.
 
 #### Applied Energistics 2 - [ME Networks](features/me-network.md) provide:
@@ -30,6 +30,6 @@ modding platforms. Please see the [downloads page](/download) for details.
 #### Getting Started
 
 - [Getting Started](getting-started.md)
-- [Channels](features/channels.md)
+- [Channels](features/me-network/channels.md)
 - [Miscellaneous Tips](miscellaneous-tips.md)
 - [Video Spotlights](video-spotlights.md)

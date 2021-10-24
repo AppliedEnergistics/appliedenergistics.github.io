@@ -14,7 +14,7 @@ id="appliedenergistics2:item_level_emitter"/>, <ItemLink
 id="appliedenergistics2:item_storage_bus"/>, <ItemLink
 id="appliedenergistics2:view_cell"/> and <ItemLink
 id="appliedenergistics2:1k_item_storage_cell"/> as well as other non
-spatial [storage cells](../storage-cells.md).
+spatial [storage cells](../me-network/storage-cells.md).
 
 ### Fuzzy Comparison Details
 

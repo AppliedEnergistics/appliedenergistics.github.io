@@ -16,6 +16,6 @@ grid with access to a [ME Network](../../me-network.md)'s Networked
 Storage.
 
 Like the <ItemLink id="appliedenergistics2:terminal"/> it also
-requires a [channel](../../channels.md) to function.
+requires a [channel](../channels.md) to function.
 
 <RecipeFor id="appliedenergistics2:crafting_terminal" />

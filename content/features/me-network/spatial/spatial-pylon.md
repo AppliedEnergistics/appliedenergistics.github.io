@@ -20,7 +20,7 @@ id="appliedenergistics2:spatial_pylon"/> in an [ME Network](../ME-
 Network/index.html) are part of the came [SCS](../Spatial-Containment-
 Structure/index.html).
 
-Each Spatial Pylon Multiblock requires a [channel](../../channels.md) ( 1
+Each Spatial Pylon Multiblock requires a [channel](../channels.md) ( 1
 per strand of blocks, not 1 per <ItemLink
 id="appliedenergistics2:spatial_pylon"/> ) to function.
 

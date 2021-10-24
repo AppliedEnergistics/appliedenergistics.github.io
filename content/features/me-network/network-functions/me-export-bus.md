@@ -17,7 +17,7 @@ You must configure which items it will insert, leaving the configuration blank w
 The <ItemLink id="appliedenergistics2:item_export_bus"/> will try to export any of the items on its list
 skipping over those it cannot fit into the destination.
 
-The <ItemLink id="appliedenergistics2:item_export_bus"/> requires a [channel](../../channels.md) to function.
+The <ItemLink id="appliedenergistics2:item_export_bus"/> requires a [channel](../channels.md) to function.
 
 This is the functional opposite of the <ItemLink id="appliedenergistics2:item_import_bus"/>.
 

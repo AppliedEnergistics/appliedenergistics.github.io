@@ -37,13 +37,6 @@ signal to the <ItemLink id="appliedenergistics2:spatial_io_port"/>
 will trigger the capture/deployment of the cell into the [SCS](../Spatial-
 Containment-Structure/index.html).
 
-Requires a [channel](../../channels.md) to function.
-
-**\* Note Spatial uses a white list compatibilty system, only tile entities
-marked as "whitelisted" can be moved with this system, other mod authors can
-opt-into this, AE2 provides support for itself, and Vanilla.**
-
-**Also see[Spatial IO Compat
-Project](https://github.com/AlgorithmX2/SpatialIO-Compat)**
+Requires a [channel](../channels.md) to function.
 
 <RecipeFor id="appliedenergistics2:spatial_io_port" />

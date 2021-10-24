@@ -6,7 +6,7 @@ item_ids:
 title: Inverter Card
 ---
 
-In non spatial [storage cells](../storage-cells.md) such as <ItemLink
+In non spatial [storage cells](../me-network/storage-cells.md) such as <ItemLink
 id="appliedenergistics2:1k_item_storage_cell"/>, <ItemLink
 id="appliedenergistics2:view_cell"/>, <ItemLink
 id="appliedenergistics2:item_formation_plane"/> and the <ItemLink

@@ -42,6 +42,6 @@ this advanced feature. (As of this writing, autocrafting in another network
 won't reliably use the items in a configured interface.)
 
 The <ItemLink id="appliedenergistics2:item_interface"/> require a
-[channel](../../channels.md) to function.
+[channel](../channels.md) to function.
 
 <RecipeFor id="appliedenergistics2:item_interface" />

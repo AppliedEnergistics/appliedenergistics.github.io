@@ -29,7 +29,7 @@ primary crafting ingredient.
 
 You'll notice that mining <ItemLink id="quartz_ore" /> primarily drops <ItemLink id="certus_quartz_dust" />.
 
-To get more than the occasional crystal dropped from <ItemLink id="quartz_ore" />, you need 
+To get more than the occasional crystal dropped from <ItemLink id="quartz_ore" />, you need
 to [grow crystals from seeds](./features/crystals.md).
 
 ## Alright, I have a bunch of Certus and Nether Quartz; how do I move up in the world?
@@ -43,10 +43,10 @@ process:
 2. Create <ItemLink id="fluix_crystal_seed" /> by combining <ItemLink id="fluix_dust" /> with <ItemLink id="minecraft:sand" />.
 3. [Grow the seed](./features/crystals.md) in a pool of water.
 
-You can create <ItemLink id="appliedenergistics2:charged_certus_quartz_crystal"/> in a Charger, which can be powered 
+You can create <ItemLink id="appliedenergistics2:charged_certus_quartz_crystal"/> in a Charger, which can be powered
 by a <ItemLink id="vibration_chamber" /> full of coal.
 
-Since growing crystals without any accelerators takes a long time, you should invest your first fluix crystals into 
+Since growing crystals without any accelerators takes a long time, you should invest your first fluix crystals into
 building as many <ItemLink id="quartz_growth_accelerator" /> as you can.
 
 After this, you're set to start on the next level of tech with an <ItemLink id="appliedenergistics2:inscriber" />.
@@ -146,24 +146,24 @@ the network.
 ### Overcoming Limits
 
 At this point you probably getting close to 8 or so devices, once you hit 9 devices you'll have to start
-managing [channels](features/channels.md). Many devices but not all, require a [channel](features/channels.md) to
+managing [channels](features/me-network/channels.md). Many devices but not all, require a [channel](features/me-network/channels.md) to
 function. If the device deals solely with power, or connectivity like cables the device will not require
-a [channel](features/channels.md). Anything that uses items, or moves them around, will.
+a [channel](features/me-network/channels.md). Anything that uses items, or moves them around, will.
 
-By default network can support 8 [channels](features/channels.md), once you break this limit, you'll have to add an <
+By default network can support 8 [channels](features/me-network/channels.md), once you break this limit, you'll have to add an <
 ItemLink id="appliedenergistics2:controller"/> to your network. this allows you to expand your network greatly.
 
-Each face of the controller will output 32 [channels](features/channels.md), depending on whats is accepting
-these [channels](features/channels.md) will determin how they get used, for instance, if you place a <ItemLink id="
+Each face of the controller will output 32 [channels](features/me-network/channels.md), depending on whats is accepting
+these [channels](features/me-network/channels.md) will determin how they get used, for instance, if you place a <ItemLink id="
 appliedenergistics2:fluix_covered_dense_cable"/> next tohe controller you will beable to carry a full 32
-[channels](features/channels.md), however if you place a <ItemLink id="appliedenergistics2:drive"/> next to it, or
-non-dense cable, you will only get 8 [channels](features/channels.md).
+[channels](features/me-network/channels.md), however if you place a <ItemLink id="appliedenergistics2:drive"/> next to it, or
+non-dense cable, you will only get 8 [channels](features/me-network/channels.md).
 
 ### Tunneling
 
-So your getting things started, but getting [channels](features/channels.md)
+So your getting things started, but getting [channels](features/me-network/channels.md)
 where you want them is kinda a nusance. Its time to start using <ItemLink id="appliedenergistics2:me_p2p_tunnel"/>.
-These when configured for ME, allow you to move [channels](features/channels.md) from point to point; this allows you to
-move up to 32 [channels](features/channels.md) per pair of <ItemLink id="appliedenergistics2:me_p2p_tunnel"/>.
+These when configured for ME, allow you to move [channels](features/me-network/channels.md) from point to point; this allows you to
+move up to 32 [channels](features/me-network/channels.md) per pair of <ItemLink id="appliedenergistics2:me_p2p_tunnel"/>.
 
 ![A example of using P2P Tunnels to move channels.](../public/assets/large/tunnelchannels.png)

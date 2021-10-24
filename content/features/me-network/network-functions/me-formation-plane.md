@@ -16,6 +16,6 @@ the network are dropped or placed passively. You can configure the <ItemLink
 id="appliedenergistics2:item_formation_plane"/> to indicate specific
 items it should place. Items are placed instantly when they enter the network.
 
-Requires a [channel](../../channels.md) to function.
+Requires a [channel](../channels.md) to function.
 
 <RecipeFor id="appliedenergistics2:item_formation_plane" />

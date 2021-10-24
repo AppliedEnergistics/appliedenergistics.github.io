@@ -19,7 +19,7 @@ The storage via the <ItemLink id="appliedenergistics2:item_storage_bus"/>
 is bi-directional, it can both insert, or extract items from the inventory
 block it is attached to as long as the <ItemLink
 id="appliedenergistics2:item_storage_bus"/> has its required
-[channel](../../channels.md).
+[channel](../channels.md).
 
 The UI allows you to control which items are selected as storable items, this
 selection has no effect on what items can be extracted once they are in the

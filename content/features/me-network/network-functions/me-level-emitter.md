@@ -15,7 +15,7 @@ level. You can set the threshold and if the <ItemLink
 id="appliedenergistics2:item_level_emitter"/> will emit a redstone signal
 or turn it off.
 
-Requires a [channel](../../channels.md) to function, if its power or
+Requires a [channel](../channels.md) to function, if its power or
 channel is lost the emitter will switch to an off state.
 
 These can tap into the crafting system when a crafting card is installed,
