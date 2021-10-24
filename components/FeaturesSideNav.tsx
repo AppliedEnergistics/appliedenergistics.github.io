@@ -28,6 +28,8 @@ const sideNav: MenuEntry[] = [
         path: "features/me-network.md",
       },
       "features/me-network/channels.md",
+      "features/me-network/ad-hoc-networks.md",
+      "features/me-network/cables.md",
       "features/me-network/storage-cells.md",
       "features/me-network/network-energy.md",
       "features/me-network/wireless-access.md",
