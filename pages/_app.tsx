@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import NavBar from "../components/NavBar";
 import FeaturesSideNav from "../components/FeaturesSideNav";
+import "@docsearch/css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { pagePath } = pageProps;

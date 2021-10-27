@@ -3,6 +3,7 @@ import Link from "next/link";
 import Icon from "@mdi/react";
 import { mdiDiscord, mdiFileDocumentEdit, mdiGithub } from "@mdi/js";
 import FeaturesSideNav from "./FeaturesSideNav";
+import { DocSearch } from "@docsearch/react";
 
 export interface NavBarProps {
   pagePath?: string;
@@ -88,6 +89,13 @@ function NavBar({ pagePath }: NavBarProps) {
         </div>
 
         <div className="navbar-end">
+          <div className="navbar-item">
+            <DocSearch
+              appId="BH4D9OD16A"
+              indexName="appliedenergistics"
+              apiKey="94d3e24246b4e2a2e8bc6cb3c2da05e4"
+            />
+          </div>
           <div className="navbar-item">
             <div className="buttons">
               <a
