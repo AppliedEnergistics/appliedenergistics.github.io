@@ -4,10 +4,8 @@ title: Ad Hoc Networks
 
 # Ad Hoc Networks
 
-Ad-Hoc networks are small [ME Networks](../me-network.md) with 8 or
-fewer [channels](channels.md) using devices, they do not have a
-
-<ItemLink id="appliedenergistics2:controller" />.
+Ad-Hoc networks are small [ME Networks](../me-network.md) that do not have an <ItemLink id="appliedenergistics2:controller" />.
+They can have up to 8 [channels](channels.md) using devices.
 
 You can use them as small stand alone systems, or as systems designed to
 enhance a larger [ME Network](../me-network.md), generally they are

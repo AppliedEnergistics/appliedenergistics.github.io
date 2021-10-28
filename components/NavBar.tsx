@@ -52,7 +52,7 @@ function NavBar({ pagePath }: NavBarProps) {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://appliedenergistics.github.io">
+        <a className="navbar-item" href="/">
           <img alt="" src="/assets/logo/logo_00.png" />
           Applied Energistics 2
         </a>
