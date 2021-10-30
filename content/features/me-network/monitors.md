@@ -16,7 +16,7 @@ interactions to modify it.
 | Right-click with item             | Will display the current stored amount of that item if not locked. |
 | Right-click with empty hand       | Will reset the display if not locked.                              |
 | Shift+Right-click with empty hand | Will toggle the lock.                                              |
-| Right-click with wrench           | Will rotate the monitor.                                           |
+| Right-click with wrench           | Will rotate the monitor if it is locked.                           |
 
 <RecipeFor id="appliedenergistics2:storage_monitor" />
 
