@@ -6,8 +6,7 @@ item_ids:
 title: Crystal Growth Accelerator
 ---
 
-Used to accelerate [crystal growth](../Crystal-
-Purification/index.html), which allows you to create <ItemLink
+Used to accelerate [crystal growth](../../crystals.md), which allows you to create <ItemLink
 id="appliedenergistics2:certus_quartz_crystal"/> and
 
 <ItemLink id="appliedenergistics2:fluix_crystal" /> from crystal dust.

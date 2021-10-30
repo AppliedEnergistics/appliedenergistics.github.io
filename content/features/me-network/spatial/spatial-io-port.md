@@ -23,8 +23,7 @@ or <ItemLink id="appliedenergistics2:dense_energy_cell"/> to meet
 the demands of the <ItemLink
 id="appliedenergistics2:spatial_io_port"/>.
 
-Once power is available and your [SCS](../Spatial-Containment-
-Structure/index.html) is valid, you need to insert a <ItemLink
+Once power is available and your [SCS](spatial-containment-structure.md) is valid, you need to insert a <ItemLink
 id="appliedenergistics2:2_cubed_spatial_storage_cell"/>, <ItemLink
 id="appliedenergistics2:16_cubed_spatial_storage_cell"/>, or
 
@@ -34,8 +33,7 @@ depending on the required size you may need a larger or small storage cell.
 When everything is ready, and the storage cell is placed inside the <ItemLink
 id="appliedenergistics2:spatial_io_port"/> applying a redstone
 signal to the <ItemLink id="appliedenergistics2:spatial_io_port"/>
-will trigger the capture/deployment of the cell into the [SCS](../Spatial-
-Containment-Structure/index.html).
+will trigger the capture/deployment of the cell into the [SCS](spatial-containment-structure.md).
 
 Requires a [channel](../channels.md) to function.
 
