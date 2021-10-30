@@ -1,5 +1,6 @@
 ---
 title: Quantum Bridge
+sidenav_icon: appliedenergistics2:singularity
 item_ids:
   - appliedenergistics2:quantum_link
   - appliedenergistics2:quantum_ring

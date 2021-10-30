@@ -1,5 +1,6 @@
 ---
 title: Crystals
+sidenav_icon: appliedenergistics2:certus_quartz_crystal
 item_ids:
   - appliedenergistics2:quartz_ore
   - appliedenergistics2:certus_quartz_crystal

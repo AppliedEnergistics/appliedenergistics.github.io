@@ -2,6 +2,7 @@ import React from "react";
 import { allPages } from "../data/site-data";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { getItemInfo } from "../data/game-data";
 
 const sideNav: MenuEntry[] = [
   {
@@ -102,12 +103,25 @@ function FeaturesSideNav() {
               throw new Error(`Failed to find page with path '${pagePath}'`);
             }
 
+            let icon: string | undefined;
+            if (page.sidenavIcon) {
+              const item = getItemInfo(page.sidenavIcon);
+              icon = item.icon;
+            }
+
             const active = page.url === pageUrl;
             return (
               <li key={index}>
                 <Link href={page.url} passHref>
                   <a className={active ? "is-active" : undefined}>
-                    {pageTitle ?? page.title}
+                    <div className="icon-text">
+                      {icon ? (
+                        <span className="icon">
+                          <img src={icon} />
+                        </span>
+                      ) : null}
+                      <span>{pageTitle ?? page.title}</span>
+                    </div>
                   </a>
                 </Link>
               </li>

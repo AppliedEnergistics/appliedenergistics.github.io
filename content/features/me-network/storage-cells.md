@@ -1,5 +1,6 @@
 ---
 title: Storage Cells
+sidenav_icon: appliedenergistics2:64k_item_storage_cell
 ---
 
 Storage Cells, are one of the core mechanics of storage in Applied Energistics

@@ -1,5 +1,6 @@
 ---
 title: Network Energy
+sidenav_icon: appliedenergistics2:energy_cell
 item_ids:
   - appliedenergistics2:energy_acceptor
   - appliedenergistics2:cable_energy_acceptor

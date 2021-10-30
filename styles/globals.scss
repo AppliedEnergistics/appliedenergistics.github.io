@@ -26,7 +26,7 @@ img.item-icon {
 
   @include desktop {
     display: grid;
-    grid-template-columns: 13.25rem 1fr;
+    grid-template-columns: 14.25rem 1fr;
 
     > :first-child {
       padding: 1.25rem;

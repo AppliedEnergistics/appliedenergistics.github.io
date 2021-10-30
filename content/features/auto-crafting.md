@@ -1,5 +1,6 @@
 ---
 title: Auto-Crafting
+sidenav_icon: appliedenergistics2:molecular_assembler
 item_ids:
   - appliedenergistics2:blank_pattern
   - appliedenergistics2:crafting_pattern

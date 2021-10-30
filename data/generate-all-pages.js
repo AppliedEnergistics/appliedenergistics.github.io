@@ -34,9 +34,15 @@ module.exports = function () {
 
   for (let pagePath of pagesFilePaths) {
     const { data } = readPage(pagePath);
-    let { item_ids: itemIds, title, categories } = data;
+    let {
+      sidenav_icon: sidenavIcon,
+      item_ids: itemIds,
+      title,
+      categories,
+    } = data;
     itemIds ??= [];
     categories ??= [];
+    sidenavIcon ??= itemIds[0];
 
     pages.push({
       path: pagePath,
@@ -44,6 +50,7 @@ module.exports = function () {
       title,
       categories,
       itemIds,
+      sidenavIcon,
     });
   }
 

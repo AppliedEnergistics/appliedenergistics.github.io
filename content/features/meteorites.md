@@ -1,8 +1,8 @@
 ---
 title: Meteorites
 item_ids:
-  - appliedenergistics2:sky_stone_block
   - appliedenergistics2:sky_compass
+  - appliedenergistics2:sky_stone_block
 ---
 
 ### Meteorites

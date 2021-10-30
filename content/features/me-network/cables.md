@@ -1,5 +1,6 @@
 ---
 title: Cables
+sidenav_icon: appliedenergistics2:fluix_glass_cable
 item_ids:
   - appliedenergistics2:white_glass_cable
   - appliedenergistics2:orange_glass_cable
