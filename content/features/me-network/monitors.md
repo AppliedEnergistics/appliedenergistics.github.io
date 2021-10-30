@@ -11,12 +11,12 @@ The <ItemLink id="appliedenergistics2:storage_monitor"/> is a simple
 way to see the current level of a specified item. There are several
 interactions to modify it.
 
-| Action                            | Effect                                                             |
-| --------------------------------- | ------------------------------------------------------------------ |
-| Right-click with item             | Will display the current stored amount of that item if not locked. |
-| Right-click with empty hand       | Will reset the display if not locked.                              |
-| Shift+Right-click with empty hand | Will toggle the lock.                                              |
-| Right-click with wrench           | Will rotate the monitor if it is locked.                           |
+| Action                            | Effect                                                                |
+| --------------------------------- | --------------------------------------------------------------------- |
+| Right-click with item             | Will display the current stored amount of that item if not locked.    |
+| Right-click with empty hand       | Will reset the display if not locked.                                 |
+| Shift+Right-click with empty hand | Will toggle the lock.                                                 |
+| Right-click with wrench           | Will rotate the monitor if it is locked and on the ground or ceiling. |
 
 <RecipeFor id="appliedenergistics2:storage_monitor" />
 
