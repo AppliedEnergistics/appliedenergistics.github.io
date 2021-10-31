@@ -79,7 +79,7 @@ function P2PTunnelTypes() {
   return (
     <>
       {p2pTunnelTypes.map((typeInfo) => (
-        <P2PTunnelType typeInfo={typeInfo} />
+        <P2PTunnelType key={typeInfo.tunnelItemId} typeInfo={typeInfo} />
       ))}
     </>
   );
