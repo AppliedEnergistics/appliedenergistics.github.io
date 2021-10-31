@@ -37,6 +37,7 @@ const sideNav: MenuEntry[] = [
       "features/me-network/monitors.md",
       "features/me-network/wireless-access.md",
       "features/me-network/quantum-bridge.md",
+      "features/me-network/misc/p2p-tunnel.md",
     ],
   },
   {

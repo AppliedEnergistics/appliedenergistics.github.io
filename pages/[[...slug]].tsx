@@ -25,6 +25,7 @@ import MdxParagraph from "../components/MdxParagraph";
 import InscriberRecipes from "../components/recipes/InscriberRecipes";
 import ItemGrid from "../components/ItemGrid";
 import ItemIcon from "../components/ItemIcon";
+import P2PTunnelTypes from "../components/P2PTunnelTypes";
 
 const components = {
   a: MdxLink,
@@ -37,6 +38,7 @@ const components = {
   SubCategories,
   InscriberRecipes,
   p: MdxParagraph,
+  P2PTunnelTypes,
 };
 
 interface ContentPageProps {

@@ -1,7 +1,7 @@
 {
-  "generated": "2021-10-21T21:50:26.980382700Z",
+  "generated": "2021-10-31T16:11:55.284844400Z",
   "gameVersion": "1.17.1",
-  "modVersion": "75e29fccc",
+  "modVersion": "a65eaec12",
   "craftingRecipes": {
     "appliedenergistics2:tools/paintballs_lumen_light_blue": {
       "id": "appliedenergistics2:tools/paintballs_lumen_light_blue",
@@ -183,6 +183,35 @@
       "resultItem": "appliedenergistics2:4k_fluid_storage_cell",
       "resultCount": 1
     },
+    "appliedenergistics2:network/cells/item_storage_cell_16k_storage": {
+      "id": "appliedenergistics2:network/cells/item_storage_cell_16k_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:16k_item_cell_component"
+        ],
+        [
+          "appliedenergistics2:empty_storage_cell"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:16k_item_storage_cell",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/parts/panels_semi_dark_monitor_alt": {
+      "id": "appliedenergistics2:network/parts/panels_semi_dark_monitor_alt",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:dark_monitor"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:semi_dark_monitor",
+      "resultCount": 1
+    },
     "appliedenergistics2:misc/vanilla_daylight_detector": {
       "id": "appliedenergistics2:misc/vanilla_daylight_detector",
       "shapeless": false,
@@ -289,48 +318,6 @@
       "resultItem": "minecraft:daylight_detector",
       "resultCount": 1
     },
-    "appliedenergistics2:network/parts/panels_semi_dark_monitor_alt": {
-      "id": "appliedenergistics2:network/parts/panels_semi_dark_monitor_alt",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:dark_monitor"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:semi_dark_monitor",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/cells/item_storage_cell_16k_storage": {
-      "id": "appliedenergistics2:network/cells/item_storage_cell_16k_storage",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:16k_item_cell_component"
-        ],
-        [
-          "appliedenergistics2:empty_storage_cell"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:16k_item_storage_cell",
-      "resultCount": 1
-    },
-    "appliedenergistics2:decorative/sky_stone_brick": {
-      "id": "appliedenergistics2:decorative/sky_stone_brick",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:smooth_sky_stone_block"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:sky_stone_brick",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cells/item_storage_cell_4k": {
       "id": "appliedenergistics2:network/cells/item_storage_cell_4k",
       "shapeless": false,
@@ -366,6 +353,19 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:4k_item_storage_cell",
+      "resultCount": 1
+    },
+    "appliedenergistics2:decorative/sky_stone_brick": {
+      "id": "appliedenergistics2:decorative/sky_stone_brick",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:smooth_sky_stone_block"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:sky_stone_brick",
       "resultCount": 1
     },
     "appliedenergistics2:network/cables/smart_blue": {
@@ -751,43 +751,6 @@
       "resultItem": "minecraft:comparator",
       "resultCount": 1
     },
-    "appliedenergistics2:network/cells/fluid_storage_cell_4k": {
-      "id": "appliedenergistics2:network/cells/fluid_storage_cell_4k",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:quartz_glass"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "appliedenergistics2:quartz_glass"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "appliedenergistics2:4k_fluid_cell_component"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:4k_fluid_storage_cell",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/smart_brown": {
       "id": "appliedenergistics2:network/cables/smart_brown",
       "shapeless": false,
@@ -825,18 +788,42 @@
       "resultItem": "appliedenergistics2:brown_smart_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:misc/deconstruction_certus_chiseled_quartz": {
-      "id": "appliedenergistics2:misc/deconstruction_certus_chiseled_quartz",
-      "shapeless": true,
+    "appliedenergistics2:network/cells/fluid_storage_cell_4k": {
+      "id": "appliedenergistics2:network/cells/fluid_storage_cell_4k",
+      "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:chiseled_quartz_block"
+          "appliedenergistics2:quartz_glass"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "appliedenergistics2:quartz_glass"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "appliedenergistics2:4k_fluid_cell_component"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
         ]
       ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:certus_quartz_crystal",
-      "resultCount": 4
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:4k_fluid_storage_cell",
+      "resultCount": 1
     },
     "appliedenergistics2:tools/paintballs_lumen_green": {
       "id": "appliedenergistics2:tools/paintballs_lumen_green",
@@ -874,6 +861,19 @@
       "height": 3,
       "resultItem": "appliedenergistics2:green_lumen_paint_ball",
       "resultCount": 8
+    },
+    "appliedenergistics2:misc/deconstruction_certus_chiseled_quartz": {
+      "id": "appliedenergistics2:misc/deconstruction_certus_chiseled_quartz",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:chiseled_quartz_block"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:certus_quartz_crystal",
+      "resultCount": 4
     },
     "appliedenergistics2:tools/paintballs_red": {
       "id": "appliedenergistics2:tools/paintballs_red",
@@ -1012,19 +1012,6 @@
       "resultItem": "appliedenergistics2:magenta_paint_ball",
       "resultCount": 8
     },
-    "appliedenergistics2:network/parts/panels_dark_monitor": {
-      "id": "appliedenergistics2:network/parts/panels_dark_monitor",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:monitor"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:dark_monitor",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/parts/terminals_interface": {
       "id": "appliedenergistics2:network/parts/terminals_interface",
       "shapeless": true,
@@ -1045,6 +1032,19 @@
       "width": 0,
       "height": 0,
       "resultItem": "appliedenergistics2:interface_terminal",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/parts/panels_dark_monitor": {
+      "id": "appliedenergistics2:network/parts/panels_dark_monitor",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:monitor"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:dark_monitor",
       "resultCount": 1
     },
     "appliedenergistics2:shaped/stairs/quartz_pillar": {
@@ -1146,19 +1146,6 @@
       "resultItem": "appliedenergistics2:sky_stone_small_brick_stairs",
       "resultCount": 4
     },
-    "appliedenergistics2:network/parts/energy_acceptor": {
-      "id": "appliedenergistics2:network/parts/energy_acceptor",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:energy_acceptor"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:cable_energy_acceptor",
-      "resultCount": 1
-    },
     "appliedenergistics2:tools/network_64k_portable_cell": {
       "id": "appliedenergistics2:tools/network_64k_portable_cell",
       "shapeless": false,
@@ -1176,6 +1163,19 @@
       "width": 3,
       "height": 1,
       "resultItem": "appliedenergistics2:64k_portable_item_cell",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/parts/energy_acceptor": {
+      "id": "appliedenergistics2:network/parts/energy_acceptor",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:energy_acceptor"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:cable_energy_acceptor",
       "resultCount": 1
     },
     "appliedenergistics2:tools/paintballs_lumen_lime": {
@@ -1215,6 +1215,19 @@
       "resultItem": "appliedenergistics2:lime_lumen_paint_ball",
       "resultCount": 8
     },
+    "appliedenergistics2:network/blocks/fluid_interfaces_interface_alt": {
+      "id": "appliedenergistics2:network/blocks/fluid_interfaces_interface_alt",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:cable_fluid_interface"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:fluid_interface",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/cables/covered_magenta": {
       "id": "appliedenergistics2:network/cables/covered_magenta",
       "shapeless": false,
@@ -1251,19 +1264,6 @@
       "height": 3,
       "resultItem": "appliedenergistics2:magenta_covered_cable",
       "resultCount": 8
-    },
-    "appliedenergistics2:network/blocks/fluid_interfaces_interface_alt": {
-      "id": "appliedenergistics2:network/blocks/fluid_interfaces_interface_alt",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:cable_fluid_interface"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:fluid_interface",
-      "resultCount": 1
     },
     "appliedenergistics2:network/cables/smart_gray": {
       "id": "appliedenergistics2:network/cables/smart_gray",
@@ -1664,6 +1664,34 @@
       "resultItem": "appliedenergistics2:lime_glass_cable",
       "resultCount": 8
     },
+    "appliedenergistics2:shaped/walls/sky_stone_small_brick": {
+      "id": "appliedenergistics2:shaped/walls/sky_stone_small_brick",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:sky_stone_small_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_small_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_small_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_small_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_small_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_small_brick"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "appliedenergistics2:sky_stone_small_brick_wall",
+      "resultCount": 6
+    },
     "appliedenergistics2:network/cables/covered_blue": {
       "id": "appliedenergistics2:network/cables/covered_blue",
       "shapeless": false,
@@ -1700,34 +1728,6 @@
       "height": 3,
       "resultItem": "appliedenergistics2:blue_covered_cable",
       "resultCount": 8
-    },
-    "appliedenergistics2:shaped/walls/sky_stone_small_brick": {
-      "id": "appliedenergistics2:shaped/walls/sky_stone_small_brick",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:sky_stone_small_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_small_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_small_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_small_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_small_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_small_brick"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "appliedenergistics2:sky_stone_small_brick_wall",
-      "resultCount": 6
     },
     "appliedenergistics2:network/cables/dense_smart_cyan": {
       "id": "appliedenergistics2:network/cables/dense_smart_cyan",
@@ -1836,22 +1836,6 @@
       "resultItem": "appliedenergistics2:smooth_sky_stone_chest",
       "resultCount": 1
     },
-    "appliedenergistics2:network/crafting/16k_cpu_crafting_storage": {
-      "id": "appliedenergistics2:network/crafting/16k_cpu_crafting_storage",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:16k_item_cell_component"
-        ],
-        [
-          "appliedenergistics2:crafting_unit"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:16k_crafting_storage",
-      "resultCount": 1
-    },
     "appliedenergistics2:tools/nether_quartz_sword": {
       "id": "appliedenergistics2:tools/nether_quartz_sword",
       "shapeless": false,
@@ -1869,6 +1853,22 @@
       "width": 1,
       "height": 3,
       "resultItem": "appliedenergistics2:nether_quartz_sword",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/crafting/16k_cpu_crafting_storage": {
+      "id": "appliedenergistics2:network/crafting/16k_cpu_crafting_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:16k_item_cell_component"
+        ],
+        [
+          "appliedenergistics2:crafting_unit"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:16k_crafting_storage",
       "resultCount": 1
     },
     "appliedenergistics2:tools/paintballs_black": {
@@ -1908,38 +1908,6 @@
       "resultItem": "appliedenergistics2:black_paint_ball",
       "resultCount": 8
     },
-    "appliedenergistics2:network/cables/dense_covered_fluix_clean": {
-      "id": "appliedenergistics2:network/cables/dense_covered_fluix_clean",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:white_covered_dense_cable",
-          "appliedenergistics2:orange_covered_dense_cable",
-          "appliedenergistics2:magenta_covered_dense_cable",
-          "appliedenergistics2:light_blue_covered_dense_cable",
-          "appliedenergistics2:yellow_covered_dense_cable",
-          "appliedenergistics2:lime_covered_dense_cable",
-          "appliedenergistics2:pink_covered_dense_cable",
-          "appliedenergistics2:gray_covered_dense_cable",
-          "appliedenergistics2:light_gray_covered_dense_cable",
-          "appliedenergistics2:cyan_covered_dense_cable",
-          "appliedenergistics2:purple_covered_dense_cable",
-          "appliedenergistics2:blue_covered_dense_cable",
-          "appliedenergistics2:brown_covered_dense_cable",
-          "appliedenergistics2:green_covered_dense_cable",
-          "appliedenergistics2:red_covered_dense_cable",
-          "appliedenergistics2:black_covered_dense_cable",
-          "appliedenergistics2:fluix_covered_dense_cable"
-        ],
-        [
-          "minecraft:water_bucket"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:fluix_covered_dense_cable",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cells/view_cell": {
       "id": "appliedenergistics2:network/cells/view_cell",
       "shapeless": false,
@@ -1976,6 +1944,38 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:view_cell",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/cables/dense_covered_fluix_clean": {
+      "id": "appliedenergistics2:network/cables/dense_covered_fluix_clean",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:white_covered_dense_cable",
+          "appliedenergistics2:orange_covered_dense_cable",
+          "appliedenergistics2:magenta_covered_dense_cable",
+          "appliedenergistics2:light_blue_covered_dense_cable",
+          "appliedenergistics2:yellow_covered_dense_cable",
+          "appliedenergistics2:lime_covered_dense_cable",
+          "appliedenergistics2:pink_covered_dense_cable",
+          "appliedenergistics2:gray_covered_dense_cable",
+          "appliedenergistics2:light_gray_covered_dense_cable",
+          "appliedenergistics2:cyan_covered_dense_cable",
+          "appliedenergistics2:purple_covered_dense_cable",
+          "appliedenergistics2:blue_covered_dense_cable",
+          "appliedenergistics2:brown_covered_dense_cable",
+          "appliedenergistics2:green_covered_dense_cable",
+          "appliedenergistics2:red_covered_dense_cable",
+          "appliedenergistics2:black_covered_dense_cable",
+          "appliedenergistics2:fluix_covered_dense_cable"
+        ],
+        [
+          "minecraft:water_bucket"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:fluix_covered_dense_cable",
       "resultCount": 1
     },
     "appliedenergistics2:network/cables/dense_covered_pink": {
@@ -2038,33 +2038,42 @@
       "resultItem": "appliedenergistics2:fluid_storage_bus",
       "resultCount": 1
     },
-    "appliedenergistics2:shaped/walls/quartz_pillar": {
-      "id": "appliedenergistics2:shaped/walls/quartz_pillar",
+    "appliedenergistics2:tools/paintballs_lumen_white": {
+      "id": "appliedenergistics2:tools/paintballs_lumen_white",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:quartz_pillar"
+          "appliedenergistics2:white_paint_ball"
         ],
         [
-          "appliedenergistics2:quartz_pillar"
+          "appliedenergistics2:white_paint_ball"
         ],
         [
-          "appliedenergistics2:quartz_pillar"
+          "appliedenergistics2:white_paint_ball"
         ],
         [
-          "appliedenergistics2:quartz_pillar"
+          "appliedenergistics2:white_paint_ball"
         ],
         [
-          "appliedenergistics2:quartz_pillar"
+          "minecraft:glowstone_dust"
         ],
         [
-          "appliedenergistics2:quartz_pillar"
+          "appliedenergistics2:white_paint_ball"
+        ],
+        [
+          "appliedenergistics2:white_paint_ball"
+        ],
+        [
+          "appliedenergistics2:white_paint_ball"
+        ],
+        [
+          "appliedenergistics2:white_paint_ball"
         ]
       ],
       "width": 3,
-      "height": 2,
-      "resultItem": "appliedenergistics2:quartz_pillar_wall",
-      "resultCount": 6
+      "height": 3,
+      "resultItem": "appliedenergistics2:white_lumen_paint_ball",
+      "resultCount": 8
     },
     "appliedenergistics2:network/cells/item_storage_components_cell_1k_part": {
       "id": "appliedenergistics2:network/cells/item_storage_components_cell_1k_part",
@@ -2107,42 +2116,33 @@
       "resultItem": "appliedenergistics2:1k_item_cell_component",
       "resultCount": 1
     },
-    "appliedenergistics2:tools/paintballs_lumen_white": {
-      "id": "appliedenergistics2:tools/paintballs_lumen_white",
+    "appliedenergistics2:shaped/walls/quartz_pillar": {
+      "id": "appliedenergistics2:shaped/walls/quartz_pillar",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:white_paint_ball"
+          "appliedenergistics2:quartz_pillar"
         ],
         [
-          "appliedenergistics2:white_paint_ball"
+          "appliedenergistics2:quartz_pillar"
         ],
         [
-          "appliedenergistics2:white_paint_ball"
+          "appliedenergistics2:quartz_pillar"
         ],
         [
-          "appliedenergistics2:white_paint_ball"
+          "appliedenergistics2:quartz_pillar"
         ],
         [
-          "minecraft:glowstone_dust"
+          "appliedenergistics2:quartz_pillar"
         ],
         [
-          "appliedenergistics2:white_paint_ball"
-        ],
-        [
-          "appliedenergistics2:white_paint_ball"
-        ],
-        [
-          "appliedenergistics2:white_paint_ball"
-        ],
-        [
-          "appliedenergistics2:white_paint_ball"
+          "appliedenergistics2:quartz_pillar"
         ]
       ],
       "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:white_lumen_paint_ball",
-      "resultCount": 8
+      "height": 2,
+      "resultItem": "appliedenergistics2:quartz_pillar_wall",
+      "resultCount": 6
     },
     "appliedenergistics2:network/parts/fluid_export_bus": {
       "id": "appliedenergistics2:network/parts/fluid_export_bus",
@@ -2209,6 +2209,28 @@
       "resultItem": "appliedenergistics2:yellow_paint_ball",
       "resultCount": 8
     },
+    "appliedenergistics2:network/cables/dense_covered_fluix": {
+      "id": "appliedenergistics2:network/cables/dense_covered_fluix",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:fluix_covered_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_covered_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_covered_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_covered_cable"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:fluix_covered_dense_cable",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/cables/smart_orange": {
       "id": "appliedenergistics2:network/cables/smart_orange",
       "shapeless": false,
@@ -2246,57 +2268,6 @@
       "resultItem": "appliedenergistics2:orange_smart_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:network/cables/dense_covered_fluix": {
-      "id": "appliedenergistics2:network/cables/dense_covered_fluix",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:fluix_covered_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_covered_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_covered_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_covered_cable"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:fluix_covered_dense_cable",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/parts/toggle_bus": {
-      "id": "appliedenergistics2:network/parts/toggle_bus",
-      "shapeless": false,
-      "ingredients": [
-        [],
-        [
-          "minecraft:redstone"
-        ],
-        [],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "minecraft:lever"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [],
-        [
-          "minecraft:redstone"
-        ],
-        []
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:toggle_bus",
-      "resultCount": 1
-    },
     "appliedenergistics2:tools/paintballs_pink": {
       "id": "appliedenergistics2:tools/paintballs_pink",
       "shapeless": false,
@@ -2333,6 +2304,35 @@
       "height": 3,
       "resultItem": "appliedenergistics2:pink_paint_ball",
       "resultCount": 8
+    },
+    "appliedenergistics2:network/parts/toggle_bus": {
+      "id": "appliedenergistics2:network/parts/toggle_bus",
+      "shapeless": false,
+      "ingredients": [
+        [],
+        [
+          "minecraft:redstone"
+        ],
+        [],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "minecraft:lever"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [],
+        [
+          "minecraft:redstone"
+        ],
+        []
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:toggle_bus",
+      "resultCount": 1
     },
     "appliedenergistics2:tools/matter_cannon": {
       "id": "appliedenergistics2:tools/matter_cannon",
@@ -2489,6 +2489,37 @@
       "resultItem": "appliedenergistics2:purple_paint_ball",
       "resultCount": 8
     },
+    "appliedenergistics2:shaped/stairs/sky_stone_brick": {
+      "id": "appliedenergistics2:shaped/stairs/sky_stone_brick",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [],
+        [],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:sky_stone_brick_stairs",
+      "resultCount": 4
+    },
     "appliedenergistics2:network/blocks/io_port": {
       "id": "appliedenergistics2:network/blocks/io_port",
       "shapeless": false,
@@ -2574,65 +2605,6 @@
       "resultItem": "appliedenergistics2:io_port",
       "resultCount": 1
     },
-    "appliedenergistics2:shaped/stairs/sky_stone_brick": {
-      "id": "appliedenergistics2:shaped/stairs/sky_stone_brick",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [],
-        [],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:sky_stone_brick_stairs",
-      "resultCount": 4
-    },
-    "appliedenergistics2:tools/network_memory_card": {
-      "id": "appliedenergistics2:tools/network_memory_card",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:calculation_processor"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:gold_ingot"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "minecraft:gold_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "appliedenergistics2:memory_card",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/dense_smart_black": {
       "id": "appliedenergistics2:network/cables/dense_smart_black",
       "shapeless": false,
@@ -2669,6 +2641,34 @@
       "height": 3,
       "resultItem": "appliedenergistics2:black_smart_dense_cable",
       "resultCount": 8
+    },
+    "appliedenergistics2:tools/network_memory_card": {
+      "id": "appliedenergistics2:tools/network_memory_card",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:calculation_processor"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:gold_ingot"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:gold_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "appliedenergistics2:memory_card",
+      "resultCount": 1
     },
     "appliedenergistics2:network/wireless_part": {
       "id": "appliedenergistics2:network/wireless_part",
@@ -2901,34 +2901,6 @@
       "resultItem": "appliedenergistics2:tiny_tnt",
       "resultCount": 1
     },
-    "appliedenergistics2:shaped/walls/sky_stone_brick": {
-      "id": "appliedenergistics2:shaped/walls/sky_stone_brick",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ],
-        [
-          "appliedenergistics2:sky_stone_brick"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "appliedenergistics2:sky_stone_brick_wall",
-      "resultCount": 6
-    },
     "appliedenergistics2:network/cables/dense_smart_gray": {
       "id": "appliedenergistics2:network/cables/dense_smart_gray",
       "shapeless": false,
@@ -2965,6 +2937,34 @@
       "height": 3,
       "resultItem": "appliedenergistics2:gray_smart_dense_cable",
       "resultCount": 8
+    },
+    "appliedenergistics2:shaped/walls/sky_stone_brick": {
+      "id": "appliedenergistics2:shaped/walls/sky_stone_brick",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ],
+        [
+          "appliedenergistics2:sky_stone_brick"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "appliedenergistics2:sky_stone_brick_wall",
+      "resultCount": 6
     },
     "appliedenergistics2:network/cables/smart_lime": {
       "id": "appliedenergistics2:network/cables/smart_lime",
@@ -3173,6 +3173,22 @@
       "resultItem": "appliedenergistics2:64k_crafting_storage",
       "resultCount": 1
     },
+    "appliedenergistics2:network/parts/terminals_pattern": {
+      "id": "appliedenergistics2:network/parts/terminals_pattern",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:engineering_processor"
+        ],
+        [
+          "appliedenergistics2:crafting_terminal"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:pattern_terminal",
+      "resultCount": 1
+    },
     "appliedenergistics2:tools/network_4k_portable_cell": {
       "id": "appliedenergistics2:tools/network_4k_portable_cell",
       "shapeless": false,
@@ -3190,22 +3206,6 @@
       "width": 3,
       "height": 1,
       "resultItem": "appliedenergistics2:4k_portable_item_cell",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/parts/terminals_pattern": {
-      "id": "appliedenergistics2:network/parts/terminals_pattern",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:engineering_processor"
-        ],
-        [
-          "appliedenergistics2:crafting_terminal"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:pattern_terminal",
       "resultCount": 1
     },
     "appliedenergistics2:decorative/certus_quartz_pillar": {
@@ -3434,22 +3434,6 @@
       "resultItem": "appliedenergistics2:sky_stone_small_brick_slab",
       "resultCount": 6
     },
-    "appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage": {
-      "id": "appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:empty_storage_cell"
-        ],
-        [
-          "appliedenergistics2:128_cubed_spatial_cell_component"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:128_cubed_spatial_storage_cell",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/smart_green": {
       "id": "appliedenergistics2:network/cables/smart_green",
       "shapeless": false,
@@ -3486,6 +3470,22 @@
       "height": 3,
       "resultItem": "appliedenergistics2:green_smart_cable",
       "resultCount": 8
+    },
+    "appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage": {
+      "id": "appliedenergistics2:network/cells/spatial_storage_cell_128_cubed_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:empty_storage_cell"
+        ],
+        [
+          "appliedenergistics2:128_cubed_spatial_cell_component"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:128_cubed_spatial_storage_cell",
+      "resultCount": 1
     },
     "appliedenergistics2:network/cells/item_storage_cell_1k": {
       "id": "appliedenergistics2:network/cells/item_storage_cell_1k",
@@ -3524,56 +3524,6 @@
       "resultItem": "appliedenergistics2:1k_item_storage_cell",
       "resultCount": 1
     },
-    "appliedenergistics2:network/cables/glass_black": {
-      "id": "appliedenergistics2:network/cables/glass_black",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "minecraft:black_dye"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:black_glass_cable",
-      "resultCount": 8
-    },
-    "appliedenergistics2:misc/deconstruction_certus_quartz_block": {
-      "id": "appliedenergistics2:misc/deconstruction_certus_quartz_block",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:quartz_block"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:certus_quartz_crystal",
-      "resultCount": 4
-    },
     "appliedenergistics2:tools/paintballs_gray": {
       "id": "appliedenergistics2:tools/paintballs_gray",
       "shapeless": false,
@@ -3609,6 +3559,56 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:gray_paint_ball",
+      "resultCount": 8
+    },
+    "appliedenergistics2:misc/deconstruction_certus_quartz_block": {
+      "id": "appliedenergistics2:misc/deconstruction_certus_quartz_block",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:quartz_block"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:certus_quartz_crystal",
+      "resultCount": 4
+    },
+    "appliedenergistics2:network/cables/glass_black": {
+      "id": "appliedenergistics2:network/cables/glass_black",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "minecraft:black_dye"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:black_glass_cable",
       "resultCount": 8
     },
     "appliedenergistics2:network/cables/glass_light_gray": {
@@ -4105,43 +4105,6 @@
       "resultItem": "appliedenergistics2:16k_item_storage_cell",
       "resultCount": 1
     },
-    "appliedenergistics2:network/cells/spatial_components_1": {
-      "id": "appliedenergistics2:network/cells/spatial_components_1",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "appliedenergistics2:16_cubed_spatial_cell_component"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "appliedenergistics2:16_cubed_spatial_cell_component"
-        ],
-        [
-          "appliedenergistics2:engineering_processor"
-        ],
-        [
-          "appliedenergistics2:16_cubed_spatial_cell_component"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "appliedenergistics2:16_cubed_spatial_cell_component"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:128_cubed_spatial_cell_component",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/covered_black": {
       "id": "appliedenergistics2:network/cables/covered_black",
       "shapeless": false,
@@ -4178,6 +4141,43 @@
       "height": 3,
       "resultItem": "appliedenergistics2:black_covered_cable",
       "resultCount": 8
+    },
+    "appliedenergistics2:network/cells/spatial_components_1": {
+      "id": "appliedenergistics2:network/cells/spatial_components_1",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "appliedenergistics2:16_cubed_spatial_cell_component"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "appliedenergistics2:16_cubed_spatial_cell_component"
+        ],
+        [
+          "appliedenergistics2:engineering_processor"
+        ],
+        [
+          "appliedenergistics2:16_cubed_spatial_cell_component"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "appliedenergistics2:16_cubed_spatial_cell_component"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:128_cubed_spatial_cell_component",
+      "resultCount": 1
     },
     "appliedenergistics2:network/cells/spatial_components_0": {
       "id": "appliedenergistics2:network/cells/spatial_components_0",
@@ -4281,6 +4281,38 @@
       "resultItem": "appliedenergistics2:sky_stone_wall",
       "resultCount": 6
     },
+    "appliedenergistics2:network/cables/glass_fluix_clean": {
+      "id": "appliedenergistics2:network/cables/glass_fluix_clean",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:white_glass_cable",
+          "appliedenergistics2:orange_glass_cable",
+          "appliedenergistics2:magenta_glass_cable",
+          "appliedenergistics2:light_blue_glass_cable",
+          "appliedenergistics2:yellow_glass_cable",
+          "appliedenergistics2:lime_glass_cable",
+          "appliedenergistics2:pink_glass_cable",
+          "appliedenergistics2:gray_glass_cable",
+          "appliedenergistics2:light_gray_glass_cable",
+          "appliedenergistics2:cyan_glass_cable",
+          "appliedenergistics2:purple_glass_cable",
+          "appliedenergistics2:blue_glass_cable",
+          "appliedenergistics2:brown_glass_cable",
+          "appliedenergistics2:green_glass_cable",
+          "appliedenergistics2:red_glass_cable",
+          "appliedenergistics2:black_glass_cable",
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "minecraft:water_bucket"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:fluix_glass_cable",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/cables/dense_smart_light_blue": {
       "id": "appliedenergistics2:network/cables/dense_smart_light_blue",
       "shapeless": false,
@@ -4318,6 +4350,41 @@
       "resultItem": "appliedenergistics2:light_blue_smart_dense_cable",
       "resultCount": 8
     },
+    "appliedenergistics2:network/blocks/fluid_interfaces_interface": {
+      "id": "appliedenergistics2:network/blocks/fluid_interfaces_interface",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "appliedenergistics2:annihilation_core"
+        ],
+        [],
+        [
+          "appliedenergistics2:formation_core"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:fluid_interface",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/cables/dense_covered_light_gray": {
       "id": "appliedenergistics2:network/cables/dense_covered_light_gray",
       "shapeless": false,
@@ -4354,73 +4421,6 @@
       "height": 3,
       "resultItem": "appliedenergistics2:light_gray_covered_dense_cable",
       "resultCount": 8
-    },
-    "appliedenergistics2:network/cables/glass_fluix_clean": {
-      "id": "appliedenergistics2:network/cables/glass_fluix_clean",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:white_glass_cable",
-          "appliedenergistics2:orange_glass_cable",
-          "appliedenergistics2:magenta_glass_cable",
-          "appliedenergistics2:light_blue_glass_cable",
-          "appliedenergistics2:yellow_glass_cable",
-          "appliedenergistics2:lime_glass_cable",
-          "appliedenergistics2:pink_glass_cable",
-          "appliedenergistics2:gray_glass_cable",
-          "appliedenergistics2:light_gray_glass_cable",
-          "appliedenergistics2:cyan_glass_cable",
-          "appliedenergistics2:purple_glass_cable",
-          "appliedenergistics2:blue_glass_cable",
-          "appliedenergistics2:brown_glass_cable",
-          "appliedenergistics2:green_glass_cable",
-          "appliedenergistics2:red_glass_cable",
-          "appliedenergistics2:black_glass_cable",
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "minecraft:water_bucket"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:fluix_glass_cable",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/blocks/fluid_interfaces_interface": {
-      "id": "appliedenergistics2:network/blocks/fluid_interfaces_interface",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "appliedenergistics2:annihilation_core"
-        ],
-        [],
-        [
-          "appliedenergistics2:formation_core"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:fluid_interface",
-      "resultCount": 1
     },
     "appliedenergistics2:network/blocks/spatial_anchor": {
       "id": "appliedenergistics2:network/blocks/spatial_anchor",
@@ -4835,41 +4835,26 @@
       "resultItem": "appliedenergistics2:wireless_access_point",
       "resultCount": 1
     },
-    "appliedenergistics2:network/cells/spatial_storage_cell_16_cubed": {
-      "id": "appliedenergistics2:network/cells/spatial_storage_cell_16_cubed",
+    "appliedenergistics2:decorative/fluix_block": {
+      "id": "appliedenergistics2:decorative/fluix_block",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:quartz_glass"
+          "appliedenergistics2:fluix_crystal"
         ],
         [
-          "minecraft:redstone"
+          "appliedenergistics2:fluix_crystal"
         ],
         [
-          "appliedenergistics2:quartz_glass"
+          "appliedenergistics2:fluix_crystal"
         ],
         [
-          "minecraft:redstone"
-        ],
-        [
-          "appliedenergistics2:16_cubed_spatial_cell_component"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:iron_ingot"
+          "appliedenergistics2:fluix_crystal"
         ]
       ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:16_cubed_spatial_storage_cell",
+      "width": 2,
+      "height": 2,
+      "resultItem": "appliedenergistics2:fluix_block",
       "resultCount": 1
     },
     "appliedenergistics2:network/cables/glass_gray": {
@@ -4909,26 +4894,41 @@
       "resultItem": "appliedenergistics2:gray_glass_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:decorative/fluix_block": {
-      "id": "appliedenergistics2:decorative/fluix_block",
+    "appliedenergistics2:network/cells/spatial_storage_cell_16_cubed": {
+      "id": "appliedenergistics2:network/cells/spatial_storage_cell_16_cubed",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:fluix_crystal"
+          "appliedenergistics2:quartz_glass"
         ],
         [
-          "appliedenergistics2:fluix_crystal"
+          "minecraft:redstone"
         ],
         [
-          "appliedenergistics2:fluix_crystal"
+          "appliedenergistics2:quartz_glass"
         ],
         [
-          "appliedenergistics2:fluix_crystal"
+          "minecraft:redstone"
+        ],
+        [
+          "appliedenergistics2:16_cubed_spatial_cell_component"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
         ]
       ],
-      "width": 2,
-      "height": 2,
-      "resultItem": "appliedenergistics2:fluix_block",
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:16_cubed_spatial_storage_cell",
       "resultCount": 1
     },
     "appliedenergistics2:network/cells/fluid_storage_components_cell_4k_part": {
@@ -5009,6 +5009,50 @@
       "width": 2,
       "height": 3,
       "resultItem": "appliedenergistics2:nether_quartz_hoe",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/parts/item_import_bus": {
+      "id": "appliedenergistics2:network/parts/item_import_bus",
+      "shapeless": false,
+      "ingredients": [
+        [],
+        [
+          "appliedenergistics2:annihilation_core"
+        ],
+        [],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:sticky_piston"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "appliedenergistics2:item_import_bus",
+      "resultCount": 1
+    },
+    "appliedenergistics2:tools/certus_quartz_spade": {
+      "id": "appliedenergistics2:tools/certus_quartz_spade",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:certus_quartz_crystal",
+          "appliedenergistics2:charged_certus_quartz_crystal"
+        ],
+        [
+          "minecraft:stick"
+        ],
+        [
+          "minecraft:stick"
+        ]
+      ],
+      "width": 1,
+      "height": 3,
+      "resultItem": "appliedenergistics2:certus_quartz_shovel",
       "resultCount": 1
     },
     "appliedenergistics2:network/blocks/io_condenser": {
@@ -5112,50 +5156,6 @@
       "resultItem": "appliedenergistics2:condenser",
       "resultCount": 1
     },
-    "appliedenergistics2:network/parts/item_import_bus": {
-      "id": "appliedenergistics2:network/parts/item_import_bus",
-      "shapeless": false,
-      "ingredients": [
-        [],
-        [
-          "appliedenergistics2:annihilation_core"
-        ],
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:sticky_piston"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "appliedenergistics2:item_import_bus",
-      "resultCount": 1
-    },
-    "appliedenergistics2:tools/certus_quartz_spade": {
-      "id": "appliedenergistics2:tools/certus_quartz_spade",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:certus_quartz_crystal",
-          "appliedenergistics2:charged_certus_quartz_crystal"
-        ],
-        [
-          "minecraft:stick"
-        ],
-        [
-          "minecraft:stick"
-        ]
-      ],
-      "width": 1,
-      "height": 3,
-      "resultItem": "appliedenergistics2:certus_quartz_shovel",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/smart_purple": {
       "id": "appliedenergistics2:network/cables/smart_purple",
       "shapeless": false,
@@ -5230,23 +5230,6 @@
       "resultItem": "appliedenergistics2:magenta_smart_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:misc/seeds_certus": {
-      "id": "appliedenergistics2:misc/seeds_certus",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "minecraft:sand",
-          "minecraft:red_sand"
-        ],
-        [
-          "appliedenergistics2:certus_quartz_dust"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:certus_crystal_seed",
-      "resultCount": 2
-    },
     "appliedenergistics2:network/cells/item_storage_components_cell_16k_part": {
       "id": "appliedenergistics2:network/cells/item_storage_components_cell_16k_part",
       "shapeless": false,
@@ -5320,6 +5303,23 @@
       "height": 3,
       "resultItem": "appliedenergistics2:yellow_covered_dense_cable",
       "resultCount": 8
+    },
+    "appliedenergistics2:misc/seeds_certus": {
+      "id": "appliedenergistics2:misc/seeds_certus",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "minecraft:sand",
+          "minecraft:red_sand"
+        ],
+        [
+          "appliedenergistics2:certus_quartz_dust"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:certus_crystal_seed",
+      "resultCount": 2
     },
     "appliedenergistics2:network/parts/terminals_crafting": {
       "id": "appliedenergistics2:network/parts/terminals_crafting",
@@ -5414,19 +5414,6 @@
       "resultItem": "appliedenergistics2:light_blue_covered_dense_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:network/blocks/pattern_providers_interface_part": {
-      "id": "appliedenergistics2:network/blocks/pattern_providers_interface_part",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:pattern_provider"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:cable_pattern_provider",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/dense_covered_lime": {
       "id": "appliedenergistics2:network/cables/dense_covered_lime",
       "shapeless": false,
@@ -5464,6 +5451,19 @@
       "resultItem": "appliedenergistics2:lime_covered_dense_cable",
       "resultCount": 8
     },
+    "appliedenergistics2:network/blocks/pattern_providers_interface_part": {
+      "id": "appliedenergistics2:network/blocks/pattern_providers_interface_part",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:pattern_provider"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:cable_pattern_provider",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/wireless_terminal": {
       "id": "appliedenergistics2:network/wireless_terminal",
       "shapeless": false,
@@ -5482,37 +5482,6 @@
       "height": 3,
       "resultItem": "appliedenergistics2:wireless_terminal",
       "resultCount": 1
-    },
-    "appliedenergistics2:shaped/stairs/fluix_block": {
-      "id": "appliedenergistics2:shaped/stairs/fluix_block",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:fluix_block"
-        ],
-        [],
-        [],
-        [
-          "appliedenergistics2:fluix_block"
-        ],
-        [
-          "appliedenergistics2:fluix_block"
-        ],
-        [],
-        [
-          "appliedenergistics2:fluix_block"
-        ],
-        [
-          "appliedenergistics2:fluix_block"
-        ],
-        [
-          "appliedenergistics2:fluix_block"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:fluix_stairs",
-      "resultCount": 4
     },
     "appliedenergistics2:network/cables/covered_brown": {
       "id": "appliedenergistics2:network/cables/covered_brown",
@@ -5551,6 +5520,65 @@
       "resultItem": "appliedenergistics2:brown_covered_cable",
       "resultCount": 8
     },
+    "appliedenergistics2:shaped/stairs/fluix_block": {
+      "id": "appliedenergistics2:shaped/stairs/fluix_block",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:fluix_block"
+        ],
+        [],
+        [],
+        [
+          "appliedenergistics2:fluix_block"
+        ],
+        [
+          "appliedenergistics2:fluix_block"
+        ],
+        [],
+        [
+          "appliedenergistics2:fluix_block"
+        ],
+        [
+          "appliedenergistics2:fluix_block"
+        ],
+        [
+          "appliedenergistics2:fluix_block"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:fluix_stairs",
+      "resultCount": 4
+    },
+    "appliedenergistics2:tools/network_biometric_card": {
+      "id": "appliedenergistics2:tools/network_biometric_card",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:engineering_processor"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:gold_ingot"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:gold_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "appliedenergistics2:biometric_card",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/crafting/cpu_crafting_unit": {
       "id": "appliedenergistics2:network/crafting/cpu_crafting_unit",
       "shapeless": false,
@@ -5586,34 +5614,6 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:crafting_unit",
-      "resultCount": 1
-    },
-    "appliedenergistics2:tools/network_biometric_card": {
-      "id": "appliedenergistics2:tools/network_biometric_card",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:engineering_processor"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:gold_ingot"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "minecraft:gold_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "appliedenergistics2:biometric_card",
       "resultCount": 1
     },
     "appliedenergistics2:network/parts/item_annihilation_plane_alt": {
@@ -5709,43 +5709,6 @@
       "resultItem": "appliedenergistics2:fluix_wall",
       "resultCount": 6
     },
-    "appliedenergistics2:network/cables/dense_smart_white": {
-      "id": "appliedenergistics2:network/cables/dense_smart_white",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "minecraft:white_dye"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:white_smart_dense_cable",
-      "resultCount": 8
-    },
     "appliedenergistics2:network/cables/covered_orange": {
       "id": "appliedenergistics2:network/cables/covered_orange",
       "shapeless": false,
@@ -5781,6 +5744,43 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:orange_covered_cable",
+      "resultCount": 8
+    },
+    "appliedenergistics2:network/cables/dense_smart_white": {
+      "id": "appliedenergistics2:network/cables/dense_smart_white",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "minecraft:white_dye"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:white_smart_dense_cable",
       "resultCount": 8
     },
     "appliedenergistics2:network/blocks/quantum_link": {
@@ -6238,43 +6238,6 @@
       "resultItem": "appliedenergistics2:purple_glass_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:network/cables/smart_pink": {
-      "id": "appliedenergistics2:network/cables/smart_pink",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ],
-        [
-          "minecraft:pink_dye"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:pink_smart_cable",
-      "resultCount": 8
-    },
     "appliedenergistics2:network/cables/covered_yellow": {
       "id": "appliedenergistics2:network/cables/covered_yellow",
       "shapeless": false,
@@ -6310,6 +6273,43 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:yellow_covered_cable",
+      "resultCount": 8
+    },
+    "appliedenergistics2:network/cables/smart_pink": {
+      "id": "appliedenergistics2:network/cables/smart_pink",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ],
+        [
+          "minecraft:pink_dye"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:pink_smart_cable",
       "resultCount": 8
     },
     "appliedenergistics2:network/cables/smart_light_blue": {
@@ -6386,6 +6386,34 @@
       "resultItem": "appliedenergistics2:16k_fluid_cell_component",
       "resultCount": 1
     },
+    "appliedenergistics2:network/parts/fluid_import_bus": {
+      "id": "appliedenergistics2:network/parts/fluid_import_bus",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "appliedenergistics2:annihilation_core"
+        ],
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:sticky_piston"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "appliedenergistics2:fluid_import_bus",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/blocks/storage_chest": {
       "id": "appliedenergistics2:network/blocks/storage_chest",
       "shapeless": false,
@@ -6453,34 +6481,6 @@
       "resultItem": "appliedenergistics2:chest",
       "resultCount": 1
     },
-    "appliedenergistics2:network/parts/fluid_import_bus": {
-      "id": "appliedenergistics2:network/parts/fluid_import_bus",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "appliedenergistics2:annihilation_core"
-        ],
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:sticky_piston"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "appliedenergistics2:fluid_import_bus",
-      "resultCount": 1
-    },
     "appliedenergistics2:tools/paintballs_lumen_orange": {
       "id": "appliedenergistics2:tools/paintballs_lumen_orange",
       "shapeless": false,
@@ -6516,56 +6516,6 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:orange_lumen_paint_ball",
-      "resultCount": 8
-    },
-    "appliedenergistics2:decorative/sky_stone_smooth": {
-      "id": "appliedenergistics2:decorative/sky_stone_smooth",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:sky_stone_small_brick"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:smooth_sky_stone_block",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/cables/dense_smart_brown": {
-      "id": "appliedenergistics2:network/cables/dense_smart_brown",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "minecraft:brown_dye"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:brown_smart_dense_cable",
       "resultCount": 8
     },
     "appliedenergistics2:network/cells/spatial_storage_cell_2_cubed": {
@@ -6605,6 +6555,56 @@
       "resultItem": "appliedenergistics2:2_cubed_spatial_storage_cell",
       "resultCount": 1
     },
+    "appliedenergistics2:network/cables/dense_smart_brown": {
+      "id": "appliedenergistics2:network/cables/dense_smart_brown",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "minecraft:brown_dye"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:brown_smart_dense_cable",
+      "resultCount": 8
+    },
+    "appliedenergistics2:decorative/sky_stone_smooth": {
+      "id": "appliedenergistics2:decorative/sky_stone_smooth",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:sky_stone_small_brick"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:smooth_sky_stone_block",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/cables/covered_fluix_clean": {
       "id": "appliedenergistics2:network/cables/covered_fluix_clean",
       "shapeless": true,
@@ -6635,38 +6635,6 @@
       "width": 0,
       "height": 0,
       "resultItem": "appliedenergistics2:fluix_covered_cable",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/cables/dense_smart_fluix_clean": {
-      "id": "appliedenergistics2:network/cables/dense_smart_fluix_clean",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:white_smart_dense_cable",
-          "appliedenergistics2:orange_smart_dense_cable",
-          "appliedenergistics2:magenta_smart_dense_cable",
-          "appliedenergistics2:light_blue_smart_dense_cable",
-          "appliedenergistics2:yellow_smart_dense_cable",
-          "appliedenergistics2:lime_smart_dense_cable",
-          "appliedenergistics2:pink_smart_dense_cable",
-          "appliedenergistics2:gray_smart_dense_cable",
-          "appliedenergistics2:light_gray_smart_dense_cable",
-          "appliedenergistics2:cyan_smart_dense_cable",
-          "appliedenergistics2:purple_smart_dense_cable",
-          "appliedenergistics2:blue_smart_dense_cable",
-          "appliedenergistics2:brown_smart_dense_cable",
-          "appliedenergistics2:green_smart_dense_cable",
-          "appliedenergistics2:red_smart_dense_cable",
-          "appliedenergistics2:black_smart_dense_cable",
-          "appliedenergistics2:fluix_smart_dense_cable"
-        ],
-        [
-          "minecraft:water_bucket"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:fluix_smart_dense_cable",
       "resultCount": 1
     },
     "appliedenergistics2:network/parts/tunnels_me": {
@@ -6700,6 +6668,38 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:me_p2p_tunnel",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/cables/dense_smart_fluix_clean": {
+      "id": "appliedenergistics2:network/cables/dense_smart_fluix_clean",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:white_smart_dense_cable",
+          "appliedenergistics2:orange_smart_dense_cable",
+          "appliedenergistics2:magenta_smart_dense_cable",
+          "appliedenergistics2:light_blue_smart_dense_cable",
+          "appliedenergistics2:yellow_smart_dense_cable",
+          "appliedenergistics2:lime_smart_dense_cable",
+          "appliedenergistics2:pink_smart_dense_cable",
+          "appliedenergistics2:gray_smart_dense_cable",
+          "appliedenergistics2:light_gray_smart_dense_cable",
+          "appliedenergistics2:cyan_smart_dense_cable",
+          "appliedenergistics2:purple_smart_dense_cable",
+          "appliedenergistics2:blue_smart_dense_cable",
+          "appliedenergistics2:brown_smart_dense_cable",
+          "appliedenergistics2:green_smart_dense_cable",
+          "appliedenergistics2:red_smart_dense_cable",
+          "appliedenergistics2:black_smart_dense_cable",
+          "appliedenergistics2:fluix_smart_dense_cable"
+        ],
+        [
+          "minecraft:water_bucket"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:fluix_smart_dense_cable",
       "resultCount": 1
     },
     "appliedenergistics2:network/crafting/cpu_crafting_accelerator": {
@@ -7058,6 +7058,35 @@
       "resultItem": "appliedenergistics2:black_smart_cable",
       "resultCount": 8
     },
+    "appliedenergistics2:tools/nether_quartz_cutting_knife": {
+      "id": "appliedenergistics2:tools/nether_quartz_cutting_knife",
+      "shapeless": false,
+      "ingredients": [
+        [],
+        [],
+        [
+          "minecraft:stick"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:stick"
+        ],
+        [],
+        [
+          "minecraft:quartz"
+        ],
+        [
+          "minecraft:quartz"
+        ],
+        []
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:nether_quartz_cutting_knife",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/cells/item_storage_cell_64k": {
       "id": "appliedenergistics2:network/cells/item_storage_cell_64k",
       "shapeless": false,
@@ -7093,35 +7122,6 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:64k_item_storage_cell",
-      "resultCount": 1
-    },
-    "appliedenergistics2:tools/nether_quartz_cutting_knife": {
-      "id": "appliedenergistics2:tools/nether_quartz_cutting_knife",
-      "shapeless": false,
-      "ingredients": [
-        [],
-        [],
-        [
-          "minecraft:stick"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:stick"
-        ],
-        [],
-        [
-          "minecraft:quartz"
-        ],
-        [
-          "minecraft:quartz"
-        ],
-        []
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:nether_quartz_cutting_knife",
       "resultCount": 1
     },
     "appliedenergistics2:network/parts/item_formation_plane_alt": {
@@ -7570,32 +7570,6 @@
       "resultItem": "appliedenergistics2:quartz_pillar_slab",
       "resultCount": 6
     },
-    "appliedenergistics2:tools/certus_quartz_hoe": {
-      "id": "appliedenergistics2:tools/certus_quartz_hoe",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:certus_quartz_crystal",
-          "appliedenergistics2:charged_certus_quartz_crystal"
-        ],
-        [
-          "appliedenergistics2:certus_quartz_crystal",
-          "appliedenergistics2:charged_certus_quartz_crystal"
-        ],
-        [],
-        [
-          "minecraft:stick"
-        ],
-        [],
-        [
-          "minecraft:stick"
-        ]
-      ],
-      "width": 2,
-      "height": 3,
-      "resultItem": "appliedenergistics2:certus_quartz_hoe",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/dense_smart_orange": {
       "id": "appliedenergistics2:network/cables/dense_smart_orange",
       "shapeless": false,
@@ -7632,6 +7606,32 @@
       "height": 3,
       "resultItem": "appliedenergistics2:orange_smart_dense_cable",
       "resultCount": 8
+    },
+    "appliedenergistics2:tools/certus_quartz_hoe": {
+      "id": "appliedenergistics2:tools/certus_quartz_hoe",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:certus_quartz_crystal",
+          "appliedenergistics2:charged_certus_quartz_crystal"
+        ],
+        [
+          "appliedenergistics2:certus_quartz_crystal",
+          "appliedenergistics2:charged_certus_quartz_crystal"
+        ],
+        [],
+        [
+          "minecraft:stick"
+        ],
+        [],
+        [
+          "minecraft:stick"
+        ]
+      ],
+      "width": 2,
+      "height": 3,
+      "resultItem": "appliedenergistics2:certus_quartz_hoe",
+      "resultCount": 1
     },
     "appliedenergistics2:network/blocks/item_interfaces_interface": {
       "id": "appliedenergistics2:network/blocks/item_interfaces_interface",
@@ -7737,35 +7737,6 @@
       "resultItem": "appliedenergistics2:black_covered_dense_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:misc/meteors_sky_compass": {
-      "id": "appliedenergistics2:misc/meteors_sky_compass",
-      "shapeless": false,
-      "ingredients": [
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "appliedenergistics2:charged_certus_quartz_crystal"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        []
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:sky_compass",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cables/dense_smart_blue": {
       "id": "appliedenergistics2:network/cables/dense_smart_blue",
       "shapeless": false,
@@ -7802,6 +7773,35 @@
       "height": 3,
       "resultItem": "appliedenergistics2:blue_smart_dense_cable",
       "resultCount": 8
+    },
+    "appliedenergistics2:misc/meteors_sky_compass": {
+      "id": "appliedenergistics2:misc/meteors_sky_compass",
+      "shapeless": false,
+      "ingredients": [
+        [],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "appliedenergistics2:charged_certus_quartz_crystal"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [],
+        [
+          "minecraft:iron_ingot"
+        ],
+        []
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:sky_compass",
+      "resultCount": 1
     },
     "appliedenergistics2:tools/nether_quartz_spade": {
       "id": "appliedenergistics2:tools/nether_quartz_spade",
@@ -8034,41 +8034,41 @@
       "resultItem": "appliedenergistics2:cyan_covered_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:network/cables/glass_orange": {
-      "id": "appliedenergistics2:network/cables/glass_orange",
+    "appliedenergistics2:network/cables/covered_green": {
+      "id": "appliedenergistics2:network/cables/covered_green",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ],
         [
-          "minecraft:orange_dye"
+          "minecraft:green_dye"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:fluix_covered_cable"
         ]
       ],
       "width": 3,
       "height": 3,
-      "resultItem": "appliedenergistics2:orange_glass_cable",
+      "resultItem": "appliedenergistics2:green_covered_cable",
       "resultCount": 8
     },
     "appliedenergistics2:network/cables/glass_brown": {
@@ -8108,41 +8108,41 @@
       "resultItem": "appliedenergistics2:brown_glass_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:network/cables/covered_green": {
-      "id": "appliedenergistics2:network/cables/covered_green",
+    "appliedenergistics2:network/cables/glass_orange": {
+      "id": "appliedenergistics2:network/cables/glass_orange",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "minecraft:green_dye"
+          "minecraft:orange_dye"
         ],
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:fluix_covered_cable"
+          "appliedenergistics2:fluix_glass_cable"
         ]
       ],
       "width": 3,
       "height": 3,
-      "resultItem": "appliedenergistics2:green_covered_cable",
+      "resultItem": "appliedenergistics2:orange_glass_cable",
       "resultCount": 8
     },
     "appliedenergistics2:network/cables/dense_smart_pink": {
@@ -8467,22 +8467,6 @@
       "resultItem": "appliedenergistics2:cyan_glass_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:materials/cardredstone": {
-      "id": "appliedenergistics2:materials/cardredstone",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "minecraft:redstone_torch"
-        ],
-        [
-          "appliedenergistics2:basic_card"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:redstone_card",
-      "resultCount": 1
-    },
     "appliedenergistics2:network/cells/fluid_storage_cell_1k_storage": {
       "id": "appliedenergistics2:network/cells/fluid_storage_cell_1k_storage",
       "shapeless": true,
@@ -8497,6 +8481,22 @@
       "width": 0,
       "height": 0,
       "resultItem": "appliedenergistics2:1k_fluid_storage_cell",
+      "resultCount": 1
+    },
+    "appliedenergistics2:materials/cardredstone": {
+      "id": "appliedenergistics2:materials/cardredstone",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "minecraft:redstone_torch"
+        ],
+        [
+          "appliedenergistics2:basic_card"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:redstone_card",
       "resultCount": 1
     },
     "appliedenergistics2:network/cells/fluid_storage_cell_16k": {
@@ -8629,42 +8629,43 @@
       "resultItem": "appliedenergistics2:fluid_terminal",
       "resultCount": 1
     },
-    "appliedenergistics2:network/cables/glass_magenta": {
-      "id": "appliedenergistics2:network/cables/glass_magenta",
+    "appliedenergistics2:network/crafting/patterns_blank": {
+      "id": "appliedenergistics2:network/crafting/patterns_blank",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:quartz_glass"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "minecraft:glowstone_dust"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "appliedenergistics2:quartz_glass"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "minecraft:glowstone_dust"
         ],
         [
-          "minecraft:magenta_dye"
+          "appliedenergistics2:certus_quartz_crystal",
+          "appliedenergistics2:charged_certus_quartz_crystal"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "minecraft:glowstone_dust"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "minecraft:iron_ingot"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "minecraft:iron_ingot"
         ],
         [
-          "appliedenergistics2:fluix_glass_cable"
+          "minecraft:iron_ingot"
         ]
       ],
       "width": 3,
       "height": 3,
-      "resultItem": "appliedenergistics2:magenta_glass_cable",
-      "resultCount": 8
+      "resultItem": "appliedenergistics2:blank_pattern",
+      "resultCount": 1
     },
     "appliedenergistics2:decorative/quartz_glass": {
       "id": "appliedenergistics2:decorative/quartz_glass",
@@ -8767,43 +8768,42 @@
       "resultItem": "appliedenergistics2:quartz_glass",
       "resultCount": 4
     },
-    "appliedenergistics2:network/crafting/patterns_blank": {
-      "id": "appliedenergistics2:network/crafting/patterns_blank",
+    "appliedenergistics2:network/cables/glass_magenta": {
+      "id": "appliedenergistics2:network/cables/glass_magenta",
       "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:quartz_glass"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "minecraft:glowstone_dust"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:quartz_glass"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "minecraft:glowstone_dust"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "appliedenergistics2:certus_quartz_crystal",
-          "appliedenergistics2:charged_certus_quartz_crystal"
+          "minecraft:magenta_dye"
         ],
         [
-          "minecraft:glowstone_dust"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "minecraft:iron_ingot"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "minecraft:iron_ingot"
+          "appliedenergistics2:fluix_glass_cable"
         ],
         [
-          "minecraft:iron_ingot"
+          "appliedenergistics2:fluix_glass_cable"
         ]
       ],
       "width": 3,
       "height": 3,
-      "resultItem": "appliedenergistics2:blank_pattern",
-      "resultCount": 1
+      "resultItem": "appliedenergistics2:magenta_glass_cable",
+      "resultCount": 8
     },
     "appliedenergistics2:network/cables/dense_covered_cyan": {
       "id": "appliedenergistics2:network/cables/dense_covered_cyan",
@@ -8959,6 +8959,32 @@
       "resultItem": "appliedenergistics2:16k_portable_item_cell",
       "resultCount": 1
     },
+    "appliedenergistics2:tools/nether_quartz_axe": {
+      "id": "appliedenergistics2:tools/nether_quartz_axe",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:quartz"
+        ],
+        [
+          "minecraft:quartz"
+        ],
+        [
+          "minecraft:quartz"
+        ],
+        [
+          "minecraft:stick"
+        ],
+        [],
+        [
+          "minecraft:stick"
+        ]
+      ],
+      "width": 2,
+      "height": 3,
+      "resultItem": "appliedenergistics2:nether_quartz_axe",
+      "resultCount": 1
+    },
     "appliedenergistics2:network/parts/fluid_formation_plane": {
       "id": "appliedenergistics2:network/parts/fluid_formation_plane",
       "shapeless": false,
@@ -8996,30 +9022,33 @@
       "resultItem": "appliedenergistics2:fluid_formation_plane",
       "resultCount": 1
     },
-    "appliedenergistics2:tools/nether_quartz_axe": {
-      "id": "appliedenergistics2:tools/nether_quartz_axe",
-      "shapeless": false,
+    "appliedenergistics2:network/cells/item_storage_cell_64k_storage": {
+      "id": "appliedenergistics2:network/cells/item_storage_cell_64k_storage",
+      "shapeless": true,
       "ingredients": [
         [
-          "minecraft:quartz"
+          "appliedenergistics2:empty_storage_cell"
         ],
         [
-          "minecraft:quartz"
-        ],
-        [
-          "minecraft:quartz"
-        ],
-        [
-          "minecraft:stick"
-        ],
-        [],
-        [
-          "minecraft:stick"
+          "appliedenergistics2:64k_item_cell_component"
         ]
       ],
-      "width": 2,
-      "height": 3,
-      "resultItem": "appliedenergistics2:nether_quartz_axe",
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:64k_item_storage_cell",
+      "resultCount": 1
+    },
+    "appliedenergistics2:network/blocks/item_interfaces_interface_alt": {
+      "id": "appliedenergistics2:network/blocks/item_interfaces_interface_alt",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "appliedenergistics2:cable_item_interface"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:item_interface",
       "resultCount": 1
     },
     "appliedenergistics2:network/cables/smart_yellow": {
@@ -9059,49 +9088,41 @@
       "resultItem": "appliedenergistics2:yellow_smart_cable",
       "resultCount": 8
     },
-    "appliedenergistics2:network/cells/item_storage_cell_64k_storage": {
-      "id": "appliedenergistics2:network/cells/item_storage_cell_64k_storage",
-      "shapeless": true,
+    "appliedenergistics2:network/parts/fluid_formation_plane_alt": {
+      "id": "appliedenergistics2:network/parts/fluid_formation_plane_alt",
+      "shapeless": false,
       "ingredients": [
         [
-          "appliedenergistics2:empty_storage_cell"
+          "appliedenergistics2:fluix_crystal"
         ],
         [
-          "appliedenergistics2:64k_item_cell_component"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:64k_item_storage_cell",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/blocks/item_interfaces_interface_alt": {
-      "id": "appliedenergistics2:network/blocks/item_interfaces_interface_alt",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:cable_item_interface"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:item_interface",
-      "resultCount": 1
-    },
-    "appliedenergistics2:network/cells/item_storage_cell_1k_storage": {
-      "id": "appliedenergistics2:network/cells/item_storage_cell_1k_storage",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "appliedenergistics2:empty_storage_cell"
+          "appliedenergistics2:fluix_crystal"
         ],
         [
-          "appliedenergistics2:1k_item_cell_component"
+          "appliedenergistics2:fluix_crystal"
+        ],
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "appliedenergistics2:formation_core"
+        ],
+        [
+          "minecraft:iron_ingot"
         ]
       ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "appliedenergistics2:1k_item_storage_cell",
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:fluid_formation_plane",
       "resultCount": 1
     },
     "appliedenergistics2:network/blocks/security_station": {
@@ -9141,41 +9162,20 @@
       "resultItem": "appliedenergistics2:security_station",
       "resultCount": 1
     },
-    "appliedenergistics2:network/parts/fluid_formation_plane_alt": {
-      "id": "appliedenergistics2:network/parts/fluid_formation_plane_alt",
-      "shapeless": false,
+    "appliedenergistics2:network/cells/item_storage_cell_1k_storage": {
+      "id": "appliedenergistics2:network/cells/item_storage_cell_1k_storage",
+      "shapeless": true,
       "ingredients": [
         [
-          "appliedenergistics2:fluix_crystal"
+          "appliedenergistics2:empty_storage_cell"
         ],
         [
-          "appliedenergistics2:fluix_crystal"
-        ],
-        [
-          "appliedenergistics2:fluix_crystal"
-        ],
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "appliedenergistics2:formation_core"
-        ],
-        [
-          "minecraft:iron_ingot"
+          "appliedenergistics2:1k_item_cell_component"
         ]
       ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:fluid_formation_plane",
+      "width": 0,
+      "height": 0,
+      "resultItem": "appliedenergistics2:1k_item_storage_cell",
       "resultCount": 1
     },
     "appliedenergistics2:materials/basiccard": {
@@ -9363,43 +9363,6 @@
       "resultItem": "appliedenergistics2:64k_fluid_cell_component",
       "resultCount": 1
     },
-    "appliedenergistics2:tools/paintballs_lumen_pink": {
-      "id": "appliedenergistics2:tools/paintballs_lumen_pink",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ],
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ],
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ],
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ],
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ],
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ],
-        [
-          "appliedenergistics2:pink_paint_ball"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:pink_lumen_paint_ball",
-      "resultCount": 8
-    },
     "appliedenergistics2:network/blocks/energy_vibration_chamber": {
       "id": "appliedenergistics2:network/blocks/energy_vibration_chamber",
       "shapeless": false,
@@ -9436,6 +9399,43 @@
       "height": 3,
       "resultItem": "appliedenergistics2:vibration_chamber",
       "resultCount": 1
+    },
+    "appliedenergistics2:tools/paintballs_lumen_pink": {
+      "id": "appliedenergistics2:tools/paintballs_lumen_pink",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ],
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ],
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ],
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ],
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ],
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ],
+        [
+          "appliedenergistics2:pink_paint_ball"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:pink_lumen_paint_ball",
+      "resultCount": 8
     },
     "appliedenergistics2:network/cables/glass_white": {
       "id": "appliedenergistics2:network/cables/glass_white",
@@ -9773,6 +9773,43 @@
       "resultItem": "appliedenergistics2:16k_fluid_storage_cell",
       "resultCount": 1
     },
+    "appliedenergistics2:network/cables/glass_pink": {
+      "id": "appliedenergistics2:network/cables/glass_pink",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "minecraft:pink_dye"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ],
+        [
+          "appliedenergistics2:fluix_glass_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:pink_glass_cable",
+      "resultCount": 8
+    },
     "appliedenergistics2:materials/advancedcard": {
       "id": "appliedenergistics2:materials/advancedcard",
       "shapeless": false,
@@ -9841,43 +9878,6 @@
       "width": 3,
       "height": 3,
       "resultItem": "appliedenergistics2:lime_smart_dense_cable",
-      "resultCount": 8
-    },
-    "appliedenergistics2:network/cables/glass_pink": {
-      "id": "appliedenergistics2:network/cables/glass_pink",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "minecraft:pink_dye"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ],
-        [
-          "appliedenergistics2:fluix_glass_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:pink_glass_cable",
       "resultCount": 8
     },
     "appliedenergistics2:tools/paintballs_cyan": {
@@ -9967,6 +9967,37 @@
       "resultItem": "appliedenergistics2:orange_paint_ball",
       "resultCount": 8
     },
+    "appliedenergistics2:shaped/stairs/quartz_block": {
+      "id": "appliedenergistics2:shaped/stairs/quartz_block",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "appliedenergistics2:quartz_block"
+        ],
+        [],
+        [],
+        [
+          "appliedenergistics2:quartz_block"
+        ],
+        [
+          "appliedenergistics2:quartz_block"
+        ],
+        [],
+        [
+          "appliedenergistics2:quartz_block"
+        ],
+        [
+          "appliedenergistics2:quartz_block"
+        ],
+        [
+          "appliedenergistics2:quartz_block"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "appliedenergistics2:quartz_stairs",
+      "resultCount": 4
+    },
     "appliedenergistics2:network/blocks/cell_workbench": {
       "id": "appliedenergistics2:network/blocks/cell_workbench",
       "shapeless": false,
@@ -10034,37 +10065,6 @@
       "height": 3,
       "resultItem": "appliedenergistics2:cell_workbench",
       "resultCount": 1
-    },
-    "appliedenergistics2:shaped/stairs/quartz_block": {
-      "id": "appliedenergistics2:shaped/stairs/quartz_block",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "appliedenergistics2:quartz_block"
-        ],
-        [],
-        [],
-        [
-          "appliedenergistics2:quartz_block"
-        ],
-        [
-          "appliedenergistics2:quartz_block"
-        ],
-        [],
-        [
-          "appliedenergistics2:quartz_block"
-        ],
-        [
-          "appliedenergistics2:quartz_block"
-        ],
-        [
-          "appliedenergistics2:quartz_block"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "appliedenergistics2:quartz_stairs",
-      "resultCount": 4
     }
   },
   "smeltingRecipes": {
@@ -10094,19 +10094,6 @@
     }
   },
   "inscriberRecipes": {
-    "appliedenergistics2:inscriber/calculation_processor_print": {
-      "id": "appliedenergistics2:inscriber/calculation_processor_print",
-      "consumesTopAndBottom": false,
-      "top": [
-        "appliedenergistics2:calculation_processor_press"
-      ],
-      "middle": [
-        "appliedenergistics2:certus_quartz_crystal"
-      ],
-      "bottom": [],
-      "resultItem": "appliedenergistics2:printed_calculation_processor",
-      "resultCount": 1
-    },
     "appliedenergistics2:inscriber/engineering_processor": {
       "id": "appliedenergistics2:inscriber/engineering_processor",
       "consumesTopAndBottom": true,
@@ -10120,6 +10107,19 @@
         "appliedenergistics2:printed_silicon"
       ],
       "resultItem": "appliedenergistics2:engineering_processor",
+      "resultCount": 1
+    },
+    "appliedenergistics2:inscriber/calculation_processor_print": {
+      "id": "appliedenergistics2:inscriber/calculation_processor_print",
+      "consumesTopAndBottom": false,
+      "top": [
+        "appliedenergistics2:calculation_processor_press"
+      ],
+      "middle": [
+        "appliedenergistics2:certus_quartz_crystal"
+      ],
+      "bottom": [],
+      "resultItem": "appliedenergistics2:printed_calculation_processor",
       "resultCount": 1
     },
     "appliedenergistics2:inscriber/engineering_processor_print": {
@@ -10581,17 +10581,17 @@
       "rarity": "common",
       "icon": "/icons/minecraft/crafting_table.png"
     },
-    "minecraft:cyan_dye": {
-      "id": "minecraft:cyan_dye",
-      "displayName": "Cyan Dye",
-      "rarity": "common",
-      "icon": "/icons/minecraft/cyan_dye.png"
-    },
     "minecraft:lever": {
       "id": "minecraft:lever",
       "displayName": "Lever",
       "rarity": "common",
       "icon": "/icons/minecraft/lever.png"
+    },
+    "minecraft:cyan_dye": {
+      "id": "minecraft:cyan_dye",
+      "displayName": "Cyan Dye",
+      "rarity": "common",
+      "icon": "/icons/minecraft/cyan_dye.png"
     },
     "appliedenergistics2:creative_item_cell": {
       "id": "appliedenergistics2:creative_item_cell",
@@ -10904,12 +10904,6 @@
       "displayName": "Cable Anchor",
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/cable_anchor.png"
-    },
-    "appliedenergistics2:dummy_fluid_item": {
-      "id": "appliedenergistics2:dummy_fluid_item",
-      "displayName": "Air",
-      "rarity": "common",
-      "icon": "/icons/appliedenergistics2/dummy_fluid_item.png"
     },
     "appliedenergistics2:fluix_pearl": {
       "id": "appliedenergistics2:fluix_pearl",
@@ -11397,6 +11391,12 @@
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/light_gray_smart_dense_cable.png"
     },
+    "minecraft:redstone_block": {
+      "id": "minecraft:redstone_block",
+      "displayName": "Block of Redstone",
+      "rarity": "common",
+      "icon": "/icons/minecraft/redstone_block.png"
+    },
     "appliedenergistics2:pink_smart_cable": {
       "id": "appliedenergistics2:pink_smart_cable",
       "displayName": "Pink ME Smart Cable",
@@ -11528,6 +11528,12 @@
       "displayName": "Gray Stained Glass",
       "rarity": "common",
       "icon": "/icons/minecraft/gray_stained_glass.png"
+    },
+    "minecraft:repeater": {
+      "id": "minecraft:repeater",
+      "displayName": "Redstone Repeater",
+      "rarity": "common",
+      "icon": "/icons/minecraft/repeater.png"
     },
     "minecraft:andesite": {
       "id": "minecraft:andesite",
@@ -11889,6 +11895,12 @@
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/inverter_card.png"
     },
+    "minecraft:lava_bucket": {
+      "id": "minecraft:lava_bucket",
+      "displayName": "Lava Bucket",
+      "rarity": "common",
+      "icon": "/icons/minecraft/lava_bucket.png"
+    },
     "minecraft:red_wool": {
       "id": "minecraft:red_wool",
       "displayName": "Red Wool",
@@ -11997,11 +12009,23 @@
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/16k_crafting_storage.png"
     },
+    "appliedenergistics2:wrapped_fluid_stack": {
+      "id": "appliedenergistics2:wrapped_fluid_stack",
+      "displayName": "Air",
+      "rarity": "common",
+      "icon": "/icons/appliedenergistics2/wrapped_fluid_stack.png"
+    },
     "appliedenergistics2:fluix_block": {
       "id": "appliedenergistics2:fluix_block",
       "displayName": "Fluix Block",
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/fluix_block.png"
+    },
+    "minecraft:milk_bucket": {
+      "id": "minecraft:milk_bucket",
+      "displayName": "Milk Bucket",
+      "rarity": "common",
+      "icon": "/icons/minecraft/milk_bucket.png"
     },
     "appliedenergistics2:red_paint_ball": {
       "id": "appliedenergistics2:red_paint_ball",
@@ -12285,6 +12309,12 @@
       "rarity": "common",
       "icon": "/icons/minecraft/magenta_stained_glass.png"
     },
+    "minecraft:hopper": {
+      "id": "minecraft:hopper",
+      "displayName": "Hopper",
+      "rarity": "common",
+      "icon": "/icons/minecraft/hopper.png"
+    },
     "appliedenergistics2:sky_stone_wall": {
       "id": "appliedenergistics2:sky_stone_wall",
       "displayName": "Sky Stone Wall",
@@ -12308,6 +12338,12 @@
       "displayName": "Calculation Processor",
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/calculation_processor.png"
+    },
+    "minecraft:redstone_lamp": {
+      "id": "minecraft:redstone_lamp",
+      "displayName": "Redstone Lamp",
+      "rarity": "common",
+      "icon": "/icons/minecraft/redstone_lamp.png"
     },
     "appliedenergistics2:charged_certus_quartz_crystal": {
       "id": "appliedenergistics2:charged_certus_quartz_crystal",
@@ -12447,6 +12483,12 @@
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/orange_glass_cable.png"
     },
+    "minecraft:glowstone": {
+      "id": "minecraft:glowstone",
+      "displayName": "Glowstone",
+      "rarity": "common",
+      "icon": "/icons/minecraft/glowstone.png"
+    },
     "appliedenergistics2:chiseled_quartz_block": {
       "id": "appliedenergistics2:chiseled_quartz_block",
       "displayName": "Chiseled Certus Quartz Block",
@@ -12524,6 +12566,18 @@
       "displayName": "Gray Paint Ball",
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/gray_paint_ball.png"
+    },
+    "minecraft:bucket": {
+      "id": "minecraft:bucket",
+      "displayName": "Bucket",
+      "rarity": "common",
+      "icon": "/icons/minecraft/bucket.png"
+    },
+    "minecraft:torch": {
+      "id": "minecraft:torch",
+      "displayName": "Torch",
+      "rarity": "common",
+      "icon": "/icons/minecraft/torch.png"
     },
     "minecraft:blue_wool": {
       "id": "minecraft:blue_wool",
@@ -12800,6 +12854,246 @@
       "displayName": "Blue ME Dense Smart Cable",
       "rarity": "common",
       "icon": "/icons/appliedenergistics2/blue_smart_dense_cable.png"
+    }
+  },
+  "p2pTunnelTypes": [
+    {
+      "tunnelItemId": "appliedenergistics2:me_p2p_tunnel",
+      "attunementItemIds": [
+        "appliedenergistics2:lime_smart_dense_cable",
+        "appliedenergistics2:light_blue_smart_cable",
+        "appliedenergistics2:white_glass_cable",
+        "appliedenergistics2:orange_covered_cable",
+        "appliedenergistics2:purple_smart_dense_cable",
+        "appliedenergistics2:lime_glass_cable",
+        "appliedenergistics2:red_smart_dense_cable",
+        "appliedenergistics2:brown_covered_cable",
+        "appliedenergistics2:gray_smart_dense_cable",
+        "appliedenergistics2:light_blue_smart_dense_cable",
+        "appliedenergistics2:cyan_glass_cable",
+        "appliedenergistics2:fluix_covered_cable",
+        "appliedenergistics2:light_gray_smart_dense_cable",
+        "appliedenergistics2:yellow_covered_cable",
+        "appliedenergistics2:green_smart_dense_cable",
+        "appliedenergistics2:orange_smart_dense_cable",
+        "appliedenergistics2:green_glass_cable",
+        "appliedenergistics2:pink_smart_dense_cable",
+        "appliedenergistics2:red_glass_cable",
+        "appliedenergistics2:black_smart_cable",
+        "appliedenergistics2:blue_covered_cable",
+        "appliedenergistics2:white_smart_dense_cable",
+        "appliedenergistics2:white_smart_cable",
+        "appliedenergistics2:black_smart_dense_cable",
+        "appliedenergistics2:cyan_smart_cable",
+        "appliedenergistics2:pink_covered_cable",
+        "appliedenergistics2:white_covered_cable",
+        "appliedenergistics2:gray_smart_cable",
+        "appliedenergistics2:magenta_smart_cable",
+        "appliedenergistics2:orange_glass_cable",
+        "appliedenergistics2:cyan_smart_dense_cable",
+        "appliedenergistics2:brown_glass_cable",
+        "appliedenergistics2:brown_smart_cable",
+        "appliedenergistics2:lime_covered_cable",
+        "appliedenergistics2:light_blue_covered_cable",
+        "appliedenergistics2:blue_smart_dense_cable",
+        "appliedenergistics2:black_glass_cable",
+        "appliedenergistics2:black_covered_cable",
+        "appliedenergistics2:pink_smart_cable",
+        "appliedenergistics2:purple_glass_cable",
+        "appliedenergistics2:light_gray_glass_cable",
+        "appliedenergistics2:orange_smart_cable",
+        "appliedenergistics2:green_covered_cable",
+        "appliedenergistics2:purple_covered_cable",
+        "appliedenergistics2:blue_glass_cable",
+        "appliedenergistics2:purple_smart_cable",
+        "appliedenergistics2:magenta_covered_cable",
+        "appliedenergistics2:yellow_smart_cable",
+        "appliedenergistics2:pink_glass_cable",
+        "appliedenergistics2:blue_smart_cable",
+        "appliedenergistics2:gray_glass_cable",
+        "appliedenergistics2:red_smart_cable",
+        "appliedenergistics2:cyan_covered_cable",
+        "appliedenergistics2:light_gray_smart_cable",
+        "appliedenergistics2:light_gray_covered_cable",
+        "appliedenergistics2:gray_covered_cable",
+        "appliedenergistics2:yellow_glass_cable",
+        "appliedenergistics2:magenta_glass_cable",
+        "appliedenergistics2:green_smart_cable",
+        "appliedenergistics2:fluix_smart_dense_cable",
+        "appliedenergistics2:yellow_smart_dense_cable",
+        "appliedenergistics2:brown_smart_dense_cable",
+        "appliedenergistics2:red_covered_cable",
+        "appliedenergistics2:light_blue_glass_cable",
+        "appliedenergistics2:fluix_smart_cable",
+        "appliedenergistics2:magenta_smart_dense_cable",
+        "appliedenergistics2:fluix_glass_cable",
+        "appliedenergistics2:lime_smart_cable"
+      ],
+      "attunementModIds": [],
+      "attunementApiClasses": []
+    },
+    {
+      "tunnelItemId": "appliedenergistics2:fe_p2p_tunnel",
+      "attunementItemIds": [
+        "appliedenergistics2:energy_cell",
+        "appliedenergistics2:dense_energy_cell",
+        "appliedenergistics2:energy_acceptor",
+        "appliedenergistics2:creative_energy_cell"
+      ],
+      "attunementModIds": [
+        "thermalexpansion",
+        "enderio",
+        "mekanism",
+        "thermalfoundation",
+        "thermaldynamics",
+        "rftools"
+      ],
+      "attunementApiClasses": [
+        "team.reborn.energy.api.EnergyStorage"
+      ]
+    },
+    {
+      "tunnelItemId": "appliedenergistics2:redstone_p2p_tunnel",
+      "attunementItemIds": [
+        "minecraft:daylight_detector",
+        "minecraft:repeater",
+        "minecraft:comparator",
+        "minecraft:lever",
+        "minecraft:redstone",
+        "minecraft:redstone_lamp",
+        "minecraft:redstone_block"
+      ],
+      "attunementModIds": [],
+      "attunementApiClasses": []
+    },
+    {
+      "tunnelItemId": "appliedenergistics2:fluid_p2p_tunnel",
+      "attunementItemIds": [
+        "minecraft:milk_bucket",
+        "minecraft:bucket",
+        "minecraft:lava_bucket",
+        "minecraft:water_bucket"
+      ],
+      "attunementModIds": [],
+      "attunementApiClasses": [
+        "net.fabricmc.fabric.api.transfer.v1.storage.Storage"
+      ]
+    },
+    {
+      "tunnelItemId": "appliedenergistics2:item_p2p_tunnel",
+      "attunementItemIds": [
+        "appliedenergistics2:item_import_bus",
+        "minecraft:chest",
+        "appliedenergistics2:item_interface",
+        "appliedenergistics2:cable_item_interface",
+        "appliedenergistics2:item_storage_bus",
+        "appliedenergistics2:item_export_bus",
+        "minecraft:hopper",
+        "minecraft:trapped_chest"
+      ],
+      "attunementModIds": [],
+      "attunementApiClasses": []
+    },
+    {
+      "tunnelItemId": "appliedenergistics2:light_p2p_tunnel",
+      "attunementItemIds": [
+        "minecraft:torch",
+        "minecraft:glowstone"
+      ],
+      "attunementModIds": [],
+      "attunementApiClasses": []
+    }
+  ],
+  "coloredVersions": {
+    "appliedenergistics2:fluix_covered_cable": {
+      "green": "appliedenergistics2:green_covered_cable",
+      "lime": "appliedenergistics2:lime_covered_cable",
+      "gray": "appliedenergistics2:gray_covered_cable",
+      "red": "appliedenergistics2:red_covered_cable",
+      "magenta": "appliedenergistics2:magenta_covered_cable",
+      "cyan": "appliedenergistics2:cyan_covered_cable",
+      "brown": "appliedenergistics2:brown_covered_cable",
+      "black": "appliedenergistics2:black_covered_cable",
+      "purple": "appliedenergistics2:purple_covered_cable",
+      "yellow": "appliedenergistics2:yellow_covered_cable",
+      "light_blue": "appliedenergistics2:light_blue_covered_cable",
+      "white": "appliedenergistics2:white_covered_cable",
+      "blue": "appliedenergistics2:blue_covered_cable",
+      "light_gray": "appliedenergistics2:light_gray_covered_cable",
+      "pink": "appliedenergistics2:pink_covered_cable",
+      "orange": "appliedenergistics2:orange_covered_cable"
+    },
+    "appliedenergistics2:fluix_smart_dense_cable": {
+      "green": "appliedenergistics2:green_smart_dense_cable",
+      "lime": "appliedenergistics2:lime_smart_dense_cable",
+      "gray": "appliedenergistics2:gray_smart_dense_cable",
+      "red": "appliedenergistics2:red_smart_dense_cable",
+      "magenta": "appliedenergistics2:magenta_smart_dense_cable",
+      "cyan": "appliedenergistics2:cyan_smart_dense_cable",
+      "brown": "appliedenergistics2:brown_smart_dense_cable",
+      "black": "appliedenergistics2:black_smart_dense_cable",
+      "purple": "appliedenergistics2:purple_smart_dense_cable",
+      "yellow": "appliedenergistics2:yellow_smart_dense_cable",
+      "light_blue": "appliedenergistics2:light_blue_smart_dense_cable",
+      "white": "appliedenergistics2:white_smart_dense_cable",
+      "blue": "appliedenergistics2:blue_smart_dense_cable",
+      "light_gray": "appliedenergistics2:light_gray_smart_dense_cable",
+      "pink": "appliedenergistics2:pink_smart_dense_cable",
+      "orange": "appliedenergistics2:orange_smart_dense_cable"
+    },
+    "appliedenergistics2:fluix_smart_cable": {
+      "green": "appliedenergistics2:green_smart_cable",
+      "lime": "appliedenergistics2:lime_smart_cable",
+      "gray": "appliedenergistics2:gray_smart_cable",
+      "red": "appliedenergistics2:red_smart_cable",
+      "magenta": "appliedenergistics2:magenta_smart_cable",
+      "cyan": "appliedenergistics2:cyan_smart_cable",
+      "brown": "appliedenergistics2:brown_smart_cable",
+      "black": "appliedenergistics2:black_smart_cable",
+      "purple": "appliedenergistics2:purple_smart_cable",
+      "yellow": "appliedenergistics2:yellow_smart_cable",
+      "light_blue": "appliedenergistics2:light_blue_smart_cable",
+      "white": "appliedenergistics2:white_smart_cable",
+      "blue": "appliedenergistics2:blue_smart_cable",
+      "light_gray": "appliedenergistics2:light_gray_smart_cable",
+      "pink": "appliedenergistics2:pink_smart_cable",
+      "orange": "appliedenergistics2:orange_smart_cable"
+    },
+    "appliedenergistics2:fluix_covered_dense_cable": {
+      "green": "appliedenergistics2:green_covered_dense_cable",
+      "lime": "appliedenergistics2:lime_covered_dense_cable",
+      "gray": "appliedenergistics2:gray_covered_dense_cable",
+      "red": "appliedenergistics2:red_covered_dense_cable",
+      "magenta": "appliedenergistics2:magenta_covered_dense_cable",
+      "cyan": "appliedenergistics2:cyan_covered_dense_cable",
+      "brown": "appliedenergistics2:brown_covered_dense_cable",
+      "black": "appliedenergistics2:black_covered_dense_cable",
+      "purple": "appliedenergistics2:purple_covered_dense_cable",
+      "yellow": "appliedenergistics2:yellow_covered_dense_cable",
+      "light_blue": "appliedenergistics2:light_blue_covered_dense_cable",
+      "white": "appliedenergistics2:white_covered_dense_cable",
+      "blue": "appliedenergistics2:blue_covered_dense_cable",
+      "light_gray": "appliedenergistics2:light_gray_covered_dense_cable",
+      "pink": "appliedenergistics2:pink_covered_dense_cable",
+      "orange": "appliedenergistics2:orange_covered_dense_cable"
+    },
+    "appliedenergistics2:fluix_glass_cable": {
+      "green": "appliedenergistics2:green_glass_cable",
+      "lime": "appliedenergistics2:lime_glass_cable",
+      "gray": "appliedenergistics2:gray_glass_cable",
+      "red": "appliedenergistics2:red_glass_cable",
+      "magenta": "appliedenergistics2:magenta_glass_cable",
+      "cyan": "appliedenergistics2:cyan_glass_cable",
+      "brown": "appliedenergistics2:brown_glass_cable",
+      "black": "appliedenergistics2:black_glass_cable",
+      "purple": "appliedenergistics2:purple_glass_cable",
+      "yellow": "appliedenergistics2:yellow_glass_cable",
+      "light_blue": "appliedenergistics2:light_blue_glass_cable",
+      "white": "appliedenergistics2:white_glass_cable",
+      "blue": "appliedenergistics2:blue_glass_cable",
+      "light_gray": "appliedenergistics2:light_gray_glass_cable",
+      "pink": "appliedenergistics2:pink_glass_cable",
+      "orange": "appliedenergistics2:orange_glass_cable"
     }
   }
 }

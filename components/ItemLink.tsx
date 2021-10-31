@@ -8,7 +8,7 @@ import ItemTooltip, { TooltipMode } from "./ItemTooltip";
 
 export interface ItemLinkProps {
   id: string;
-  children: ReactNode | undefined;
+  children?: ReactNode;
   tooltip?: TooltipMode;
 }
 
