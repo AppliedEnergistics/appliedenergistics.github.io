@@ -3,6 +3,15 @@ title: About Applied Energistics
 path: /
 ---
 
+<div class="box">
+  This website is for the most recent versions of Applied Energistics 2, which
+  usually supports the latest version of Minecraft. For Minecraft 1.16 and
+  older, you can find more appropriate information in the{" "}
+  <a href="/ae2-site-archive/">archived wiki</a>. The{" "}
+  <a href="/ae2-site-archive/">wiki for AE1</a>
+  is also archived.
+</div>
+
 ### What is Applied Energistics 2?
 
 Applied Energistics 2 is a mod for [Minecraft](https://www.minecraft.net/) which contains a large amount of new
