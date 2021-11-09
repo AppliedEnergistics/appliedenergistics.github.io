@@ -8,8 +8,7 @@ path: /
   usually supports the latest version of Minecraft. For Minecraft 1.16 and
   older, you can find more appropriate information in the{" "}
   <a href="/ae2-site-archive/">archived wiki</a>. The{" "}
-  <a href="/ae2-site-archive/">wiki for AE1</a>
-  is also archived.
+  <a href="/ae1-site-archive/">wiki for AE1</a> is also archived.
 </div>
 
 ### What is Applied Energistics 2?
