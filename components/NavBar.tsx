@@ -99,7 +99,7 @@ function NavBar({ pagePath }: NavBarProps) {
           <div className="navbar-item">
             <div className="buttons">
               <a
-                href="https://discord.gg/nVUYTfZy"
+                href="https://discord.gg/GygKjjm"
                 target="_blank"
                 rel="noreferrer"
                 className="button"
