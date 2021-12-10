@@ -3,7 +3,7 @@ categories:
   - Presses
   - Processor Press Plates
 item_ids:
-  - appliedenergistics2:silicon_press
+  - ae2:silicon_press
 related:
   - Processors
   - Processor Press Plates
@@ -12,12 +12,12 @@ title: Inscriber Silicon Press
 ---
 
 Required to make the various processors with the <ItemLink
-id="appliedenergistics2:inscriber"/>. Found in <ItemLink
-id="appliedenergistics2:sky_stone_chest"/> that spawn in meteorites
+id="inscriber"/>. Found in <ItemLink
+id="sky_stone_chest"/> that spawn in meteorites
 during world generation and can be copied using the <ItemLink
-id="appliedenergistics2:inscriber"/>.
+id="inscriber"/>.
 
-<RecipeFor id="appliedenergistics2:silicon_press" />
+<RecipeFor id="silicon_press" />
 
 ### Processor Press Plates
 

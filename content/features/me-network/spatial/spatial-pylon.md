@@ -2,7 +2,7 @@
 categories:
   - ME Network/Spatial
 item_ids:
-  - appliedenergistics2:spatial_pylon
+  - ae2:spatial_pylon
 title: Spatial Pylon
 ---
 
@@ -15,12 +15,12 @@ has an issue and needs to be adjusted. They emitt a small amount of light when
 powered.
 
 Only useful when used in conjunction with a <ItemLink
-id="appliedenergistics2:spatial_io_port"/>, All <ItemLink
-id="appliedenergistics2:spatial_pylon"/> in an [ME Network](../../me-network.md) are part of the
+id="spatial_io_port"/>, All <ItemLink
+id="spatial_pylon"/> in an [ME Network](../../me-network.md) are part of the
 same [SCS](spatial-containment-structure.md).
 
 Each Spatial Pylon Multiblock requires a [channel](../channels.md) ( 1
 per strand of blocks, not 1 per <ItemLink
-id="appliedenergistics2:spatial_pylon"/> ) to function.
+id="spatial_pylon"/> ) to function.
 
-<RecipeFor id="appliedenergistics2:spatial_pylon" />
+<RecipeFor id="spatial_pylon" />

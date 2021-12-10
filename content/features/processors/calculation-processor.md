@@ -1,6 +1,6 @@
 ---
 item_ids:
-  - appliedenergistics2:calculation_processor
+  - ae2:calculation_processor
 categories:
   - Processors
   - Processor Press Plates
@@ -10,7 +10,7 @@ title: Calculation Processor
 
 Medium tier processor.
 
-<RecipeFor id="appliedenergistics2:calculation_processor" />
+<RecipeFor id="calculation_processor" />
 
 ### Processor Press Plates
 

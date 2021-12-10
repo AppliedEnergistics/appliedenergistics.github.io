@@ -23,16 +23,16 @@ modding platforms. Please see the [downloads page](/download) for details.
 #### Applied Energistics 2 - [ME Networks](features/me-network.md) provide:
 
 - Modular Robust automation tools and great support for working with other other automation mods.
-  - <ItemLink id="appliedenergistics2:item_import_bus" />
-  - <ItemLink id="appliedenergistics2:item_export_bus" />
-  - <ItemLink id="appliedenergistics2:item_level_emitter" />
-  - <ItemLink id="appliedenergistics2:item_interface" />
-  - Unique storage system using <ItemLink id="appliedenergistics2:drive" />, Storage Cells and <ItemLink id="appliedenergistics2:item_storage_bus"></ItemLink>es.
-- <ItemLink id="appliedenergistics2:me_p2p_tunnel"></ItemLink> to transmit signals,
+  - <ItemLink id="import_bus" />
+  - <ItemLink id="export_bus" />
+  - <ItemLink id="level_emitter" />
+  - <ItemLink id="interface" />
+  - Unique storage system using <ItemLink id="drive" />, Storage Cells and <ItemLink id="storage_bus"></ItemLink>es.
+- <ItemLink id="me_p2p_tunnel"></ItemLink> to transmit signals,
   items, fluids and other concepts over common cables.
-- Less time wasted walking back to your chests when working in your base with the <ItemLink id="appliedenergistics2:wireless_terminal"></ItemLink>.
-- Hide your cables with <ItemLink id="appliedenergistics2:facade"></ItemLink> and full support for Forge Multipart.
-- Lots of neat new decorative blocks like <ItemLink id="appliedenergistics2:smooth_sky_stone_block"></ItemLink>, <ItemLink id="appliedenergistics2:quartz_pillar"></ItemLink>, <ItemLink id="appliedenergistics2:quartz_glass"></ItemLink> and <ItemLink id="appliedenergistics2:quartz_fixture"></ItemLink>.
+- Less time wasted walking back to your chests when working in your base with the <ItemLink id="wireless_terminal"></ItemLink>.
+- Hide your cables with <ItemLink id="facade"></ItemLink> and full support for Forge Multipart.
+- Lots of neat new decorative blocks like <ItemLink id="smooth_sky_stone_block"></ItemLink>, <ItemLink id="quartz_pillar"></ItemLink>, <ItemLink id="quartz_glass"></ItemLink> and <ItemLink id="quartz_fixture"></ItemLink>.
 - and so much more!
 
 #### Getting Started

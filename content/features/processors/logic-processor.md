@@ -1,6 +1,6 @@
 ---
 item_ids:
-  - appliedenergistics2:logic_processor
+  - ae2:logic_processor
 categories:
   - Processors
   - Processor Press Plates
@@ -10,7 +10,7 @@ title: Logic Processor
 
 Most basic processor.
 
-<RecipeFor id="appliedenergistics2:logic_processor" />
+<RecipeFor id="logic_processor" />
 
 ### Processor Press Plates
 

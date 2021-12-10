@@ -2,7 +2,7 @@
 categories:
   - Processor Parts
 item_ids:
-  - appliedenergistics2:printed_engineering_processor
+  - ae2:printed_engineering_processor
 related:
   - Processors
   - Processor Press Plates
@@ -11,9 +11,9 @@ title: Printed Engineering Circuit
 ---
 
 Required to make <ItemLink
-id="appliedenergistics2:engineering_processor"/>.
+id="engineering_processor"/>.
 
-<RecipeFor id="appliedenergistics2:printed_engineering_processor" />
+<RecipeFor id="printed_engineering_processor" />
 
 ### Processor Press Plates
 

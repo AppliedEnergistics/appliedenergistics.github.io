@@ -1,14 +1,14 @@
 ---
 title: Network Energy
-sidenav_icon: appliedenergistics2:energy_cell
+sidenav_icon: ae2:energy_cell
 item_ids:
-  - appliedenergistics2:energy_acceptor
-  - appliedenergistics2:cable_energy_acceptor
-  - appliedenergistics2:creative_energy_cell
-  - appliedenergistics2:energy_cell
-  - appliedenergistics2:dense_energy_cell
-  - appliedenergistics2:vibration_chamber
-  - appliedenergistics2:quartz_fiber
+  - ae2:energy_acceptor
+  - ae2:cable_energy_acceptor
+  - ae2:creative_energy_cell
+  - ae2:energy_cell
+  - ae2:dense_energy_cell
+  - ae2:vibration_chamber
+  - ae2:quartz_fiber
 ---
 
 The ME Network needs energy to function. This energy is measured in AE per tick.
@@ -25,7 +25,7 @@ To see the current energy statistics for your network, right-click any part of i
 
 ![Picture of a Energy Accepter.](../../../public/assets/large/energy_accepter.png)
 
-The <ItemLink id="appliedenergistics2:energy_acceptor" /> converts energy from external
+The <ItemLink id="energy_acceptor" /> converts energy from external
 systems into AE and stores it in the network.
 
 The following energy systems are supported:
@@ -34,8 +34,8 @@ The following energy systems are supported:
 | ---------------------------- | --------------- |
 | Forge Energy / Redstone Flux | 2 FE = 1 AE     |
 
-<RecipeFor id="appliedenergistics2:energy_acceptor" />
-<RecipeFor id="appliedenergistics2:cable_energy_acceptor" />
+<RecipeFor id="energy_acceptor" />
+<RecipeFor id="cable_energy_acceptor" />
 
 ## Energy Storage
 
@@ -44,16 +44,16 @@ The following energy systems are supported:
 Stores up to 200,000 AE. They do not accept power directly, but are used to add
 additional power storage to an already existing [ME Network](../me-network.md).
 
-<RecipeFor id="appliedenergistics2:energy_cell" />
+<RecipeFor id="energy_cell" />
 
 ![A picture of a uncharged, and charged energy cell.](../../../public/assets/large/dense_energy_cell.png)
 
 store AE energy up to 1.6 million units. They do not accept power directly but
 are used to add additional power storage to an already existing [ME Network](../me-network.md).
 
-<RecipeFor id="appliedenergistics2:dense_energy_cell" />
+<RecipeFor id="dense_energy_cell" />
 
-<ItemLink id="appliedenergistics2:creative_energy_cell" /> contain infinite AE energy
+<ItemLink id="creative_energy_cell" /> contain infinite AE energy
 and can be used to provide power without needing to generate it.
 
 They can only be spawned in **Creative Mode**.
@@ -63,19 +63,19 @@ They can only be spawned in **Creative Mode**.
 ![A picture of a Vibration Chamber.](../../../public/assets/large/vibration_chamber.png)
 
 A modified furnace capable of generating AE Power instead of smelting ores. When
-placed on an [ME Network](../me-network.md) it will charge <ItemLink id="appliedenergistics2:energy_cell"/> or
+placed on an [ME Network](../me-network.md) it will charge <ItemLink id="energy_cell"/> or
 power other Network Devices.
 
-The <ItemLink id="appliedenergistics2:vibration_chamber"/> will burn
+The <ItemLink id="vibration_chamber"/> will burn
 almost any solid burnable fuel for power. It will slow, or accelerate the burn
 depending on how much power it is able to store vs what is wasted. Generates
 between 1 and 10 AE/t depending on its burn speed.
 
-<RecipeFor id="appliedenergistics2:vibration_chamber" />
+<RecipeFor id="vibration_chamber" />
 
 ### Sharing Power Between Networks
 
 A part designed to share energy between two [ME Network](../me-network.md)s without sharing anything else, also
-used to craft <ItemLink id="appliedenergistics2:fluix_glass_cable" />.
+used to craft <ItemLink id="fluix_glass_cable" />.
 
-<RecipeFor id="appliedenergistics2:quartz_fiber" />
+<RecipeFor id="quartz_fiber" />

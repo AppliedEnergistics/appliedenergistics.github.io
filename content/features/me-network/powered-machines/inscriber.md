@@ -2,7 +2,7 @@
 categories:
   - ME Network/Powered Machines
 item_ids:
-  - appliedenergistics2:inscriber
+  - ae2:inscriber
 related:
   - Presses
 title: Inscriber
@@ -16,7 +16,7 @@ The inscriber is used to press items using various Inscriber Plates. Each operat
 
 ### Recipe
 
-<RecipeFor id="appliedenergistics2:inscriber" />
+<RecipeFor id="inscriber" />
 
 ### The GUI
 
@@ -34,4 +34,4 @@ D. **Output** automated from any side without press
 
 The inscriber supports the following upgrades:
 
-- <ItemLink id="appliedenergistics2:speed_card" />
+- <ItemLink id="speed_card" />

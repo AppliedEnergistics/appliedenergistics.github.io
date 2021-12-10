@@ -2,7 +2,7 @@
 categories:
   - Storage Cells/Spatial Cell Parts
 item_ids:
-  - appliedenergistics2:16_cubed_spatial_cell_component
+  - ae2:spatial_cell_component_16
 related:
   - Spatial Cell Parts
   - Spatial Cells
@@ -10,6 +10,6 @@ title: 16Cubed Spatial Component
 ---
 
 Medium spatial storage component, used to make <ItemLink
-id="appliedenergistics2:16_cubed_spatial_storage_cell"/>.
+id="spatial_storage_cell_16"/>.
 
-<RecipeFor id="appliedenergistics2:16_cubed_spatial_cell_component" />
+<RecipeFor id="spatial_cell_component_16" />

@@ -2,7 +2,7 @@
 categories:
   - Storage Cells/Spatial Cell Parts
 item_ids:
-  - appliedenergistics2:2_cubed_spatial_cell_component
+  - ae2:spatial_cell_component_2
 related:
   - Spatial Cell Parts
   - Spatial Cells
@@ -10,6 +10,6 @@ title: 2Cubed Spatial Component
 ---
 
 Smallets spatial storage component, used to make <ItemLink
-id="appliedenergistics2:2_cubed_spatial_storage_cell"/>.
+id="spatial_storage_cell_2"/>.
 
-<RecipeFor id="appliedenergistics2:2_cubed_spatial_cell_component" />
+<RecipeFor id="spatial_cell_component_2" />

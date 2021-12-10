@@ -1,13 +1,13 @@
 ---
 title: Storage Monitors
 item_ids:
-  - appliedenergistics2:item_conversion_monitor
-  - appliedenergistics2:storage_monitor
+  - ae2:conversion_monitor
+  - ae2:storage_monitor
 ---
 
 ## Storage Monitor
 
-The <ItemLink id="appliedenergistics2:storage_monitor"/> is a simple
+The <ItemLink id="storage_monitor"/> is a simple
 way to see the current level of a specified item. There are several
 interactions to modify it.
 
@@ -18,13 +18,13 @@ interactions to modify it.
 | Shift+Right-click with empty hand | Will toggle the lock.                                                 |
 | Right-click with wrench           | Will rotate the monitor if it is locked and on the ground or ceiling. |
 
-<RecipeFor id="appliedenergistics2:storage_monitor" />
+<RecipeFor id="storage_monitor" />
 
 ## Conversion Monitor
 
-The <ItemLink id="appliedenergistics2:item_conversion_monitor"/> is the
+The <ItemLink id="conversion_monitor"/> is the
 upgraded version of the <ItemLink
-id="appliedenergistics2:storage_monitor"/>. It adds the ability to
+id="storage_monitor"/>. It adds the ability to
 directly withdraw from or store items into the [ME Network](../me-network.md).
 
 In addition to the storage monitor's interactions, conversion monitors support the following actions:
@@ -35,4 +35,4 @@ In addition to the storage monitor's interactions, conversion monitors support t
 | Right-click with item       | Inserts the held item into the network.                                 |
 | Right-click with empty hand | Will insert all of the shown item from your inventory into the network. |
 
-<RecipeFor id="appliedenergistics2:item_conversion_monitor" />
+<RecipeFor id="conversion_monitor" />

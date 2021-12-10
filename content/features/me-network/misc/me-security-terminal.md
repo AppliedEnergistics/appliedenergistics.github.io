@@ -2,7 +2,7 @@
 categories:
   - ME Network/Misc
 item_ids:
-  - appliedenergistics2:security_station
+  - ae2:security_station
 title: ME Security Terminal
 ---
 
@@ -18,14 +18,14 @@ need another form of physical security. This block provides Network level
 security.
 
 The player who places the <ItemLink
-id="appliedenergistics2:security_station"/> has full control over
+id="security_station"/> has full control over
 the network and cannot exclude himself any rights. By adding a blank <ItemLink
-id="appliedenergistics2:biometric_card"/> you define a default
+id="biometric_card"/> you define a default
 behavior for every player who has no own <ItemLink
-id="appliedenergistics2:biometric_card"/> registered.
+id="biometric_card"/> registered.
 
 Other than adding security on software layer, you can link up your <ItemLink
-id="appliedenergistics2:wireless_terminal"/> with the network and
+id="wireless_terminal"/> with the network and
 access it wirelessly.
 
 ### The GUI
@@ -62,4 +62,4 @@ access it wirelessly.
 
 ---|---
 
-<RecipeFor id="appliedenergistics2:security_station" />
+<RecipeFor id="security_station" />

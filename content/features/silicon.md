@@ -1,7 +1,7 @@
 ---
 item_ids:
-  - appliedenergistics2:silicon
+  - ae2:silicon
 title: Silicon
 ---
 
-<RecipeFor id="appliedenergistics2:silicon" />
+<RecipeFor id="silicon" />

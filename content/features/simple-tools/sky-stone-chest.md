@@ -4,8 +4,8 @@ categories:
   - World Gen
   - Decorative Blocks/Skystone Blocks
 item_ids:
-  - appliedenergistics2:sky_stone_chest
-  - appliedenergistics2:smooth_sky_stone_chest
+  - ae2:sky_stone_chest
+  - ae2:smooth_sky_stone_chest
 title: Sky Stone Chest
 ---
 
@@ -14,7 +14,7 @@ They are blast resistant and hold up to 36 stacks of items.
 
 <div className="level"><div className="level-left">
 
-<RecipeFor id="appliedenergistics2:sky_stone_chest" />
+<RecipeFor id="sky_stone_chest" />
 
 </div><div className="level-right">
 
@@ -23,7 +23,7 @@ They are blast resistant and hold up to 36 stacks of items.
 </div></div>
 <div className="level"><div className="level-left">
 
-<RecipeFor id="appliedenergistics2:smooth_sky_stone_chest" />
+<RecipeFor id="smooth_sky_stone_chest" />
 
 </div><div className="level-right">
 

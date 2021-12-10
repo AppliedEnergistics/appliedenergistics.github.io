@@ -1,7 +1,7 @@
 ---
 title: Quartz Fixtures
 item_ids:
-  - appliedenergistics2:quartz_fixture
+  - ae2:quartz_fixture
 ---
 
 ### Quartz Fixtures
@@ -13,4 +13,4 @@ item_ids:
 Decorative light source that can be mounted on any solid surface. Even the ceiling. Unlike torches, this block is not
 affected by water.
 
-<RecipeFor id="appliedenergistics2:quartz_fixture" />
+<RecipeFor id="quartz_fixture" />

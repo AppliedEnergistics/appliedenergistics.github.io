@@ -10,7 +10,7 @@ cables grouped into a system, where storage, power and functions cooperate
 between multiple components.
 
 A Network requires power, which can be provided by various blocks, and may
-require <ItemLink id="appliedenergistics2:controller"/>(s) if you
+require <ItemLink id="controller"/>(s) if you
 require more than 8 [channels](me-network/channels.md) on a single network.
 
 <SubCategories category="ME Network" />

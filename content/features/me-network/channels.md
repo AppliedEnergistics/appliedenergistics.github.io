@@ -1,33 +1,33 @@
 ---
 title: Channels
-sidenav_icon: appliedenergistics2:controller
+sidenav_icon: ae2:controller
 ---
 
 Applied Energistics 2's [ME Networks](../me-network.md) require
 Channels to support devices which use networked storage, or other network
 services. Most devices such as standard cables, and machines can only support
-up to 8 channels. However <ItemLink id="appliedenergistics2:fluix_covered_dense_cable"/> can support up
-to 32 channels, the only other devices capable of transmitting 32 are <ItemLink id="appliedenergistics2:me_p2p_tunnel" />
+up to 8 channels. However <ItemLink id="fluix_covered_dense_cable"/> can support up
+to 32 channels, the only other devices capable of transmitting 32 are <ItemLink id="me_p2p_tunnel" />
 and the [Quantum Network Bridge](quantum-bridge.md).
 
-A Network without a <ItemLink id="appliedenergistics2:controller"/>
+A Network without a <ItemLink id="controller"/>
 is considered to be Ad-Hoc, and can support up to 8 channel using devices.
 Once you exceed 8 devices the networks channel using devices will shutdown,
-you can either remove devices, or add a <ItemLink id="appliedenergistics2:controller"/>.
+you can either remove devices, or add a <ItemLink id="controller"/>.
 
 While using [Ad-Hoc](ad-hoc-networks.md) networks each device will
 use 1 channel network wide, this is very different from how <ItemLink
-id="appliedenergistics2:controller"/> allocate channels based on
+id="controller"/> allocate channels based on
 shortest route.
 
 Channels will consume 1⁄128 ae/t per node they transverse, this means that by
-adding a <ItemLink id="appliedenergistics2:controller"/> for a
+adding a <ItemLink id="controller"/> for a
 network with 8 devices and over 96 nodes your power usage might actually
 decrease power consumption because it changes how channels are allocated.
 
-When using a <ItemLink id="appliedenergistics2:controller"/>
+When using a <ItemLink id="controller"/>
 Channels must route via the shortest path from the <ItemLink
-id="appliedenergistics2:controller"/> to the device. If the path is
+id="controller"/> to the device. If the path is
 already maxed out, some devices may not get their required channels, use
 colored cables, cable anchors and tunnels to your advantage to make sure your
 channels go in the path you desire.

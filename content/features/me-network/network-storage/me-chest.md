@@ -2,7 +2,7 @@
 categories:
   - ME Network/Network Storage
 item_ids:
-  - appliedenergistics2:chest
+  - ae2:chest
 related:
   - Other Networked Storage
   - Storage Cells
@@ -10,11 +10,11 @@ title: ME Chest
 ---
 
 ![A picture of an ME Chest](../../../../public/assets/large/me_chest.png)The <ItemLink
-id="appliedenergistics2:chest"/> is the simplest way to use a
+id="chest"/> is the simplest way to use a
 Storage cell, it will give you direct access to the contents of the cell
 placed inside.
 
-<ItemLink id="appliedenergistics2:chest" />
+<ItemLink id="chest" />
 
 show their contents and the storage cell status on the front face.
 
@@ -23,7 +23,7 @@ show their contents and the storage cell status on the front face.
 - Green - Indicates the cell can hold more types, or more items.
 - Black - Indicates there is no channel, or power is offline.
 
-<ItemLink id="appliedenergistics2:chest" />
+<ItemLink id="chest" />
 
 can be powered stand alone with external power, or as part of a [ME
 Network](../../me-network.md). When on a network, the storage of the
@@ -31,19 +31,19 @@ chest will be available to any other devices in the same network using an
 assigned Channel. When used without a network, the chest will not transfer
 full stacks at once, capping transfers at 38 items instead.
 
-The <ItemLink id="appliedenergistics2:chest"/> consumes 1 AE/t, and
+The <ItemLink id="chest"/> consumes 1 AE/t, and
 consumes a small amount based on which storage cell is installed. If powered
 on its own it has a very small internal storage which only lasts a few
-moments, using a <ItemLink id="appliedenergistics2:energy_cell"/> or
+moments, using a <ItemLink id="energy_cell"/> or
 using a battery from another mod is suggested for reliable operation.
 
-The <ItemLink id="appliedenergistics2:chest"/> has two UI's, one is
+The <ItemLink id="chest"/> has two UI's, one is
 used to place the storage cell inside the device from the sides or bottom, the
 other is accessed by using the top surface to access the contents.
 
 Items can be injected into the <ItemLink
-id="appliedenergistics2:chest"/> like any other inventory, however
+id="chest"/> like any other inventory, however
 items cannot be extracted with automation except via networked functions like
-the <ItemLink id="appliedenergistics2:item_export_bus"/>.
+the <ItemLink id="export_bus"/>.
 
-<RecipeFor id="appliedenergistics2:chest" />
+<RecipeFor id="chest" />

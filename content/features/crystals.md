@@ -1,22 +1,22 @@
 ---
 title: Crystals
-sidenav_icon: appliedenergistics2:certus_quartz_crystal
+sidenav_icon: ae2:certus_quartz_crystal
 item_ids:
-  - appliedenergistics2:quartz_ore
-  - appliedenergistics2:certus_quartz_crystal
-  - appliedenergistics2:charged_certus_quartz_crystal
-  - appliedenergistics2:certus_quartz_dust
-  - appliedenergistics2:certus_crystal_seed
-  - appliedenergistics2:fluix_crystal_seed
-  - appliedenergistics2:fluix_crystal
-  - appliedenergistics2:fluix_dust
+  - ae2:quartz_ore
+  - ae2:certus_quartz_crystal
+  - ae2:charged_certus_quartz_crystal
+  - ae2:certus_quartz_dust
+  - ae2:certus_crystal_seed
+  - ae2:fluix_crystal_seed
+  - ae2:fluix_crystal
+  - ae2:fluix_dust
 ---
 
 ## Certus Quartz Crystals
 
 Certus quartz crystals possess the unique trait of storing large quantities of energy.
-When charged in the <ItemLink id="appliedenergistics2:charger"/> it will convert
-into <ItemLink id="appliedenergistics2:charged_certus_quartz_crystal"/>.
+When charged in the <ItemLink id="charger"/> it will convert
+into <ItemLink id="charged_certus_quartz_crystal"/>.
 
 ### Finding Certus Quartz
 
@@ -36,7 +36,7 @@ The <ItemLink id="certus_quartz_dust" /> you find can be grown into a <ItemLink 
 First you must make a seed by combining the crystal dust with <ItemLink id="minecraft:sand"/>.
 Then simply drop/throw the seed in water. The seed will not despawn and turn into a crystal over time.
 
-This process is very slow without the help of the <ItemLink id="appliedenergistics2:quartz_growth_accelerator"/>.
+This process is very slow without the help of the <ItemLink id="quartz_growth_accelerator"/>.
 
 | Accelerators | Time       |
 | ------------ | ---------- |
@@ -58,16 +58,16 @@ This process is very slow without the help of the <ItemLink id="appliedenergisti
 
 ### Seeds
 
-<RecipeFor id="appliedenergistics2:certus_crystal_seed" />
+<RecipeFor id="certus_crystal_seed" />
 
-<RecipeFor id="appliedenergistics2:fluix_crystal_seed" />
+<RecipeFor id="fluix_crystal_seed" />
 
 ### Fluix Crystals
 
 This crystal possesses the unique ability to absorb and convert energy from one
 form to another, and is the foundation of all ME technology.
 
-<ItemLink id="appliedenergistics2:fluix_crystal" /> is crafted in world by placing <ItemLink id="appliedenergistics2:charged_certus_quartz_crystal" />
+<ItemLink id="fluix_crystal" /> is crafted in world by placing <ItemLink id="charged_certus_quartz_crystal" />
 , <ItemLink id="minecraft:quartz" />
 and <ItemLink id="minecraft:redstone" /> in water. It will quickly start to react,
 and result in two <ItemLink id="fluix_dust" />. The dust can then be used for

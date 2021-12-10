@@ -1,5 +1,5 @@
 {
-  "name": "ae-site3",
+  "name": "ae2-site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,9 +19,9 @@
     "@tippyjs/react": "^4.2.5",
     "@types/mdx-js__react": "^1.5.4",
     "bulma": "^0.9.3",
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@next/mdx": "^11.1.2",

@@ -2,7 +2,7 @@
 categories:
   - ME Network/Network Storage
 item_ids:
-  - appliedenergistics2:drive
+  - ae2:drive
 related:
   - Other Networked Storage
   - Storage Cells
@@ -13,7 +13,7 @@ title: ME Drive
 do one thing, store Storage Cells. This block holds 10 storage cells so you
 can tightly pack your storage into a very small space.
 
-<ItemLink id="appliedenergistics2:drive" />
+<ItemLink id="drive" />
 
 show their contents and the storage cell status on the front of the drive
 face.
@@ -28,7 +28,7 @@ this block does nothing. Its only useful when combined with a way to input,
 and output items, and requires 2 AE/t power to function, and additional power
 for each Storage Cell stored inside it.
 
-The <ItemLink id="appliedenergistics2:drive"/> requires a
+The <ItemLink id="drive"/> requires a
 [channel](../channels.md) to function.
 
-<RecipeFor id="appliedenergistics2:drive" />
+<RecipeFor id="drive" />

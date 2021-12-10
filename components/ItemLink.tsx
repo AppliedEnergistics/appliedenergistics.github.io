@@ -20,9 +20,9 @@ function ItemLink({ id, children, tooltip }: ItemLinkProps) {
 
   let pageUrl: string | undefined;
   if (!id.includes(":")) {
-    id = "appliedenergistics2:" + id;
+    id = "ae2:" + id;
   }
-  if (id.startsWith("appliedenergistics2:")) {
+  if (id.startsWith("ae2:")) {
     pageUrl = itemIdToPageIndex[id];
 
     if (!pageUrl) {

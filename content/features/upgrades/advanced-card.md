@@ -2,12 +2,12 @@
 categories:
   - Upgrades
 item_ids:
-  - appliedenergistics2:advanced_card
+  - ae2:advanced_card
 title: Advanced Card
 ---
 
-Used to craft <ItemLink id="appliedenergistics2:fuzzy_card"/>,
+Used to craft <ItemLink id="fuzzy_card"/>,
 
-<ItemLink id="appliedenergistics2:inverter_card" /> and <ItemLink id="appliedenergistics2:speed_card" />
+<ItemLink id="inverter_card" /> and <ItemLink id="speed_card" />
 
-<RecipeFor id="appliedenergistics2:advanced_card" />
+<RecipeFor id="advanced_card" />

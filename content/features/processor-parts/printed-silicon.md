@@ -2,7 +2,7 @@
 categories:
   - Processor Parts
 item_ids:
-  - appliedenergistics2:printed_silicon
+  - ae2:printed_silicon
 related:
   - Processors
   - Processor Press Plates
@@ -10,7 +10,7 @@ related:
 title: Printed Silicon
 ---
 
-<RecipeFor id="appliedenergistics2:printed_silicon" />
+<RecipeFor id="printed_silicon" />
 
 ### Processor Press Plates
 

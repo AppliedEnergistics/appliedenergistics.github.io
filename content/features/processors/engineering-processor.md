@@ -1,6 +1,6 @@
 ---
 item_ids:
-  - appliedenergistics2:engineering_processor
+  - ae2:engineering_processor
 categories:
   - Processors
   - Processor Press Plates
@@ -10,7 +10,7 @@ title: Engineering Processor
 
 Most Advanced Processor.
 
-<RecipeFor id="appliedenergistics2:engineering_processor" />
+<RecipeFor id="engineering_processor" />
 
 ### Processor Press Plates
 

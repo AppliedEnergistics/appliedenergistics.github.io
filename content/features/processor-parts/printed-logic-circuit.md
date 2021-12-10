@@ -2,7 +2,7 @@
 categories:
   - Processor Parts
 item_ids:
-  - appliedenergistics2:printed_logic_processor
+  - ae2:printed_logic_processor
 related:
   - Processors
   - Processor Press Plates
@@ -11,9 +11,9 @@ title: Printed Logic Circuit
 ---
 
 Required to make <ItemLink
-id="appliedenergistics2:printed_logic_processor"/>.
+id="printed_logic_processor"/>.
 
-<RecipeFor id="appliedenergistics2:printed_logic_processor" />
+<RecipeFor id="printed_logic_processor" />
 
 ### Processor Press Plates
 

@@ -2,7 +2,7 @@
 categories:
   - Advanced Tools/Utilities
 item_ids:
-  - appliedenergistics2:entropy_manipulator
+  - ae2:entropy_manipulator
 title: Entropy Manipulator
 ---
 
@@ -14,6 +14,6 @@ the block instead. You can also hit mobs or players with it to set them on
 fire.
 
 Its battery can store 200k ae and consumes 1600 ae per usage, it can be to be
-recharged in a <ItemLink id="appliedenergistics2:charger"/>.
+recharged in a <ItemLink id="charger"/>.
 
-<RecipeFor id="appliedenergistics2:entropy_manipulator" />
+<RecipeFor id="entropy_manipulator" />

@@ -1,19 +1,19 @@
 ---
 title: Auto-Crafting
-sidenav_icon: appliedenergistics2:molecular_assembler
+sidenav_icon: ae2:molecular_assembler
 item_ids:
-  - appliedenergistics2:blank_pattern
-  - appliedenergistics2:crafting_pattern
-  - appliedenergistics2:processing_pattern
-  - appliedenergistics2:1k_crafting_storage
-  - appliedenergistics2:4k_crafting_storage
-  - appliedenergistics2:16k_crafting_storage
-  - appliedenergistics2:64k_crafting_storage
-  - appliedenergistics2:crafting_accelerator
-  - appliedenergistics2:crafting_monitor
-  - appliedenergistics2:crafting_unit
-  - appliedenergistics2:pattern_provider
-  - appliedenergistics2:cable_pattern_provider
+  - ae2:blank_pattern
+  - ae2:crafting_pattern
+  - ae2:processing_pattern
+  - ae2:1k_crafting_storage
+  - ae2:4k_crafting_storage
+  - ae2:16k_crafting_storage
+  - ae2:64k_crafting_storage
+  - ae2:crafting_accelerator
+  - ae2:crafting_monitor
+  - ae2:crafting_unit
+  - ae2:pattern_provider
+  - ae2:cable_pattern_provider
 ---
 
 ## Crafting CPU
@@ -34,10 +34,10 @@ approximation, you will need a little over one byte per input item, output
 item, or operation.
 
 You can name your Crafting CPUs by naming any of the crafting units it is made up of with
-an <ItemLink id="appliedenergistics2:inscriber"/> or an Anvil.
+an <ItemLink id="inscriber"/> or an Anvil.
 
-To provide patterns to the autocrafting cpus you can use <ItemLink id="appliedenergistics2:item_interface"/>
-or <ItemLink id="appliedenergistics2:item_level_emitter"/>.
+To provide patterns to the autocrafting cpus you can use <ItemLink id="interface"/>
+or <ItemLink id="level_emitter"/>.
 
 ### Components
 
@@ -54,31 +54,31 @@ It is the base for crafting the other functional components of a crafting CPU.
 
 Provides 1024 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:1k_crafting_storage" />
+<RecipeFor id="1k_crafting_storage" />
 
 ![A picture of a 4k crafting storage unit.](../../public/assets/large/crafting4k.png)
 
 Provides 4,096 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:4k_crafting_storage" />
+<RecipeFor id="4k_crafting_storage" />
 
 ![A 16k Crafting Storage Unit.](../../public/assets/large/crafting16k.png)
 
 Provides 16,384 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:16k_crafting_storage" />
+<RecipeFor id="16k_crafting_storage" />
 
 ![A picture of a 64k Crafting Storage Unit](../../public/assets/large/crafting64k.png)
 
 Provides 65,536 bytes of storage for crafting.
 
-<RecipeFor id="appliedenergistics2:64k_crafting_storage" />
+<RecipeFor id="64k_crafting_storage" />
 
 #### Co-Processor
 
 ![A picture of several Co Processors in a Crafting CPU](../../public/assets/large/craftingco.png)
 
-Provides additional item delivery from the CPU to the <ItemLink id="appliedenergistics2:pattern_provider"/> for
+Provides additional item delivery from the CPU to the <ItemLink id="pattern_provider"/> for
 crafting.
 
 This can be used to make more assemblers active in parallel for the job, and
@@ -86,7 +86,7 @@ thus increase overall crafting speed. These only help if your setup has steps
 properly separated so the system can run multiple tasks in parallel, or even
 split the same pattern across multiple interfaces.
 
-<RecipeFor id="appliedenergistics2:crafting_accelerator" />
+<RecipeFor id="crafting_accelerator" />
 
 #### Crafting Monitor
 
@@ -95,7 +95,7 @@ split the same pattern across multiple interfaces.
 Displays the top level job and its current progress so you can see what a particular Crafting CPU is currently
 working on.
 
-<RecipeFor id="appliedenergistics2:crafting_monitor" />
+<RecipeFor id="crafting_monitor" />
 
 ## Pattern Provider
 
@@ -106,39 +106,39 @@ pattern provider. Normally, the pattern provider will then push out the
 ingredients to an adjacent block (a <ItemLink id="molecular_assembler"/> for crafting recipes, for example),
 and crafting continues once the result enters the network again.
 This can be achieved by pushing the crafting result back into the pattern provider,
-an <ItemLink id="item_interface" /> or any other means that would import the crafting result into the network. Molecular
+an <ItemLink id="interface" /> or any other means that would import the crafting result into the network. Molecular
 assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided
 the ingredients.
 
-<RecipeFor id="appliedenergistics2:pattern_provider" />
-<RecipeFor id="appliedenergistics2:cable_pattern_provider" />
+<RecipeFor id="pattern_provider" />
+<RecipeFor id="cable_pattern_provider" />
 
 ### Blank Pattern
 
-A blank pattern, once encoded as an <ItemLink id="appliedenergistics2:crafting_pattern"/>
-or <ItemLink id="appliedenergistics2:processing_pattern"/>, is used to control
-crafting by inserting them into <ItemLink id="appliedenergistics2:molecular_assembler"/> and <ItemLink
-id="appliedenergistics2:pattern_provider"/>.
+A blank pattern, once encoded as an <ItemLink id="crafting_pattern"/>
+or <ItemLink id="processing_pattern"/>, is used to control
+crafting by inserting them into <ItemLink id="molecular_assembler"/> and <ItemLink
+id="pattern_provider"/>.
 
-Patterns can be encoded in the <ItemLink id="pattern_terminal" />.
+Patterns can be encoded in the <ItemLink id="pattern_encoding_terminal" />.
 
-<RecipeFor id="appliedenergistics2:blank_pattern" />
+<RecipeFor id="blank_pattern" />
 
 ### Crafting Patterns
 
-Encoded version of <ItemLink id="appliedenergistics2:blank_pattern"/> created by using
-the <ItemLink id="appliedenergistics2:pattern_terminal"/> in "Crafting Mode".
+Encoded version of <ItemLink id="blank_pattern"/> created by using
+the <ItemLink id="pattern_encoding_terminal"/> in "Crafting Mode".
 
 Crafting Recipes are very specific, and automatically have an output
 associated with them, these are required to work with a <ItemLink
-id="appliedenergistics2:molecular_assembler"/>.
+id="molecular_assembler"/>.
 
 The description of a crafting pattern starts with "Crafts".
 
 ### Processing Recipes
 
-Encoded version of <ItemLink id="appliedenergistics2:blank_pattern"/> created by using
-the <ItemLink id="appliedenergistics2:pattern_terminal"/> in "Processing Mode".
+Encoded version of <ItemLink id="blank_pattern"/> created by using
+the <ItemLink id="pattern_encoding_terminal"/> in "Processing Mode".
 
 Processing recipes are not crafting recipes, they have no rules to their
 inputs, or outputs, and are used for things like machines or furances, they

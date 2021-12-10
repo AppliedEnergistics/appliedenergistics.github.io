@@ -18,7 +18,7 @@ export interface RecipeForProps {
 
 function RecipeFor({ id }: RecipeForProps) {
   if (!id.includes(":")) {
-    id = "appliedenergistics2:" + id;
+    id = "ae2:" + id;
   }
 
   const crafting = Object.values(craftingRecipes).filter(

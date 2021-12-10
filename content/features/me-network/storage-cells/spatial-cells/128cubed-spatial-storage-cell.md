@@ -2,11 +2,11 @@
 categories:
   - Storage Cells/Spatial Cells
 item_ids:
-  - appliedenergistics2:128_cubed_spatial_storage_cell
+  - ae2:spatial_storage_cell_128
 title: 128Cubed Spatial Storage Cell
 ---
 
-Used with <ItemLink id="appliedenergistics2:spatial_io_port"/> to
+Used with <ItemLink id="spatial_io_port"/> to
 store spatial regions.
 
-<RecipeFor id="appliedenergistics2:128_cubed_spatial_storage_cell" />
+<RecipeFor id="spatial_storage_cell_128" />

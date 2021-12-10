@@ -1,7 +1,7 @@
 ---
 title: Ender Dust
 item_ids:
-  - appliedenergistics2:ender_dust
+  - ae2:ender_dust
 ---
 
 <ItemLink id="ender_dust" /> is created by shattering an <ItemLink id="minecraft:ender_pearl" /> in

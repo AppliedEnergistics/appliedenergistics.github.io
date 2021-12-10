@@ -87,7 +87,7 @@ const indexByItemId = new Map<string, ItemInfo>(
 
 export function getItemInfo(itemId: string): ItemInfo {
   if (!itemId.includes(":")) {
-    itemId = "appliedenergistics2:" + itemId;
+    itemId = "ae2:" + itemId;
   }
 
   const entry = indexByItemId.get(itemId);

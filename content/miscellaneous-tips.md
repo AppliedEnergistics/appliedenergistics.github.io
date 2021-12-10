@@ -19,7 +19,7 @@ gives you an empty storage cell housing to re-insert a cell into.
 
 ### Colored Terminals / Monitors
 
-When you place a <ItemLink id="appliedenergistics2:terminal"/> or
+When you place a <ItemLink id="terminal"/> or
 other monitors on a cable, they take on the color of that cable, so if the cable is
 blue, so will the screen of the placed part.
 
@@ -33,14 +33,14 @@ store items, it will instead see the items in the inventory.
 ### Rotating Blocks
 
 You can rotate most blocks by using a Buildcraft Compatible Wrench, such as
-the <ItemLink id="appliedenergistics2:certus_quartz_wrench"/>.
+the <ItemLink id="certus_quartz_wrench"/>.
 
 ### Setting Priority
 
 You can set Storage Priorities on <ItemLink
-id="appliedenergistics2:chest"/>, <ItemLink
-id="appliedenergistics2:drive"/> or <ItemLink
-id="appliedenergistics2:item_storage_bus"/> in the Priority Tab on the
+id="chest"/>, <ItemLink
+id="drive"/> or <ItemLink
+id="storage_bus"/> in the Priority Tab on the
 right top side. Higher Priorities are more imporant then lower ones and by
 default all storages are set to 0.
 
