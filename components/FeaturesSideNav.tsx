@@ -19,6 +19,7 @@ const sideNav: MenuEntry[] = [
       "features/crystals.md",
       "features/meteorites.md",
       "features/auto-crafting.md",
+      "features/me-network/powered-machines/inscriber.md",
     ],
   },
   {

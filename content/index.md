@@ -3,7 +3,7 @@ title: About Applied Energistics
 path: /
 ---
 
-<div class="box">
+<div className="box">
   This website is for the most recent versions of Applied Energistics 2, which
   usually supports the latest version of Minecraft. For Minecraft 1.16 and
   older, you can find more appropriate information in the{" "}
