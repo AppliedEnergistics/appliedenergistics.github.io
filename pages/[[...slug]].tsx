@@ -26,6 +26,7 @@ import InscriberRecipes from "../components/recipes/InscriberRecipes";
 import ItemGrid from "../components/ItemGrid";
 import ItemIcon from "../components/ItemIcon";
 import P2PTunnelTypes from "../components/P2PTunnelTypes";
+import remarkSlugs from 'remark-slug';
 
 const components = {
   a: MdxLink,
@@ -76,15 +77,19 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       visit(tree, "link", (node) => {
         const link = node as Link;
         // Resolve .md links
-        if (link.url.endsWith(".md")) {
-          let absolute = path.join(path.dirname(pagePath), link.url);
+        const [linkPath, fragment] = link.url.split('#');
+        if (linkPath.endsWith(".md")) {
+          let absolute = path.join(path.dirname(pagePath), linkPath);
           absolute = absolute.replaceAll("\\", "/");
 
           if (!fs.existsSync(path.join(CONTENT_PATH, absolute))) {
-            throw new Error(`Broken link '${link.url}' in ${pagePath}`);
+            throw new Error(`Broken link '${linkPath}' in ${pagePath}`);
           }
 
           link.url = getPageUrl(absolute);
+          if (fragment) {
+            link.url += '#' + fragment;
+          }
         }
       });
     };
@@ -131,7 +136,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const mdxSource = await serialize(content, {
     // Optionally pass remark/rehype plugins
     mdxOptions: {
-      remarkPlugins: [rewriteInternalLinks],
+      remarkPlugins: [remarkSlugs as any, rewriteInternalLinks],
       rehypePlugins: [rewriteInternalImages],
     },
     scope: data,

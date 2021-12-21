@@ -11,6 +11,7 @@ const sideNav: MenuEntry[] = [
       "getting-started.md",
       "frequently-asked-questions.md",
       "miscellaneous-tips.md",
+      "customizing-ae2.md",
     ],
   },
   {
