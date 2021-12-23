@@ -65,8 +65,8 @@ Inscriber Presses. There are four presses that you need (Listed in order of "tie
   <ItemIcon itemId="engineering_processor_press" />
 </ItemGrid>
 
-These presses are used to make the Circuits needed for the Tech 2 machines and beyond. They're found randomly in <
-ItemLink id="sky_stone_chest"/>, which are located within Meteorites. Meteorites are randomly
+These presses are used to make the Circuits needed for the Tech 2 machines and beyond. They're found randomly 
+in <ItemLink id="sky_stone_chest"/>, which are located within Meteorites. Meteorites are randomly
 spawned throughout the world, normally underground. So, the hunt begins!
 
 This hunt is a little less aimless than the hunt for your first <ItemLink id="
@@ -150,8 +150,8 @@ managing [channels](features/me-network/channels.md). Many devices but not all, 
 function. If the device deals solely with power, or connectivity like cables the device will not require
 a [channel](features/me-network/channels.md). Anything that uses items, or moves them around, will.
 
-By default network can support 8 [channels](features/me-network/channels.md), once you break this limit, you'll have to add an <
-ItemLink id="controller"/> to your network. this allows you to expand your network greatly.
+By default network can support 8 [channels](features/me-network/channels.md), once you break this limit, you'll have to add 
+an <ItemLink id="controller"/> to your network. this allows you to expand your network greatly.
 
 Each face of the controller will output 32 [channels](features/me-network/channels.md), depending on whats is accepting
 these [channels](features/me-network/channels.md) will determin how they get used, for instance, if you place a <ItemLink id="
