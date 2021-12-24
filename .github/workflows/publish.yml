@@ -1,6 +1,9 @@
 name: Next.js Publish
 
 on:
+  # Run every day at 4am to update javadoc and API
+  schedule:
+    - cron:  '0 4 * * *'
   push:
     branches:
       - source
@@ -14,10 +17,14 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
-      - name: Install and Build 🔧
-        run: |
-          npm ci
-          npm run build
+      - name: Install 🔧
+        run: npm ci
+      - name: Update Javadoc + API Doc
+        run: node get-releases.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build 🔧
+        run: npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
