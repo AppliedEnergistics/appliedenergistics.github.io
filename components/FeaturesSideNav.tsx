@@ -12,6 +12,10 @@ const sideNav: MenuEntry[] = [
       "frequently-asked-questions.md",
       "miscellaneous-tips.md",
       "customizing-ae2.md",
+      {
+        title: "API",
+        path: "api.md"
+      }
     ],
   },
   {

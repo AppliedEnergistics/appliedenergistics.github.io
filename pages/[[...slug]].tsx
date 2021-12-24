@@ -78,7 +78,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         const link = node as Link;
         // Resolve .md links
         const [linkPath, fragment] = link.url.split('#');
-        if (linkPath.endsWith(".md")) {
+        if (!linkPath.includes("://") && linkPath.endsWith(".md")) {
           let absolute = path.join(path.dirname(pagePath), linkPath);
           absolute = absolute.replaceAll("\\", "/");
 
