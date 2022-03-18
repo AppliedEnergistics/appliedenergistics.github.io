@@ -154,16 +154,16 @@ By default network can support 8 [channels](features/me-network/channels.md), on
 an <ItemLink id="controller"/> to your network. this allows you to expand your network greatly.
 
 Each face of the controller will output 32 [channels](features/me-network/channels.md), depending on whats is accepting
-these [channels](features/me-network/channels.md) will determin how they get used, for instance, if you place a <ItemLink id="
-ae2:fluix_covered_dense_cable"/> next tohe controller you will beable to carry a full 32
+these [channels](features/me-network/channels.md) will determine how they get used, for instance, if you place a <ItemLink id="
+ae2:fluix_covered_dense_cable"/> next to the controller you will be able to carry a full 32
 [channels](features/me-network/channels.md), however if you place a <ItemLink id="drive"/> next to it, or
 non-dense cable, you will only get 8 [channels](features/me-network/channels.md).
 
 ### Tunneling
 
-So your getting things started, but getting [channels](features/me-network/channels.md)
-where you want them is kinda a nusance. Its time to start using <ItemLink id="me_p2p_tunnel"/>.
-These when configured for ME, allow you to move [channels](features/me-network/channels.md) from point to point; this allows you to
+So you're getting things started, but getting [channels](features/me-network/channels.md)
+where you want them is kind of a nusance. Its time to start using <ItemLink id="me_p2p_tunnel"/>.
+When configured for ME, they allow you to move [channels](features/me-network/channels.md) from point to point. this allows you to
 move up to 32 [channels](features/me-network/channels.md) per pair of <ItemLink id="me_p2p_tunnel"/>.
 
 ![A example of using P2P Tunnels to move channels.](../public/assets/large/tunnelchannels.png)
