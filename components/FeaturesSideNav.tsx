@@ -15,7 +15,8 @@ const sideNav: MenuEntry[] = [
       {
         title: "API",
         path: "api.md"
-      }
+      },
+      "debug-card.md"
     ],
   },
   {
