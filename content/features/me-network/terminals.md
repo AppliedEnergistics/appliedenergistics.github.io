@@ -34,20 +34,22 @@ Like the <ItemLink id="terminal"/> it also requires a [channel](channels.md) to 
 
 <RecipeFor id="crafting_terminal" />
 
-## Pattern Provider Terminal
+## Pattern Access Terminal
 
-Gives remote access to all interface pattern slots on your network separated
+Gives remote access to all pattern slots for the pattern providers on your network separated
 by which type of machine they are on. It will show the type of machine in the
 terminal, however you can name the <ItemLink id="interface"/> in the <ItemLink
 id="inscriber"/> or an Anvil to alter the name
 displayed in the <ItemLink id="pattern_access_terminal"/>.
 
-Combined with the fact that you can toggle if the interface shows up at all
-this gets you control over your itnerface terminal's display.
+Combined with the fact that you can toggle if the pattern provider shows up at all
+this gets you control over your pattern terminal's display.
+
+You can also choose to pattern providers whose pattern inventory is already full.
 
 <RecipeFor id="pattern_access_terminal" />
 
-## Pattern Terminal
+## Pattern Encoding Terminal
 
 A specialized version of the <ItemLink id="crafting_terminal"/> designed to
 encode <ItemLink id="blank_pattern"/> into <ItemLink id="crafting_pattern"/>
@@ -73,8 +75,5 @@ output materials, including quantity, by placing stacks of items in the
 interface. If a processing operation is not guaranteed to succeed (such as
 secondary products from some machines), it will not work correctly as a
 Processing Pattern.
-
-When designing crafting patterns you can click the output to extract a crafted
-item as long as you have the materials required to craft the item.
 
 <RecipeFor id="pattern_encoding_terminal" />
