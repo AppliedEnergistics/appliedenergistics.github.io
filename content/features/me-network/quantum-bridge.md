@@ -10,6 +10,7 @@ item_ids:
 ![A formed Quantum Network Bridge](../../../public/large/qnb.png)
 
 _Quantum Network Bridges_ can connect two networks over infinite distances and even between dimensions.
+They can carry 32 channels in total (regardless of how cables are connected to each face).
 
 ## Quantum Ring
 
