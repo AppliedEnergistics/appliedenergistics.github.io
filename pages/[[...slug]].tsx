@@ -27,6 +27,7 @@ import ItemGrid from "../components/ItemGrid";
 import ItemIcon from "../components/ItemIcon";
 import P2PTunnelTypes from "../components/P2PTunnelTypes";
 import remarkSlugs from 'remark-slug';
+import remarkGfm from 'remark-gfm';
 
 const components = {
   a: MdxLink,
@@ -136,7 +137,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const mdxSource = await serialize(content, {
     // Optionally pass remark/rehype plugins
     mdxOptions: {
-      remarkPlugins: [remarkSlugs as any, rewriteInternalLinks],
+      remarkPlugins: [remarkSlugs as any, rewriteInternalLinks, remarkGfm],
       rehypePlugins: [rewriteInternalImages],
     },
     scope: data,
