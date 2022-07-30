@@ -38,7 +38,7 @@ Like the <ItemLink id="terminal"/> it also requires a [channel](channels.md) to 
 
 Gives remote access to all pattern slots for the pattern providers on your network separated
 by which type of machine they are on. It will show the type of machine in the
-terminal, however you can name the <ItemLink id="interface"/> in the <ItemLink
+terminal, however you can name the <ItemLink id="pattern_provider"/> in the <ItemLink
 id="inscriber"/> or an Anvil to alter the name
 displayed in the <ItemLink id="pattern_access_terminal"/>.
 
