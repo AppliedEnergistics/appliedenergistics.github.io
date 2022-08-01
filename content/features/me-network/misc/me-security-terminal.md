@@ -32,33 +32,33 @@ access it wirelessly.
 
 ![Security Terminal GUI](../../../../public/assets/content/securityTerminalGUI.png) |
 
-1. **Sort Order  
+A. **Sort Order  
    ** Toggle sorting direction
 
-2. **Search Box Mode  
+B. **Search Box Mode  
    ** Auto Search
 
-3. **Biometric Card**
-4. **Deposit  
+C. **Biometric Card**
+D. **Deposit  
    ** User is allowed to store new items into storage
 
-5. **Withdraw  
+E. **Withdraw  
    ** User is allowed to remove items from storage
 
-6. **Craft  
+F. **Craft  
    ** User can inititate new crafting jobs
 
-7. **Build  
+G. **Build  
    ** User can modify the physical structure of the network and make
    configuration changes.
 
-8. **Security  
+H. **Security  
    ** User can access and modify the security terminal of the network
 
-9. **Wireless Access Terminal  
+I. **Wireless Access Terminal  
    ** Links up the WAT to the network
 
-10. **Linked up WAT**
+J. **Linked up WAT**
 
 ---|---
 
