@@ -12,8 +12,9 @@ title: 1k ME Item Fluid Storage Cell
 
 Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.
 
-1,024 bytes of storage can hold 127 Stacks of a single item. or 65
-Stacks,while holding 63 Different items.
+This cell can hold 63 item types and 65 Stacks of each type
+(4,160 of each type, 262,080 total). If only one type of item
+is stored, this cell can hold 127 Stacks of that type (8,128 total).
 
 The 1k Storage Cell uses 8 bytes of data to store a single type. [Click here
 for details on how storage math works.](../../storage-cells.md)
