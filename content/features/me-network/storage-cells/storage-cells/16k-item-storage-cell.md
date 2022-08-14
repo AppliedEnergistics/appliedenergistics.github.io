@@ -12,8 +12,9 @@ title: 16k ME Storage Cell
 
 Middle Tier Storage Cell, which can contain 16,384 bytes of storage.
 
-16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040
-Stacks,while holding 63 Different items.
+This cell can hold 63 item types and 1,040 Stacks of each type
+(66,560 of each type, 4,193,280 total). If only one type of item
+is stored, this cell can hold 2,032 Stacks of that type (130,048 total).
 
 The 16k Storage Cell uses 128 bytes of data to store a single type. [Click
 here for details on how storage math works.](../../storage-cells.md)
