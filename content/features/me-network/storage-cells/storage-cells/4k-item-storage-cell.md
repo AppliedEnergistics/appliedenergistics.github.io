@@ -12,8 +12,9 @@ title: 4k ME Storage Cell
 
 Low Tier Storage Cell, which can contain 4,096 bytes of storage.
 
-4,096 bytes of storage can hold 508 Stacks of a single item. or 260
-Stacks,while holding 63 Different items.
+This cell can hold 63 item types and 260 Stacks of each type
+(16,640 of each type, 1,048,320 total). If only one type of item
+is stored, this cell can hold 508 Stacks of that type (32,512 total).
 
 The 4k Storage Cell uses 32 bytes of data to store a single type. [Click here
 for details on how storage math works.](../../storage-cells.md)
