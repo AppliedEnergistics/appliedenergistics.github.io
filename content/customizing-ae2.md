@@ -9,7 +9,7 @@ This page describes how AE2 can be tweaked by modpack authors or players to thei
 
 ### Channel Modes
 
-If you don't like playing with channels or just want a more laid back experience, see the 
+If you don't like playing with channels or just want a more laid back experience, see the
 [channel modes section](./features/me-network/channels.md#channel-modes) for multiple options
 to customize AE2's channels mechanic.
 
@@ -37,7 +37,7 @@ two recipes whose top/bottom are the same after flipping would result in a recip
 The available JSON properties are as follows:
 
 | Property               | Description                                                                               |
-|------------------------|-------------------------------------------------------------------------------------------|
+| ---------------------- | ----------------------------------------------------------------------------------------- |
 | `type`                 | Must be `ae2:inscriber`                                                                   |
 | `mode`                 | Defines whether the top and bottom ingredients are consumed (`press`) or not (`inscribe`) |
 | `ingredients`.`top`    | Ingredient for the top slot (optional).                                                   |
@@ -56,7 +56,7 @@ Placing an entropy manipulator in a dispenser will try both types (first `cool`,
 The available JSON properties are as follows:
 
 | Property        | Description                                                                        |
-|-----------------|------------------------------------------------------------------------------------|
+| --------------- | ---------------------------------------------------------------------------------- |
 | `type`          | Must be `ae2:entropy`                                                              |
 | `mode`          | The use-mode of the entropy manipulator this recipe applies to (`heat` or `cool`). |
 | `input`         | Which in-world block/fluid this recipe applies to.                                 |
@@ -66,7 +66,7 @@ The available JSON properties are as follows:
 
 ##### Defining Inputs
 
-The input for the entropy recipe type can be a block or fluid, or both at the same time, to match only 
+The input for the entropy recipe type can be a block or fluid, or both at the same time, to match only
 specific waterlogged blocks.
 
 Block and fluid inputs can be defined as follows:
@@ -103,9 +103,9 @@ either directly, as a list of matching values, or as a range (between `min` and 
 
 Applying an entropy manipulator recipe can result in one or all of:
 
-* Changing the block
-* Changing the fluid
-* Dropping items
+- Changing the block
+- Changing the fluid
+- Dropping items
 
 ```json
 {
@@ -140,9 +140,9 @@ If the operation should drop items, those should be specified as a list in `drop
 
 The <ItemLink id="matter_cannon" /> uses recipes to decide which items count as ammo, and what their damage value should
 be. Example recipes can be found in `data/ae2/recipes/matter_cannon`.
- 
+
 | Property | Description                                                                                                    |
-|----------|----------------------------------------------------------------------------------------------------------------|
+| -------- | -------------------------------------------------------------------------------------------------------------- |
 | `type`   | Must be `ae2:matter_cannon`                                                                                    |
 | `ammo`   | Ingredient identifying which item this recipe applies to.                                                      |
 | `weight` | The weight of the ammo. This affects block penetration and damage. Damage is weight divided by 20, rounded up. |

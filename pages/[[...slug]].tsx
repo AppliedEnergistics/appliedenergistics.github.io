@@ -26,8 +26,8 @@ import InscriberRecipes from "../components/recipes/InscriberRecipes";
 import ItemGrid from "../components/ItemGrid";
 import ItemIcon from "../components/ItemIcon";
 import P2PTunnelTypes from "../components/P2PTunnelTypes";
-import remarkSlugs from 'remark-slug';
-import remarkGfm from 'remark-gfm';
+import remarkSlugs from "remark-slug";
+import remarkGfm from "remark-gfm";
 
 const components = {
   a: MdxLink,
@@ -78,7 +78,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       visit(tree, "link", (node) => {
         const link = node as Link;
         // Resolve .md links
-        const [linkPath, fragment] = link.url.split('#');
+        const [linkPath, fragment] = link.url.split("#");
         if (!linkPath.includes("://") && linkPath.endsWith(".md")) {
           let absolute = path.join(path.dirname(pagePath), linkPath);
           absolute = absolute.replaceAll("\\", "/");
@@ -89,7 +89,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
           link.url = getPageUrl(absolute);
           if (fragment) {
-            link.url += '#' + fragment;
+            link.url += "#" + fragment;
           }
         }
       });

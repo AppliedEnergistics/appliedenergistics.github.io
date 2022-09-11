@@ -53,8 +53,8 @@ are used to add additional power storage to an already existing [ME Network](../
 
 <RecipeFor id="dense_energy_cell" />
 
-<ItemLink id="creative_energy_cell" /> contain infinite AE energy
-and can be used to provide power without needing to generate it.
+<ItemLink id="creative_energy_cell" /> contain infinite AE energy and can be used
+to provide power without needing to generate it.
 
 They can only be spawned in **Creative Mode**.
 

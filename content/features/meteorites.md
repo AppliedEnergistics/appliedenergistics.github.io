@@ -29,17 +29,17 @@ this usually means you should do some more exploring, it will find one as new
 terrain is generated, or in some cases such as the nether you can use skystone
 blocks to control the compass since skystone doesn't spawn naturally.
 
-<RecipeFor id="sky_compass" />
+To craft a meteorite compass, charge a normal compass in a <ItemLink id="charger" />.
+This can be done very early by using a <ItemLink id="crank" />.
 
 ### Sky Stone
 
 ![A Picture of Skystone.](../../public/assets/large/sky_stone.png)
 
-<ItemLink id="sky_stone_block" /> is a blast resistant dark stone
-block found in meteorites that have impacted the surface in the distant or semi recent
-past. Their origin is unknown however they appear to contain remnant of technology
-from another place.
+<ItemLink id="sky_stone_block" /> is a blast resistant dark stone block found in
+meteorites that have impacted the surface in the distant or semi recent past. Their
+origin is unknown however they appear to contain remnant of technology from another
+place.
 
-<ItemLink id="sky_stone_block" /> is extremely hard and requires
-at least a diamond pick to mine it, the processed variants can be removed with any
-pick however.
+<ItemLink id="sky_stone_block" /> is extremely hard and requires at least a diamond
+pick to mine it, the processed variants can be removed with any pick however.

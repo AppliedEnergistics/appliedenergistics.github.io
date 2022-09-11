@@ -101,9 +101,9 @@ allowing [channels](channels.md) to be distributed more efficiently.
 
 ![A Picture of Glass Cable](../../../public/assets/large/glass_cable.png)
 
-<ItemLink id="fluix_glass_cable" /> is the simplest cable to
-make, transfers power and up to 8 [Channels](channels.md). It comes in 17 diffrent
-colors, the default being Fluix, and can be dyed any color using any of the 16 dyes.
+<ItemLink id="fluix_glass_cable" /> is the simplest cable to make, transfers power
+and up to 8 [Channels](channels.md). It comes in 17 diffrent colors, the default
+being Fluix, and can be dyed any color using any of the 16 dyes.
 
 To craft colored cables surround a dye of any type with 8 cables of the same
 type ( color of the cables dosn't matter, but they must be the same type,

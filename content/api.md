@@ -1,4 +1,3 @@
-
 During the build process, this file will be overwritten by `API.md` from the `master` branch of the
 main repository.
 

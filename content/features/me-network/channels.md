@@ -46,12 +46,12 @@ players that just want a little more laid back gameplay but don't want the mecha
 The following table lists the available modes in both the configuration file and command.
 
 | Setting    | Description                                                                                                                                                                                                                               |
-|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `default`  | The standard mode with the channel capacities of cable and ad-hoc networks as described throughout this website                                                                                                                           |
 | `x2`       | All channel capacities are doubled (16 on normal cable, 64 on dense cable, ad-hoc networks support 16 channels)                                                                                                                           |
 | `x3`       | All channel capacities are tripled (24 on normal cable, 92 on dense cable, ad-hoc networks support 24 channels)                                                                                                                           |
 | `x4`       | All channel capacities are quadrupled (32 on normal cable, 128 on dense cable, ad-hoc networks support 32 channels)                                                                                                                       |
-| `infinite` | All channel restrictions are removed. Controllers still reduce the power consumption of grids *significantly*. Smart cables will only toggle between completely off (no channels carried) and completely on (1 or more channels carried). |
+| `infinite` | All channel restrictions are removed. Controllers still reduce the power consumption of grids _significantly_. Smart cables will only toggle between completely off (no channels carried) and completely on (1 or more channels carried). |
 
 ## Design
 

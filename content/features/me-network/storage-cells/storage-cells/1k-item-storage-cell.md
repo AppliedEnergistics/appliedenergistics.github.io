@@ -22,7 +22,7 @@ When placed inside a drive or chest will consume 0.5 ae/t.
 
 Must be in a <ItemLink id="drive"/> or <ItemLink id="chest"/> to be usable.
 
-You can remove the <ItemLink id="cell_component_1k"/> by fully emptying the storage cell, and shift-right-clicking 
+You can remove the <ItemLink id="cell_component_1k"/> by fully emptying the storage cell, and shift-right-clicking
 while holding it.
 
 The settings can be changed in the <ItemLink id="cell_workbench"/>.

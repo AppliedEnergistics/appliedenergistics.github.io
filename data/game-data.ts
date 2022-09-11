@@ -38,7 +38,6 @@ export interface P2PTypeInfo {
   tunnelItemId: string;
 
   attunementItemIds: string[];
-  attunementModIds: string[];
   attunementApiClasses: string[];
 }
 

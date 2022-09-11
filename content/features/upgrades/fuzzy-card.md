@@ -23,27 +23,27 @@ bus config, top is the compared item.
 
 | 25%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
 | ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-| Nearly Broken Pickaxe  | ✅                 | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | ✅                 | ✅                  | ✅                 |
+| Nearly Broken Pickaxe  | ✅                  | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
+| Fully Repaired Pickaxe | \*\*\*\*            | ✅                  | ✅                  | ✅                  |
 
 | 50%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
 | ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-| Nearly Broken Pickaxe  | ✅                 | ✅                  | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | ✅                 | ✅                  |
+| Nearly Broken Pickaxe  | ✅                  | ✅                  | \*\*\*\*            | \*\*\*\*            |
+| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | ✅                  | ✅                  |
 
 | 75%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
 | ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-| Nearly Broken Pickaxe  | ✅                 | ✅                  | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            |                     | ✅                 | ✅                  |
+| Nearly Broken Pickaxe  | ✅                  | ✅                  | \*\*\*\*            | \*\*\*\*            |
+| Fully Repaired Pickaxe | \*\*\*\*            |                     | ✅                  | ✅                  |
 
 | 99%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
 | ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-| Nearly Broken Pickaxe  | ✅                 | ✅                  | ✅                  | \*\*\*\*           |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*             | \*\*\*\*            | ✅                |
+| Nearly Broken Pickaxe  | ✅                  | ✅                  | ✅                  | \*\*\*\*            |
+| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✅                  |
 
 | Ignore                 | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
 | ---------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-| Nearly Broken Pickaxe  | ✅                 | ✅                  | ✅                 | **✅**              |
-| Fully Repaired Pickaxe | **✅**             | **✅**              | **✅**             | ✅                  |
+| Nearly Broken Pickaxe  | ✅                  | ✅                  | ✅                  | **✅**              |
+| Fully Repaired Pickaxe | **✅**              | **✅**              | **✅**              | ✅                  |
 
 <RecipeFor id="fuzzy_card" />

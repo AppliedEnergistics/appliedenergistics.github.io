@@ -8,7 +8,7 @@ title: Creative ME Storage Cell
 
 Creative storage cells store and provide infinite quantities of the items you
 configure them to store in the <ItemLink id="cell_workbench"/>, by configuring them to
-store <ItemLink id="minecraft:iron_ingot"/>, you extract infinite <ItemLink id="minecraft:iron_ingot" />, 
+store <ItemLink id="minecraft:iron_ingot"/>, you extract infinite <ItemLink id="minecraft:iron_ingot" />,
 and store infinite <ItemLink id="minecraft:iron_ingot" />
 
 Only configured items or fluids can be stored/extracted.

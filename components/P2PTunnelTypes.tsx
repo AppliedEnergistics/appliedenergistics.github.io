@@ -47,18 +47,6 @@ function P2PTunnelType({ typeInfo }: P2PTunnelTypeProps) {
           </ul>
         </>
       ) : null}
-      {/* List all mods that can be used to attune this P2P tunnel type */}
-      {typeInfo.attunementModIds.length ? (
-        <>
-          It can also be attuned by right-clicking a tunnel part with an item
-          from one of the following mods:
-          <ul>
-            {typeInfo.attunementModIds.map((modId, index) => (
-              <li key={index}>{modId}</li>
-            ))}
-          </ul>
-        </>
-      ) : null}
       {/* List all APIs that can be used to attune this P2P tunnel type */}
       {typeInfo.attunementApiClasses.length ? (
         <>

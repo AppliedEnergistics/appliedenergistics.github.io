@@ -14,9 +14,9 @@ const sideNav: MenuEntry[] = [
       "customizing-ae2.md",
       {
         title: "API",
-        path: "api.md"
+        path: "api.md",
       },
-      "debug-card.md"
+      "debug-card.md",
     ],
   },
   {

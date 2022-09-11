@@ -1,19 +1,21 @@
 ---
-title: Getting Started
+title: Getting Started  (1.19+)
 ---
+
+<div class="notification is-info">
+  The following information only applies to Applied Energistics 2 in Minecraft
+  1.19 and newer.
+</div>
 
 ## Early Game Progression
 
-- Mine in the overworld for <ItemLink id="quartz_ore" /> and obtain <ItemLink id="certus_quartz_dust" />, and at least
-  one <ItemLink id="certus_quartz_crystal" />.
 - Build a <ItemLink id="charger" />, and power it with a <ItemLink id="vibration_chamber" /> or a generators from others
-  mods.
-- Use the charger to make a <ItemLink id="charged_certus_quartz_crystal" />, and build a <ItemLink id="sky_compass" />.
+  mods. You can also power it by hand using a <ItemLink id="crank" />.
+- Put a Vanilla compass in the charger and charge it to craft a <ItemLink id="sky_compass" />.
+- Use the meteorite compass to find meteorites, which have a chance to contain quartz blocks and budding quartz.
 - To progress, you need to create <ItemLink id="fluix_crystal" />. You have two options:
   - Use the compass to find a [meteorite](./features/meteorites.md), where you might find
     some <ItemLink id="fluix_crystal" />.
-  - Grow your first fluix crystals without a <ItemLink id="quartz_growth_accelerator" />. This will be slow, but can
-    be done in bulk, and you don't need to wait around.
 - To craft the processors required for more advanced machines, you'll need the <ItemLink id="inscriber" />. Each type of
   processor has an associated press, which you will find in [meteorites](./features/meteorites.md).
 
@@ -27,10 +29,11 @@ the <ItemLink id="certus_quartz_wrench"/>
 and [Certus Quartz tools](./features/simple-tools/quartz-tools.md), use <ItemLink id="certus_quartz_crystal" /> as the
 primary crafting ingredient.
 
-You'll notice that mining <ItemLink id="quartz_ore" /> primarily drops <ItemLink id="certus_quartz_dust" />.
+The primary way of obtaining quartz is from breaking quartz crystal clusters. These grow on budding quartz in a way
+that is similar to Vanillas amethyst. Budding quartz decays when growing buds, but can be recharged using <ItemLink id="charged_certus_quartz_crystal" />
+in a puddle of water. New budding quartz can be created the same way by using a <ItemLink id="quartz_block" />.
 
-To get more than the occasional crystal dropped from <ItemLink id="quartz_ore" />, you need
-to [grow crystals from seeds](./features/crystals.md).
+Meteorites will sometimes contain a flawless budding quartz.
 
 ## Alright, I have a bunch of Certus and Nether Quartz; how do I move up in the world?
 
@@ -38,10 +41,8 @@ After some investigation, you've probably noticed that to move up through the te
 need <ItemLink id="fluix_crystal"/>. <ItemLink id="fluix_crystal"/> are made through the following
 process:
 
-1. Throw <ItemLink id="charged_certus_quartz_crystal" />, <ItemLink id="minecraft:quartz"/>, and <ItemLink id="minecraft:redstone"/> into a pool of
-   water and wait. This will create <ItemLink id="fluix_dust" />.
-2. Create <ItemLink id="fluix_crystal_seed" /> by combining <ItemLink id="fluix_dust" /> with <ItemLink id="minecraft:sand" />.
-3. [Grow the seed](./features/crystals.md) in a pool of water.
+Throw <ItemLink id="charged_certus_quartz_crystal" />, <ItemLink id="minecraft:quartz"/>, and <ItemLink id="minecraft:redstone"/> into a pool of
+water and wait. This will create <ItemLink id="fluix_crystal" />.
 
 You can create <ItemLink id="charged_certus_quartz_crystal"/> in a Charger, which can be powered
 by a <ItemLink id="vibration_chamber" /> full of coal.
@@ -65,7 +66,7 @@ Inscriber Presses. There are four presses that you need (Listed in order of "tie
   <ItemIcon itemId="engineering_processor_press" />
 </ItemGrid>
 
-These presses are used to make the Circuits needed for the Tech 2 machines and beyond. They're found randomly 
+These presses are used to make the Circuits needed for the Tech 2 machines and beyond. They're found randomly
 in <ItemLink id="sky_stone_chest"/>, which are located within Meteorites. Meteorites are randomly
 spawned throughout the world, normally underground. So, the hunt begins!
 
@@ -112,8 +113,7 @@ take advantage you need to set up an [ME Network](features/me-network.md).
 An [ME Network](features/me-network.md) is pretty easy to get started you need 2 things,
 an <ItemLink id="chest"/> / or
 
-<ItemLink id="drive" />, and an <ItemLink id="terminal" /> (
-or <ItemLink
+<ItemLink id="drive" />, and an <ItemLink id="terminal" /> ( or <ItemLink
   id="
 ae2:crafting_terminal"
 /> ) you'll also need some kind of cable, such as <ItemLink
@@ -150,7 +150,7 @@ managing [channels](features/me-network/channels.md). Many devices but not all, 
 function. If the device deals solely with power, or connectivity like cables the device will not require
 a [channel](features/me-network/channels.md). Anything that uses items, or moves them around, will.
 
-By default network can support 8 [channels](features/me-network/channels.md), once you break this limit, you'll have to add 
+By default network can support 8 [channels](features/me-network/channels.md), once you break this limit, you'll have to add
 an <ItemLink id="controller"/> to your network. this allows you to expand your network greatly.
 
 Each face of the controller will output 32 [channels](features/me-network/channels.md), depending on whats is accepting

@@ -42,7 +42,7 @@ The inscriber can be fully automated using storage buses and various other means
 specific sides of the inscriber insert into specific slots to your advantage.
 
 An early alternative to fully automating inscribers is using hoppers for semi-automation.
-Note in the following picture, the inscribers have been rotated 90° clock-wise by using 
+Note in the following picture, the inscribers have been rotated 90° clock-wise by using
 a <ItemLink id="certus_quartz_wrench" />.
 
 ![Hopper Automation](../../../../public/large/inscriber_hoppers.png)

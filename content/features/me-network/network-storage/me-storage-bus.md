@@ -27,9 +27,9 @@ storage.
 
 The Storage Bus will function with nearly any inventory block, including
 
-<ItemLink id="interface" />, Minefactory Reloaded DSUs,
-Factorization Barrels, JABBA Barrels, and Better Storage Crates. They can also
-be used to route items passivly into Buildcraft Pipes.
+<ItemLink id="interface" />, Minefactory Reloaded DSUs, Factorization Barrels,
+JABBA Barrels, and Better Storage Crates. They can also be used to route items
+passivly into Buildcraft Pipes.
 
 If you place a storage bus on an <ItemLink
 id="interface"/> the storage bus will be able to

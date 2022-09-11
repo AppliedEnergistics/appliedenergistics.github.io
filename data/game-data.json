@@ -1,8 +1,72 @@
 {
-  "generated": "2021-12-18T18:20:01.205233100Z",
-  "gameVersion": "1.18",
-  "modVersion": "ca7c41cfd",
+  "generated": "2022-09-11T20:00:28.680106600Z",
+  "gameVersion": "1.19.2",
+  "modVersion": "ffa970c92",
   "craftingRecipes": {
+    "ae2:tools/network_memory_card_green": {
+      "id": "ae2:tools/network_memory_card_green",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:green_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_green",
+      "resultCount": 1
+    },
+    "ae2:tools/network_memory_card_cyan": {
+      "id": "ae2:tools/network_memory_card_cyan",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:cyan_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_cyan",
+      "resultCount": 1
+    },
     "ae2:network/cables/dense_smart_cyan": {
       "id": "ae2:network/cables/dense_smart_cyan",
       "shapeless": false,
@@ -113,6 +177,28 @@
       "width": 2,
       "height": 2,
       "resultItem": "ae2:fluix_block",
+      "resultCount": 1
+    },
+    "ae2:tools/portable_item_cell_256k": {
+      "id": "ae2:tools/portable_item_cell_256k",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:chest"
+        ],
+        [
+          "ae2:cell_component_256k"
+        ],
+        [
+          "ae2:energy_cell"
+        ],
+        [
+          "ae2:item_cell_housing"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:portable_item_cell_256k",
       "resultCount": 1
     },
     "ae2:network/cells/spatial_storage_cell_2_cubed": {
@@ -242,22 +328,47 @@
       "resultItem": "ae2:green_smart_dense_cable",
       "resultCount": 8
     },
-    "ae2:tools/portable_fluid_cell_64k": {
-      "id": "ae2:tools/portable_fluid_cell_64k",
-      "shapeless": false,
+    "ae2:tools/portable_fluid_cell_256k": {
+      "id": "ae2:tools/portable_fluid_cell_256k",
+      "shapeless": true,
       "ingredients": [
         [
           "ae2:chest"
         ],
         [
-          "ae2:fluid_storage_cell_64k"
+          "ae2:cell_component_256k"
         ],
         [
           "ae2:energy_cell"
+        ],
+        [
+          "ae2:fluid_cell_housing"
         ]
       ],
-      "width": 3,
-      "height": 1,
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:portable_fluid_cell_256k",
+      "resultCount": 1
+    },
+    "ae2:tools/portable_fluid_cell_64k": {
+      "id": "ae2:tools/portable_fluid_cell_64k",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:chest"
+        ],
+        [
+          "ae2:cell_component_64k"
+        ],
+        [
+          "ae2:energy_cell"
+        ],
+        [
+          "ae2:fluid_cell_housing"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
       "resultItem": "ae2:portable_fluid_cell_64k",
       "resultCount": 1
     },
@@ -637,6 +748,34 @@
       "resultItem": "ae2:charger",
       "resultCount": 1
     },
+    "ae2:network/parts/annihilation_plane_alt2": {
+      "id": "ae2:network/parts/annihilation_plane_alt2",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ],
+        [
+          "ae2:annihilation_core"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ]
+      ],
+      "width": 2,
+      "height": 3,
+      "resultItem": "ae2:annihilation_plane",
+      "resultCount": 1
+    },
     "ae2:network/blocks/quantum_ring": {
       "id": "ae2:network/blocks/quantum_ring",
       "shapeless": false,
@@ -690,34 +829,6 @@
       "resultItem": "ae2:quantum_ring",
       "resultCount": 1
     },
-    "ae2:network/parts/annihilation_plane_alt2": {
-      "id": "ae2:network/parts/annihilation_plane_alt2",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ],
-        [
-          "ae2:annihilation_core"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ]
-      ],
-      "width": 2,
-      "height": 3,
-      "resultItem": "ae2:annihilation_plane",
-      "resultCount": 1
-    },
     "ae2:decorative/sky_stone_smooth": {
       "id": "ae2:decorative/sky_stone_smooth",
       "shapeless": true,
@@ -751,22 +862,41 @@
       "resultItem": "ae2:formation_core",
       "resultCount": 2
     },
+    "ae2:materials/carddistribution": {
+      "id": "ae2:materials/carddistribution",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:advanced_card"
+        ],
+        [
+          "ae2:calculation_processor"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:equal_distribution_card",
+      "resultCount": 1
+    },
     "ae2:tools/portable_item_cell_1k": {
       "id": "ae2:tools/portable_item_cell_1k",
-      "shapeless": false,
+      "shapeless": true,
       "ingredients": [
         [
           "ae2:chest"
         ],
         [
-          "ae2:item_storage_cell_1k"
+          "ae2:cell_component_1k"
         ],
         [
           "ae2:energy_cell"
+        ],
+        [
+          "ae2:item_cell_housing"
         ]
       ],
-      "width": 3,
-      "height": 1,
+      "width": 0,
+      "height": 0,
       "resultItem": "ae2:portable_item_cell_1k",
       "resultCount": 1
     },
@@ -859,6 +989,22 @@
       "height": 3,
       "resultItem": "ae2:black_covered_dense_cable",
       "resultCount": 8
+    },
+    "ae2:network/cells/item_storage_cell_256k_storage": {
+      "id": "ae2:network/cells/item_storage_cell_256k_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:item_cell_housing"
+        ],
+        [
+          "ae2:cell_component_256k"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:item_storage_cell_256k",
+      "resultCount": 1
     },
     "ae2:network/cables/dense_covered_orange": {
       "id": "ae2:network/cables/dense_covered_orange",
@@ -1052,6 +1198,25 @@
       "resultItem": "ae2:item_storage_cell_1k",
       "resultCount": 1
     },
+    "ae2:decorative/quartz_vibrant_glass": {
+      "id": "ae2:decorative/quartz_vibrant_glass",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ]
+      ],
+      "width": 3,
+      "height": 1,
+      "resultItem": "ae2:quartz_vibrant_glass",
+      "resultCount": 1
+    },
     "ae2:network/blocks/interfaces_interface": {
       "id": "ae2:network/blocks/interfaces_interface",
       "shapeless": false,
@@ -1156,25 +1321,6 @@
       "resultItem": "ae2:white_smart_dense_cable",
       "resultCount": 8
     },
-    "ae2:decorative/quartz_vibrant_glass": {
-      "id": "ae2:decorative/quartz_vibrant_glass",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "ae2:quartz_glass"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ]
-      ],
-      "width": 3,
-      "height": 1,
-      "resultItem": "ae2:quartz_vibrant_glass",
-      "resultCount": 1
-    },
     "ae2:network/parts/cable_anchor": {
       "id": "ae2:network/parts/cable_anchor",
       "shapeless": true,
@@ -1247,25 +1393,6 @@
       "resultItem": "ae2:redstone_card",
       "resultCount": 1
     },
-    "ae2:shaped/slabs/chiseled_quartz_block": {
-      "id": "ae2:shaped/slabs/chiseled_quartz_block",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:chiseled_quartz_block"
-        ],
-        [
-          "ae2:chiseled_quartz_block"
-        ],
-        [
-          "ae2:chiseled_quartz_block"
-        ]
-      ],
-      "width": 3,
-      "height": 1,
-      "resultItem": "ae2:chiseled_quartz_slab",
-      "resultCount": 6
-    },
     "ae2:tools/paintballs_blue": {
       "id": "ae2:tools/paintballs_blue",
       "shapeless": false,
@@ -1302,6 +1429,25 @@
       "height": 3,
       "resultItem": "ae2:blue_paint_ball",
       "resultCount": 8
+    },
+    "ae2:shaped/slabs/chiseled_quartz_block": {
+      "id": "ae2:shaped/slabs/chiseled_quartz_block",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:chiseled_quartz_block"
+        ],
+        [
+          "ae2:chiseled_quartz_block"
+        ],
+        [
+          "ae2:chiseled_quartz_block"
+        ]
+      ],
+      "width": 3,
+      "height": 1,
+      "resultItem": "ae2:chiseled_quartz_slab",
+      "resultCount": 6
     },
     "ae2:network/cables/glass_cyan": {
       "id": "ae2:network/cables/glass_cyan",
@@ -1414,6 +1560,51 @@
       "resultItem": "ae2:lime_smart_cable",
       "resultCount": 8
     },
+    "ae2:materials/cardvoid": {
+      "id": "ae2:materials/cardvoid",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:calculation_processor"
+        ],
+        [
+          "ae2:basic_card"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:void_card",
+      "resultCount": 1
+    },
+    "ae2:network/blocks/crank": {
+      "id": "ae2:network/blocks/crank",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:stick"
+        ],
+        [
+          "minecraft:stick"
+        ],
+        [
+          "minecraft:stick"
+        ],
+        [],
+        [],
+        [
+          "minecraft:stick"
+        ],
+        [],
+        [],
+        [
+          "minecraft:stick"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:crank",
+      "resultCount": 1
+    },
     "ae2:tools/certus_quartz_cutting_knife": {
       "id": "ae2:tools/certus_quartz_cutting_knife",
       "shapeless": false,
@@ -1482,6 +1673,22 @@
       "resultItem": "ae2:green_paint_ball",
       "resultCount": 8
     },
+    "ae2:network/crafting/256k_cpu_crafting_storage": {
+      "id": "ae2:network/crafting/256k_cpu_crafting_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:cell_component_256k"
+        ],
+        [
+          "ae2:crafting_unit"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:256k_crafting_storage",
+      "resultCount": 1
+    },
     "ae2:network/cells/fluid_storage_cell_1k_storage": {
       "id": "ae2:network/cells/fluid_storage_cell_1k_storage",
       "shapeless": true,
@@ -1496,6 +1703,43 @@
       "width": 0,
       "height": 0,
       "resultItem": "ae2:fluid_storage_cell_1k",
+      "resultCount": 1
+    },
+    "ae2:network/cells/item_storage_components_cell_256k_part": {
+      "id": "ae2:network/cells/item_storage_components_cell_256k_part",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:sky_dust"
+        ],
+        [
+          "ae2:calculation_processor"
+        ],
+        [
+          "ae2:sky_dust"
+        ],
+        [
+          "ae2:cell_component_64k"
+        ],
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "ae2:cell_component_64k"
+        ],
+        [
+          "ae2:sky_dust"
+        ],
+        [
+          "ae2:cell_component_64k"
+        ],
+        [
+          "ae2:sky_dust"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:cell_component_256k",
       "resultCount": 1
     },
     "ae2:tools/nether_quartz_pickaxe": {
@@ -1765,6 +2009,43 @@
       "resultItem": "ae2:yellow_covered_cable",
       "resultCount": 8
     },
+    "ae2:misc/tank_sky_stone": {
+      "id": "ae2:misc/tank_sky_stone",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:sky_stone_block"
+        ],
+        [
+          "ae2:sky_stone_block"
+        ],
+        [
+          "ae2:sky_stone_block"
+        ],
+        [
+          "ae2:sky_stone_block"
+        ],
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "ae2:sky_stone_block"
+        ],
+        [
+          "ae2:sky_stone_block"
+        ],
+        [
+          "ae2:sky_stone_block"
+        ],
+        [
+          "ae2:sky_stone_block"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:sky_stone_tank",
+      "resultCount": 1
+    },
     "ae2:network/cells/spatial_storage_cell_16_cubed_storage": {
       "id": "ae2:network/cells/spatial_storage_cell_16_cubed_storage",
       "shapeless": true,
@@ -1799,6 +2080,39 @@
       "height": 0,
       "resultItem": "ae2:crafting_terminal",
       "resultCount": 1
+    },
+    "ae2:materials/advancedcard": {
+      "id": "ae2:materials/advancedcard",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:diamond"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "ae2:calculation_processor"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:diamond"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        []
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:advanced_card",
+      "resultCount": 2
     },
     "ae2:tools/paintballs_orange": {
       "id": "ae2:tools/paintballs_orange",
@@ -1836,39 +2150,6 @@
       "height": 3,
       "resultItem": "ae2:orange_paint_ball",
       "resultCount": 8
-    },
-    "ae2:materials/advancedcard": {
-      "id": "ae2:materials/advancedcard",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "minecraft:diamond"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "ae2:calculation_processor"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:diamond"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        []
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:advanced_card",
-      "resultCount": 2
     },
     "ae2:tools/paintballs_lumen_cyan": {
       "id": "ae2:tools/paintballs_lumen_cyan",
@@ -2088,32 +2369,6 @@
       "resultItem": "ae2:brown_lumen_paint_ball",
       "resultCount": 8
     },
-    "ae2:decorative/sky_stone_small_brick": {
-      "id": "ae2:decorative/sky_stone_small_brick",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:sky_stone_brick"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:sky_stone_small_brick",
-      "resultCount": 1
-    },
-    "ae2:network/parts/panels_monitor": {
-      "id": "ae2:network/parts/panels_monitor",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:semi_dark_monitor"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:monitor",
-      "resultCount": 1
-    },
     "ae2:tools/network_tool": {
       "id": "ae2:tools/network_tool",
       "shapeless": true,
@@ -2140,20 +2395,30 @@
       "resultItem": "ae2:network_tool",
       "resultCount": 1
     },
-    "ae2:network/crafting/16k_cpu_crafting_storage": {
-      "id": "ae2:network/crafting/16k_cpu_crafting_storage",
+    "ae2:network/parts/panels_monitor": {
+      "id": "ae2:network/parts/panels_monitor",
       "shapeless": true,
       "ingredients": [
         [
-          "ae2:cell_component_16k"
-        ],
-        [
-          "ae2:crafting_unit"
+          "ae2:semi_dark_monitor"
         ]
       ],
       "width": 0,
       "height": 0,
-      "resultItem": "ae2:16k_crafting_storage",
+      "resultItem": "ae2:monitor",
+      "resultCount": 1
+    },
+    "ae2:decorative/sky_stone_small_brick": {
+      "id": "ae2:decorative/sky_stone_small_brick",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:sky_stone_brick"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:sky_stone_small_brick",
       "resultCount": 1
     },
     "ae2:network/blocks/quantum_link": {
@@ -2189,6 +2454,22 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:quantum_link",
+      "resultCount": 1
+    },
+    "ae2:network/crafting/16k_cpu_crafting_storage": {
+      "id": "ae2:network/crafting/16k_cpu_crafting_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:cell_component_16k"
+        ],
+        [
+          "ae2:crafting_unit"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:16k_crafting_storage",
       "resultCount": 1
     },
     "ae2:network/cables/glass_fluix": {
@@ -2476,6 +2757,38 @@
       "resultItem": "ae2:annihilation_core",
       "resultCount": 2
     },
+    "ae2:network/cables/glass_fluix_clean": {
+      "id": "ae2:network/cables/glass_fluix_clean",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:white_glass_cable",
+          "ae2:orange_glass_cable",
+          "ae2:magenta_glass_cable",
+          "ae2:light_blue_glass_cable",
+          "ae2:yellow_glass_cable",
+          "ae2:lime_glass_cable",
+          "ae2:pink_glass_cable",
+          "ae2:gray_glass_cable",
+          "ae2:light_gray_glass_cable",
+          "ae2:cyan_glass_cable",
+          "ae2:purple_glass_cable",
+          "ae2:blue_glass_cable",
+          "ae2:brown_glass_cable",
+          "ae2:green_glass_cable",
+          "ae2:red_glass_cable",
+          "ae2:black_glass_cable",
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "minecraft:water_bucket"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluix_glass_cable",
+      "resultCount": 1
+    },
     "ae2:network/cells/item_storage_cell_16k": {
       "id": "ae2:network/cells/item_storage_cell_16k",
       "shapeless": false,
@@ -2550,36 +2863,41 @@
       "resultItem": "ae2:yellow_smart_dense_cable",
       "resultCount": 8
     },
-    "ae2:network/cables/glass_fluix_clean": {
-      "id": "ae2:network/cables/glass_fluix_clean",
-      "shapeless": true,
+    "ae2:network/cells/item_storage_cell_256k": {
+      "id": "ae2:network/cells/item_storage_cell_256k",
+      "shapeless": false,
       "ingredients": [
         [
-          "ae2:white_glass_cable",
-          "ae2:orange_glass_cable",
-          "ae2:magenta_glass_cable",
-          "ae2:light_blue_glass_cable",
-          "ae2:yellow_glass_cable",
-          "ae2:lime_glass_cable",
-          "ae2:pink_glass_cable",
-          "ae2:gray_glass_cable",
-          "ae2:light_gray_glass_cable",
-          "ae2:cyan_glass_cable",
-          "ae2:purple_glass_cable",
-          "ae2:blue_glass_cable",
-          "ae2:brown_glass_cable",
-          "ae2:green_glass_cable",
-          "ae2:red_glass_cable",
-          "ae2:black_glass_cable",
-          "ae2:fluix_glass_cable"
+          "ae2:quartz_glass"
         ],
         [
-          "minecraft:water_bucket"
+          "minecraft:redstone"
+        ],
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "ae2:cell_component_256k"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:iron_ingot"
         ]
       ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:fluix_glass_cable",
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:item_storage_cell_256k",
       "resultCount": 1
     },
     "ae2:misc/vanilla_comparator": {
@@ -2655,6 +2973,38 @@
       "resultItem": "ae2:nether_quartz_sword",
       "resultCount": 1
     },
+    "ae2:tools/network_memory_card_light_gray": {
+      "id": "ae2:tools/network_memory_card_light_gray",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:light_gray_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_light_gray",
+      "resultCount": 1
+    },
     "ae2:tools/paintballs_lumen_yellow": {
       "id": "ae2:tools/paintballs_lumen_yellow",
       "shapeless": false,
@@ -2725,20 +3075,23 @@
     },
     "ae2:tools/portable_item_cell_4k": {
       "id": "ae2:tools/portable_item_cell_4k",
-      "shapeless": false,
+      "shapeless": true,
       "ingredients": [
         [
           "ae2:chest"
         ],
         [
-          "ae2:item_storage_cell_4k"
+          "ae2:cell_component_4k"
         ],
         [
           "ae2:energy_cell"
+        ],
+        [
+          "ae2:item_cell_housing"
         ]
       ],
-      "width": 3,
-      "height": 1,
+      "width": 0,
+      "height": 0,
       "resultItem": "ae2:portable_item_cell_4k",
       "resultCount": 1
     },
@@ -2778,6 +3131,38 @@
       "height": 3,
       "resultItem": "ae2:cyan_paint_ball",
       "resultCount": 8
+    },
+    "ae2:tools/network_memory_card_light_blue": {
+      "id": "ae2:tools/network_memory_card_light_blue",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:light_blue_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_light_blue",
+      "resultCount": 1
     },
     "ae2:network/cables/smart_yellow": {
       "id": "ae2:network/cables/smart_yellow",
@@ -3089,43 +3474,6 @@
       "resultItem": "ae2:cell_component_1k",
       "resultCount": 1
     },
-    "ae2:network/cables/smart_cyan": {
-      "id": "ae2:network/cables/smart_cyan",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "minecraft:cyan_dye"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:cyan_smart_cable",
-      "resultCount": 8
-    },
     "ae2:network/cables/covered_light_gray": {
       "id": "ae2:network/cables/covered_light_gray",
       "shapeless": false,
@@ -3161,6 +3509,43 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:light_gray_covered_cable",
+      "resultCount": 8
+    },
+    "ae2:network/cables/smart_cyan": {
+      "id": "ae2:network/cables/smart_cyan",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "minecraft:cyan_dye"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:cyan_smart_cable",
       "resultCount": 8
     },
     "ae2:network/cables/glass_green": {
@@ -3237,69 +3622,36 @@
       "resultItem": "ae2:brown_smart_cable",
       "resultCount": 8
     },
-    "ae2:network/cables/dense_smart_lime": {
-      "id": "ae2:network/cables/dense_smart_lime",
-      "shapeless": false,
+    "ae2:tools/network_memory_card_lime": {
+      "id": "ae2:tools/network_memory_card_lime",
+      "shapeless": true,
       "ingredients": [
         [
-          "ae2:fluix_smart_dense_cable"
-        ],
-        [
-          "ae2:fluix_smart_dense_cable"
-        ],
-        [
-          "ae2:fluix_smart_dense_cable"
-        ],
-        [
-          "ae2:fluix_smart_dense_cable"
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
         ],
         [
           "minecraft:lime_dye"
-        ],
-        [
-          "ae2:fluix_smart_dense_cable"
-        ],
-        [
-          "ae2:fluix_smart_dense_cable"
-        ],
-        [
-          "ae2:fluix_smart_dense_cable"
-        ],
-        [
-          "ae2:fluix_smart_dense_cable"
         ]
       ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:lime_smart_dense_cable",
-      "resultCount": 8
-    },
-    "ae2:network/parts/formation_plane_alt": {
-      "id": "ae2:network/parts/formation_plane_alt",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ],
-        [
-          "ae2:formation_core"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ]
-      ],
-      "width": 2,
-      "height": 3,
-      "resultItem": "ae2:formation_plane",
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_lime",
       "resultCount": 1
     },
     "ae2:network/cables/covered_gray": {
@@ -3339,6 +3691,93 @@
       "resultItem": "ae2:gray_covered_cable",
       "resultCount": 8
     },
+    "ae2:network/parts/formation_plane_alt": {
+      "id": "ae2:network/parts/formation_plane_alt",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ],
+        [
+          "ae2:formation_core"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ]
+      ],
+      "width": 2,
+      "height": 3,
+      "resultItem": "ae2:formation_plane",
+      "resultCount": 1
+    },
+    "ae2:network/cables/dense_smart_lime": {
+      "id": "ae2:network/cables/dense_smart_lime",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:fluix_smart_dense_cable"
+        ],
+        [
+          "ae2:fluix_smart_dense_cable"
+        ],
+        [
+          "ae2:fluix_smart_dense_cable"
+        ],
+        [
+          "ae2:fluix_smart_dense_cable"
+        ],
+        [
+          "minecraft:lime_dye"
+        ],
+        [
+          "ae2:fluix_smart_dense_cable"
+        ],
+        [
+          "ae2:fluix_smart_dense_cable"
+        ],
+        [
+          "ae2:fluix_smart_dense_cable"
+        ],
+        [
+          "ae2:fluix_smart_dense_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:lime_smart_dense_cable",
+      "resultCount": 8
+    },
+    "ae2:network/cables/dense_smart_from_smart": {
+      "id": "ae2:network/cables/dense_smart_from_smart",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluix_smart_dense_cable",
+      "resultCount": 1
+    },
     "ae2:shaped/stairs/sky_stone_brick": {
       "id": "ae2:shaped/stairs/sky_stone_brick",
       "shapeless": false,
@@ -3369,25 +3808,6 @@
       "height": 3,
       "resultItem": "ae2:sky_stone_brick_stairs",
       "resultCount": 4
-    },
-    "ae2:tools/portable_fluid_cell_1k": {
-      "id": "ae2:tools/portable_fluid_cell_1k",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:chest"
-        ],
-        [
-          "ae2:fluid_storage_cell_1k"
-        ],
-        [
-          "ae2:energy_cell"
-        ]
-      ],
-      "width": 3,
-      "height": 1,
-      "resultItem": "ae2:portable_fluid_cell_1k",
-      "resultCount": 1
     },
     "ae2:network/cables/glass_orange": {
       "id": "ae2:network/cables/glass_orange",
@@ -3425,6 +3845,28 @@
       "height": 3,
       "resultItem": "ae2:orange_glass_cable",
       "resultCount": 8
+    },
+    "ae2:tools/portable_fluid_cell_1k": {
+      "id": "ae2:tools/portable_fluid_cell_1k",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:chest"
+        ],
+        [
+          "ae2:cell_component_1k"
+        ],
+        [
+          "ae2:energy_cell"
+        ],
+        [
+          "ae2:fluid_cell_housing"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:portable_fluid_cell_1k",
+      "resultCount": 1
     },
     "ae2:network/cables/dense_covered_pink": {
       "id": "ae2:network/cables/dense_covered_pink",
@@ -3490,6 +3932,80 @@
       "height": 2,
       "resultItem": "ae2:memory_card",
       "resultCount": 1
+    },
+    "ae2:network/cells/fluid_storage_cell_256k": {
+      "id": "ae2:network/cells/fluid_storage_cell_256k",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "ae2:cell_component_256k"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:copper_ingot"
+        ],
+        [
+          "minecraft:copper_ingot"
+        ],
+        [
+          "minecraft:copper_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:fluid_storage_cell_256k",
+      "resultCount": 1
+    },
+    "ae2:tools/paintballs_lumen_pink": {
+      "id": "ae2:tools/paintballs_lumen_pink",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:pink_paint_ball"
+        ],
+        [
+          "ae2:pink_paint_ball"
+        ],
+        [
+          "ae2:pink_paint_ball"
+        ],
+        [
+          "ae2:pink_paint_ball"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "ae2:pink_paint_ball"
+        ],
+        [
+          "ae2:pink_paint_ball"
+        ],
+        [
+          "ae2:pink_paint_ball"
+        ],
+        [
+          "ae2:pink_paint_ball"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:pink_lumen_paint_ball",
+      "resultCount": 8
     },
     "ae2:network/parts/quartz_fiber_part": {
       "id": "ae2:network/parts/quartz_fiber_part",
@@ -3624,43 +4140,6 @@
       "resultItem": "ae2:quartz_fiber",
       "resultCount": 3
     },
-    "ae2:tools/paintballs_lumen_pink": {
-      "id": "ae2:tools/paintballs_lumen_pink",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:pink_paint_ball"
-        ],
-        [
-          "ae2:pink_paint_ball"
-        ],
-        [
-          "ae2:pink_paint_ball"
-        ],
-        [
-          "ae2:pink_paint_ball"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "ae2:pink_paint_ball"
-        ],
-        [
-          "ae2:pink_paint_ball"
-        ],
-        [
-          "ae2:pink_paint_ball"
-        ],
-        [
-          "ae2:pink_paint_ball"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:pink_lumen_paint_ball",
-      "resultCount": 8
-    },
     "ae2:misc/vanilla_daylight_detector": {
       "id": "ae2:misc/vanilla_daylight_detector",
       "shapeless": false,
@@ -3739,7 +4218,8 @@
           "minecraft:acacia_slab",
           "minecraft:dark_oak_slab",
           "minecraft:crimson_slab",
-          "minecraft:warped_slab"
+          "minecraft:warped_slab",
+          "minecraft:mangrove_slab"
         ],
         [
           "minecraft:oak_slab",
@@ -3749,7 +4229,8 @@
           "minecraft:acacia_slab",
           "minecraft:dark_oak_slab",
           "minecraft:crimson_slab",
-          "minecraft:warped_slab"
+          "minecraft:warped_slab",
+          "minecraft:mangrove_slab"
         ],
         [
           "minecraft:oak_slab",
@@ -3759,7 +4240,8 @@
           "minecraft:acacia_slab",
           "minecraft:dark_oak_slab",
           "minecraft:crimson_slab",
-          "minecraft:warped_slab"
+          "minecraft:warped_slab",
+          "minecraft:mangrove_slab"
         ]
       ],
       "width": 3,
@@ -3767,22 +4249,37 @@
       "resultItem": "minecraft:daylight_detector",
       "resultCount": 1
     },
-    "ae2:misc/seeds_fluix": {
-      "id": "ae2:misc/seeds_fluix",
+    "ae2:tools/network_memory_card_black": {
+      "id": "ae2:tools/network_memory_card_black",
       "shapeless": true,
       "ingredients": [
         [
-          "minecraft:sand",
-          "minecraft:red_sand"
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
         ],
         [
-          "ae2:fluix_dust"
+          "minecraft:black_dye"
         ]
       ],
       "width": 0,
       "height": 0,
-      "resultItem": "ae2:fluix_crystal_seed",
-      "resultCount": 2
+      "resultItem": "ae2:memory_card_black",
+      "resultCount": 1
     },
     "ae2:tools/paintballs_lumen_magenta": {
       "id": "ae2:tools/paintballs_lumen_magenta",
@@ -3943,34 +4440,6 @@
       "resultItem": "ae2:fluix_stairs",
       "resultCount": 4
     },
-    "ae2:shaped/walls/chiseled_quartz_block": {
-      "id": "ae2:shaped/walls/chiseled_quartz_block",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:chiseled_quartz_block"
-        ],
-        [
-          "ae2:chiseled_quartz_block"
-        ],
-        [
-          "ae2:chiseled_quartz_block"
-        ],
-        [
-          "ae2:chiseled_quartz_block"
-        ],
-        [
-          "ae2:chiseled_quartz_block"
-        ],
-        [
-          "ae2:chiseled_quartz_block"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "ae2:chiseled_quartz_wall",
-      "resultCount": 6
-    },
     "ae2:network/cables/covered_orange": {
       "id": "ae2:network/cables/covered_orange",
       "shapeless": false,
@@ -4008,6 +4477,34 @@
       "resultItem": "ae2:orange_covered_cable",
       "resultCount": 8
     },
+    "ae2:shaped/walls/chiseled_quartz_block": {
+      "id": "ae2:shaped/walls/chiseled_quartz_block",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:chiseled_quartz_block"
+        ],
+        [
+          "ae2:chiseled_quartz_block"
+        ],
+        [
+          "ae2:chiseled_quartz_block"
+        ],
+        [
+          "ae2:chiseled_quartz_block"
+        ],
+        [
+          "ae2:chiseled_quartz_block"
+        ],
+        [
+          "ae2:chiseled_quartz_block"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "ae2:chiseled_quartz_wall",
+      "resultCount": 6
+    },
     "ae2:network/parts/formation_plane": {
       "id": "ae2:network/parts/formation_plane",
       "shapeless": false,
@@ -4035,6 +4532,43 @@
       "height": 2,
       "resultItem": "ae2:formation_plane",
       "resultCount": 1
+    },
+    "ae2:network/cables/dense_covered_cyan": {
+      "id": "ae2:network/cables/dense_covered_cyan",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "minecraft:cyan_dye"
+        ],
+        [
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "ae2:fluix_covered_dense_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:cyan_covered_dense_cable",
+      "resultCount": 8
     },
     "ae2:network/blocks/energy_energy_cell": {
       "id": "ae2:network/blocks/energy_energy_cell",
@@ -4076,43 +4610,6 @@
       "height": 3,
       "resultItem": "ae2:energy_cell",
       "resultCount": 1
-    },
-    "ae2:network/cables/dense_covered_cyan": {
-      "id": "ae2:network/cables/dense_covered_cyan",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "minecraft:cyan_dye"
-        ],
-        [
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "ae2:fluix_covered_dense_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:cyan_covered_dense_cable",
-      "resultCount": 8
     },
     "ae2:network/parts/annihilation_plane_alt": {
       "id": "ae2:network/parts/annihilation_plane_alt",
@@ -4194,21 +4691,56 @@
     },
     "ae2:tools/portable_fluid_cell_4k": {
       "id": "ae2:tools/portable_fluid_cell_4k",
-      "shapeless": false,
+      "shapeless": true,
       "ingredients": [
         [
           "ae2:chest"
         ],
         [
-          "ae2:fluid_storage_cell_4k"
+          "ae2:cell_component_4k"
         ],
         [
           "ae2:energy_cell"
+        ],
+        [
+          "ae2:fluid_cell_housing"
         ]
       ],
-      "width": 3,
-      "height": 1,
+      "width": 0,
+      "height": 0,
       "resultItem": "ae2:portable_fluid_cell_4k",
+      "resultCount": 1
+    },
+    "ae2:tools/network_memory_card_pink": {
+      "id": "ae2:tools/network_memory_card_pink",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:pink_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_pink",
       "resultCount": 1
     },
     "ae2:network/cables/dense_smart_pink": {
@@ -4248,53 +4780,6 @@
       "resultItem": "ae2:pink_smart_dense_cable",
       "resultCount": 8
     },
-    "ae2:network/cells/item_storage_cell_64k_storage": {
-      "id": "ae2:network/cells/item_storage_cell_64k_storage",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:item_cell_housing"
-        ],
-        [
-          "ae2:cell_component_64k"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:item_storage_cell_64k",
-      "resultCount": 1
-    },
-    "ae2:shaped/stairs/smooth_sky_stone_block": {
-      "id": "ae2:shaped/stairs/smooth_sky_stone_block",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:smooth_sky_stone_block"
-        ],
-        [],
-        [],
-        [
-          "ae2:smooth_sky_stone_block"
-        ],
-        [
-          "ae2:smooth_sky_stone_block"
-        ],
-        [],
-        [
-          "ae2:smooth_sky_stone_block"
-        ],
-        [
-          "ae2:smooth_sky_stone_block"
-        ],
-        [
-          "ae2:smooth_sky_stone_block"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:smooth_sky_stone_stairs",
-      "resultCount": 4
-    },
     "ae2:misc/fluixpearl": {
       "id": "ae2:misc/fluixpearl",
       "shapeless": false,
@@ -4330,6 +4815,53 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:fluix_pearl",
+      "resultCount": 1
+    },
+    "ae2:shaped/stairs/smooth_sky_stone_block": {
+      "id": "ae2:shaped/stairs/smooth_sky_stone_block",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:smooth_sky_stone_block"
+        ],
+        [],
+        [],
+        [
+          "ae2:smooth_sky_stone_block"
+        ],
+        [
+          "ae2:smooth_sky_stone_block"
+        ],
+        [],
+        [
+          "ae2:smooth_sky_stone_block"
+        ],
+        [
+          "ae2:smooth_sky_stone_block"
+        ],
+        [
+          "ae2:smooth_sky_stone_block"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:smooth_sky_stone_stairs",
+      "resultCount": 4
+    },
+    "ae2:network/cells/item_storage_cell_64k_storage": {
+      "id": "ae2:network/cells/item_storage_cell_64k_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:item_cell_housing"
+        ],
+        [
+          "ae2:cell_component_64k"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:item_storage_cell_64k",
       "resultCount": 1
     },
     "ae2:network/cables/dense_smart_fluix": {
@@ -4423,6 +4955,30 @@
       "resultItem": "ae2:light_blue_lumen_paint_ball",
       "resultCount": 8
     },
+    "ae2:network/parts/import_bus": {
+      "id": "ae2:network/parts/import_bus",
+      "shapeless": false,
+      "ingredients": [
+        [],
+        [
+          "ae2:annihilation_core"
+        ],
+        [],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "minecraft:sticky_piston"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "ae2:import_bus",
+      "resultCount": 1
+    },
     "ae2:network/cables/smart_pink": {
       "id": "ae2:network/cables/smart_pink",
       "shapeless": false,
@@ -4459,30 +5015,6 @@
       "height": 3,
       "resultItem": "ae2:pink_smart_cable",
       "resultCount": 8
-    },
-    "ae2:network/parts/import_bus": {
-      "id": "ae2:network/parts/import_bus",
-      "shapeless": false,
-      "ingredients": [
-        [],
-        [
-          "ae2:annihilation_core"
-        ],
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "minecraft:sticky_piston"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 2,
-      "resultItem": "ae2:import_bus",
-      "resultCount": 1
     },
     "ae2:network/parts/terminals_pattern_access": {
       "id": "ae2:network/parts/terminals_pattern_access",
@@ -4631,6 +5163,38 @@
       "resultItem": "ae2:semi_dark_monitor",
       "resultCount": 1
     },
+    "ae2:network/cables/dense_covered_fluix_clean": {
+      "id": "ae2:network/cables/dense_covered_fluix_clean",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:white_covered_dense_cable",
+          "ae2:orange_covered_dense_cable",
+          "ae2:magenta_covered_dense_cable",
+          "ae2:light_blue_covered_dense_cable",
+          "ae2:yellow_covered_dense_cable",
+          "ae2:lime_covered_dense_cable",
+          "ae2:pink_covered_dense_cable",
+          "ae2:gray_covered_dense_cable",
+          "ae2:light_gray_covered_dense_cable",
+          "ae2:cyan_covered_dense_cable",
+          "ae2:purple_covered_dense_cable",
+          "ae2:blue_covered_dense_cable",
+          "ae2:brown_covered_dense_cable",
+          "ae2:green_covered_dense_cable",
+          "ae2:red_covered_dense_cable",
+          "ae2:black_covered_dense_cable",
+          "ae2:fluix_covered_dense_cable"
+        ],
+        [
+          "minecraft:water_bucket"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluix_covered_dense_cable",
+      "resultCount": 1
+    },
     "ae2:network/blocks/energy_dense_energy_cell": {
       "id": "ae2:network/blocks/energy_dense_energy_cell",
       "shapeless": false,
@@ -4666,38 +5230,6 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:dense_energy_cell",
-      "resultCount": 1
-    },
-    "ae2:network/cables/dense_covered_fluix_clean": {
-      "id": "ae2:network/cables/dense_covered_fluix_clean",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:white_covered_dense_cable",
-          "ae2:orange_covered_dense_cable",
-          "ae2:magenta_covered_dense_cable",
-          "ae2:light_blue_covered_dense_cable",
-          "ae2:yellow_covered_dense_cable",
-          "ae2:lime_covered_dense_cable",
-          "ae2:pink_covered_dense_cable",
-          "ae2:gray_covered_dense_cable",
-          "ae2:light_gray_covered_dense_cable",
-          "ae2:cyan_covered_dense_cable",
-          "ae2:purple_covered_dense_cable",
-          "ae2:blue_covered_dense_cable",
-          "ae2:brown_covered_dense_cable",
-          "ae2:green_covered_dense_cable",
-          "ae2:red_covered_dense_cable",
-          "ae2:black_covered_dense_cable",
-          "ae2:fluix_covered_dense_cable"
-        ],
-        [
-          "minecraft:water_bucket"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:fluix_covered_dense_cable",
       "resultCount": 1
     },
     "ae2:network/cables/covered_fluix_clean": {
@@ -4834,6 +5366,37 @@
       "resultItem": "ae2:black_smart_dense_cable",
       "resultCount": 8
     },
+    "ae2:shaped/stairs/sky_stone_small_brick": {
+      "id": "ae2:shaped/stairs/sky_stone_small_brick",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:sky_stone_small_brick"
+        ],
+        [],
+        [],
+        [
+          "ae2:sky_stone_small_brick"
+        ],
+        [
+          "ae2:sky_stone_small_brick"
+        ],
+        [],
+        [
+          "ae2:sky_stone_small_brick"
+        ],
+        [
+          "ae2:sky_stone_small_brick"
+        ],
+        [
+          "ae2:sky_stone_small_brick"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:sky_stone_small_brick_stairs",
+      "resultCount": 4
+    },
     "ae2:tools/paintballs_purple": {
       "id": "ae2:tools/paintballs_purple",
       "shapeless": false,
@@ -4871,37 +5434,6 @@
       "resultItem": "ae2:purple_paint_ball",
       "resultCount": 8
     },
-    "ae2:shaped/stairs/sky_stone_small_brick": {
-      "id": "ae2:shaped/stairs/sky_stone_small_brick",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:sky_stone_small_brick"
-        ],
-        [],
-        [],
-        [
-          "ae2:sky_stone_small_brick"
-        ],
-        [
-          "ae2:sky_stone_small_brick"
-        ],
-        [],
-        [
-          "ae2:sky_stone_small_brick"
-        ],
-        [
-          "ae2:sky_stone_small_brick"
-        ],
-        [
-          "ae2:sky_stone_small_brick"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:sky_stone_small_brick_stairs",
-      "resultCount": 4
-    },
     "ae2:shaped/walls/sky_stone_block": {
       "id": "ae2:shaped/walls/sky_stone_block",
       "shapeless": false,
@@ -4929,22 +5461,6 @@
       "height": 2,
       "resultItem": "ae2:sky_stone_wall",
       "resultCount": 6
-    },
-    "ae2:network/crafting/64k_cpu_crafting_storage": {
-      "id": "ae2:network/crafting/64k_cpu_crafting_storage",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:crafting_unit"
-        ],
-        [
-          "ae2:cell_component_64k"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:64k_crafting_storage",
-      "resultCount": 1
     },
     "ae2:network/cables/smart_red": {
       "id": "ae2:network/cables/smart_red",
@@ -4983,6 +5499,22 @@
       "resultItem": "ae2:red_smart_cable",
       "resultCount": 8
     },
+    "ae2:network/crafting/64k_cpu_crafting_storage": {
+      "id": "ae2:network/crafting/64k_cpu_crafting_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:crafting_unit"
+        ],
+        [
+          "ae2:cell_component_64k"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:64k_crafting_storage",
+      "resultCount": 1
+    },
     "ae2:network/cables/dense_smart_red": {
       "id": "ae2:network/cables/dense_smart_red",
       "shapeless": false,
@@ -5020,6 +5552,69 @@
       "resultItem": "ae2:red_smart_dense_cable",
       "resultCount": 8
     },
+    "ae2:tools/network_memory_card_red": {
+      "id": "ae2:tools/network_memory_card_red",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:red_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_red",
+      "resultCount": 1
+    },
+    "ae2:network/cables/covered_fluix": {
+      "id": "ae2:network/cables/covered_fluix",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "minecraft:white_wool",
+          "minecraft:orange_wool",
+          "minecraft:magenta_wool",
+          "minecraft:light_blue_wool",
+          "minecraft:yellow_wool",
+          "minecraft:lime_wool",
+          "minecraft:pink_wool",
+          "minecraft:gray_wool",
+          "minecraft:light_gray_wool",
+          "minecraft:cyan_wool",
+          "minecraft:purple_wool",
+          "minecraft:blue_wool",
+          "minecraft:brown_wool",
+          "minecraft:green_wool",
+          "minecraft:red_wool",
+          "minecraft:black_wool"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluix_covered_cable",
+      "resultCount": 1
+    },
     "ae2:network/blocks/controller": {
       "id": "ae2:network/blocks/controller",
       "shapeless": false,
@@ -5055,37 +5650,6 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:controller",
-      "resultCount": 1
-    },
-    "ae2:network/cables/covered_fluix": {
-      "id": "ae2:network/cables/covered_fluix",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "minecraft:white_wool",
-          "minecraft:orange_wool",
-          "minecraft:magenta_wool",
-          "minecraft:light_blue_wool",
-          "minecraft:yellow_wool",
-          "minecraft:lime_wool",
-          "minecraft:pink_wool",
-          "minecraft:gray_wool",
-          "minecraft:light_gray_wool",
-          "minecraft:cyan_wool",
-          "minecraft:purple_wool",
-          "minecraft:blue_wool",
-          "minecraft:brown_wool",
-          "minecraft:green_wool",
-          "minecraft:red_wool",
-          "minecraft:black_wool"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:fluix_covered_cable",
       "resultCount": 1
     },
     "ae2:network/blocks/spatial_anchor": {
@@ -5282,22 +5846,57 @@
       "resultItem": "ae2:lime_glass_cable",
       "resultCount": 8
     },
+    "ae2:tools/network_memory_card_orange": {
+      "id": "ae2:tools/network_memory_card_orange",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:orange_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_orange",
+      "resultCount": 1
+    },
     "ae2:tools/portable_item_cell_16k": {
       "id": "ae2:tools/portable_item_cell_16k",
-      "shapeless": false,
+      "shapeless": true,
       "ingredients": [
         [
           "ae2:chest"
         ],
         [
-          "ae2:item_storage_cell_16k"
+          "ae2:cell_component_16k"
         ],
         [
           "ae2:energy_cell"
+        ],
+        [
+          "ae2:item_cell_housing"
         ]
       ],
-      "width": 3,
-      "height": 1,
+      "width": 0,
+      "height": 0,
       "resultItem": "ae2:portable_item_cell_16k",
       "resultCount": 1
     },
@@ -5319,35 +5918,6 @@
       "height": 1,
       "resultItem": "ae2:sky_stone_brick_slab",
       "resultCount": 6
-    },
-    "ae2:misc/meteors_sky_compass": {
-      "id": "ae2:misc/meteors_sky_compass",
-      "shapeless": false,
-      "ingredients": [
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "ae2:charged_certus_quartz_crystal"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        []
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:sky_compass",
-      "resultCount": 1
     },
     "ae2:network/wireless_access_point": {
       "id": "ae2:network/wireless_access_point",
@@ -5434,43 +6004,6 @@
       "resultItem": "ae2:certus_quartz_axe",
       "resultCount": 1
     },
-    "ae2:tools/paintballs_lumen_light_gray": {
-      "id": "ae2:tools/paintballs_lumen_light_gray",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:light_gray_paint_ball"
-        ],
-        [
-          "ae2:light_gray_paint_ball"
-        ],
-        [
-          "ae2:light_gray_paint_ball"
-        ],
-        [
-          "ae2:light_gray_paint_ball"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "ae2:light_gray_paint_ball"
-        ],
-        [
-          "ae2:light_gray_paint_ball"
-        ],
-        [
-          "ae2:light_gray_paint_ball"
-        ],
-        [
-          "ae2:light_gray_paint_ball"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:light_gray_lumen_paint_ball",
-      "resultCount": 8
-    },
     "ae2:network/cables/smart_light_blue": {
       "id": "ae2:network/cables/smart_light_blue",
       "shapeless": false,
@@ -5506,6 +6039,43 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:light_blue_smart_cable",
+      "resultCount": 8
+    },
+    "ae2:tools/paintballs_lumen_light_gray": {
+      "id": "ae2:tools/paintballs_lumen_light_gray",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:light_gray_paint_ball"
+        ],
+        [
+          "ae2:light_gray_paint_ball"
+        ],
+        [
+          "ae2:light_gray_paint_ball"
+        ],
+        [
+          "ae2:light_gray_paint_ball"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "ae2:light_gray_paint_ball"
+        ],
+        [
+          "ae2:light_gray_paint_ball"
+        ],
+        [
+          "ae2:light_gray_paint_ball"
+        ],
+        [
+          "ae2:light_gray_paint_ball"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:light_gray_lumen_paint_ball",
       "resultCount": 8
     },
     "ae2:shaped/stairs/quartz_block": {
@@ -5652,6 +6222,38 @@
       "resultItem": "ae2:export_bus",
       "resultCount": 1
     },
+    "ae2:network/cables/smart_fluix_clean": {
+      "id": "ae2:network/cables/smart_fluix_clean",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:white_smart_cable",
+          "ae2:orange_smart_cable",
+          "ae2:magenta_smart_cable",
+          "ae2:light_blue_smart_cable",
+          "ae2:yellow_smart_cable",
+          "ae2:lime_smart_cable",
+          "ae2:pink_smart_cable",
+          "ae2:gray_smart_cable",
+          "ae2:light_gray_smart_cable",
+          "ae2:cyan_smart_cable",
+          "ae2:purple_smart_cable",
+          "ae2:blue_smart_cable",
+          "ae2:brown_smart_cable",
+          "ae2:green_smart_cable",
+          "ae2:red_smart_cable",
+          "ae2:black_smart_cable",
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "minecraft:water_bucket"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluix_smart_cable",
+      "resultCount": 1
+    },
     "ae2:network/cables/dense_smart_light_blue": {
       "id": "ae2:network/cables/dense_smart_light_blue",
       "shapeless": false,
@@ -5689,36 +6291,36 @@
       "resultItem": "ae2:light_blue_smart_dense_cable",
       "resultCount": 8
     },
-    "ae2:network/cables/smart_fluix_clean": {
-      "id": "ae2:network/cables/smart_fluix_clean",
+    "ae2:tools/network_memory_card_yellow": {
+      "id": "ae2:tools/network_memory_card_yellow",
       "shapeless": true,
       "ingredients": [
         [
-          "ae2:white_smart_cable",
-          "ae2:orange_smart_cable",
-          "ae2:magenta_smart_cable",
-          "ae2:light_blue_smart_cable",
-          "ae2:yellow_smart_cable",
-          "ae2:lime_smart_cable",
-          "ae2:pink_smart_cable",
-          "ae2:gray_smart_cable",
-          "ae2:light_gray_smart_cable",
-          "ae2:cyan_smart_cable",
-          "ae2:purple_smart_cable",
-          "ae2:blue_smart_cable",
-          "ae2:brown_smart_cable",
-          "ae2:green_smart_cable",
-          "ae2:red_smart_cable",
-          "ae2:black_smart_cable",
-          "ae2:fluix_smart_cable"
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
         ],
         [
-          "minecraft:water_bucket"
+          "minecraft:yellow_dye"
         ]
       ],
       "width": 0,
       "height": 0,
-      "resultItem": "ae2:fluix_smart_cable",
+      "resultItem": "ae2:memory_card_yellow",
       "resultCount": 1
     },
     "ae2:network/cables/dense_smart_light_gray": {
@@ -5818,6 +6420,22 @@
       "resultItem": "ae2:sky_stone_brick_wall",
       "resultCount": 6
     },
+    "ae2:network/crafting/4k_cpu_crafting_storage": {
+      "id": "ae2:network/crafting/4k_cpu_crafting_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:cell_component_4k"
+        ],
+        [
+          "ae2:crafting_unit"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:4k_crafting_storage",
+      "resultCount": 1
+    },
     "ae2:tools/paintballs_brown": {
       "id": "ae2:tools/paintballs_brown",
       "shapeless": false,
@@ -5855,22 +6473,6 @@
       "resultItem": "ae2:brown_paint_ball",
       "resultCount": 8
     },
-    "ae2:network/crafting/4k_cpu_crafting_storage": {
-      "id": "ae2:network/crafting/4k_cpu_crafting_storage",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:cell_component_4k"
-        ],
-        [
-          "ae2:crafting_unit"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:4k_crafting_storage",
-      "resultCount": 1
-    },
     "ae2:network/wireless_terminal": {
       "id": "ae2:network/wireless_terminal",
       "shapeless": false,
@@ -5889,43 +6491,6 @@
       "height": 3,
       "resultItem": "ae2:wireless_terminal",
       "resultCount": 1
-    },
-    "ae2:network/cables/glass_white": {
-      "id": "ae2:network/cables/glass_white",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "minecraft:white_dye"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:white_glass_cable",
-      "resultCount": 8
     },
     "ae2:shaped/stairs/quartz_pillar": {
       "id": "ae2:shaped/stairs/quartz_pillar",
@@ -5994,6 +6559,75 @@
       "height": 3,
       "resultItem": "ae2:black_lumen_paint_ball",
       "resultCount": 8
+    },
+    "ae2:network/cables/glass_white": {
+      "id": "ae2:network/cables/glass_white",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "minecraft:white_dye"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:white_glass_cable",
+      "resultCount": 8
+    },
+    "ae2:tools/network_memory_card_blue": {
+      "id": "ae2:tools/network_memory_card_blue",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:blue_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_blue",
+      "resultCount": 1
     },
     "ae2:network/cables/dense_smart_blue": {
       "id": "ae2:network/cables/dense_smart_blue",
@@ -6191,43 +6825,6 @@
       "resultItem": "ae2:orange_smart_cable",
       "resultCount": 8
     },
-    "ae2:network/cables/smart_green": {
-      "id": "ae2:network/cables/smart_green",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "minecraft:green_dye"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:green_smart_cable",
-      "resultCount": 8
-    },
     "ae2:decorative/quartz_glass": {
       "id": "ae2:decorative/quartz_glass",
       "shapeless": false,
@@ -6328,6 +6925,43 @@
       "height": 3,
       "resultItem": "ae2:quartz_glass",
       "resultCount": 4
+    },
+    "ae2:network/cables/smart_green": {
+      "id": "ae2:network/cables/smart_green",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "minecraft:green_dye"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:green_smart_cable",
+      "resultCount": 8
     },
     "ae2:misc/deconstruction_certus_chiseled_quartz": {
       "id": "ae2:misc/deconstruction_certus_chiseled_quartz",
@@ -6533,6 +7167,39 @@
       "resultItem": "ae2:brown_glass_cable",
       "resultCount": 8
     },
+    "ae2:network/parts/tunnels_me": {
+      "id": "ae2:network/parts/tunnels_me",
+      "shapeless": false,
+      "ingredients": [
+        [],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "ae2:engineering_processor"
+        ],
+        [
+          "minecraft:iron_ingot"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ],
+        [
+          "ae2:fluix_crystal"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:me_p2p_tunnel",
+      "resultCount": 1
+    },
     "ae2:tools/paintballs_white": {
       "id": "ae2:tools/paintballs_white",
       "shapeless": false,
@@ -6569,39 +7236,6 @@
       "height": 3,
       "resultItem": "ae2:white_paint_ball",
       "resultCount": 8
-    },
-    "ae2:network/parts/tunnels_me": {
-      "id": "ae2:network/parts/tunnels_me",
-      "shapeless": false,
-      "ingredients": [
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "ae2:engineering_processor"
-        ],
-        [
-          "minecraft:iron_ingot"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ],
-        [
-          "ae2:fluix_crystal"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:me_p2p_tunnel",
-      "resultCount": 1
     },
     "ae2:shaped/slabs/quartz_block": {
       "id": "ae2:shaped/slabs/quartz_block",
@@ -6652,23 +7286,6 @@
       "height": 0,
       "resultItem": "ae2:fuzzy_card",
       "resultCount": 1
-    },
-    "ae2:misc/seeds_certus": {
-      "id": "ae2:misc/seeds_certus",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "minecraft:sand",
-          "minecraft:red_sand"
-        ],
-        [
-          "ae2:certus_quartz_dust"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:certus_crystal_seed",
-      "resultCount": 2
     },
     "ae2:shaped/walls/fluix_block": {
       "id": "ae2:shaped/walls/fluix_block",
@@ -6855,22 +7472,6 @@
       "resultItem": "ae2:white_covered_dense_cable",
       "resultCount": 8
     },
-    "ae2:network/parts/level_emitter": {
-      "id": "ae2:network/parts/level_emitter",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "minecraft:redstone_torch"
-        ],
-        [
-          "ae2:calculation_processor"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:level_emitter",
-      "resultCount": 1
-    },
     "ae2:network/cables/covered_cyan": {
       "id": "ae2:network/cables/covered_cyan",
       "shapeless": false,
@@ -6907,6 +7508,22 @@
       "height": 3,
       "resultItem": "ae2:cyan_covered_cable",
       "resultCount": 8
+    },
+    "ae2:network/parts/level_emitter": {
+      "id": "ae2:network/parts/level_emitter",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "minecraft:redstone_torch"
+        ],
+        [
+          "ae2:calculation_processor"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:level_emitter",
+      "resultCount": 1
     },
     "ae2:network/cables/dense_covered_green": {
       "id": "ae2:network/cables/dense_covered_green",
@@ -7017,6 +7634,39 @@
       "resultItem": "ae2:drive",
       "resultCount": 1
     },
+    "ae2:materials/cardenergy": {
+      "id": "ae2:materials/cardenergy",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:dense_energy_cell"
+        ],
+        [
+          "ae2:advanced_card"
+        ]
+      ],
+      "width": 2,
+      "height": 1,
+      "resultItem": "ae2:energy_card",
+      "resultCount": 1
+    },
+    "ae2:materials/cardcapacity": {
+      "id": "ae2:materials/cardcapacity",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:certus_quartz_crystal",
+          "ae2:charged_certus_quartz_crystal"
+        ],
+        [
+          "ae2:basic_card"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:capacity_card",
+      "resultCount": 1
+    },
     "ae2:tools/paintballs_light_gray": {
       "id": "ae2:tools/paintballs_light_gray",
       "shapeless": false,
@@ -7053,23 +7703,6 @@
       "height": 3,
       "resultItem": "ae2:light_gray_paint_ball",
       "resultCount": 8
-    },
-    "ae2:materials/cardcapacity": {
-      "id": "ae2:materials/cardcapacity",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:certus_quartz_crystal",
-          "ae2:charged_certus_quartz_crystal"
-        ],
-        [
-          "ae2:basic_card"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:capacity_card",
-      "resultCount": 1
     },
     "ae2:tools/paintballs_lumen_purple": {
       "id": "ae2:tools/paintballs_lumen_purple",
@@ -7427,20 +8060,23 @@
     },
     "ae2:tools/portable_item_cell_64k": {
       "id": "ae2:tools/portable_item_cell_64k",
-      "shapeless": false,
+      "shapeless": true,
       "ingredients": [
         [
           "ae2:chest"
         ],
         [
-          "ae2:item_storage_cell_64k"
+          "ae2:cell_component_64k"
         ],
         [
           "ae2:energy_cell"
+        ],
+        [
+          "ae2:item_cell_housing"
         ]
       ],
-      "width": 3,
-      "height": 1,
+      "width": 0,
+      "height": 0,
       "resultItem": "ae2:portable_item_cell_64k",
       "resultCount": 1
     },
@@ -7479,6 +8115,38 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:cell_component_4k",
+      "resultCount": 1
+    },
+    "ae2:tools/network_memory_card_brown": {
+      "id": "ae2:tools/network_memory_card_brown",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:brown_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_brown",
       "resultCount": 1
     },
     "ae2:network/crafting/cpu_crafting_unit": {
@@ -7666,22 +8334,57 @@
       "resultItem": "ae2:gray_covered_dense_cable",
       "resultCount": 8
     },
+    "ae2:tools/network_memory_card_purple": {
+      "id": "ae2:tools/network_memory_card_purple",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:purple_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_purple",
+      "resultCount": 1
+    },
     "ae2:tools/portable_fluid_cell_16k": {
       "id": "ae2:tools/portable_fluid_cell_16k",
-      "shapeless": false,
+      "shapeless": true,
       "ingredients": [
         [
           "ae2:chest"
         ],
         [
-          "ae2:fluid_storage_cell_16k"
+          "ae2:cell_component_16k"
         ],
         [
           "ae2:energy_cell"
+        ],
+        [
+          "ae2:fluid_cell_housing"
         ]
       ],
-      "width": 3,
-      "height": 1,
+      "width": 0,
+      "height": 0,
       "resultItem": "ae2:portable_fluid_cell_16k",
       "resultCount": 1
     },
@@ -7795,6 +8498,38 @@
       "height": 3,
       "resultItem": "ae2:red_covered_dense_cable",
       "resultCount": 8
+    },
+    "ae2:network/cables/network_memory_card_clean": {
+      "id": "ae2:network/cables/network_memory_card_clean",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:water_bucket"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card",
+      "resultCount": 1
     },
     "ae2:network/blocks/spatial_io_pylon": {
       "id": "ae2:network/blocks/spatial_io_pylon",
@@ -8047,6 +8782,56 @@
       "resultItem": "ae2:nether_quartz_wrench",
       "resultCount": 1
     },
+    "ae2:tools/paintballs_lumen_gray": {
+      "id": "ae2:tools/paintballs_lumen_gray",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:gray_paint_ball"
+        ],
+        [
+          "ae2:gray_paint_ball"
+        ],
+        [
+          "ae2:gray_paint_ball"
+        ],
+        [
+          "ae2:gray_paint_ball"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ],
+        [
+          "ae2:gray_paint_ball"
+        ],
+        [
+          "ae2:gray_paint_ball"
+        ],
+        [
+          "ae2:gray_paint_ball"
+        ],
+        [
+          "ae2:gray_paint_ball"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:gray_lumen_paint_ball",
+      "resultCount": 8
+    },
+    "ae2:network/parts/toggle_bus_inverted_alt": {
+      "id": "ae2:network/parts/toggle_bus_inverted_alt",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:toggle_bus"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:inverted_toggle_bus",
+      "resultCount": 1
+    },
     "ae2:network/blocks/cell_workbench": {
       "id": "ae2:network/blocks/cell_workbench",
       "shapeless": false,
@@ -8114,56 +8899,6 @@
       "height": 3,
       "resultItem": "ae2:cell_workbench",
       "resultCount": 1
-    },
-    "ae2:network/parts/toggle_bus_inverted_alt": {
-      "id": "ae2:network/parts/toggle_bus_inverted_alt",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:toggle_bus"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:inverted_toggle_bus",
-      "resultCount": 1
-    },
-    "ae2:tools/paintballs_lumen_gray": {
-      "id": "ae2:tools/paintballs_lumen_gray",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:gray_paint_ball"
-        ],
-        [
-          "ae2:gray_paint_ball"
-        ],
-        [
-          "ae2:gray_paint_ball"
-        ],
-        [
-          "ae2:gray_paint_ball"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ],
-        [
-          "ae2:gray_paint_ball"
-        ],
-        [
-          "ae2:gray_paint_ball"
-        ],
-        [
-          "ae2:gray_paint_ball"
-        ],
-        [
-          "ae2:gray_paint_ball"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:gray_lumen_paint_ball",
-      "resultCount": 8
     },
     "ae2:network/cables/dense_smart_brown": {
       "id": "ae2:network/cables/dense_smart_brown",
@@ -8324,6 +9059,38 @@
       "width": 0,
       "height": 0,
       "resultItem": "ae2:sky_stone_brick",
+      "resultCount": 1
+    },
+    "ae2:tools/network_memory_card_white": {
+      "id": "ae2:tools/network_memory_card_white",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:white_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_white",
       "resultCount": 1
     },
     "ae2:decorative/light_detector": {
@@ -8504,6 +9271,38 @@
       "resultItem": "ae2:pink_covered_cable",
       "resultCount": 8
     },
+    "ae2:tools/network_memory_card_gray": {
+      "id": "ae2:tools/network_memory_card_gray",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:gray_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_gray",
+      "resultCount": 1
+    },
     "ae2:network/cables/dense_smart_gray": {
       "id": "ae2:network/cables/dense_smart_gray",
       "shapeless": false,
@@ -8557,6 +9356,43 @@
       "resultItem": "ae2:spatial_storage_cell_128",
       "resultCount": 1
     },
+    "ae2:tools/paintballs_yellow": {
+      "id": "ae2:tools/paintballs_yellow",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:matter_ball"
+        ],
+        [
+          "ae2:matter_ball"
+        ],
+        [
+          "ae2:matter_ball"
+        ],
+        [
+          "ae2:matter_ball"
+        ],
+        [
+          "minecraft:yellow_dye"
+        ],
+        [
+          "ae2:matter_ball"
+        ],
+        [
+          "ae2:matter_ball"
+        ],
+        [
+          "ae2:matter_ball"
+        ],
+        [
+          "ae2:matter_ball"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:yellow_paint_ball",
+      "resultCount": 8
+    },
     "ae2:network/cells/view_cell": {
       "id": "ae2:network/cells/view_cell",
       "shapeless": false,
@@ -8594,43 +9430,6 @@
       "height": 3,
       "resultItem": "ae2:view_cell",
       "resultCount": 1
-    },
-    "ae2:tools/paintballs_yellow": {
-      "id": "ae2:tools/paintballs_yellow",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:matter_ball"
-        ],
-        [
-          "ae2:matter_ball"
-        ],
-        [
-          "ae2:matter_ball"
-        ],
-        [
-          "ae2:matter_ball"
-        ],
-        [
-          "minecraft:yellow_dye"
-        ],
-        [
-          "ae2:matter_ball"
-        ],
-        [
-          "ae2:matter_ball"
-        ],
-        [
-          "ae2:matter_ball"
-        ],
-        [
-          "ae2:matter_ball"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:yellow_paint_ball",
-      "resultCount": 8
     },
     "ae2:shaped/slabs/quartz_pillar": {
       "id": "ae2:shaped/slabs/quartz_pillar",
@@ -8769,43 +9568,6 @@
       "resultItem": "ae2:energy_level_emitter",
       "resultCount": 1
     },
-    "ae2:network/cells/fluid_storage_cell_64k": {
-      "id": "ae2:network/cells/fluid_storage_cell_64k",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:quartz_glass"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "ae2:quartz_glass"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "ae2:cell_component_64k"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "minecraft:copper_ingot"
-        ],
-        [
-          "minecraft:copper_ingot"
-        ],
-        [
-          "minecraft:copper_ingot"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:fluid_storage_cell_64k",
-      "resultCount": 1
-    },
     "ae2:network/cables/smart_blue": {
       "id": "ae2:network/cables/smart_blue",
       "shapeless": false,
@@ -8843,6 +9605,43 @@
       "resultItem": "ae2:blue_smart_cable",
       "resultCount": 8
     },
+    "ae2:network/cells/fluid_storage_cell_64k": {
+      "id": "ae2:network/cells/fluid_storage_cell_64k",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "ae2:quartz_glass"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "ae2:cell_component_64k"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:copper_ingot"
+        ],
+        [
+          "minecraft:copper_ingot"
+        ],
+        [
+          "minecraft:copper_ingot"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:fluid_storage_cell_64k",
+      "resultCount": 1
+    },
     "ae2:network/parts/terminals": {
       "id": "ae2:network/parts/terminals",
       "shapeless": true,
@@ -8865,6 +9664,38 @@
       "width": 0,
       "height": 0,
       "resultItem": "ae2:terminal",
+      "resultCount": 1
+    },
+    "ae2:tools/network_memory_card_magenta": {
+      "id": "ae2:tools/network_memory_card_magenta",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:memory_card_white",
+          "ae2:memory_card_orange",
+          "ae2:memory_card_magenta",
+          "ae2:memory_card_light_blue",
+          "ae2:memory_card_yellow",
+          "ae2:memory_card_lime",
+          "ae2:memory_card_pink",
+          "ae2:memory_card_gray",
+          "ae2:memory_card_light_gray",
+          "ae2:memory_card_cyan",
+          "ae2:memory_card_purple",
+          "ae2:memory_card_blue",
+          "ae2:memory_card_brown",
+          "ae2:memory_card_green",
+          "ae2:memory_card_red",
+          "ae2:memory_card_black",
+          "ae2:memory_card"
+        ],
+        [
+          "minecraft:magenta_dye"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:memory_card_magenta",
       "resultCount": 1
     },
     "ae2:network/cables/smart_purple": {
@@ -8958,6 +9789,22 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:vibration_chamber",
+      "resultCount": 1
+    },
+    "ae2:network/cells/fluid_storage_cell_256k_storage": {
+      "id": "ae2:network/cells/fluid_storage_cell_256k_storage",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:fluid_cell_housing"
+        ],
+        [
+          "ae2:cell_component_256k"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluid_storage_cell_256k",
       "resultCount": 1
     },
     "ae2:network/blocks/io_condenser": {
@@ -9061,6 +9908,25 @@
       "resultItem": "ae2:condenser",
       "resultCount": 1
     },
+    "ae2:network/cables/smart_fluix": {
+      "id": "ae2:network/cables/smart_fluix",
+      "shapeless": true,
+      "ingredients": [
+        [
+          "ae2:fluix_covered_cable"
+        ],
+        [
+          "minecraft:redstone"
+        ],
+        [
+          "minecraft:glowstone_dust"
+        ]
+      ],
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluix_smart_cable",
+      "resultCount": 1
+    },
     "ae2:network/blocks/storage_chest": {
       "id": "ae2:network/blocks/storage_chest",
       "shapeless": false,
@@ -9126,41 +9992,6 @@
       "width": 3,
       "height": 3,
       "resultItem": "ae2:chest",
-      "resultCount": 1
-    },
-    "ae2:network/cables/smart_fluix": {
-      "id": "ae2:network/cables/smart_fluix",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:fluix_covered_cable"
-        ],
-        [
-          "minecraft:redstone"
-        ],
-        [
-          "minecraft:glowstone_dust"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:fluix_smart_cable",
-      "resultCount": 1
-    },
-    "ae2:network/parts/item_identity_annihilatition_plane": {
-      "id": "ae2:network/parts/item_identity_annihilatition_plane",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:annihilation_plane"
-        ],
-        [
-          "ae2:fluix_pearl"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:identity_annihilation_plane",
       "resultCount": 1
     },
     "ae2:tools/certus_quartz_hoe": {
@@ -9263,43 +10094,6 @@
       "resultItem": "ae2:lime_paint_ball",
       "resultCount": 8
     },
-    "ae2:network/cables/smart_light_gray": {
-      "id": "ae2:network/cables/smart_light_gray",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "minecraft:light_gray_dye"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:light_gray_smart_cable",
-      "resultCount": 8
-    },
     "ae2:network/cables/dense_smart_orange": {
       "id": "ae2:network/cables/dense_smart_orange",
       "shapeless": false,
@@ -9337,6 +10131,43 @@
       "resultItem": "ae2:orange_smart_dense_cable",
       "resultCount": 8
     },
+    "ae2:network/cables/smart_light_gray": {
+      "id": "ae2:network/cables/smart_light_gray",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "minecraft:light_gray_dye"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:light_gray_smart_cable",
+      "resultCount": 8
+    },
     "ae2:tools/misctools_entropy_manipulator": {
       "id": "ae2:tools/misctools_entropy_manipulator",
       "shapeless": false,
@@ -9365,6 +10196,43 @@
       "height": 3,
       "resultItem": "ae2:entropy_manipulator",
       "resultCount": 1
+    },
+    "ae2:network/cables/glass_magenta": {
+      "id": "ae2:network/cables/glass_magenta",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "minecraft:magenta_dye"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ],
+        [
+          "ae2:fluix_glass_cable"
+        ]
+      ],
+      "width": 3,
+      "height": 3,
+      "resultItem": "ae2:magenta_glass_cable",
+      "resultCount": 8
     },
     "ae2:tools/certus_quartz_wrench": {
       "id": "ae2:tools/certus_quartz_wrench",
@@ -9427,43 +10295,6 @@
       "height": 2,
       "resultItem": "ae2:quartz_pillar_wall",
       "resultCount": 6
-    },
-    "ae2:network/cables/glass_magenta": {
-      "id": "ae2:network/cables/glass_magenta",
-      "shapeless": false,
-      "ingredients": [
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "minecraft:magenta_dye"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ],
-        [
-          "ae2:fluix_glass_cable"
-        ]
-      ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:magenta_glass_cable",
-      "resultCount": 8
     },
     "ae2:tools/paintballs_lumen_orange": {
       "id": "ae2:tools/paintballs_lumen_orange",
@@ -9539,42 +10370,18 @@
       "resultItem": "ae2:purple_covered_dense_cable",
       "resultCount": 8
     },
-    "ae2:network/cables/smart_black": {
-      "id": "ae2:network/cables/smart_black",
-      "shapeless": false,
+    "ae2:misc/deconstruction_fluix_block": {
+      "id": "ae2:misc/deconstruction_fluix_block",
+      "shapeless": true,
       "ingredients": [
         [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "minecraft:black_dye"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
-        ],
-        [
-          "ae2:fluix_smart_cable"
+          "ae2:fluix_block"
         ]
       ],
-      "width": 3,
-      "height": 3,
-      "resultItem": "ae2:black_smart_cable",
-      "resultCount": 8
+      "width": 0,
+      "height": 0,
+      "resultItem": "ae2:fluix_crystal",
+      "resultCount": 4
     },
     "ae2:network/blocks/inscribers": {
       "id": "ae2:network/blocks/inscribers",
@@ -9611,46 +10418,42 @@
       "resultItem": "ae2:inscriber",
       "resultCount": 1
     },
-    "ae2:misc/deconstruction_fluix_block": {
-      "id": "ae2:misc/deconstruction_fluix_block",
-      "shapeless": true,
-      "ingredients": [
-        [
-          "ae2:fluix_block"
-        ]
-      ],
-      "width": 0,
-      "height": 0,
-      "resultItem": "ae2:fluix_crystal",
-      "resultCount": 4
-    },
-    "ae2:shaped/walls/quartz_block": {
-      "id": "ae2:shaped/walls/quartz_block",
+    "ae2:network/cables/smart_black": {
+      "id": "ae2:network/cables/smart_black",
       "shapeless": false,
       "ingredients": [
         [
-          "ae2:quartz_block"
+          "ae2:fluix_smart_cable"
         ],
         [
-          "ae2:quartz_block"
+          "ae2:fluix_smart_cable"
         ],
         [
-          "ae2:quartz_block"
+          "ae2:fluix_smart_cable"
         ],
         [
-          "ae2:quartz_block"
+          "ae2:fluix_smart_cable"
         ],
         [
-          "ae2:quartz_block"
+          "minecraft:black_dye"
         ],
         [
-          "ae2:quartz_block"
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
+        ],
+        [
+          "ae2:fluix_smart_cable"
         ]
       ],
       "width": 3,
-      "height": 2,
-      "resultItem": "ae2:quartz_wall",
-      "resultCount": 6
+      "height": 3,
+      "resultItem": "ae2:black_smart_cable",
+      "resultCount": 8
     },
     "ae2:network/blocks/io_port": {
       "id": "ae2:network/blocks/io_port",
@@ -9736,6 +10539,34 @@
       "height": 3,
       "resultItem": "ae2:io_port",
       "resultCount": 1
+    },
+    "ae2:shaped/walls/quartz_block": {
+      "id": "ae2:shaped/walls/quartz_block",
+      "shapeless": false,
+      "ingredients": [
+        [
+          "ae2:quartz_block"
+        ],
+        [
+          "ae2:quartz_block"
+        ],
+        [
+          "ae2:quartz_block"
+        ],
+        [
+          "ae2:quartz_block"
+        ],
+        [
+          "ae2:quartz_block"
+        ],
+        [
+          "ae2:quartz_block"
+        ]
+      ],
+      "width": 3,
+      "height": 2,
+      "resultItem": "ae2:quartz_wall",
+      "resultCount": 6
     }
   },
   "smeltingRecipes": {
@@ -9761,6 +10592,14 @@
         "ae2:sky_stone_block"
       ],
       "resultItem": "ae2:smooth_sky_stone_block",
+      "resultCount": 1
+    },
+    "ae2:blasting/silicon_from_certus_quartz_dust": {
+      "id": "ae2:blasting/silicon_from_certus_quartz_dust",
+      "ingredient": [
+        "ae2:certus_quartz_dust"
+      ],
+      "resultItem": "ae2:silicon",
       "resultCount": 1
     }
   },
@@ -9804,21 +10643,6 @@
       "resultItem": "ae2:calculation_processor_press",
       "resultCount": 1
     },
-    "ae2:inscriber/calculation_processor": {
-      "id": "ae2:inscriber/calculation_processor",
-      "consumesTopAndBottom": true,
-      "top": [
-        "ae2:printed_calculation_processor"
-      ],
-      "middle": [
-        "minecraft:redstone"
-      ],
-      "bottom": [
-        "ae2:printed_silicon"
-      ],
-      "resultItem": "ae2:calculation_processor",
-      "resultCount": 1
-    },
     "ae2:inscriber/logic_processor": {
       "id": "ae2:inscriber/logic_processor",
       "consumesTopAndBottom": true,
@@ -9845,6 +10669,57 @@
       ],
       "bottom": [],
       "resultItem": "ae2:printed_logic_processor",
+      "resultCount": 1
+    },
+    "ae2:inscriber/fluix_dust": {
+      "id": "ae2:inscriber/fluix_dust",
+      "consumesTopAndBottom": false,
+      "top": [],
+      "middle": [
+        "ae2:fluix_crystal"
+      ],
+      "bottom": [],
+      "resultItem": "ae2:fluix_dust",
+      "resultCount": 1
+    },
+    "ae2:inscriber/certus_quartz_dust": {
+      "id": "ae2:inscriber/certus_quartz_dust",
+      "consumesTopAndBottom": false,
+      "top": [],
+      "middle": [
+        "ae2:certus_quartz_crystal",
+        "ae2:charged_certus_quartz_crystal"
+      ],
+      "bottom": [],
+      "resultItem": "ae2:certus_quartz_dust",
+      "resultCount": 1
+    },
+    "ae2:inscriber/engineering_processor_print": {
+      "id": "ae2:inscriber/engineering_processor_print",
+      "consumesTopAndBottom": false,
+      "top": [
+        "ae2:engineering_processor_press"
+      ],
+      "middle": [
+        "minecraft:diamond"
+      ],
+      "bottom": [],
+      "resultItem": "ae2:printed_engineering_processor",
+      "resultCount": 1
+    },
+    "ae2:inscriber/calculation_processor": {
+      "id": "ae2:inscriber/calculation_processor",
+      "consumesTopAndBottom": true,
+      "top": [
+        "ae2:printed_calculation_processor"
+      ],
+      "middle": [
+        "minecraft:redstone"
+      ],
+      "bottom": [
+        "ae2:printed_silicon"
+      ],
+      "resultItem": "ae2:calculation_processor",
       "resultCount": 1
     },
     "ae2:inscriber/calculation_processor_print": {
@@ -9875,17 +10750,15 @@
       "resultItem": "ae2:engineering_processor",
       "resultCount": 1
     },
-    "ae2:inscriber/silicon_press": {
-      "id": "ae2:inscriber/silicon_press",
+    "ae2:inscriber/sky_stone_dust": {
+      "id": "ae2:inscriber/sky_stone_dust",
       "consumesTopAndBottom": false,
-      "top": [
-        "ae2:silicon_press"
-      ],
+      "top": [],
       "middle": [
-        "minecraft:iron_block"
+        "ae2:sky_stone_block"
       ],
       "bottom": [],
-      "resultItem": "ae2:silicon_press",
+      "resultItem": "ae2:sky_dust",
       "resultCount": 1
     },
     "ae2:inscriber/logic_processor_press": {
@@ -9901,17 +10774,17 @@
       "resultItem": "ae2:logic_processor_press",
       "resultCount": 1
     },
-    "ae2:inscriber/engineering_processor_print": {
-      "id": "ae2:inscriber/engineering_processor_print",
+    "ae2:inscriber/silicon_press": {
+      "id": "ae2:inscriber/silicon_press",
       "consumesTopAndBottom": false,
       "top": [
-        "ae2:engineering_processor_press"
+        "ae2:silicon_press"
       ],
       "middle": [
-        "minecraft:diamond"
+        "minecraft:iron_block"
       ],
       "bottom": [],
-      "resultItem": "ae2:printed_engineering_processor",
+      "resultItem": "ae2:silicon_press",
       "resultCount": 1
     }
   },
@@ -9933,6 +10806,12 @@
       "displayName": "ME Wireless Access Point",
       "rarity": "common",
       "icon": "/icons/ae2/wireless_access_point.png"
+    },
+    "minecraft:compass": {
+      "id": "minecraft:compass",
+      "displayName": "Compass",
+      "rarity": "common",
+      "icon": "/icons/minecraft/compass.png"
     },
     "ae2:white_covered_dense_cable": {
       "id": "ae2:white_covered_dense_cable",
@@ -9957,12 +10836,6 @@
       "displayName": "ME Terminal",
       "rarity": "common",
       "icon": "/icons/ae2/terminal.png"
-    },
-    "minecraft:red_sand": {
-      "id": "minecraft:red_sand",
-      "displayName": "Red Sand",
-      "rarity": "common",
-      "icon": "/icons/minecraft/red_sand.png"
     },
     "ae2:redstone_card": {
       "id": "ae2:redstone_card",
@@ -10024,6 +10897,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/logic_processor_press.png"
     },
+    "ae2:item_storage_cell_256k": {
+      "id": "ae2:item_storage_cell_256k",
+      "displayName": "256k ME Item Storage Cell",
+      "rarity": "common",
+      "icon": "/icons/ae2/item_storage_cell_256k.png"
+    },
     "minecraft:blue_dye": {
       "id": "minecraft:blue_dye",
       "displayName": "Blue Dye",
@@ -10083,12 +10962,6 @@
       "displayName": "Magenta Lumen Paint Ball",
       "rarity": "common",
       "icon": "/icons/ae2/magenta_lumen_paint_ball.png"
-    },
-    "ae2:identity_annihilation_plane": {
-      "id": "ae2:identity_annihilation_plane",
-      "displayName": "ME Identity Annihilation Plane",
-      "rarity": "common",
-      "icon": "/icons/ae2/identity_annihilation_plane.png"
     },
     "ae2:printed_engineering_processor": {
       "id": "ae2:printed_engineering_processor",
@@ -10164,9 +11037,15 @@
     },
     "ae2:fe_p2p_tunnel": {
       "id": "ae2:fe_p2p_tunnel",
-      "displayName": "FE P2P Tunnel",
+      "displayName": "Energy P2P Tunnel",
       "rarity": "common",
       "icon": "/icons/ae2/fe_p2p_tunnel.png"
+    },
+    "ae2:void_card": {
+      "id": "ae2:void_card",
+      "displayName": "Overflow Destruction Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/void_card.png"
     },
     "ae2:blue_lumen_paint_ball": {
       "id": "ae2:blue_lumen_paint_ball",
@@ -10269,12 +11148,6 @@
       "displayName": "Lever",
       "rarity": "common",
       "icon": "/icons/minecraft/lever.png"
-    },
-    "ae2:certus_crystal_seed": {
-      "id": "ae2:certus_crystal_seed",
-      "displayName": "Certus Quartz Seed",
-      "rarity": "common",
-      "icon": "/icons/ae2/certus_crystal_seed.png"
     },
     "ae2:certus_quartz_crystal": {
       "id": "ae2:certus_quartz_crystal",
@@ -10492,6 +11365,18 @@
       "rarity": "common",
       "icon": "/icons/ae2/sky_dust.png"
     },
+    "ae2:memory_card_light_gray": {
+      "id": "ae2:memory_card_light_gray",
+      "displayName": "Light Gray Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_light_gray.png"
+    },
+    "ae2:memory_card_purple": {
+      "id": "ae2:memory_card_purple",
+      "displayName": "Purple Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_purple.png"
+    },
     "ae2:pink_covered_dense_cable": {
       "id": "ae2:pink_covered_dense_cable",
       "displayName": "Pink ME Dense Covered Cable",
@@ -10516,6 +11401,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/1k_crafting_storage.png"
     },
+    "ae2:memory_card_cyan": {
+      "id": "ae2:memory_card_cyan",
+      "displayName": "Cyan Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_cyan.png"
+    },
     "minecraft:stick": {
       "id": "minecraft:stick",
       "displayName": "Stick",
@@ -10527,12 +11418,6 @@
       "displayName": "Blank Pattern",
       "rarity": "common",
       "icon": "/icons/ae2/blank_pattern.png"
-    },
-    "ae2:deepslate_quartz_ore": {
-      "id": "ae2:deepslate_quartz_ore",
-      "displayName": "Deepslate Certus Quartz Ore",
-      "rarity": "common",
-      "icon": "/icons/ae2/deepslate_quartz_ore.png"
     },
     "ae2:yellow_paint_ball": {
       "id": "ae2:yellow_paint_ball",
@@ -10618,17 +11503,23 @@
       "rarity": "common",
       "icon": "/icons/minecraft/redstone_torch.png"
     },
-    "minecraft:crimson_slab": {
-      "id": "minecraft:crimson_slab",
-      "displayName": "Crimson Slab",
+    "ae2:fluix_hoe": {
+      "id": "ae2:fluix_hoe",
+      "displayName": "Fluix Hoe",
       "rarity": "common",
-      "icon": "/icons/minecraft/crimson_slab.png"
+      "icon": "/icons/ae2/fluix_hoe.png"
     },
     "minecraft:black_dye": {
       "id": "minecraft:black_dye",
       "displayName": "Black Dye",
       "rarity": "common",
       "icon": "/icons/minecraft/black_dye.png"
+    },
+    "minecraft:crimson_slab": {
+      "id": "minecraft:crimson_slab",
+      "displayName": "Crimson Slab",
+      "rarity": "common",
+      "icon": "/icons/minecraft/crimson_slab.png"
     },
     "ae2:sky_stone_slab": {
       "id": "ae2:sky_stone_slab",
@@ -10647,6 +11538,12 @@
       "displayName": "Inscriber Name Press",
       "rarity": "common",
       "icon": "/icons/ae2/name_press.png"
+    },
+    "ae2:memory_card_lime": {
+      "id": "ae2:memory_card_lime",
+      "displayName": "Lime Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_lime.png"
     },
     "ae2:certus_quartz_cutting_knife": {
       "id": "ae2:certus_quartz_cutting_knife",
@@ -10690,12 +11587,6 @@
       "rarity": "common",
       "icon": "/icons/ae2/quartz_pillar.png"
     },
-    "ae2:debug_part_placer": {
-      "id": "ae2:debug_part_placer",
-      "displayName": "Dev.PartPlacer",
-      "rarity": "common",
-      "icon": "/icons/ae2/debug_part_placer.png"
-    },
     "ae2:quartz_wall": {
       "id": "ae2:quartz_wall",
       "displayName": "Certus Quartz Wall",
@@ -10707,6 +11598,12 @@
       "displayName": "Green ME Dense Smart Cable",
       "rarity": "common",
       "icon": "/icons/ae2/green_smart_dense_cable.png"
+    },
+    "ae2:memory_card_yellow": {
+      "id": "ae2:memory_card_yellow",
+      "displayName": "Yellow Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_yellow.png"
     },
     "ae2:blue_paint_ball": {
       "id": "ae2:blue_paint_ball",
@@ -10737,6 +11634,12 @@
       "displayName": "White ME Dense Smart Cable",
       "rarity": "common",
       "icon": "/icons/ae2/white_smart_dense_cable.png"
+    },
+    "ae2:damaged_budding_quartz": {
+      "id": "ae2:damaged_budding_quartz",
+      "displayName": "Damaged Budding Certus Quartz",
+      "rarity": "common",
+      "icon": "/icons/ae2/damaged_budding_quartz.png"
     },
     "ae2:cell_component_16k": {
       "id": "ae2:cell_component_16k",
@@ -10816,6 +11719,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/blue_smart_dense_cable.png"
     },
+    "ae2:memory_card_green": {
+      "id": "ae2:memory_card_green",
+      "displayName": "Green Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_green.png"
+    },
     "ae2:yellow_smart_dense_cable": {
       "id": "ae2:yellow_smart_dense_cable",
       "displayName": "Yellow ME Dense Smart Cable",
@@ -10863,6 +11772,12 @@
       "displayName": "Orange ME Dense Covered Cable",
       "rarity": "common",
       "icon": "/icons/ae2/orange_covered_dense_cable.png"
+    },
+    "ae2:energy_card": {
+      "id": "ae2:energy_card",
+      "displayName": "Energy Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/energy_card.png"
     },
     "minecraft:chest": {
       "id": "minecraft:chest",
@@ -10954,6 +11869,12 @@
       "rarity": "common",
       "icon": "/icons/minecraft/iron_ingot.png"
     },
+    "ae2:memory_card_blue": {
+      "id": "ae2:memory_card_blue",
+      "displayName": "Blue Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_blue.png"
+    },
     "ae2:formation_core": {
       "id": "ae2:formation_core",
       "displayName": "Formation Core",
@@ -11014,11 +11935,23 @@
       "rarity": "common",
       "icon": "/icons/ae2/magenta_covered_dense_cable.png"
     },
+    "ae2:chipped_budding_quartz": {
+      "id": "ae2:chipped_budding_quartz",
+      "displayName": "Chipped Budding Certus Quartz",
+      "rarity": "common",
+      "icon": "/icons/ae2/chipped_budding_quartz.png"
+    },
     "minecraft:redstone_block": {
       "id": "minecraft:redstone_block",
       "displayName": "Block of Redstone",
       "rarity": "common",
       "icon": "/icons/minecraft/redstone_block.png"
+    },
+    "ae2:flawless_budding_quartz": {
+      "id": "ae2:flawless_budding_quartz",
+      "displayName": "Flawless Budding Certus Quartz",
+      "rarity": "common",
+      "icon": "/icons/ae2/flawless_budding_quartz.png"
     },
     "ae2:quantum_entangled_singularity": {
       "id": "ae2:quantum_entangled_singularity",
@@ -11031,6 +11964,12 @@
       "displayName": "Yellow Stained Glass",
       "rarity": "common",
       "icon": "/icons/minecraft/yellow_stained_glass.png"
+    },
+    "ae2:large_quartz_bud": {
+      "id": "ae2:large_quartz_bud",
+      "displayName": "Large Certus Quartz Bud",
+      "rarity": "common",
+      "icon": "/icons/ae2/large_quartz_bud.png"
     },
     "ae2:certus_quartz_pickaxe": {
       "id": "ae2:certus_quartz_pickaxe",
@@ -11104,6 +12043,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/silicon.png"
     },
+    "ae2:sky_stone_tank": {
+      "id": "ae2:sky_stone_tank",
+      "displayName": "Sky Stone Tank",
+      "rarity": "common",
+      "icon": "/icons/ae2/sky_stone_tank.png"
+    },
     "ae2:monitor": {
       "id": "ae2:monitor",
       "displayName": "Bright Illuminated Panel",
@@ -11164,6 +12109,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/yellow_smart_cable.png"
     },
+    "ae2:portable_item_cell_256k": {
+      "id": "ae2:portable_item_cell_256k",
+      "displayName": "256k Portable Item Cell",
+      "rarity": "common",
+      "icon": "/icons/ae2/portable_item_cell_256k.png"
+    },
     "minecraft:redstone": {
       "id": "minecraft:redstone",
       "displayName": "Redstone Dust",
@@ -11187,6 +12138,12 @@
       "displayName": "Charged Staff",
       "rarity": "common",
       "icon": "/icons/ae2/charged_staff.png"
+    },
+    "ae2:fluid_storage_cell_256k": {
+      "id": "ae2:fluid_storage_cell_256k",
+      "displayName": "256k ME Fluid Storage Cell",
+      "rarity": "common",
+      "icon": "/icons/ae2/fluid_storage_cell_256k.png"
     },
     "ae2:brown_smart_cable": {
       "id": "ae2:brown_smart_cable",
@@ -11256,7 +12213,7 @@
     },
     "ae2:wrapped_generic_stack": {
       "id": "ae2:wrapped_generic_stack",
-      "displayName": "Air",
+      "displayName": "Wrapped Generic Stack",
       "rarity": "common",
       "icon": "/icons/ae2/wrapped_generic_stack.png"
     },
@@ -11302,6 +12259,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/wireless_terminal.png"
     },
+    "ae2:memory_card_black": {
+      "id": "ae2:memory_card_black",
+      "displayName": "Black Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_black.png"
+    },
     "ae2:portable_fluid_cell_64k": {
       "id": "ae2:portable_fluid_cell_64k",
       "displayName": "64k Portable Fluid Cell",
@@ -11338,17 +12301,17 @@
       "rarity": "common",
       "icon": "/icons/minecraft/polished_diorite.png"
     },
-    "minecraft:sand": {
-      "id": "minecraft:sand",
-      "displayName": "Sand",
-      "rarity": "common",
-      "icon": "/icons/minecraft/sand.png"
-    },
     "ae2:crafting_terminal": {
       "id": "ae2:crafting_terminal",
       "displayName": "ME Crafting Terminal",
       "rarity": "common",
       "icon": "/icons/ae2/crafting_terminal.png"
+    },
+    "ae2:fluix_axe": {
+      "id": "ae2:fluix_axe",
+      "displayName": "Fluix Axe",
+      "rarity": "common",
+      "icon": "/icons/ae2/fluix_axe.png"
     },
     "ae2:lime_smart_dense_cable": {
       "id": "ae2:lime_smart_dense_cable",
@@ -11361,6 +12324,12 @@
       "displayName": "Cyan Wool",
       "rarity": "common",
       "icon": "/icons/minecraft/cyan_wool.png"
+    },
+    "ae2:equal_distribution_card": {
+      "id": "ae2:equal_distribution_card",
+      "displayName": "Equal Distribution Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/equal_distribution_card.png"
     },
     "ae2:io_port": {
       "id": "ae2:io_port",
@@ -11530,6 +12499,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/brown_covered_cable.png"
     },
+    "ae2:crank": {
+      "id": "ae2:crank",
+      "displayName": "Wooden Crank",
+      "rarity": "common",
+      "icon": "/icons/ae2/crank.png"
+    },
     "minecraft:light_gray_stained_glass": {
       "id": "minecraft:light_gray_stained_glass",
       "displayName": "Light Gray Stained Glass",
@@ -11538,7 +12513,7 @@
     },
     "ae2:paint": {
       "id": "ae2:paint",
-      "displayName": "block.ae2.paint",
+      "displayName": "Paint",
       "rarity": "common",
       "icon": "/icons/ae2/paint.png"
     },
@@ -11698,11 +12673,23 @@
       "rarity": "common",
       "icon": "/icons/ae2/quantum_link.png"
     },
+    "ae2:memory_card_pink": {
+      "id": "ae2:memory_card_pink",
+      "displayName": "Pink Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_pink.png"
+    },
     "ae2:spatial_storage_cell_16": {
       "id": "ae2:spatial_storage_cell_16",
       "displayName": "16³ Spatial Storage Cell",
       "rarity": "common",
       "icon": "/icons/ae2/spatial_storage_cell_16.png"
+    },
+    "ae2:fluix_sword": {
+      "id": "ae2:fluix_sword",
+      "displayName": "Fluix Sword",
+      "rarity": "common",
+      "icon": "/icons/ae2/fluix_sword.png"
     },
     "ae2:cyan_smart_cable": {
       "id": "ae2:cyan_smart_cable",
@@ -11715,6 +12702,12 @@
       "displayName": "Color Applicator - Empty",
       "rarity": "common",
       "icon": "/icons/ae2/color_applicator.png"
+    },
+    "ae2:256k_crafting_storage": {
+      "id": "ae2:256k_crafting_storage",
+      "displayName": "256k Crafting Storage",
+      "rarity": "common",
+      "icon": "/icons/ae2/256k_crafting_storage.png"
     },
     "minecraft:purple_dye": {
       "id": "minecraft:purple_dye",
@@ -11740,11 +12733,23 @@
       "rarity": "common",
       "icon": "/icons/ae2/pink_covered_cable.png"
     },
+    "ae2:flawed_budding_quartz": {
+      "id": "ae2:flawed_budding_quartz",
+      "displayName": "Flawed Budding Certus Quartz",
+      "rarity": "common",
+      "icon": "/icons/ae2/flawed_budding_quartz.png"
+    },
     "ae2:crafting_monitor": {
       "id": "ae2:crafting_monitor",
       "displayName": "Crafting Monitor",
       "rarity": "common",
       "icon": "/icons/ae2/crafting_monitor.png"
+    },
+    "ae2:memory_card_light_blue": {
+      "id": "ae2:memory_card_light_blue",
+      "displayName": "Light Blue Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_light_blue.png"
     },
     "ae2:sky_stone_brick_wall": {
       "id": "ae2:sky_stone_brick_wall",
@@ -11835,6 +12840,12 @@
       "displayName": "White ME Smart Cable",
       "rarity": "common",
       "icon": "/icons/ae2/white_smart_cable.png"
+    },
+    "ae2:memory_card_red": {
+      "id": "ae2:memory_card_red",
+      "displayName": "Red Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_red.png"
     },
     "ae2:item_storage_cell_4k": {
       "id": "ae2:item_storage_cell_4k",
@@ -11938,6 +12949,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/spatial_cell_component_16.png"
     },
+    "ae2:quartz_cluster": {
+      "id": "ae2:quartz_cluster",
+      "displayName": "Certus Quartz Cluster",
+      "rarity": "common",
+      "icon": "/icons/ae2/quartz_cluster.png"
+    },
     "ae2:item_storage_cell_1k": {
       "id": "ae2:item_storage_cell_1k",
       "displayName": "1k ME Item Storage Cell",
@@ -12010,12 +13027,6 @@
       "rarity": "common",
       "icon": "/icons/minecraft/sticky_piston.png"
     },
-    "ae2:quartz_ore": {
-      "id": "ae2:quartz_ore",
-      "displayName": "Certus Quartz Ore",
-      "rarity": "common",
-      "icon": "/icons/ae2/quartz_ore.png"
-    },
     "ae2:controller": {
       "id": "ae2:controller",
       "displayName": "ME Controller",
@@ -12052,12 +13063,6 @@
       "rarity": "common",
       "icon": "/icons/ae2/charger.png"
     },
-    "ae2:fluix_crystal_seed": {
-      "id": "ae2:fluix_crystal_seed",
-      "displayName": "Fluix Seed",
-      "rarity": "common",
-      "icon": "/icons/ae2/fluix_crystal_seed.png"
-    },
     "ae2:light_gray_glass_cable": {
       "id": "ae2:light_gray_glass_cable",
       "displayName": "Light Gray ME Glass Cable",
@@ -12081,6 +13086,24 @@
       "displayName": "ME Energy Level Emitter",
       "rarity": "common",
       "icon": "/icons/ae2/energy_level_emitter.png"
+    },
+    "minecraft:mangrove_slab": {
+      "id": "minecraft:mangrove_slab",
+      "displayName": "Mangrove Slab",
+      "rarity": "common",
+      "icon": "/icons/minecraft/mangrove_slab.png"
+    },
+    "ae2:memory_card_orange": {
+      "id": "ae2:memory_card_orange",
+      "displayName": "Orange Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_orange.png"
+    },
+    "ae2:memory_card_brown": {
+      "id": "ae2:memory_card_brown",
+      "displayName": "Brown Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_brown.png"
     },
     "ae2:light_gray_covered_dense_cable": {
       "id": "ae2:light_gray_covered_dense_cable",
@@ -12123,6 +13146,12 @@
       "displayName": "Brown Paint Ball",
       "rarity": "common",
       "icon": "/icons/ae2/brown_paint_ball.png"
+    },
+    "ae2:memory_card_white": {
+      "id": "ae2:memory_card_white",
+      "displayName": "White Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_white.png"
     },
     "ae2:cyan_paint_ball": {
       "id": "ae2:cyan_paint_ball",
@@ -12184,6 +13213,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/quartz_growth_accelerator.png"
     },
+    "ae2:fluix_shovel": {
+      "id": "ae2:fluix_shovel",
+      "displayName": "Fluix Shovel",
+      "rarity": "common",
+      "icon": "/icons/ae2/fluix_shovel.png"
+    },
     "minecraft:daylight_detector": {
       "id": "minecraft:daylight_detector",
       "displayName": "Daylight Detector",
@@ -12201,6 +13236,12 @@
       "displayName": "16k Portable Item Cell",
       "rarity": "common",
       "icon": "/icons/ae2/portable_item_cell_16k.png"
+    },
+    "ae2:small_quartz_bud": {
+      "id": "ae2:small_quartz_bud",
+      "displayName": "Small Certus Quartz Bud",
+      "rarity": "common",
+      "icon": "/icons/ae2/small_quartz_bud.png"
     },
     "minecraft:infested_stone": {
       "id": "minecraft:infested_stone",
@@ -12250,6 +13291,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/quartz_vibrant_glass.png"
     },
+    "ae2:medium_quartz_bud": {
+      "id": "ae2:medium_quartz_bud",
+      "displayName": "Medium Certus Quartz Bud",
+      "rarity": "common",
+      "icon": "/icons/ae2/medium_quartz_bud.png"
+    },
     "ae2:printed_calculation_processor": {
       "id": "ae2:printed_calculation_processor",
       "displayName": "Printed Calculation Circuit",
@@ -12298,6 +13345,12 @@
       "rarity": "common",
       "icon": "/icons/ae2/portable_fluid_cell_16k.png"
     },
+    "ae2:memory_card_gray": {
+      "id": "ae2:memory_card_gray",
+      "displayName": "Gray Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_gray.png"
+    },
     "ae2:magenta_smart_cable": {
       "id": "ae2:magenta_smart_cable",
       "displayName": "Magenta ME Smart Cable",
@@ -12322,11 +13375,29 @@
       "rarity": "common",
       "icon": "/icons/ae2/orange_covered_cable.png"
     },
+    "ae2:portable_fluid_cell_256k": {
+      "id": "ae2:portable_fluid_cell_256k",
+      "displayName": "256k Portable Fluid Cell",
+      "rarity": "common",
+      "icon": "/icons/ae2/portable_fluid_cell_256k.png"
+    },
+    "ae2:cell_component_256k": {
+      "id": "ae2:cell_component_256k",
+      "displayName": "256k ME Storage Component",
+      "rarity": "common",
+      "icon": "/icons/ae2/cell_component_256k.png"
+    },
     "ae2:item_cell_housing": {
       "id": "ae2:item_cell_housing",
       "displayName": "ME Item Cell Housing",
       "rarity": "common",
       "icon": "/icons/ae2/item_cell_housing.png"
+    },
+    "ae2:memory_card_magenta": {
+      "id": "ae2:memory_card_magenta",
+      "displayName": "Magenta Memory Card",
+      "rarity": "common",
+      "icon": "/icons/ae2/memory_card_magenta.png"
     },
     "ae2:silicon_press": {
       "id": "ae2:silicon_press",
@@ -12483,98 +13554,113 @@
       "displayName": "Pink ME Smart Cable",
       "rarity": "common",
       "icon": "/icons/ae2/pink_smart_cable.png"
+    },
+    "ae2:fluix_pickaxe": {
+      "id": "ae2:fluix_pickaxe",
+      "displayName": "Fluix Pickaxe",
+      "rarity": "common",
+      "icon": "/icons/ae2/fluix_pickaxe.png"
     }
   },
   "p2pTunnelTypes": [
     {
       "tunnelItemId": "ae2:me_p2p_tunnel",
       "attunementItemIds": [
-        "ae2:light_blue_smart_cable",
-        "ae2:lime_smart_cable",
-        "ae2:cyan_glass_cable",
-        "ae2:fluix_smart_dense_cable",
-        "ae2:cyan_covered_cable",
-        "ae2:blue_smart_dense_cable",
-        "ae2:lime_glass_cable",
-        "ae2:yellow_smart_dense_cable",
-        "ae2:brown_glass_cable",
-        "ae2:black_smart_dense_cable",
+        "ae2:magenta_covered_cable",
+        "ae2:cyan_smart_cable",
+        "ae2:yellow_covered_dense_cable",
+        "ae2:orange_covered_cable",
         "ae2:orange_smart_cable",
-        "ae2:light_gray_covered_cable",
-        "ae2:light_gray_glass_cable",
-        "ae2:gray_covered_cable",
-        "ae2:orange_glass_cable",
-        "ae2:red_smart_cable",
-        "ae2:magenta_smart_cable",
-        "ae2:black_smart_cable",
-        "ae2:green_smart_cable",
-        "ae2:yellow_covered_cable",
+        "ae2:lime_covered_cable",
+        "ae2:pink_covered_cable",
+        "ae2:lime_covered_dense_cable",
         "ae2:white_glass_cable",
-        "ae2:orange_smart_dense_cable",
-        "ae2:red_smart_dense_cable",
-        "ae2:pink_glass_cable",
+        "ae2:green_glass_cable",
+        "ae2:purple_glass_cable",
+        "ae2:yellow_smart_dense_cable",
+        "ae2:red_covered_cable",
+        "ae2:black_smart_dense_cable",
+        "ae2:light_blue_smart_dense_cable",
+        "ae2:white_covered_dense_cable",
+        "ae2:light_gray_covered_cable",
+        "ae2:pink_smart_cable",
+        "ae2:light_blue_smart_cable",
+        "ae2:red_covered_dense_cable",
         "ae2:yellow_smart_cable",
-        "ae2:gray_smart_cable",
-        "ae2:pink_smart_dense_cable",
+        "ae2:light_blue_covered_cable",
+        "ae2:white_smart_dense_cable",
+        "ae2:magenta_glass_cable",
+        "ae2:black_covered_dense_cable",
+        "ae2:fluix_smart_cable",
+        "ae2:orange_smart_dense_cable",
         "ae2:lime_smart_dense_cable",
         "ae2:purple_smart_dense_cable",
-        "ae2:red_covered_cable",
-        "ae2:black_covered_cable",
-        "ae2:blue_smart_cable",
-        "ae2:blue_glass_cable",
-        "ae2:green_glass_cable",
-        "ae2:fluix_smart_cable",
-        "ae2:pink_covered_cable",
-        "ae2:lime_covered_cable",
-        "ae2:pink_smart_cable",
-        "ae2:orange_covered_cable",
-        "ae2:black_glass_cable",
-        "ae2:gray_glass_cable",
-        "ae2:magenta_covered_cable",
-        "ae2:magenta_smart_dense_cable",
-        "ae2:magenta_glass_cable",
+        "ae2:white_smart_cable",
+        "ae2:cyan_smart_dense_cable",
+        "ae2:fluix_covered_dense_cable",
+        "ae2:black_smart_cable",
+        "ae2:light_gray_smart_dense_cable",
+        "ae2:red_smart_cable",
+        "ae2:light_blue_covered_dense_cable",
         "ae2:brown_smart_cable",
-        "ae2:light_gray_smart_cable",
-        "ae2:white_smart_dense_cable",
-        "ae2:purple_glass_cable",
+        "ae2:red_glass_cable",
+        "ae2:black_glass_cable",
+        "ae2:green_smart_dense_cable",
+        "ae2:green_covered_dense_cable",
+        "ae2:cyan_glass_cable",
+        "ae2:blue_smart_dense_cable",
+        "ae2:gray_covered_cable",
+        "ae2:pink_glass_cable",
+        "ae2:gray_smart_cable",
+        "ae2:cyan_covered_dense_cable",
+        "ae2:light_gray_glass_cable",
+        "ae2:brown_covered_dense_cable",
+        "ae2:lime_glass_cable",
+        "ae2:gray_smart_dense_cable",
         "ae2:light_blue_glass_cable",
         "ae2:brown_smart_dense_cable",
-        "ae2:purple_covered_cable",
-        "ae2:light_gray_smart_dense_cable",
-        "ae2:gray_smart_dense_cable",
-        "ae2:green_smart_dense_cable",
-        "ae2:yellow_glass_cable",
-        "ae2:fluix_glass_cable",
-        "ae2:white_smart_cable",
-        "ae2:light_blue_covered_cable",
-        "ae2:white_covered_cable",
-        "ae2:blue_covered_cable",
-        "ae2:brown_covered_cable",
+        "ae2:blue_glass_cable",
+        "ae2:fluix_smart_dense_cable",
+        "ae2:blue_smart_cable",
+        "ae2:magenta_smart_cable",
+        "ae2:yellow_covered_cable",
+        "ae2:red_smart_dense_cable",
+        "ae2:magenta_smart_dense_cable",
+        "ae2:light_gray_covered_dense_cable",
         "ae2:fluix_covered_cable",
-        "ae2:cyan_smart_dense_cable",
-        "ae2:light_blue_smart_dense_cable",
-        "ae2:red_glass_cable",
-        "ae2:cyan_smart_cable",
+        "ae2:cyan_covered_cable",
+        "ae2:brown_covered_cable",
+        "ae2:orange_covered_dense_cable",
+        "ae2:blue_covered_dense_cable",
+        "ae2:light_gray_smart_cable",
+        "ae2:yellow_glass_cable",
+        "ae2:lime_smart_cable",
+        "ae2:pink_covered_dense_cable",
+        "ae2:blue_covered_cable",
+        "ae2:fluix_glass_cable",
+        "ae2:purple_covered_cable",
+        "ae2:purple_covered_dense_cable",
+        "ae2:gray_glass_cable",
+        "ae2:green_covered_cable",
+        "ae2:black_covered_cable",
+        "ae2:magenta_covered_dense_cable",
+        "ae2:green_smart_cable",
+        "ae2:white_covered_cable",
         "ae2:purple_smart_cable",
-        "ae2:green_covered_cable"
+        "ae2:brown_glass_cable",
+        "ae2:orange_glass_cable",
+        "ae2:gray_covered_dense_cable",
+        "ae2:pink_smart_dense_cable"
       ],
-      "attunementModIds": [],
       "attunementApiClasses": []
     },
     {
       "tunnelItemId": "ae2:fe_p2p_tunnel",
       "attunementItemIds": [
         "ae2:energy_acceptor",
-        "ae2:energy_cell",
         "ae2:creative_energy_cell",
-        "ae2:dense_energy_cell"
-      ],
-      "attunementModIds": [
-        "thermalexpansion",
-        "mekanism",
-        "thermalfoundation",
-        "thermaldynamics",
-        "rftools"
+        "ae2:dense_energy_cell",
+        "ae2:energy_cell"
       ],
       "attunementApiClasses": [
         "team.reborn.energy.api.EnergyStorage"
@@ -12583,27 +13669,25 @@
     {
       "tunnelItemId": "ae2:item_p2p_tunnel",
       "attunementItemIds": [
-        "minecraft:trapped_chest",
-        "ae2:interface",
-        "ae2:cable_interface",
         "ae2:import_bus",
+        "ae2:cable_interface",
+        "minecraft:chest",
+        "ae2:storage_bus",
         "ae2:export_bus",
         "minecraft:hopper",
-        "minecraft:chest",
-        "ae2:storage_bus"
+        "minecraft:trapped_chest",
+        "ae2:interface"
       ],
-      "attunementModIds": [],
       "attunementApiClasses": []
     },
     {
       "tunnelItemId": "ae2:fluid_p2p_tunnel",
       "attunementItemIds": [
-        "minecraft:milk_bucket",
-        "minecraft:water_bucket",
         "minecraft:bucket",
+        "minecraft:water_bucket",
+        "minecraft:milk_bucket",
         "minecraft:lava_bucket"
       ],
-      "attunementModIds": [],
       "attunementApiClasses": [
         "net.fabricmc.fabric.api.transfer.v1.storage.Storage"
       ]
@@ -12611,16 +13695,15 @@
     {
       "tunnelItemId": "ae2:redstone_p2p_tunnel",
       "attunementItemIds": [
-        "minecraft:redstone",
-        "minecraft:repeater",
-        "minecraft:redstone_torch",
-        "minecraft:lever",
         "minecraft:daylight_detector",
         "minecraft:redstone_block",
+        "minecraft:comparator",
+        "minecraft:repeater",
+        "minecraft:redstone_torch",
         "minecraft:redstone_lamp",
-        "minecraft:comparator"
+        "minecraft:lever",
+        "minecraft:redstone"
       ],
-      "attunementModIds": [],
       "attunementApiClasses": []
     },
     {
@@ -12629,100 +13712,99 @@
         "minecraft:torch",
         "minecraft:glowstone"
       ],
-      "attunementModIds": [],
       "attunementApiClasses": []
     }
   ],
   "coloredVersions": {
     "ae2:fluix_covered_cable": {
+      "yellow": "ae2:yellow_covered_cable",
+      "blue": "ae2:blue_covered_cable",
+      "orange": "ae2:orange_covered_cable",
+      "gray": "ae2:gray_covered_cable",
+      "purple": "ae2:purple_covered_cable",
       "magenta": "ae2:magenta_covered_cable",
       "lime": "ae2:lime_covered_cable",
-      "orange": "ae2:orange_covered_cable",
-      "pink": "ae2:pink_covered_cable",
-      "yellow": "ae2:yellow_covered_cable",
-      "light_blue": "ae2:light_blue_covered_cable",
-      "purple": "ae2:purple_covered_cable",
-      "brown": "ae2:brown_covered_cable",
-      "light_gray": "ae2:light_gray_covered_cable",
       "white": "ae2:white_covered_cable",
-      "cyan": "ae2:cyan_covered_cable",
-      "black": "ae2:black_covered_cable",
+      "pink": "ae2:pink_covered_cable",
+      "light_blue": "ae2:light_blue_covered_cable",
+      "light_gray": "ae2:light_gray_covered_cable",
       "red": "ae2:red_covered_cable",
-      "gray": "ae2:gray_covered_cable",
       "green": "ae2:green_covered_cable",
-      "blue": "ae2:blue_covered_cable"
+      "black": "ae2:black_covered_cable",
+      "cyan": "ae2:cyan_covered_cable",
+      "brown": "ae2:brown_covered_cable"
     },
     "ae2:fluix_smart_dense_cable": {
+      "yellow": "ae2:yellow_smart_dense_cable",
+      "blue": "ae2:blue_smart_dense_cable",
+      "orange": "ae2:orange_smart_dense_cable",
+      "gray": "ae2:gray_smart_dense_cable",
+      "purple": "ae2:purple_smart_dense_cable",
       "magenta": "ae2:magenta_smart_dense_cable",
       "lime": "ae2:lime_smart_dense_cable",
-      "orange": "ae2:orange_smart_dense_cable",
-      "pink": "ae2:pink_smart_dense_cable",
-      "yellow": "ae2:yellow_smart_dense_cable",
-      "light_blue": "ae2:light_blue_smart_dense_cable",
-      "purple": "ae2:purple_smart_dense_cable",
-      "brown": "ae2:brown_smart_dense_cable",
-      "light_gray": "ae2:light_gray_smart_dense_cable",
       "white": "ae2:white_smart_dense_cable",
-      "cyan": "ae2:cyan_smart_dense_cable",
-      "black": "ae2:black_smart_dense_cable",
+      "pink": "ae2:pink_smart_dense_cable",
+      "light_blue": "ae2:light_blue_smart_dense_cable",
+      "light_gray": "ae2:light_gray_smart_dense_cable",
       "red": "ae2:red_smart_dense_cable",
-      "gray": "ae2:gray_smart_dense_cable",
       "green": "ae2:green_smart_dense_cable",
-      "blue": "ae2:blue_smart_dense_cable"
+      "black": "ae2:black_smart_dense_cable",
+      "cyan": "ae2:cyan_smart_dense_cable",
+      "brown": "ae2:brown_smart_dense_cable"
     },
     "ae2:fluix_covered_dense_cable": {
+      "yellow": "ae2:yellow_covered_dense_cable",
+      "blue": "ae2:blue_covered_dense_cable",
+      "orange": "ae2:orange_covered_dense_cable",
+      "gray": "ae2:gray_covered_dense_cable",
+      "purple": "ae2:purple_covered_dense_cable",
       "magenta": "ae2:magenta_covered_dense_cable",
       "lime": "ae2:lime_covered_dense_cable",
-      "orange": "ae2:orange_covered_dense_cable",
-      "pink": "ae2:pink_covered_dense_cable",
-      "yellow": "ae2:yellow_covered_dense_cable",
-      "light_blue": "ae2:light_blue_covered_dense_cable",
-      "purple": "ae2:purple_covered_dense_cable",
-      "brown": "ae2:brown_covered_dense_cable",
-      "light_gray": "ae2:light_gray_covered_dense_cable",
       "white": "ae2:white_covered_dense_cable",
-      "cyan": "ae2:cyan_covered_dense_cable",
-      "black": "ae2:black_covered_dense_cable",
+      "pink": "ae2:pink_covered_dense_cable",
+      "light_blue": "ae2:light_blue_covered_dense_cable",
+      "light_gray": "ae2:light_gray_covered_dense_cable",
       "red": "ae2:red_covered_dense_cable",
-      "gray": "ae2:gray_covered_dense_cable",
       "green": "ae2:green_covered_dense_cable",
-      "blue": "ae2:blue_covered_dense_cable"
+      "black": "ae2:black_covered_dense_cable",
+      "cyan": "ae2:cyan_covered_dense_cable",
+      "brown": "ae2:brown_covered_dense_cable"
     },
     "ae2:fluix_glass_cable": {
+      "yellow": "ae2:yellow_glass_cable",
+      "blue": "ae2:blue_glass_cable",
+      "orange": "ae2:orange_glass_cable",
+      "gray": "ae2:gray_glass_cable",
+      "purple": "ae2:purple_glass_cable",
       "magenta": "ae2:magenta_glass_cable",
       "lime": "ae2:lime_glass_cable",
-      "orange": "ae2:orange_glass_cable",
-      "pink": "ae2:pink_glass_cable",
-      "yellow": "ae2:yellow_glass_cable",
-      "light_blue": "ae2:light_blue_glass_cable",
-      "purple": "ae2:purple_glass_cable",
-      "brown": "ae2:brown_glass_cable",
-      "light_gray": "ae2:light_gray_glass_cable",
       "white": "ae2:white_glass_cable",
-      "cyan": "ae2:cyan_glass_cable",
-      "black": "ae2:black_glass_cable",
+      "pink": "ae2:pink_glass_cable",
+      "light_blue": "ae2:light_blue_glass_cable",
+      "light_gray": "ae2:light_gray_glass_cable",
       "red": "ae2:red_glass_cable",
-      "gray": "ae2:gray_glass_cable",
       "green": "ae2:green_glass_cable",
-      "blue": "ae2:blue_glass_cable"
+      "black": "ae2:black_glass_cable",
+      "cyan": "ae2:cyan_glass_cable",
+      "brown": "ae2:brown_glass_cable"
     },
     "ae2:fluix_smart_cable": {
+      "yellow": "ae2:yellow_smart_cable",
+      "blue": "ae2:blue_smart_cable",
+      "orange": "ae2:orange_smart_cable",
+      "gray": "ae2:gray_smart_cable",
+      "purple": "ae2:purple_smart_cable",
       "magenta": "ae2:magenta_smart_cable",
       "lime": "ae2:lime_smart_cable",
-      "orange": "ae2:orange_smart_cable",
-      "pink": "ae2:pink_smart_cable",
-      "yellow": "ae2:yellow_smart_cable",
-      "light_blue": "ae2:light_blue_smart_cable",
-      "purple": "ae2:purple_smart_cable",
-      "brown": "ae2:brown_smart_cable",
-      "light_gray": "ae2:light_gray_smart_cable",
       "white": "ae2:white_smart_cable",
-      "cyan": "ae2:cyan_smart_cable",
-      "black": "ae2:black_smart_cable",
+      "pink": "ae2:pink_smart_cable",
+      "light_blue": "ae2:light_blue_smart_cable",
+      "light_gray": "ae2:light_gray_smart_cable",
       "red": "ae2:red_smart_cable",
-      "gray": "ae2:gray_smart_cable",
       "green": "ae2:green_smart_cable",
-      "blue": "ae2:blue_smart_cable"
+      "black": "ae2:black_smart_cable",
+      "cyan": "ae2:cyan_smart_cable",
+      "brown": "ae2:brown_smart_cable"
     }
   }
 }
