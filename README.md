@@ -25,3 +25,11 @@ This web site is built using Next.js. To learn more about Next.js, take a look a
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## How to Update Game Data
+
+Run AE2 in Fabric from your development environment. A quick way to do this is to check out the main repository, 
+and run `gradlew runData` followed by `gradlew runClient`. Create a new creative-mode void-world (use superflat + the void template).
+
+Run `/ae2export`. After it is done exporting, it will link the export folder in chat. Open it and copy all contents into this
+repository.
