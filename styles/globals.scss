@@ -9,6 +9,15 @@ $navbar-background-color: #fafafa;
   font-weight: bolder;
 }
 
+@media screen and (min-width: 1024px) {
+  .sidenav-overflow {
+    overflow-x: scroll;
+    height: calc(100vh - 3.25rem);
+    position: sticky;
+    top: 0;
+  }
+}
+
 img.item-icon {
   width: 64px;
   height: 64px;

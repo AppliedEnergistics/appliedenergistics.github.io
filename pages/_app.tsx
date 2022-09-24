@@ -15,9 +15,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <NavBar pagePath={pagePath} />
       <div className="main-container">
-        <aside className="menu is-hidden-touch">
-          <FeaturesSideNav />
-        </aside>
+        <div className="sidenav-overflow">
+          <aside className="menu is-hidden-touch">
+            <FeaturesSideNav />
+          </aside>
+        </div>
         <main>
           <div className="container">
             <Component {...pageProps} />
