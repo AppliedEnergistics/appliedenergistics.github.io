@@ -111,15 +111,10 @@ take advantage you need to set up an [ME Network](features/me-network.md).
 ### How do I setup my first network?
 
 An [ME Network](features/me-network.md) is pretty easy to get started you need 2 things,
-an <ItemLink id="chest"/> / or
+an <ItemLink id="chest"/> / or <ItemLink id="drive" />, and an <ItemLink id="terminal" /> ( or <ItemLink id="ae2:crafting_terminal"
+/> ) you'll also need some kind of cable, such as <ItemLink id="ae2:fluix_glass_cable"/> to attach the <ItemLink id="terminal" /> too.
 
-<ItemLink id="drive" />, and an <ItemLink id="terminal" /> ( or <ItemLink
-  id="
-ae2:crafting_terminal"
-/> ) you'll also need some kind of cable, such as <ItemLink
-  id="
-ae2:fluix_glass_cable"
-/> to attach the <ItemLink id="terminal" /> too.
+A network needs to be powered to function. If you are using an ME Chest, it can be powered by most other modded power sources (Mekanism, Thermal Expansion, etc.) directly. To power a normal ME network without an ME chest, you'll need to either use one or more <ItemLink id="ae2:vibration_chamber" /> attached to your network, or an <ItemLink id="ae2:energy_acceptor" />, which can receive power from other mods like the ME Chest can.
 
 Place all these next to each other, and you have the world's simplest network, storage and access.
 
