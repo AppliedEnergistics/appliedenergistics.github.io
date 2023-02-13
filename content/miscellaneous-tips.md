@@ -50,3 +50,9 @@ You can Shift + Rightclick with a Buildcraft Compatible Wrench and it will
 dismantle the AE Block or Part and dropping it for you, this is most useful
 with Parts as if you use a pick it will drop any cable, and parts in the
 block, using a wrench lets you only take off a single part.
+
+### Color Applicator
+You can set a higher priority on the ME Chest that houses the color 
+applicator, and it will always store all your dyes in the applicator, ready
+for you to use at a moment's notice, provided of course, that the applicator
+is in the chest when you insert dyes into the system
