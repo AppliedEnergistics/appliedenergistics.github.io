@@ -84,12 +84,12 @@ a rough estimate of their cost.
 
 ### Storage Capacity with Varying Type Count
 
-| Cell                                    | Stacks of items With 1 Item In Cell | Stacks of items With 63 Items in Cell |
-| --------------------------------------- | ----------------------------------- | ------------------------------------- |
-| <ItemLink id="item_storage_cell_1k" />  | 127                                 | 65                                    |
-| <ItemLink id="item_storage_cell_4k" />  | 508                                 | 260                                   |
-| <ItemLink id="item_storage_cell_16k" /> | 2,032                               | 1,040                                 |
-| <ItemLink id="item_storage_cell_64k" /> | 8,128                               | 4,160                                 |
+| Cell                                    | Stacks of items With 1 Item Type In Cell | Stacks of items With 63 Item Types in Cell |
+| --------------------------------------- | ---------------------------------------- | ------------------------------------------ |
+| <ItemLink id="item_storage_cell_1k" />  | 127                                      | 65                                         |
+| <ItemLink id="item_storage_cell_4k" />  | 508                                      | 260                                        |
+| <ItemLink id="item_storage_cell_16k" /> | 2,032                                    | 1,040                                      |
+| <ItemLink id="item_storage_cell_64k" /> | 8,128                                    | 4,160                                      |
 
 ## Spatial Storage
 
