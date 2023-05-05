@@ -9,7 +9,7 @@ title: Getting Started  (1.19+)
 
 ## Early Game Progression
 
-- Build a <ItemLink id="charger" />, and power it with a <ItemLink id="vibration_chamber" /> or a generators from others
+- Build a <ItemLink id="charger" />, and power it with a <ItemLink id="vibration_chamber" /> or generators from others
   mods. You can also power it by hand using a <ItemLink id="crank" />.
 - Put a Vanilla compass in the charger and charge it to craft a <ItemLink id="sky_compass" />.
 - Use the meteorite compass to find meteorites, which have a chance to contain quartz blocks and budding quartz.
