@@ -23,7 +23,7 @@ function Download() {
       <div className="downloadButtons">
         <a
           className="button is-large"
-          href="https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/all"
+          href="https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files"
         >
           <span className="icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2017 853 43 23">
