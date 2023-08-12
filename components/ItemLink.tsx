@@ -47,7 +47,7 @@ function ItemLink({ id, children, tooltip }: ItemLinkProps) {
   } else {
     content = (
       <Link href={pageUrl} passHref>
-        <a>{children}</a>
+        {children}
       </Link>
     );
   }

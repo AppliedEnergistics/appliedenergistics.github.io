@@ -116,17 +116,17 @@ function FeaturesSideNav() {
             const active = page.url === pageUrl;
             return (
               <li key={index}>
-                <Link href={page.url} passHref>
-                  <a className={active ? "is-active" : undefined}>
-                    <div className="icon-text">
-                      {icon ? (
-                        <span className="icon">
-                          <img src={icon} alt="" />
-                        </span>
-                      ) : null}
-                      <span>{pageTitle ?? page.title}</span>
-                    </div>
-                  </a>
+                <Link href={page.url} passHref className={active ? "is-active" : undefined}>
+
+                  <div className="icon-text">
+                    {icon ? (
+                      <span className="icon">
+                        <img src={icon} alt="" />
+                      </span>
+                    ) : null}
+                    <span>{pageTitle ?? page.title}</span>
+                  </div>
+
                 </Link>
               </li>
             );

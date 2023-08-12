@@ -72,12 +72,12 @@ function NavBar({ pagePath }: NavBarProps) {
 
       <div className={menuOpen ? "navbar-menu is-active" : "navbar-menu"}>
         <div className="navbar-start">
-          <Link passHref href="/">
-            <a className="navbar-item">Documentation</a>
+          <Link passHref href="/" className="navbar-item">
+            Documentation
           </Link>
 
-          <Link passHref href="/download">
-            <a className="navbar-item">Download</a>
+          <Link passHref href="/download" className="navbar-item">
+            Download
           </Link>
 
           <a

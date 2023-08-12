@@ -12,14 +12,14 @@ export interface CategoryIndexProps {
 function PageTile({ page: { title, itemIds, url } }: { page: PageNode }) {
   if (itemIds.length) {
     return (
-      <Link href={url} passHref>
-        <a>
-          <ItemIcon itemId={itemIds[0]} nolink />
-        </a>
-      </Link>
+      (<Link href={url} passHref>
+
+        <ItemIcon itemId={itemIds[0]} nolink />
+
+      </Link>)
     );
   } else {
-    return <Link href={url}>{title}</Link>;
+    return <Link href={url} legacyBehavior>{title}</Link>;
   }
 }
 
