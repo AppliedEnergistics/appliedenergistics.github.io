@@ -3,7 +3,7 @@
 const path = require("path");
 
 module.exports = {
-  swcMinify: true,
+  output: 'export',
   reactStrictMode: true,
   images: {
     loader: "custom",

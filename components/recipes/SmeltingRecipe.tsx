@@ -21,7 +21,7 @@ function SmeltingRecipe({ recipe }: SmeltingRecipeProps) {
       <div className={css.smeltingInputBox}>
         <RecipeIngredient itemIds={recipe.ingredient} />
         <div className={css.ingredientBox}>
-          <img className="item-icon" src={smelt.src} />
+          <img className="item-icon" src={smelt.src} alt="" />
         </div>
       </div>
       <RecipeArrow />

@@ -10,7 +10,6 @@ export interface ItemIconProps {
 function ItemIcon({ itemId, nolink }: ItemIconProps) {
   const itemInfo = getItemInfo(itemId);
 
-  // eslint-disable-next-line @next/next/no-img-element
   const icon = (
     <img src={itemInfo.icon} alt={itemInfo.displayName} className="item-icon" />
   );

@@ -18,11 +18,25 @@ function MdxImage({
   if (!src) {
     return null;
   }
+
+  let actualWidth: number|undefined;
+  if (typeof width === "string") {
+    actualWidth = parseInt(width);
+  } else if (typeof width === "number") {
+    actualWidth = width;
+  }
+  let actualHeight: number|undefined;
+  if (typeof height === "string") {
+    actualHeight = parseInt(height);
+  } else if (typeof height === "number") {
+    actualHeight = height;
+  }
+
   return (
     <Image
-      alt={alt}
-      width={width}
-      height={height}
+      alt={alt ?? ""}
+      width={actualWidth}
+      height={actualHeight}
       src={src}
       loader={loadImage}
       unoptimized

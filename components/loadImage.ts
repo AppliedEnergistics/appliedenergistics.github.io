@@ -1,5 +1,4 @@
-import { ImageLoader } from "next/image";
-import { ImageLoaderProps } from "next/dist/client/image";
+import { ImageLoader, ImageLoaderProps } from "next/image";
 
 const loadImage: ImageLoader = ({ src }: ImageLoaderProps) => {
   return src;

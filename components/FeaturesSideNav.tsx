@@ -83,10 +83,6 @@ interface MenuEntry {
   children: (string | PageLink)[];
 }
 
-function isPageLink(child: PageLink): boolean {
-  return true;
-}
-
 function FeaturesSideNav() {
   const router = useRouter();
   const pageUrl = router.asPath + "/";
@@ -125,7 +121,7 @@ function FeaturesSideNav() {
                     <div className="icon-text">
                       {icon ? (
                         <span className="icon">
-                          <img src={icon} />
+                          <img src={icon} alt="" />
                         </span>
                       ) : null}
                       <span>{pageTitle ?? page.title}</span>
