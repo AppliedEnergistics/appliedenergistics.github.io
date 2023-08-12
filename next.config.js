@@ -9,6 +9,9 @@ module.exports = {
     loader: "custom",
   },
   webpack: (config) => {
+
+    config.optimization.minimize = false;
+
     config.module.rules = [
       ...config.module.rules,
       {
