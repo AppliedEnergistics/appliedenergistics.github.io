@@ -1,0 +1,31 @@
+
+name: 'Update Curseforge Releases'
+
+on:
+  repository_dispatch:
+    types:
+      - update-curseforge-releases
+  workflow_dispatch:
+  schedule:
+    - cron:  '30 6,18 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update_github_releases:
+    name: Update Curseforge Release Index
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    concurrency:
+      group: update-releases
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm ci
+      - run: npm run index-curseforge-releases
+      - uses: stefanzweifel/git-auto-commit-action@3ea6ae190baf489ba007f7c92608f33ce20ef04a
+        with:
+          commit_message: Updated Curseforge Release-Index
+

@@ -2,59 +2,57 @@
   "name": "ae2-site",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "serve": "serve out",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prettier:check": "prettier --check ."
+    "prettier:check": "prettier --check .",
+    "index-github-releases": "node  --loader ts-node/esm index-github-releases.js",
+    "index-modrinth-releases": "node --loader ts-node/esm index-modrinth-releases.js",
+    "index-curseforge-releases": "node --loader ts-node/esm index-curseforge-releases.js"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.374.0",
     "@docsearch/react": "^3.5.1",
     "@mdi/js": "^6.3.95",
     "@mdi/react": "^1.6.1",
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
-    "@octokit/rest": "^18.12.0",
+    "@octokit/auth-token": "^4.0.0",
+    "@octokit/rest": "^20.0.1",
     "@tippyjs/react": "^4.2.5",
-    "@types/mdx-js__react": "^1.5.5",
-    "adm-zip": "^0.5.9",
-    "bulma": "^0.9.3",
-    "next": "13.4.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "remark-gfm": "^3.0.1",
-    "remark-slug": "^7.0.1",
-    "serve": "^14.2.0",
-    "sharp": "^0.32.4"
-  },
-  "devDependencies": {
-    "@next/mdx": "^11.1.2",
+    "@types/adm-zip": "^0.5.0",
     "@types/glob": "^7.1.4",
+    "@types/lodash-es": "^4.17.8",
     "@types/react": "17.0.27",
+    "@types/semver": "^7.5.0",
+    "adm-zip": "^0.5.10",
+    "bulma": "^0.9.3",
     "eslint": "7.32.0",
     "eslint-config-next": "^13.4.13",
     "glob": "^7.2.0",
     "gray-matter": "^4.0.3",
     "image-size": "^1.0.0",
-    "next-mdx-remote": "^4.0.3",
+    "lodash-es": "^4.17.21",
+    "next": "13.4.9",
     "prettier": "2.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-gfm": "^3.0.1",
+    "remark-slug": "^7.0.1",
     "sass": "^1.42.1",
-    "typescript": "4.6.2",
+    "semver": "^7.5.4",
+    "serve": "^14.2.0",
+    "sharp": "^0.32.4",
+    "toml": "^3.0.0",
+    "typescript": "5.1.6",
     "unist-util-visit": "^4.1.0",
     "val-loader": "^4.0.0"
   },
-  "prettier": {
-    "overrides": [
-      {
-        "files": [
-          "*.md"
-        ],
-        "options": {
-          "parser": "mdx"
-        }
-      }
-    ]
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }

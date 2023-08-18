@@ -9,27 +9,6 @@ export interface NavBarProps {
   pagePath?: string;
 }
 
-/**
- * Shows a link to edit the current page on GitHub
- */
-function EditPageLink({ pagePath }: { pagePath: string }) {
-  let editBaseUrl =
-    "https://github.com/AppliedEnergistics/appliedenergistics.github.io/edit/source/content";
-  return (
-    <a
-      href={editBaseUrl + pagePath}
-      className="button"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <span className="icon">
-        <Icon path={mdiFileDocumentEdit} />
-      </span>
-      <span>Edit Page</span>
-    </a>
-  );
-}
-
 function NavBar({ pagePath }: NavBarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -52,10 +31,10 @@ function NavBar({ pagePath }: NavBarProps) {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a className="navbar-item" href="/">
+        <Link className="navbar-item" href="/">
           <img alt="" src="/assets/logo/logo_00.png" />
           Applied Energistics 2
-        </a>
+        </Link>
 
         <a
           role="button"
@@ -72,11 +51,11 @@ function NavBar({ pagePath }: NavBarProps) {
 
       <div className={menuOpen ? "navbar-menu is-active" : "navbar-menu"}>
         <div className="navbar-start">
-          <Link passHref href="/" className="navbar-item">
+          <Link href="/" className="navbar-item">
             Documentation
           </Link>
 
-          <Link passHref href="/download" className="navbar-item">
+          <Link href="/pages" className="navbar-item">
             Download
           </Link>
 
@@ -120,7 +99,6 @@ function NavBar({ pagePath }: NavBarProps) {
                 </span>
                 <span>GitHub</span>
               </a>
-              {pagePath ? <EditPageLink pagePath={pagePath} /> : null}
             </div>
           </div>
 
