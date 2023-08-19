@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 
-const path = require("path");
+import path from "node:path";
+import url from "node:url";
 
-module.exports = {
-  output: 'export',
+export const config = {
+  output: "export",
   reactStrictMode: true,
   images: {
     loader: "custom",
@@ -18,7 +19,7 @@ module.exports = {
             loader: "val-loader",
             options: {
               executableFile: path.resolve(
-                __dirname,
+                path.dirname(url.fileURLToPath(import.meta.url)),
                 "data",
                 "generate-all-pages.js"
               ),
@@ -30,3 +31,5 @@ module.exports = {
     return config;
   },
 };
+
+export default config;

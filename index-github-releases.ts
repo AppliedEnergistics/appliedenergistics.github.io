@@ -180,6 +180,10 @@ async function processRelease(
       const m = tagName.match(pattern);
       if (m) {
         cachedData.version = m[1];
+        // rv.beta.1 is actually versioned rv-beta-1 in the mod metadata
+        if (tagName.match(/^(rv.*)/)) {
+          cachedData.version = cachedData.version.replaceAll(".", "-");
+        }
         cachedData.modLoaders = loaders.slice();
         break;
       }

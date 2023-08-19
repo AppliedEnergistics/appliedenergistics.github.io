@@ -1,4 +1,5 @@
 import {writeFileSync} from "node:fs";
+import { ModrinthRelease } from "./lib/releases/ModrinthRelease";
 
 async function fetchReleases(): Promise<ModrinthRelease[]> {
   const url = "https://api.modrinth.com/v2/project/XxWD5pD3/version";

@@ -6181,7 +6181,7 @@
     "assets": {},
     "published": "2019-07-23T19:19:14Z",
     "changelog": "Fixes #3886: Initialise sleeping import bus in pulse mode. (#3887) - yueh\n\nFixes #3899: Put fluid interface into configured mode when needed. (#3903) - yueh\n\nFixes #3901: Ensure fluid terminal respects reported stacksizes. (#3902) - yueh\n\nFixes #3911: Incorrectly used string format. (#4007) - yueh\n\nFixes #3925: Incorrect API JavaDoc (#4008) `IGridBlock#getMachineRepresentation()` must be non null. - yueh\n\nFixes #4005: Persist cell after cleanup. (#4009) - yueh\n\nFixes #4062: Rounding error due to float precision. (#4064) - yueh\n\nFixes #4089: Render cable core on straight lines of different types. (#4103) - yueh\n\nFixes #4090 Portable cell incorrect empty itemstack handling (#4093) - yueh",
-    "version": "rv6.stable.7",
+    "version": "rv6-stable-7",
     "modLoaders": [
       "forge"
     ]
@@ -6192,7 +6192,7 @@
     "assets": {},
     "published": "2018-12-25T23:40:04Z",
     "changelog": "Fixes #3880: Incorrect compare with empty itemstack. - yueh\n\nFixes #3881: Check for minimum required CTM version when installed. - yueh",
-    "version": "rv6.stable.6",
+    "version": "rv6-stable-6",
     "modLoaders": [
       "forge"
     ]
@@ -6203,7 +6203,7 @@
     "assets": {},
     "published": "2018-12-24T13:52:29Z",
     "changelog": "Feature #3813: Implement caching for facade item models. - covers1624\n\nFeature #3832: Made ICraftingWatcherHost#onRequestChange() less ambiguous. - yueh\n\n\n\nFixes #3767: Fluid Annihilation plane too strict about leftover. - yueh\n\nFixes #3768: Damageable items with nbt and without damage could crash. - yueh\n\nFixes #3776: Fixes dupe bug with cell upgrades. - yueh\n\nFixes #3810: Guard against models providing quads with null orientations. - covers1624\n\nFixes #3821: Unconfigured level emitter now report all fluids. - yueh\n\nFixes #3866: Use blockstates to avoid the missing fluid block. - yueh\n\n\n\nUpdate ko_kr.lang (#3674) - mindy15963\n\nUpdate zh_cn.lang (#3570) - xsun2001",
-    "version": "rv6.stable.5",
+    "version": "rv6-stable-5",
     "modLoaders": [
       "forge"
     ]
@@ -6214,7 +6214,7 @@
     "assets": {},
     "published": "2018-11-11T17:54:00Z",
     "changelog": "Fixes #3811: Display crafting unit as themself in the network monitor. - yueh\n\nFixes #3814: IO Port no longer put to sleep on load when having work. - yueh\n\nFixes #3817: Missing 1k Crafting Storage and Monitor from Network Status. - yueh",
-    "version": "rv6.stable.4",
+    "version": "rv6-stable-4",
     "modLoaders": [
       "forge"
     ]
@@ -6225,7 +6225,7 @@
     "assets": {},
     "published": "2018-10-21T09:31:57Z",
     "changelog": "Feature #3765: Input P2P tunnels can now be assigned a new frequency when the memory card stores the same frequency - yueh\n\n\n\nFixes #3790: Correctly handle fluids with NBT data. (#3791) - yueh\t\n\nFixes #3793: Limit filling fluid inventories to their max capacity. - yueh",
-    "version": "rv6.stable.3",
+    "version": "rv6-stable-3",
     "modLoaders": [
       "forge"
     ]
@@ -6236,7 +6236,7 @@
     "assets": {},
     "published": "2018-10-05T22:12:19Z",
     "changelog": "Now requires Forge RB 14.23.5.2768 (#3760) - yueh\n\nChanges #3669: Switch to new IItemHandler - fscan\n\nChanges #3750: Allow JEI to differentiate between different cable facades. - mezz\n\nFixes #3146: Prevent crash when GlassState is missing. - yueh\n\nFixes #3746: Revert OreDict use for cable anchors. Blame Forge for crashes. - yueh\n\nFixes #3747: Fix issues with facade breaking textures. - covers1624",
-    "version": "rv6.stable.2",
+    "version": "rv6-stable-2",
     "modLoaders": [
       "forge"
     ]
@@ -6247,7 +6247,7 @@
     "assets": {},
     "published": "2018-09-30T11:56:59Z",
     "changelog": "Changes #3744: Changed some fluid related recipes to match their item variant. - yueh\n\nFixes #3688: Invalidate Storage Bus cache immediately upon missing TE. - yueh\n\nFixes #3742: Do not use storableInStorageCell() to identify generic cells. - yueh",
-    "version": "rv6.stable.1",
+    "version": "rv6-stable-1",
     "modLoaders": [
       "forge"
     ]
@@ -6258,7 +6258,7 @@
     "assets": {},
     "published": "2018-09-22T18:44:15Z",
     "changelog": "Fixes #3708: Move knifes/wrenches to oredict as constants are unreliable - yueh",
-    "version": "rv6.beta.1",
+    "version": "rv6-beta-1",
     "modLoaders": [
       "forge"
     ]
@@ -6269,7 +6269,7 @@
     "assets": {},
     "published": "2018-09-02T12:23:47Z",
     "changelog": "Feature #3702 Completely new system to render facades. It supports many more models compared to the old system. For example connected textures or multilayer textures. - covers1624\n\nFeature #3706: Added a new facade config. Will delete old config file. Refer to config documentation for more details. - yueh\n\nFeature #3624: Generic ICellInventoryHandler. This breaks API! - fscan\n\nFeature #3641: Make search box toggle key configurable. - fscan\n\n\n\nChanges #3635: Increase Vibration Chamber AE/t. - fscan\n\nChanges #3636: Condensor improvements. - fscan\n\nChanges #3640: Allow ME Chest to work with any cell. - fscan\n\n\n\nFixes #3625: Fix buckets in vibration chamber. - fscan\n\nFixes #3630: Formation planes not respecting the entity limit.- yueh\n\nFixes #3632: Fix dupe bug with shulker box. - fscan\n\nFixes #3634: Check if part was actually added before spawning. - fscan\n\nFixes #3644: Fix Platform#postChanges to check all registered channels. - fscan\n\nFixes #3646: Render assemblers in the correct layer. - yueh\n\nFixes #3653: Fix ConcurrentModificatonException in NetworkEventBus. - fscan\n\nFixes #3675: Fix tooltip for vibration chamber. - fscan\n\nFixes #3676: Fix fluid parts item models. - fscan\n\nFxies #3703: Power off a network in case it losses its local buffer. - yueh",
-    "version": "rv6.alpha.4",
+    "version": "rv6-alpha-4",
     "modLoaders": [
       "forge"
     ]
@@ -6280,7 +6280,7 @@
     "assets": {},
     "published": "2018-07-14T20:20:27Z",
     "changelog": "Feature #1480: Change storage/conversion monitor interaction. - fscan\n\nFeature #2559: Readded InventoryTweak sorting support. - fscan\n\nFeature #3553 Performance improvements for saveChanges() and ICellInventory. Handle with care. API break! - fscan\n\nFeature #3609: Added a color code to the memory card. Currently used to indicate the P2P frequency. - yueh\n\nFeature #3610: P2P tunnel frequency color indicators. - fscan\n\n\n\nChanges #3601: Restore behaviour of ESCAPE always closing the GUI. - fscan\n\nChanges #3604: Cache current task in Inscriber, reduce amount of GL calls in TESR. - fscan\n\nChanges #3605: Follow forges registration guidelines for entities and oredict. Remove ore camouflage. - fscan\n\nChanges #3618: Move some essential blocks to their own feature category. - fscan\n\n\n\nFixes #3221: Fix shift-double click behavior. - fscan\n\nFixes #3226: Cutting knife fixes. - fscan\n\nFixes #3611: Fixed unnecessary cell saving when cell is full. - BrockWS",
-    "version": "rv6.alpha.3",
+    "version": "rv6-alpha-3",
     "modLoaders": [
       "forge"
     ]
@@ -6291,7 +6291,7 @@
     "assets": {},
     "published": "2018-07-08T22:52:59Z",
     "changelog": "Feature #3571: Add fluid level emitter - fscan\n\nFeature #3572: Add Fluid Formation/Annihilation Planes - fscan\n\nFeature #3576: Search box improvements. Toggle search box focus with TAB. - fscan\n\n\n\nChanges #3555: Add fluid GUI to me chest, fixed some warnings while at it. - fscan\n\nChanges #3560: Format fluid tooltip in buckets - fscan\n\nChanges #3584: Switches from trove to fastutil. - yueh\n\nChanges #3592: Priority GUI improvements - fscan\n\nChanges #3598: Updated plane textures. New Fluid Annihilation/Formation Plane textures. Updated Annihilation Plane texture for a more noticable animation. - yueh\n\n\t\n\nFixes #3342: Add alternative spelling of aluminium - fscan\n\nFixes #3484: Fix SpatialIO entity teleport - fscan\n\nFixes #3581: Fluid cleanup and performance improvements. - fscan\n\nFixes #3595: Fix poweredExtract/Insert and add simulate mode - fscan",
-    "version": "rv6.alpha.2",
+    "version": "rv6-alpha-2",
     "modLoaders": [
       "forge"
     ]
@@ -6302,7 +6302,7 @@
     "assets": {},
     "published": "2018-06-27T19:45:54Z",
     "changelog": "Feature #3232: Rework custom recipe system - fscan\n\nFeature #3510: Initial Fluid Integration. Cells, Import/Export/Storage Bus, Fluid Terminal - BrockWS, DrummerMC\n\nFeature #3543: Added fluid models  - yueh\n\nFeature #3564: Added ME Fluid Interface - fscan\n\n\t\n\nChanges #3383: Updated Cell Registry safety and docs. - yueh\n\nChanges #3384: IAEStack#fuzzyComparison now compares the same subtypes. - yueh\n\nChanges #3392: Replaced LinkedList with ArrayList or ArrayDeque when applicable. - yueh\n\nChanges #3399: Updated Grid API - yueh\n\nChanges #3434: Replaces all custom number comparisons with java provided ones. - yueh\n\nChanges #3539: Changed fluid cells to better match the item ones. - yueh\n\nChanges #3567: Updated fluid interface GUI and other fluid related textures. - yueh\n\n\n\nFixes #3449: Fix CellInventory to not mess with the item definition - fscan\n\nFixes #3459: Just open the inventory if raytrace misses. - fscan\n\nFixes #3462: Remove call to neighborChanged() - kylev\n\nFixes #3476: Correctly handle an empty top namepress. - yueh\n\nFixes #3478: Changes the way xp drops from Certus Ore blocks - fscan\n\nFixes #3490: Use cached recipe before reaching out to CraftingManager - yueh\n\nFixes #3504: Fixes issue with Fluid Channel not being sent changes. - BrockWS\n\nFixes #3520: Correct order for sort by mod and general code cleanup - yueh\n\nFixes #3535, Fixes #3486: Fixes crash when either quartz types are disabled and prevent cascading worldgen. - fscan\n\nFixes #3544: Fixes interface shift-clicking to generate correct onChangeInventory events - fscan\n\nFixes #3545: Fixes DriveBakedModel to not crash when SLOT_STATE is null  - fscan\n\nFixes #3548: Fix AEBaseTile to respect overridden markDirty implementations. - fscan\n\nFixes #3556: Only extract insertable fluid amount. - yueh\n\nFixes #3560: Render the fluid stacksize for ME fluid slots. - yueh",
-    "version": "rv6.alpha.1",
+    "version": "rv6-alpha-1",
     "modLoaders": [
       "forge"
     ]
@@ -6313,7 +6313,7 @@
     "assets": {},
     "published": "2018-03-22T13:05:43Z",
     "changelog": "Fixes #3428: Invalidate container once the corresponding TE no longer exists. - yueh",
-    "version": "rv5.stable.11",
+    "version": "rv5-stable-11",
     "modLoaders": [
       "forge"
     ]
@@ -6324,7 +6324,7 @@
     "assets": {},
     "published": "2018-03-08T15:55:32Z",
     "changelog": "Feature #3412: Added a simple warning to patterns when using CraftingManager fallback. - yueh\n\nFeature #3415: Added a config option to disable the CraftingManager fallback. - yueh\n\nFixes #3411: Limit patterns without substitute to precise operations. - yueh\n\nFixes #3417: Avoid creating ItemStacks when injecting them into a cell. - yueh",
-    "version": "rv5.stable.10",
+    "version": "rv5-stable-10",
     "modLoaders": [
       "forge"
     ]
@@ -6335,7 +6335,7 @@
     "assets": {},
     "published": "2018-03-04T13:42:31Z",
     "changelog": "Fixes #3389: Prevent inventory cache from deviating from the actual inventory. - yueh\n\nFixes #3394: Use cache to avoid using a no longer existing IItemHandler - yueh\n\nFixes #3405: Use cached tooltip for search, only copy a matching result for the view afterwards. - yueh",
-    "version": "rv5.stable.9",
+    "version": "rv5-stable-9",
     "modLoaders": [
       "forge"
     ]
@@ -6346,7 +6346,7 @@
     "assets": {},
     "published": "2018-02-05T14:55:04Z",
     "changelog": "Fixes #3367: Rework fuzzy comparison for 99 percent threshold to be identical in all cases. - yueh\n\nFixes #3370: Avoid caching the model for facades locally and keep a ModelLoader reference around. - yueh",
-    "version": "rv5.stable.8",
+    "version": "rv5-stable-8",
     "modLoaders": [
       "forge"
     ]
@@ -6357,7 +6357,7 @@
     "assets": {},
     "published": "2018-01-29T14:41:05Z",
     "changelog": "Fixes #3363: Energy providers/requesters incorrectly removed on simulate. - yueh",
-    "version": "rv5.stable.7",
+    "version": "rv5-stable-7",
     "modLoaders": [
       "forge"
     ]
@@ -6368,7 +6368,7 @@
     "assets": {},
     "published": "2018-01-28T13:15:13Z",
     "changelog": "Fixes #3239: Torches should not be placeable on cranks. - yueh\n\nFixes #3338: Upgrade inventory dupe bug due to ignoring player hand. - yueh\n\nFixes #3345: Added missing sky stone brick recipes. - yueh\n\n\n\nUpdate ru_RU.lang - Foxgreat\n\nUpdate zh_TW.lang - sfs131010",
-    "version": "rv5.stable.6",
+    "version": "rv5-stable-6",
     "modLoaders": [
       "forge"
     ]
@@ -6379,7 +6379,7 @@
     "assets": {},
     "published": "2018-01-14T13:48:36Z",
     "changelog": "Fixes #3288: Fixes various item rotations when held in 3rd person. - yueh\n\nFixes #3304: Fixes some light level sync issues. - fscan\n\nFixes #3315: Slightly more permissive checks for autocrafting for items with empty NBT tags. - yueh",
-    "version": "rv5.stable.5",
+    "version": "rv5-stable-5",
     "modLoaders": [
       "forge"
     ]
@@ -6390,7 +6390,7 @@
     "assets": {},
     "published": "2017-12-31T12:33:08Z",
     "changelog": "Feature #3259: Added a debug generator for ForgeEnergy. - yueh\n\nFeature #3284: Reworked IO Port to handle StorageChannels better. - yueh\n\n\n\nFixes #3217: Allow caps to be used as P2P attunements. - yueh\n\nFixes #3255: Cache invalid patterns instead computing them every frame. - yueh\n\nFixes #3260: Only match damaged items when selected and set to 99%. - yueh\n\nFixes #3265: Do not strip special chars when extracting recipes. - yueh\n\nFixes #3282: Stacksizes > 64 prevent applicator from cycling. - yueh\n\nFixes #3286: Incorrectly inverted hasSkyLight causes crashes on spatial transfer. - yueh\n\nFixes #3293: Only update light level if the panel-facing block changes. - fscan\n\nFixes #3296: Prevent invalid TileEntites from updating their block. - yueh",
-    "version": "rv5.stable.4",
+    "version": "rv5-stable-4",
     "modLoaders": [
       "forge"
     ]
@@ -6401,7 +6401,7 @@
     "assets": {},
     "published": "2017-11-26T15:02:37Z",
     "changelog": "Updated to latest Forge RB (14.23.1.2554). Necessary to avoid broken recipes in earlier versions. - yueh\n\n\n\nFeature #3231: Add CraftTweaker support - fscan\n\nChanges #3246: Revert DamageableRecipe changes. Now fixed by Forge. - fscan\n\nChanges #3247: Deprecate AE2 recipe system to indicate that they are going away soon. - fscan\n\nFixes #932: Fire ExplosionEvent.Detonate when tiny TNT explodes. - yueh\n\nFixes #3238: Rework ContainerInscriber validation to Correctly handle metadata wildcard for inscriber inputs - fscan\n\nFixes #3248: Remove swingArm in IToolHammer implementation. - fscan",
-    "version": "rv5.stable.3",
+    "version": "rv5-stable-3",
     "modLoaders": [
       "forge"
     ]
@@ -6412,7 +6412,7 @@
     "assets": {},
     "published": "2017-11-12T17:25:43Z",
     "changelog": "Feature #3202: Use craftinggrid to check existing patterns for JEI recipe transfer. - yueh\n\nFixes #3118: Set base biome to \"void\" to shut up warning. - fscan\n\nFixes #3195: Spatial IO fixes. Removes warning when transfering entities. Removes old tickables. - fscan\n\nFixes #3199: Fix NetworkToolViewer stack overflow, saveguard against markDirty recursion. - fscan\n\nFixes #3200: Cleanup recipe factories to prevent recipes from not working on servers with forge version 2532 or later. - fscan\n\nFixes #3201: Rework ImportBus to avoid crashes in very rare edge cases. - fscan\n\nFixes #3205: Tooltips for ME Slots missing colors. - yueh\n\nFixes #3209: Reset stack to prevent leaking meaningful ones to the crafting task. - yueh\n\nFixes #3215: Fix StorageBus not updating item count correctly when multiple stacks changes. - fscan\n\nFixes #3219: Refactors grid connections to prevent incorrect security breaks. - yueh",
-    "version": "rv5.stable.2",
+    "version": "rv5-stable-2",
     "modLoaders": [
       "forge"
     ]
@@ -6423,7 +6423,7 @@
     "assets": {},
     "published": "2017-11-04T12:45:41Z",
     "changelog": "Fixes #3192: Removes channels from the render state for non smart cables to avoid caching duplicate models. - yueh",
-    "version": "rv5.stable.1",
+    "version": "rv5-stable-1",
     "modLoaders": [
       "forge"
     ]
@@ -6434,7 +6434,7 @@
     "assets": {},
     "published": "2017-10-31T20:14:33Z",
     "changelog": "Fixes #2611: Prevent shift clicking inside a terminal from placing items into the offhand or armor slots. - yueh\n\nFixes #3149: Fix SkyChest bounding box - fscan\n\nFixes #3171: Fix handling of ItemStacks using getShareTag or Capabilites - fscan\n\nFixes #3175: Chargeable items returning an incorrect amount for the used energy. - yueh\n\nFixes #3178: JSON cleanup and removing a texture warning - yueh\n\nFixes #3179: Allow extraction for Condenser. Also #2960, #2017, #2602 - fscan\n\nFixes #3182: Improve Facade rendering. Also #2679, #2625 - fscan\n\nFixes #3185: Add a basic cache for cable models to avoid constant regeneration. - yueh\n\nFixes #3189: Formation plane unable to place special items. - yueh",
-    "version": "rv5.beta.3",
+    "version": "rv5-beta-3",
     "modLoaders": [
       "forge"
     ]
@@ -6445,7 +6445,7 @@
     "assets": {},
     "published": "2017-10-21T10:47:12Z",
     "changelog": "Feature #3160: Implement Advancements (Migrated from Achievements). Improvements welcome. - fscan\n\n\n\nFixes #3159: Check for null in UpgradeInventory#saveChanges.  - fscan\n\nFixes #3162: Fix Tiny TNT - fscan\n\nFixes #3163: Return correct item defintion. - fscan\n\nFixes #3164: Inscriber crash with name presses. - yueh\n\nFixes #3169: Fix AESharedItemStack#compareNBT to get consistent ordering. - fscan\n\n\n\nCleanup BlockQuartzOre and circumvent Forge bug - fscan\n\nUpdate zh_cn.lang (#3137) - Flithor",
-    "version": "rv5.beta.2",
+    "version": "rv5-beta-2",
     "modLoaders": [
       "forge"
     ]
@@ -6456,7 +6456,7 @@
     "assets": {},
     "published": "2017-10-14T13:05:17Z",
     "changelog": "Feature #3153: Added a clientside config to keep or clear the search filter when opening. - yueh\n\nFeature #3152: Updated Drives to support more than Item and Fluid cells. - yueh\n\nFeature #3155: API cleanups. Notably removes deprecated parts and renamed exceptions to end with Exception, not Error or nothing. - fscan\n\nFixes #3150: Fixes a NPE with uninitialized ME Chests. - yueh",
-    "version": "rv5.beta.1",
+    "version": "rv5-beta-1",
     "modLoaders": [
       "forge"
     ]
@@ -6467,7 +6467,7 @@
     "assets": {},
     "published": "2017-10-08T16:27:34Z",
     "changelog": "Updated Forge to 1.12.2 RB. Due to changes in Forge, this is the required version now. - yueh\n\n\n\nFeature #3138: Refactored StorageChannel. This allows addons to store more than just items and fluids inside AE2. - yueh\n\nFeature #3139: Added Registry for customized charger rates. - yueh\n\nFeature #3145: Added optional TE wrench support. - fscan\n\nFixes #3143: Queue network list updates in onTick. - fscan",
-    "version": "rv5.alpha.8",
+    "version": "rv5-alpha-8",
     "modLoaders": [
       "forge"
     ]
@@ -6478,7 +6478,7 @@
     "assets": {},
     "published": "2017-10-02T20:59:32Z",
     "changelog": "Fixes #3129: Incorrect inscriber recipe registration - fscan",
-    "version": "rv5.alpha.7",
+    "version": "rv5-alpha-7",
     "modLoaders": [
       "forge"
     ]
@@ -6489,7 +6489,7 @@
     "assets": {},
     "published": "2017-10-01T21:25:54Z",
     "changelog": "Recompiled to fix broken rv5-alpha-5 build.",
-    "version": "rv5.alpha.6",
+    "version": "rv5-alpha-6",
     "modLoaders": [
       "forge"
     ]
@@ -6500,7 +6500,7 @@
     "assets": {},
     "published": "2017-09-30T15:44:04Z",
     "changelog": "Updated to forge 1.12.1 RB. - yueh\n\n\n\nFeature #3063: Refactored the BaseActionSource. API Change. Refer to docs for more details. - yueh\n\nFeature #3064: Improve terminal search box - fscan\n\nFeature #3091 Rework AEItemStack. API Change. - fscan\n\nFeature #3102: Make UVLLoader a bit more robust while preserving functionality for AE2 addons - yueh\n\nFeature #3107: Further performance improvments for the energygrid. - yueh\n\nFeature #3110: Improved IGrinderRegistry. API Change. - yueh\n\n\n\nFixes #3071: We don't need the showCraftingLabel flag, as IAEStack is perfectly fine with 0 size stacks. - fscan\n\nFixes #3081: Fixes blocking mode blocking on empty inventory. - yueh\n\nFixes #3098: Use index not slotNumber - fscan\n\nFixes #3105: Dupe bug due to forge default itemhandler implementation. - yueh\n\n\n\nFix matter condenser input slot - fscan\n\nSet stack size to 1 for rendering - fscan\n\nCleanup inventory change handling - fscan\n\nOnly calculate difference when it's the same item - fscan\n\nCall saveChanges when inventory changes. - fscan\n\nCorrectly handle the grid power storage during onJoin/onSplit. - yueh\n\nCache the STORAGE_MONITORABLE_ACCESSOR Capability to reduce the amount of MENetworkCellArrayUpdates - fscan\n\nFixes ArithmeticException in PartP2PFEPower - fscan\n\nFixes fluid p2p voiding excess liquids - fscan",
-    "version": "rv5.alpha.5",
+    "version": "rv5-alpha-5",
     "modLoaders": [
       "forge"
     ]
@@ -6511,7 +6511,7 @@
     "assets": {},
     "published": "2017-08-29T10:30:14Z",
     "changelog": "WARNING: This introduces a major rework for spatial cells, existing cells will become invalid without any automatic migration. The best advice is to move the content back into a world before updating.\n\n\n\nFeature #3045: Added SCS size to the Spatial IO Port. - yueh\n\nFeature #3048: Spatial rework. Move all cells into a single dimension, various fixes. - fscan\n\nFeature #3051: Energygrid performance improvements, this should over a noticable improvement in cases with a extremely large amount of connected networks. Various small fixes. - yueh\n\nFeature #3058: Use inheritance to propagage NBT events, avoid the potential semi-randomness of the old annotation based system. - fscan\n\n\n\nFixes #1004: Part of the energygrid rework. - yueh\n\nFixes #3040: Crafting terminal caches the last used recipe and try to revalidate it before doing a new lookup. This should be a major performance increase for crafting via shift click. - yueh\n\nFixes #3049: JEI recipe transfer can voiding items. - fscan\n\nFixes #3050: Missed vibration chamber when fixing the others. - fscan\n\n\n\nFixes FE P2P tunnel drain issues. - yueh\n\nAdded particle texture to charged quartz - fscan\n\nUpdate it_it.lang - emanuele6",
-    "version": "rv5.alpha.4",
+    "version": "rv5-alpha-4",
     "modLoaders": [
       "forge"
     ]
@@ -6522,7 +6522,7 @@
     "assets": {},
     "published": "2017-08-17T23:11:41Z",
     "changelog": "Feature #2428: Making charged certus ore glow again (#3035) - fscan\n\nFeature #3018: Registration rework Refactored component registration. fscan\n\nFeature #3025: Fill existing stacks first when adding to player inventory. - fscan\n\nFeature #3030: Covered dense cables - yueh\n\nFeature #3034: IC2 rework to avoid a coremod or @Optional - yueh\n\nFeature #3038: Removes coremod. As consequence this drops all support for the RF API. Use ForgeEnergy or IC2/EU instead. - yueh\n\nFeature #3039: P2P FE Tunnel improvements - fscan\n\n\n\nFixes #3008: Crank rendering - fscan\n\nFixes #3011: Placing the last part in off-hand clearing main hand as well - GuntherDW\n\nFixes #3017: Correctly detect redstone updates on all sides. - fscan\n\nFixes #3019: ME IO Port inventory handling - fscan\n\nFixes #3024: Crash on recipe lookup for disabled features (#3026) - yueh\n\nFixes #3028: Inscriber improvements and fixes  - fscan\n\nFixes #3031: Ignore MOVE_REGION when clicking on crafting slots (#3032) - fscan\n\nFixes #3033: Fix crash in clearStack - fscan\n\n\n\nAdded workaround for sorting items on amount with fake amount when showing crafting label - GuntherDW\n\nAdded 1.12.1 as accepted version. This is unofficial until Forge releases a recommended build - yueh\n\nUpdated JEI plugin to newer API methods. - GuntherDW\n\nFixes ME Chest visually not updating its cell state - GuntherDW\n\nFixes export bus never speeding up. - GuntherDW\n\nFixes shift clicking memory card still triggering off-hand item/block usage. - GuntherDW\n\nFixes NPE due to using wrong field. - yueh\n\nFixes encoding issues with spatial cell names - yueh\n\nFixes recipes to use correct ingredients. Fluix Pearls instead of Fluix Crystals for spatial related items. Fluix cables for most items, not any cable to avoid loops or unwanted crafting steps. - yueh\n\nFixes dropping items on the ground when clicking on a crafting label with items in hand - GuntherDW",
-    "version": "rv5.alpha.3",
+    "version": "rv5-alpha-3",
     "modLoaders": [
       "forge"
     ]
@@ -6533,7 +6533,7 @@
     "assets": {},
     "published": "2017-08-04T19:50:20Z",
     "changelog": "Feature #415: Improved tooltip for invalid patterns - tyra314\n\n\n\nFixes #2987: Storage/import/export bus use incomplete IItemHandler caching - fscan\n\nFixes #2988: Crafting Terminals not applying the saved settings - GuntherDW\n\nFixes #2991: Moved model loading to the correct registry event to avoid missing textures - fscan\n\nFixes #2995: Inscriber and Molecular Assembler recipes and GUI - fscan\n\nFixes #2996: Interface Terminal puts pattern into cursor, not player inventory - fscan\n\n\n\nChanged ItemGen to use IItemHandler - yueh\n\nFixes JEI search integration in terminals. - GuntherDW",
-    "version": "rv5.alpha.2",
+    "version": "rv5-alpha-2",
     "modLoaders": [
       "forge"
     ]
@@ -6544,7 +6544,7 @@
     "assets": {},
     "published": "2017-07-29T19:38:21Z",
     "changelog": "First alpha release for Minecraft 1.12\n\nPort based on the 1.10.2 version.\n\nSpecial thanks to @GuntherDW, @fscan, and @tyra314 for making it possible.\n\nFor a detailed changelog, please refer to the commit history on github.",
-    "version": "rv5.alpha.1",
+    "version": "rv5-alpha-1",
     "modLoaders": [
       "forge"
     ]
@@ -6555,7 +6555,7 @@
     "assets": {},
     "published": "2017-07-23T13:57:56Z",
     "changelog": "This should be the final release for 1.10.\n\nFixes #2750: Added missing RF Integration Modules. (#2770) - yueh\n\nFixes #2768: Incorrect return value when charging items via Tesla. (#2771) - yueh",
-    "version": "rv4.stable.1",
+    "version": "rv4-stable-1",
     "modLoaders": [
       "forge"
     ]
@@ -6566,7 +6566,7 @@
     "assets": {},
     "published": "2016-12-31T17:40:57Z",
     "changelog": "Fixes #2729: Transformer bug introduced during FG/mcpbot downtime. - yueh\n",
-    "version": "rv4.alpha.11",
+    "version": "rv4-alpha-11",
     "modLoaders": [
       "forge"
     ]
@@ -6577,7 +6577,7 @@
     "assets": {},
     "published": "2016-12-31T15:16:58Z",
     "changelog": "Feature #2727: Replaces old fluid handlers with the new capability based system for Fluid P2P tunnels and ME Chests. - yueh\n\nFixes #2684: Avoid transforming charged quartz when dead to avoid duping. - yueh\n\nFixes #2707: Calculuate the correct AABB for a rotated skychest. - yueh\n\nFixes #2713: Call super#onBlockActivated() for wrench interaction with assemblers, crafting units and wireless aps. - yueh\n\nFixes #2714: Use a concurrent list to avoid rare CME crashes with the NetworkList. - yueh\n\nFixes #2724: Use capitalized oredict name for dyes, not uppercase. Allows using dyes with the color applicator again. - yueh\n",
-    "version": "rv4.alpha.10",
+    "version": "rv4-alpha-10",
     "modLoaders": [
       "forge"
     ]
@@ -6588,7 +6588,7 @@
     "assets": {},
     "published": "2016-12-14T21:51:28Z",
     "changelog": "Feature #2650: TheOneProbe integration, same information as WAILA - yueh\n\nChange #2693: Replaced the API watcher interfaces for energy, storage and crafting with a more fitting ones compared to a common collection. \n\nFixes #229: Multiple level emitters can now monitor the same energy threshold - yueh\n\nFixes #2647: Prevent crafting status from crashing due to missing network. - yueh\n\nFixes #2664: Prevent anchors from creating intersection. - yueh\n\nFixes #2680: Use a shorter cable anchor model when blocked by a facade to avoid z-fighting. - yueh \n\nFixes #2689: Do not pass our own blockstate to the adjacent block. - yueh\n\nFixes #2690: Fixes constant reequip animation on portable cells/terminals - dshadowwolf\n\nFixes #2699: Do not trust the stackSize in case of internal changes. - yueh\n\nUpdated Forge to the 12.18.3.2185 (Current RB)\n",
-    "version": "rv4.alpha.9",
+    "version": "rv4-alpha-9",
     "modLoaders": [
       "forge"
     ]
@@ -6599,7 +6599,7 @@
     "assets": {},
     "published": "2016-12-03T15:40:09Z",
     "changelog": "Feature #2643: Added a blacklist of specific oredict names for the grindstone. Can be used to prevent the recipe generation from adding loopholes for other mods in rare cases. - yueh\n\nChange #2644: Updated GrindStone/GrinderRegistry API. - yueh\n\nFixes #2666: Restore inventory after powerloss while still avoid previous dupe bugs. - yueh\n\nFixes #2667: Use new IC2 item names for P2P attunement. - yueh\n\nFixes #2669: Missing particle texture for pylons. - yueh\n\nFixes #2675: Explicitly set fullBlock to true for blocks. - yueh\n",
-    "version": "rv4.alpha.8",
+    "version": "rv4-alpha-8",
     "modLoaders": [
       "forge"
     ]
@@ -6610,7 +6610,7 @@
     "assets": {},
     "published": "2016-11-26T18:05:36Z",
     "changelog": "Feature #2633 Reworked configuration, added config options to disable more features. - yueh\n\nChange #2636: Removed ASMTweaker and replaced it with an AT. - yueh\n\nFixes #2276, #2655: Two dupe bugs related to network storage handling while booting. - yueh\n\nFixes #2623: Network Tool not removing facades with shift rightlick. - yueh\n\nFixes #2626: Subtract the correct amount from the remaining amount of IItemHandlers. - yueh\n",
-    "version": "rv4.alpha.7",
+    "version": "rv4-alpha-7",
     "modLoaders": [
       "forge"
     ]
@@ -6621,7 +6621,7 @@
     "assets": {},
     "published": "2016-11-13T13:46:34Z",
     "changelog": "Feature: Added charging items via IC2 API. - shartte\n\nFeature: AE now accepts power via the legacy RF API. - shartte\n\nFeature: Added item charging via legacy RF API. - shartte\n\nFixes #2544: NetworkTool now returns PASS for shift+right click on parts. - yueh\n\nFixes #2566: Update packet deserialization was broken when parts were present that were not a grid host. - shartte\n\nFixes #2593: Subtract the extracted not already gathered amount. - yueh\n\nFixes #2595: Restrict ItemHandlerAdaptor to not exceed the stacksize of a slot. - yueh\n\nFixes #2599: Missing instanceof EntityPlayerMP test. - yueh\n\nFixes #2605: Formation plane now using the correct offset position. - yueh\n\nFixes #2608: Handle scrollbar on mouseclicks not during rendering. - yueh\n",
-    "version": "rv4.alpha.6",
+    "version": "rv4-alpha-6",
     "modLoaders": [
       "forge"
     ]
@@ -6632,7 +6632,7 @@
     "assets": {},
     "published": "2016-11-06T19:51:15Z",
     "changelog": "Feature #2565: Re-Activated the IC2 layers to implement an IC2 P2P tunnel. - shartte\n\nFeature #2573: Add configuration to remove crashing items from Storage Cells, off by default. - shartte\n\nFixes #2549: A block being rendered in the translucent layer will cause the item renderer to completely disable depth-writing causing silly looking models when held in hand. - shartte\n\nFixes #2556, #2579: Restore old click behaviour in GUIs. - yueh\n\nFixes #2567: Use heightmap for very low sea levels. - yueh\n\nFixes #2569: Prevent crashes from missing mods and an AE2 integration for these. - shartte\n\nFixes #2571: Only call getDurabilityForDisplay if the item is damageable. - shartte\n\nFixes #2574: Reduced drive update rate by limit them to modulate actions. - yueh\n\nFixes #2575: Stopped AEBaseTile from ticking by removed ITickable. Causes Charger to be no longer affected by external ticks. - yueh\n\nFixes #2577: Use the item stacks color handler to color tinted quads of the block model. - shartte\n\nFixes #2580: The inscriber's rotation is not taken into account when returning the IItemHandler capability. - shartte\n\nFixes #2582: Right-Clicking with a Storage Cell would prevent further interaction even if the storage cell wasn't being disassembled. - shartte\n\nFixes #2585: Hide WAILA data when it cannot be retrieved from the server. - yueh\n",
-    "version": "rv4.alpha.5",
+    "version": "rv4-alpha-5",
     "modLoaders": [
       "forge"
     ]
@@ -6643,7 +6643,7 @@
     "assets": {},
     "published": "2016-11-04T08:58:47Z",
     "changelog": "Change #2511: Made memory card messages more clearly. - DeadSix27\n\nFixes #2561: Do not use unchecked casts for IContainerListener. - yueh\n\nFixes #2558: Make Sky Stone Chest TESR more robust against odd world state, as Vanilla also does. - shartte\n\nFixes #2557: Made facades much more robust when rendering. - shartte\n\nFixes #2554: Extract identical item not any equal one. - yueh\n\nFixes Macerator recipes when IC2 integration is enabled. - shartte\n\nFixes registration of recipes when one of the recipes throws an unexpected unchecked exception during registration. - shartte\n\nReplaced reference to FMLCommonHandler EventBus through MinecraftForge.EVENT_BUS due to deprecation notice - thatsIch\n\nRemoved tickhandler registration from FMLCommonHandler EventBus since they same to MinecraftForge.EVENT_BUS - thatsIch\n\nUpdated russian translation - xMrVizzy\n",
-    "version": "rv4.alpha.4",
+    "version": "rv4-alpha-4",
     "modLoaders": [
       "forge"
     ]
@@ -6654,7 +6654,7 @@
     "assets": {},
     "published": "2016-11-01T12:13:54Z",
     "changelog": "Feature #2527: Implements charging of tools via RF (Forge Energy) and Tesla. Tested with Tesla Essentials and EnderIO. - shartte\n\nFeature #2545: Show P2P-Tunnel Link Status on WAILA. - shartte\n\nFixes #2525: Light P2P Tunnels not using the correct source for the light value. - shartte\n\nFixes #2528: Light level not being updated when light-level of cable bus changed after removing parts. - shartte\n\nFixes #2531 and #2533: Slight overhaul to how Facades store the associated item and retrieve the sprite. - shartte\n\nFixes #2532: Work around bug in Forge lighting pipeline and UnpackedBakedQuad. - shartte\n\nFixes #2536: Mark host for save when placing facades. - shartte\n\nFixes #2542: Prevent memory card from opening a GUI. - yueh\n\nFixes #2546: Annihilation plane now use the center of an entity instead the bottom to prevent entities from being considered below it. - shartte\n\nFixes #2547: Fixed bounding boxes of crystal growing and fluix crystals. - shartte\n\nFixes #2548: Disable item.csv export on the server side, because we're unable to access creative tab information on the server. - shartte\n\nFixes #2551: Prevent chunk rebuilds when drive is unchanged. - yueh\n",
-    "version": "rv4.alpha.3",
+    "version": "rv4-alpha-3",
     "modLoaders": [
       "forge"
     ]
@@ -6665,7 +6665,7 @@
     "assets": {},
     "published": "2016-10-29T20:54:15Z",
     "changelog": "Feature #2438: Added IC2 integration. - shartte\n\nFixes #2489: Revert back to the old lightmap rendering. Added a fallback one in case the forge lighting pipeline is disabled via forge config or Optifine.  - shartte\n\nFixes #2515: Incorrect version comparison consider rv4-alpha being older than any rv3 build. - yueh\n\nFixes #2516: Added a modid prefix to tile entities. Existing ones will be converted for some time in the future. - yueh\n\nFixes #2525: Break particles for all attachments of a cable bus. - shartte\n\nFixes #2526: Fixed dense cable not showing the correct texture for 32 used channels. - shartte\n\nFixes #2529: Forgot to call superclass method for onBlockExploded for tiny tnt. - shartte\n\nFixes #2530: Fixed crafting cpus incorrectly cleaning up after a finished job and causing constant updates. - yueh\n\nUpdated russian translation - xMrVizzy\n\nUpdated simplified chinese translation - bakaxyf\n",
-    "version": "rv4.alpha.2",
+    "version": "rv4-alpha-2",
     "modLoaders": [
       "forge"
     ]
@@ -6676,7 +6676,7 @@
     "assets": {},
     "published": "2016-04-27T11:14:05Z",
     "changelog": "Updated pt_BR.lang to match latest en_US - Kasama\n",
-    "version": "rv3.beta.6",
+    "version": "rv3-beta-6",
     "modLoaders": [
       "forge"
     ]
@@ -6687,7 +6687,7 @@
     "assets": {},
     "published": "2016-01-13T14:31:09Z",
     "changelog": "Fixes #2099: Fixed pressure tunnels forwarding neighbour updates before these are validated. - yueh\n",
-    "version": "rv3.beta.5",
+    "version": "rv3-beta-5",
     "modLoaders": [
       "forge"
     ]
@@ -6698,7 +6698,7 @@
     "assets": {},
     "published": "2016-01-08T20:13:14Z",
     "changelog": "Feature #2091: Recipes using Ore Dictionary entry whenever possible. - Adaptivity\n\nFixes #2087: Fixes OpenComputer tunnels not disconnecting from the OC network when tunnel connection is lost. - fnuecke\n\nFixes #2090: Broken Simplified Chinese translation. - GWYOG\n",
-    "version": "rv3.beta.4",
+    "version": "rv3-beta-4",
     "modLoaders": [
       "forge"
     ]
@@ -6709,7 +6709,7 @@
     "assets": {},
     "published": "2016-01-05T12:59:30Z",
     "changelog": "Fixes #2043: Storage buses are now updating the network after being fully initizalized. - yueh\n\nAdded japanese translation - Honon\n\nUpdate french translation - Mazdallier, Pyeroh\n",
-    "version": "rv3.beta.3",
+    "version": "rv3-beta-3",
     "modLoaders": [
       "forge"
     ]
@@ -6720,7 +6720,7 @@
     "assets": {},
     "published": "2015-12-27T12:07:01Z",
     "changelog": "Feature #2010: Logging improvments. CraftingLog now reports who or what started a crafting request, their location and the requested item. Item exporter now logs the failed items and not a generic exception - yueh\n\nFix #1905: Interfaces are now also slowing down once crafting request fails - yueh\n\nUpdate german translation - wlhlm\n",
-    "version": "rv3.beta.2",
+    "version": "rv3-beta-2",
     "modLoaders": [
       "forge"
     ]
@@ -6731,7 +6731,7 @@
     "assets": {},
     "published": "2015-12-20T14:47:16Z",
     "changelog": "No changes since last alpha build.\n",
-    "version": "rv3.beta.1",
+    "version": "rv3-beta-1",
     "modLoaders": [
       "forge"
     ]
@@ -6742,7 +6742,7 @@
     "assets": {},
     "published": "2015-12-11T21:45:17Z",
     "changelog": "Fixes #1995: Allows creation of version checker config file after start up - thatsIch\n\nReverted #2032: Old inventory handling until all exceptional inventories can be handled correctly - yueh\n\nUpdate hu_HU.lang - XFRGod\n",
-    "version": "rv3.alpha.13",
+    "version": "rv3-alpha-13",
     "modLoaders": [
       "forge"
     ]
@@ -6753,7 +6753,7 @@
     "assets": {},
     "published": "2015-12-10T23:51:53Z",
     "changelog": "Feature #2032: Improved inventory cache invalidation/notifcations, resulting in a noticable performance increasement for inventory handling. - yueh\n\nFeature #1880: Rendering improvements and bugfixes. yueh\n\nFixes #1998: Using the correct culling mode and rotation for items rendered inside inscribers. - yueh\n\nFixes #2044: No longer exposes internal exceptions through the API. - yueh\n\nFixes #1964: Misbehaving terminals due to unsorted item lists. - yueh\n\nFixes #2027: TinyTNT not triggered by flint&steel. - yueh\n\nUpdate hu_HU.lang - XFRGod\n",
-    "version": "rv3.alpha.12",
+    "version": "rv3-alpha-12",
     "modLoaders": [
       "forge"
     ]
@@ -6764,7 +6764,7 @@
     "assets": {},
     "published": "2015-12-10T15:49:43Z",
     "changelog": "Broken build server.\n",
-    "version": "rv3.alpha.11",
+    "version": "rv3-alpha-11",
     "modLoaders": [
       "forge"
     ]
@@ -6775,7 +6775,7 @@
     "assets": {},
     "published": "2015-11-16T10:55:40Z",
     "changelog": "Fixes #1983: WorldData cleared too early when still needed. - yueh\n\nFixes #1970: Lighting was not re-enabled when looking at an inscriber - thatsIch\n\nFixes #1973: 9th slot of ME Interface ignored work - thatsIch\n\nFixes #1932: Better VersionChecker exception handling. - yueh\n\nGeneral code cleanup of internal classes. - yueh\n\nUpdate zh_CN.lang - bakaxyf\n",
-    "version": "rv3.alpha.10",
+    "version": "rv3-alpha-10",
     "modLoaders": [
       "forge"
     ]
@@ -6786,7 +6786,7 @@
     "assets": {},
     "published": "2015-10-10T20:38:48Z",
     "changelog": "Feature #1156: Added an option to toggle oredict subsitutions for patterns. Old patterns are no longer using the oredictionary. - yueh\n\nFeature #1899 Adds an easy way to export interesting information into CSV format for easier use of the custom recipes. - thatsIch\n\nFeature #1906: Small performance improvements for cell inventory access. - yueh\n\nFixes #1938: Terminal itemlist not synchronizing correctly in some cases. - yueh\n\nFixes #1898: Recipe copier would also copy empty folders. - thatsIch\n",
-    "version": "rv3.alpha.9",
+    "version": "rv3-alpha-9",
     "modLoaders": [
       "forge"
     ]
@@ -6797,7 +6797,7 @@
     "assets": {},
     "published": "2015-09-29T14:04:21Z",
     "changelog": "Fixes #1905: Export bus will slow down if crafting request fails - yueh\n\nFaster item storage access - yueh\n\nCode cleanup - thatsIch\n",
-    "version": "rv3.alpha.8",
+    "version": "rv3-alpha-8",
     "modLoaders": [
       "forge"
     ]
@@ -6808,7 +6808,7 @@
     "assets": {},
     "published": "2015-09-23T21:55:08Z",
     "changelog": "Feature #1862: Changed the interface to 9 slots to be consistent with every other machine - yueh\n\nFixes #1896: Update storage monitor only if the text would change - yueh\n\nFixes #1892: Fixes incorrect handling of prioritized inventories - yueh\n\nFixes #1878: Saves worlddata more reliable. - yueh\n\nFixes #1865: Formation planes now spawn overflow items correctly into the world - yueh\n\nUpdated zh_tw.lang - asd0210a\n",
-    "version": "rv3.alpha.7",
+    "version": "rv3-alpha-7",
     "modLoaders": [
       "forge"
     ]
@@ -6819,7 +6819,7 @@
     "assets": {},
     "published": "2015-09-10T20:00:37Z",
     "changelog": "Fixes #1588: Charged Certus Quartz Ore was given a wrong name - thatsIch\n\nFixes #1833: Crafting with Crafting Card was unable to stop on missing item storage - yueh\n\nFixes #1850: API actually supports second optional output of the AE2 Grindstone - thatsIch\n\nFixed and cleaned up custom recipe templates - yueh\n\nUpdate fr_FR.lang - Mazdallier\n",
-    "version": "rv3.alpha.6",
+    "version": "rv3-alpha-6",
     "modLoaders": [
       "forge"
     ]
@@ -6830,7 +6830,7 @@
     "assets": {},
     "published": "2015-08-23T09:47:54Z",
     "changelog": "Feature #1805: Restructured the recipes in more meaningful way - yueh\n\nFixes #1791: Fixed crafting recipes for some uncraftable items - yueh\n\nFixes #1283: Changed the tick handling to prevent possible memory leaks - yueh\n\nFixes #1810: Fixed a potentially memory leak with the Meteorite Compass backend - yueh\n\nReverts #1635: Reintegrated the ore dictionary mappings into the recipes - yueh\n",
-    "version": "rv3.alpha.5",
+    "version": "rv3-alpha-5",
     "modLoaders": [
       "forge"
     ]
@@ -6841,7 +6841,7 @@
     "assets": {},
     "published": "2015-08-16T13:43:29Z",
     "changelog": "Fixes #1481: Not updating itemcount in a few rare cases - yueh\n\nFixes #1806: Wrong culling direction when rendering inscriber - yueh\n",
-    "version": "rv3.alpha.4",
+    "version": "rv3-alpha-4",
     "modLoaders": [
       "forge"
     ]
@@ -6852,7 +6852,7 @@
     "assets": {},
     "published": "2015-08-15T16:17:51Z",
     "changelog": "Closes #1726: Added Pressure P2P tunnel (PneumaticCraft) - yueh\n\nFixes #1786: Fixes Turkish Problem. - thatsIch\n\nFixes #1781 Do not crash after the tileentity was removed - yueh\n\nFixes #1481: Updated cell itemcount when empty - yueh\n\nFixes #1601: Do not allow 0 as stacksize for recipes - yueh\n",
-    "version": "rv3.alpha.3",
+    "version": "rv3-alpha-3",
     "modLoaders": [
       "forge"
     ]
@@ -6863,7 +6863,7 @@
     "assets": {},
     "published": "2015-07-25T16:45:52Z",
     "changelog": "Feature #85: Adds a round robin and random mode to export buses. - yueh\n\nFixes #1718: Use the correct recipe resolver for crystal seeds - yueh\n",
-    "version": "rv3.alpha.2",
+    "version": "rv3-alpha-2",
     "modLoaders": [
       "forge"
     ]
@@ -6874,7 +6874,7 @@
     "assets": {},
     "published": "2015-07-24T20:47:59Z",
     "changelog": "Updates Forge to 1.7.10-10.13.4.1448-1.7.10 - thatsIch\n\nUpdates BuildCraft to 7.0.9. Config needs to be reset, if BuildCraft was disabled actively, because now there are 3 BC modules to be taken account of - thatsIch\n\nFeature #12: Added visual lock state to monitors Some general refactoring of every monitor including panels and terminals. Disabled glPushAttrib and glPopAttrib for StorageMonitor as this can be a performance issue. - yueh\n\nFeature #1259: Added a ETA to crafting jobs - yueh\n\nFeature #1344: Added a silk touch annihilation plane - yueh\n\nFeature #1452: Implements auto-generation of custom recipes - thatsIch\n\nFeature #1541: Implements Thermal Dynamics attunements - thatsIch\n\nFeature #1379: Added slabs - plumpudding\n\nFeature #579: Added P2P tunnel part for OpenComputers. - fnuecke & thatsIch\n\nFeature #1633: Allows the automation of Vibration Chambers with lava buckets - TheCricket\n\nFeature #1635: Exports the ore-dicts out of the recipe files - thatsIch\n\nFeature #1513: Cleaned up CraftGuide Integration. Added Grinder recipes. Added Inscriber recipes - Uristqwerty\n\nFixes #1686: Let PlayerRegistry handle nonexistent players - yueh\n\nFixes #1728: Mark the entity as dead before spawning overflow - yueh\n\nFixes #1710: Use the correct culling face for the meteor compass - yueh\n\nFixes #1646: Save GridStorage properly - yueh\n\nFixes #1706: Adds a test to disable unsupported BetterStorage integration - yueh\n\nFixes #1648: Removes unecessary cast to BlockQuartzTorch - yueh\n\nFixes #1673: Removed overly defensive code and ensure GL state to be restored. - yueh\n\nFixes #1666: Missing check for the memory card - yueh\n\nFixes #1656: Reduces the amount of block updates a controller sends. - yueh\n\nFixes #1474: Prevents crafting of disabled recipes and deletes invalid parts - thatsIch\n\nFixes #1611: Reset the lastUsedChannels on a gridstorage change - yueh\n\nFixes #1618: Removed meta based rotation of CGA - yueh\n\nFixes #1599: Removes preconditions for world data and children - thatsIch\n\nFixes #1510: Networks with disabled channels no longer fail every 256 parts - yueh\n\nFixes #1559: Level Emitter with P:R alloy wire does not crash anymore - thatsIch\n\nFixes #1588: Charged Certus Quartz Ore has its own oredictionary entry - thatsIch\n\nFixes #1567: Moved ETA to the title and also no longer display for empty jobs - yueh\n\nFixes #1574: Light detector no longer emitting light - yueh\n\nFixes #1036: No longer invalidate the cache of MEMonitorIInventory on simulate. - yueh\n\nFixes #1536: Checking for all required BC classes - thatsIch\n\nFixes #1517: improved performance of TESRWrapper - yueh\n\nFixes #1465: faulty item comparison - yueh\n\nFixes #1389: Enabled repeatable keyboard events - yueh\n\nFixes #1384: Implement AdvancedShaftPowerReceiver for RotaryCraft powersink - jeremiahwinsley\n\nFixes #1467: Parts display correctly in WAILA - TheJulianJES\n\nFixes #1442: Don't add the player inventory two times (Inscriber) - TheJulianJES\n\nFixes #1411: Adds recipes for stairs - thatsIch\n\nFixes #1438: Meteorites can now spawn in stained clay biomes - TheJulianJES\n\nRemoved #1413: Removes RB integration since lacking 1.7.10+ support - thatsIch\n\nVarious typos, code cleanups and code improvements - thatsIch & yueh\n\nVarious new localization improvements - LemonLake, LorenzoDCC & bakaxyf\n",
-    "version": "rv3.alpha.1",
+    "version": "rv3-alpha-1",
     "modLoaders": [
       "forge"
     ]
@@ -6885,7 +6885,7 @@
     "assets": {},
     "published": "2015-07-06T08:18:06Z",
     "changelog": "Fixes #1611: Resolves some chunkloading behaviours not correctly updating the network - yueh\n",
-    "version": "rv2.stable.10",
+    "version": "rv2-stable-10",
     "modLoaders": [
       "forge"
     ]
@@ -6896,7 +6896,7 @@
     "assets": {},
     "published": "2015-06-16T17:48:40Z",
     "changelog": "Fixes #1510: No longer deactivates a network with a multiple of 256 used channels - yueh\n",
-    "version": "rv2.stable.9",
+    "version": "rv2-stable-9",
     "modLoaders": [
       "forge"
     ]
@@ -6907,7 +6907,7 @@
     "assets": {},
     "published": "2015-06-14T16:24:24Z",
     "changelog": "Updates BC to 7.0.9 Fixes disabling of BC integration - thatsIch\n",
-    "version": "rv2.stable.8",
+    "version": "rv2-stable-8",
     "modLoaders": [
       "forge"
     ]
@@ -6918,7 +6918,7 @@
     "assets": {},
     "published": "2015-06-14T08:16:50Z",
     "changelog": "Fixes #1559: Level Emitter with P:R alloy wire does not crash anymore - thatsIch\n\nFixes #1588: Charged Certus Quartz Ore has its own oredictionary entry - thatsIch\n",
-    "version": "rv2.stable.7",
+    "version": "rv2-stable-7",
     "modLoaders": [
       "forge"
     ]
@@ -6929,7 +6929,7 @@
     "assets": {},
     "published": "2015-06-09T21:48:03Z",
     "changelog": "Fixes CraftGuide Integration lag - Uristqwerty\n\nAdded Grinder recipes to CraftGuide - Uristqwerty\n\nAdded Inscriber recipes to CraftGuide - Uristqwerty\n",
-    "version": "rv2.stable.6",
+    "version": "rv2-stable-6",
     "modLoaders": [
       "forge"
     ]
@@ -6940,7 +6940,7 @@
     "assets": {},
     "published": "2015-06-05T21:16:01Z",
     "changelog": "Should fix #1036: No longer invalidate the cache of inventories, when not required - yueh\n",
-    "version": "rv2.stable.5",
+    "version": "rv2-stable-5",
     "modLoaders": [
       "forge"
     ]
@@ -6951,7 +6951,7 @@
     "assets": {},
     "published": "2015-06-01T18:52:14Z",
     "changelog": "Fixes #1536: Checking for all required BC classes - thatsIch\n",
-    "version": "rv2.stable.4",
+    "version": "rv2-stable-4",
     "modLoaders": [
       "forge"
     ]
@@ -6962,7 +6962,7 @@
     "assets": {},
     "published": "2015-05-19T19:26:43Z",
     "changelog": "Fixes #1465: Disassembling a Crafting Storage will yield the correct material - yueh\n\nRemoves default RF tooltip on AE blocks - TheJulianJES\n\nFixes #1442: Parts display their name in WAILA - TheJulianJES\n\nFixes #1389: Hold backspace to clear search in terminals - yueh\n\nFixes #1384: No infinite power with RotarCraft v6 anymore - jeremiahwinsley\n",
-    "version": "rv2.stable.3",
+    "version": "rv2-stable-3",
     "modLoaders": [
       "forge"
     ]
@@ -6973,7 +6973,7 @@
     "assets": {},
     "published": "2015-05-19T05:37:33Z",
     "changelog": "Fixes #1442: Don't add the player inventory twice - TheJulianJES\n\nFixes #1411: Adds recipes for stairs - thatsIch\n\nFixes #XXXX: Plumb potential memory leak - TheJulianJES\n\nUpdate pt_BR.lang - LorenzoDCC\n\nUpdate de_DE.lang - TheJulianJES\n",
-    "version": "rv2.stable.2",
+    "version": "rv2-stable-2",
     "modLoaders": [
       "forge"
     ]
@@ -6984,7 +6984,7 @@
     "assets": {},
     "published": "2015-05-03T20:16:54Z",
     "changelog": "Closes #1287: Set release channel to stable - thatsIch\n\nLink to release notes http://ae-mod.info/docs/rv2/release-notes/\n",
-    "version": "rv2.stable.1",
+    "version": "rv2-stable-1",
     "modLoaders": [
       "forge"
     ]
@@ -6995,7 +6995,7 @@
     "assets": {},
     "published": "2015-05-03T19:42:50Z",
     "changelog": "Fixes #1368: Vibration Chamber notifies neighbors on inventory and state change - thatsIch\n",
-    "version": "rv2.beta.33",
+    "version": "rv2-beta-33",
     "modLoaders": [
       "forge"
     ]
@@ -7006,7 +7006,7 @@
     "assets": {},
     "published": "2015-05-02T18:47:23Z",
     "changelog": "Fixes #1336: Fixes part interface inventory model - yueh\n\nFixes #1331: Happened on deactivating features for intermediate crafting components - thatsIch\n\nFixes #1360: Added missing check to detect missing cell workbenches - yueh\n",
-    "version": "rv2.beta.32",
+    "version": "rv2-beta-32",
     "modLoaders": [
       "forge"
     ]
@@ -7017,7 +7017,7 @@
     "assets": {},
     "published": "2015-04-29T16:50:00Z",
     "changelog": "Fixes #1333: Removes warning about RecipeSorter and fixes disassembling crafting recipes - thatsIch\n\nFixes #1339: Was not able to retrieve the name of an unregistered part - thatsIch\n\nFixes #1348: Removed MJ as icon - yueh\n\nUpdate fr_FR.lang Minor correction and group organisation - Yves\n\nUpdate fr_FR.lang Minor correction and group organisation - Mazdallier\n",
-    "version": "rv2.beta.31",
+    "version": "rv2-beta-31",
     "modLoaders": [
       "forge"
     ]
@@ -7028,7 +7028,7 @@
     "assets": {},
     "published": "2015-04-27T08:08:35Z",
     "changelog": "Fixes #1327: Prevents crash when configuring a GUI - thatsIch\n\nUpdate it_IT.lang - TheVikingWarrior\n",
-    "version": "rv2.beta.30",
+    "version": "rv2-beta-30",
     "modLoaders": [
       "forge"
     ]
@@ -7039,7 +7039,7 @@
     "assets": {},
     "published": "2015-04-24T18:36:41Z",
     "changelog": "Fixes  #329: Crafting can use items in Storage Bus + Interface Combo - yueh\n\nFixes  #456: Fixed interface putting crafting items into itself - yueh\n\nFixes #1186: Storage Cells drop upgrades upon disassembling - thatsIch\n\nFixes #1256: Display stack size dependent on width - thatsIch\n\nFixes #1264: Does not crash on missing RF API - thatsIch\n\nFixes #1271: Added missing pack.mcmeta - thatsIch\n\nFixes #1277: Removed config option for MJ-P2P Tunnel - thatsIch\n\nFixes #1310: Items stay on NEI Recipe shift-clicking - yueh\n\nCloses #1270: Improves NEI grinder overlay localization - thatsIch\n\nImproved exception output - thatsIch\n\nUpdate it_IT.lang - theelixzammuto\n\nUpdate ru_RU.lang - Anton & Adaptivity\n",
-    "version": "rv2.beta.29",
+    "version": "rv2-beta-29",
     "modLoaders": [
       "forge"
     ]
@@ -7050,7 +7050,7 @@
     "assets": {},
     "published": "2015-04-08T19:50:46Z",
     "changelog": "Fixes #1202: Items need stacks bigger than 10000x before being converted - thatsIch\n\nUpdate zh_CN.lang - bakaxyf\n",
-    "version": "rv2.beta.28",
+    "version": "rv2-beta-28",
     "modLoaders": [
       "forge"
     ]
@@ -7061,7 +7061,7 @@
     "assets": {},
     "published": "2015-04-07T11:31:03Z",
     "changelog": "Fixes #1230: Maintain Order of AE2 items and blocks - yueh\n\nFixes #1222: Crash upon using a Wireless Access Terminal - yueh\n\nDeobfuscated version for Developers contains no dupes anymore - thatsIch\n\nUpdate zh_CN.lang - bakaxyf\n\nUpdate ru_RU.lang - Anton\n",
-    "version": "rv2.beta.27",
+    "version": "rv2-beta-27",
     "modLoaders": [
       "forge"
     ]
@@ -7072,7 +7072,7 @@
     "assets": {},
     "published": "2015-04-06T14:25:41Z",
     "changelog": "Fixes #889: Prevents duping with portable cells and slot switching crashes on laggy servers - yueh\n\nCloses #1219: Further improved localization options - thatsIch\n\nCloses #1054: Adds an Inscriber API for Developers (might be incompatible with MineTweaker) - thatsIch\n\nCloses #1207: Improved localization options - thatsIch\n",
-    "version": "rv2.beta.26",
+    "version": "rv2-beta-26",
     "modLoaders": [
       "forge"
     ]
@@ -7083,7 +7083,7 @@
     "assets": {},
     "published": "2015-04-05T21:09:59Z",
     "changelog": "Fixes #1068: Stops fixtures and similar blocks modifying the state of click on block. - yueh\n\nFixes NPE on random button smashing. - thatsIch\n",
-    "version": "rv2.beta.25",
+    "version": "rv2-beta-25",
     "modLoaders": [
       "forge"
     ]
@@ -7094,7 +7094,7 @@
     "assets": {},
     "published": "2015-04-04T13:01:01Z",
     "changelog": "Fixes #1059 FMP Blocks don't disturb the ME Interface identifier - thatsIch\n\nFixes #1191 Does not transform Sky Stone Blocks into Sky Stone anymore - yueh\n\nFixes interaction bug between Sky Stone Chest and Inventory Tweaks upon sort via space + click - thatsIch\n\nFixes #1197 Vibration Chamber does produce AE, not ae - thatsIch\n",
-    "version": "rv2.beta.24",
+    "version": "rv2-beta-24",
     "modLoaders": [
       "forge"
     ]
@@ -7105,7 +7105,7 @@
     "assets": {},
     "published": "2015-04-03T20:29:25Z",
     "changelog": "Fixes #1143 Fixed a NPE for using a feature too early - yueh\n\nFixes #1174 Charged Quartz Ore drops Charged Crystals again - yueh\n\nFixes #1118 Does not crash with invalid ItemStacks anymore - thatsIch\n",
-    "version": "rv2.beta.23",
+    "version": "rv2-beta-23",
     "modLoaders": [
       "forge"
     ]
@@ -7116,7 +7116,7 @@
     "assets": {},
     "published": "2015-03-30T08:51:07Z",
     "changelog": "Fixes #1125 Prevent matrix frames to break from explosions. - yueh\n\nFixes NEI recipe handler crash. - yueh\n\nDeveloper: Now API jars contains classes and source files. - thatsIch\n\nDeveloper: Better debug information on AEApi access. - thatsIch\n",
-    "version": "rv2.beta.22",
+    "version": "rv2-beta-22",
     "modLoaders": [
       "forge"
     ]
@@ -7127,7 +7127,7 @@
     "assets": {},
     "published": "2015-03-28T18:19:00Z",
     "changelog": "Fixes #1115 Does not crash anymore without RotaryCraft - thatsIch\n",
-    "version": "rv2.beta.21",
+    "version": "rv2-beta-21",
     "modLoaders": [
       "forge"
     ]
@@ -7138,7 +7138,7 @@
     "assets": {},
     "published": "2015-03-28T16:25:31Z",
     "changelog": "Fixes #675 No disabled feature should log spam or crash anymore. \n\nFor developer: Deprecates the old usage of the AEItemDefinitions via the direct method access of \\* blocks() \\* parts() \\* items() \\* materials() and thus use the new re-direct via definitions(). All definitions are now initialized, no matter what. But SubItems, Items and Blocks are not registered, if by chance are disabled. - thatsIch\n",
-    "version": "rv2.beta.20",
+    "version": "rv2-beta-20",
     "modLoaders": [
       "forge"
     ]
@@ -7149,7 +7149,7 @@
     "assets": {},
     "published": "2015-03-28T15:01:01Z",
     "changelog": "Fixes #1013 Energy acceptor can receive RotaryCraft V5c Power again - thatsIch\n",
-    "version": "rv2.beta.19",
+    "version": "rv2-beta-19",
     "modLoaders": [
       "forge"
     ]
@@ -7160,7 +7160,7 @@
     "assets": {},
     "published": "2015-03-26T13:02:07Z",
     "changelog": "Fixes #1099 Client crash on load up due to FML quirks - thatsIch\n",
-    "version": "rv2.beta.18",
+    "version": "rv2-beta-18",
     "modLoaders": [
       "forge"
     ]
@@ -7171,7 +7171,7 @@
     "assets": {},
     "published": "2015-03-26T10:39:16Z",
     "changelog": "Fixes #1061 Most recipes are properly registered with new Mekanism. - thatsIch\n\nPotential slight performance increase - thatsIch\n",
-    "version": "rv2.beta.17",
+    "version": "rv2-beta-17",
     "modLoaders": [
       "forge"
     ]
@@ -7182,7 +7182,7 @@
     "assets": {},
     "published": "2015-03-25T17:11:49Z",
     "changelog": "Fixes #1077 Hotfix: Opening a terminal will not crash as fast anymore in systems with many items.\n\nFixes #822 Automation of IO Port works as intended again.\n\nUpdate zh_CN.lang - bakaxyf\n",
-    "version": "rv2.beta.16",
+    "version": "rv2-beta-16",
     "modLoaders": [
       "forge"
     ]
@@ -7193,7 +7193,7 @@
     "assets": {},
     "published": "2015-03-24T16:03:04Z",
     "changelog": "Fixes #1076 Crash on shift clicking a recipe from NEI. - thatsIch\n\nAdded information for diagnostics. - downslope7\n\nFixed typos in en_US.lang. - KamranMackey\n",
-    "version": "rv2.beta.15",
+    "version": "rv2-beta-15",
     "modLoaders": [
       "forge"
     ]
@@ -7204,7 +7204,7 @@
     "assets": {},
     "published": "2015-03-17T23:00:55Z",
     "changelog": "Fixes #976 Now uses GitHub to retrieve most current version - thatsIch\n\nUpdate it_IT.lang - TheVikingWarrior\n",
-    "version": "rv2.beta.14",
+    "version": "rv2-beta-14",
     "modLoaders": [
       "forge"
     ]
@@ -7215,7 +7215,7 @@
     "assets": {},
     "published": "2015-03-16T11:37:22Z",
     "changelog": "Fixes #1030 Fixes crash when shift-clicking a recipe from NEI into a crafting terminal - yueh\n",
-    "version": "rv2.beta.13",
+    "version": "rv2-beta-13",
     "modLoaders": [
       "forge"
     ]
@@ -7226,7 +7226,7 @@
     "assets": {},
     "published": "2015-03-16T06:32:39Z",
     "changelog": "Fixes #1024 Added zinc to the grindstone - thatsIch\n\nUpdate zh_CN.lang - bakaxyf\n",
-    "version": "rv2.beta.12",
+    "version": "rv2-beta-12",
     "modLoaders": [
       "forge"
     ]
@@ -7237,7 +7237,7 @@
     "assets": {},
     "published": "2015-03-14T23:53:49Z",
     "changelog": "Fixes #1015 Pattern terminal destroying a single item when not able to satisfy a NEI recipe - yueh\n\nFixes #1011 skip null values returned by the oredictionary - yueh\n\nUpdate zh_CN.lang - bakaxyf\n",
-    "version": "rv2.beta.11",
+    "version": "rv2-beta-11",
     "modLoaders": [
       "forge"
     ]
@@ -7248,7 +7248,7 @@
     "assets": {},
     "published": "2015-03-11T15:53:37Z",
     "changelog": "Fixes #861 Wireless Terminal notifies player, if it is unlinked - thatsIch\n\nFixes #920 Increased GUI close distance to match Vanilla MC distance - thatsIch\n\nFixes #743 Crash with BC plugs\n\nFixes #942 BC builder can build AE networks again\n\nUpdate #319 Now compiled against BC 6.4.2, with that MJ is gone\n",
-    "version": "rv2.beta.10",
+    "version": "rv2-beta-10",
     "modLoaders": [
       "forge"
     ]
@@ -7259,7 +7259,7 @@
     "assets": {},
     "published": "2015-03-10T09:42:09Z",
     "changelog": "Enhancement #817 Crafting CPU GUI now shows a green background on items being crafted, and a yellow background on scheduled items - Eearslya\n\nEnhancement Added an option to disable the colored crafting status - yueh\n\nEnhancement Added more information to the security audit - yueh\n\nEnhancement Improved performance - yueh\n\nFixes #972 Level Emitter tool-tip now corresponds to the actual behavior - thatsIch\n\nFixes #982 Auto-crafting lag reduced - yueh\n\nFixes #910 Dense cables render correctly with FMP now - yueh\n\nFixes #943 Reduced lag when breaking multiple blocks at once using Annihilation Plane - yueh\n\nFixes cable render crash and covered cables render as smart - yueh\n\nUpdate fr_FR.lang - Mazdallier\n\nUpdate zh_CN.lang - bakaxyf\n\nUpdated Texture / Model License to be more specific - AlgorithmX2\n\nUpdated Forge to recommended 10.13.2.1291 and other dependencies - yueh\n",
-    "version": "rv2.beta.9",
+    "version": "rv2-beta-9",
     "modLoaders": [
       "forge"
     ]
@@ -7270,7 +7270,7 @@
     "assets": {},
     "published": "2015-01-24T16:46:55Z",
     "changelog": "Update pt_BR.lang - al-myr\n\nImproved the logged warning for FailledConnection Now displays to coordinates of the affected tunnels. - yueh\n\nFix #701 - Changed harvest tool to axe - TheJulianJES\n\nFormation plane can now drop blocks as items - yueh\n\nDisable level emitter on offline networks Turns off level emitters if the goes offline because it runs out of power, channels or similar. - yueh\n\nFixes #304 WAILA Integration updated and fixed WAILA offers a new interface to sync the server data to the client. - thatsIch\n\nRemoved buffer from annihilation plane - yueh\n\nEffects should not collide with anything - yueh\n\nImprove code quality - thatsIch\n",
-    "version": "rv2.beta.8",
+    "version": "rv2-beta-8",
     "modLoaders": [
       "forge"
     ]
@@ -7281,7 +7281,7 @@
     "assets": {},
     "published": "2015-01-01T17:56:50Z",
     "changelog": "Fixes #666 vanishing microblocks with Immibis-Microblocks - yueh\n",
-    "version": "rv2.beta.7",
+    "version": "rv2-beta-7",
     "modLoaders": [
       "forge"
     ]

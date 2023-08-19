@@ -2,7 +2,8 @@ import { ModLoader } from "./types";
 import { CachedGithubRelease } from "./GithubRelease";
 import { CurseforgeRelease } from "./CurseforgeRelease";
 import { Release } from "./Release";
-import { isNil, isUndefined, omitBy } from "lodash-es";
+import { isUndefined, omitBy } from "lodash-es";
+import { ModrinthRelease } from "./ModrinthRelease";
 
 function omitUndefined<T extends object>(obj: T): T {
   return omitBy(obj, isUndefined) as T;
@@ -25,22 +26,30 @@ export class MergedRelease {
 
   modLoaders = new Set<ModLoader>();
 
-  toRelease(): Release | undefined {
+  toReleases(): Release[] {
     if (!this.published) {
       console.warn("Release %s has no publication date.", this.version);
-      return undefined;
+      return [];
     }
 
-    return omitUndefined({
+    const base = omitUndefined({
       modVersion: this.version,
-      minecraftVersions: [...this.minecraftVersions],
       published: this.published.getTime(),
       githubReleasePage: this.githubReleasePage,
       curseforgePage: this.curseforgePage,
       modrinthPage: this.modrinthPage,
-      modLoaders: [...this.modLoaders],
       markdownChangelog: this.markdownChangelog,
     });
+
+    const minecraftVersions = [...this.minecraftVersions];
+    const modLoaders = [...this.modLoaders];
+    return minecraftVersions.flatMap((minecraftVersion) =>
+      modLoaders.map((modLoader) => ({
+        ...base,
+        minecraftVersion,
+        modLoader,
+      }))
+    );
   }
 
   mergeGithubRelease(ghRelease: CachedGithubRelease) {
@@ -88,6 +97,40 @@ export class MergedRelease {
 
     if (!this.published) {
       this.published = new Date(cfRelease.published);
+    }
+  }
+
+  mergeModrinthRelease(modrinthRelease: ModrinthRelease) {
+    const modrinthUrl = `https://modrinth.com/mod/ae2/version/${modrinthRelease.version}`;
+    this.modrinthPage = modrinthUrl;
+
+    for (let loader of modrinthRelease.loaders) {
+      switch (loader) {
+        case "forge":
+          this.modLoaders.add(ModLoader.FORGE);
+          break;
+        case "neoforge":
+          this.modLoaders.add(ModLoader.NEOFORGE);
+          break;
+        case "fabric":
+          this.modLoaders.add(ModLoader.FABRIC);
+          break;
+        default:
+          console.warn(
+            "Cannot handle Modrinth loader '%s' for %s",
+            loader,
+            modrinthUrl
+          );
+          break;
+      }
+    }
+
+    for (const minecraftVersion of modrinthRelease.gameVersions) {
+      this.minecraftVersions.add(minecraftVersion);
+    }
+
+    if (!this.published) {
+      this.published = new Date(modrinthRelease.published);
     }
   }
 }

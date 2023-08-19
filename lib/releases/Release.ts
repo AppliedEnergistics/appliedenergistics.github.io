@@ -4,7 +4,9 @@
 export interface Release {
   modVersion: string;
 
-  minecraftVersions: string[];
+  minecraftVersion: string;
+
+  modLoader: string;
 
   published: number;
 
@@ -15,6 +17,4 @@ export interface Release {
   modrinthPage?: string;
 
   markdownChangelog?: string;
-
-  modLoaders: string[];
 }

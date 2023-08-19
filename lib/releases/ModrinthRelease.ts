@@ -1,4 +1,3 @@
-
 export enum ModrinthReleaseType {
   RELEASE = "release",
   BETA = "beta",

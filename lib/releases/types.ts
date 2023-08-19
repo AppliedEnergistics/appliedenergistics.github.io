@@ -40,5 +40,5 @@ export enum ReleaseAssetType {
   /**
    * Assets for the online-version of the guidebook.
    */
-  GUIDE_ASSETS = "guide-assets"
+  GUIDE_ASSETS = "guide-assets",
 }

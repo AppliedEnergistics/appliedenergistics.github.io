@@ -1,7 +1,7 @@
 import AdmZip from "adm-zip";
 import * as toml from "toml";
 import * as semver from "semver";
-import {ModLoader} from "./types.js";
+import { ModLoader } from "./types.js";
 
 export type ModMetadata = {
   /**

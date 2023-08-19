@@ -1,4 +1,4 @@
-import {existsSync, readFileSync, writeFileSync} from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 /**
  * Maps tag name to release information.
@@ -19,7 +19,6 @@ export default class PersistentCache<T> {
       // This ensures new properties in this.root are taken from the default instead of being undefined
       Object.assign(this.root, JSON.parse(modIndexJson));
     }
-
   }
 
   keys(): string[] {
@@ -40,6 +39,6 @@ export default class PersistentCache<T> {
 
   save() {
     const json = JSON.stringify(this.root, null, 2);
-    writeFileSync(this.path, json, {encoding: "utf-8"});
+    writeFileSync(this.path, json, { encoding: "utf-8" });
   }
 }
