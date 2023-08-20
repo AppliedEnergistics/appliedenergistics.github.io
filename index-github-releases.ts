@@ -5,17 +5,15 @@ import { paginateRest } from "@octokit/plugin-paginate-rest";
 import extractModMetadata from "./lib/releases/extractModMetadata.js";
 import getMinecraftVersions from "./lib/releases/getMinecraftVersions.js";
 import {
+  GithubRelease,
   GithubReleaseCache,
   ModLoader,
-  ReleaseAssetType,
+  ModReleaseAsset,
+  ReleaseAssetType, ReleaseType
 } from "./lib/releases/types.js";
-import {
-  CachedGithubAsset,
-  CachedGithubRelease,
-} from "./lib/releases/GithubRelease.js";
 
-type GithubRelease = components["schemas"]["release"];
-type GithubReleaseAsset = components["schemas"]["release-asset"];
+type ApiGithubRelease = components["schemas"]["release"];
+type ApiGithubReleaseAsset = components["schemas"]["release-asset"];
 
 const githubToken = process.env.GITHUB_TOKEN;
 if (typeof githubToken !== "string") {
@@ -25,7 +23,7 @@ if (typeof githubToken !== "string") {
 const PaginatingOctokit = Octokit.plugin(paginateRest);
 const octokit = new PaginatingOctokit({
   auth: githubToken,
-  userAgent: "AE2-Release-Indexer",
+  userAgent: "AE2-Release-Indexer"
 });
 
 const owner = "AppliedEnergistics";
@@ -35,7 +33,7 @@ const tagPatterns: [RegExp, ModLoader[]][] = [
   [/^fabric\/v([0-9].*)$/, [ModLoader.FABRIC]],
   [/^forge\/v([0-9].*)$/, [ModLoader.FORGE]],
   [/^v([0-9].*)$/, [ModLoader.FORGE]],
-  [/^(rv.*)/, [ModLoader.FORGE]],
+  [/^(rv.*)/, [ModLoader.FORGE]]
 ];
 
 async function listReleases(): Promise<
@@ -44,7 +42,7 @@ async function listReleases(): Promise<
   const options = octokit.rest.repos.listReleases.endpoint.merge({
     owner,
     repo,
-    per_page: 100,
+    per_page: 100
   });
   return await octokit.paginate(options);
 }
@@ -77,16 +75,16 @@ const jarSuffixToAssetType: [string, ReleaseAssetType][] = [
   ["-javadoc.jar", ReleaseAssetType.API],
   ["-api.jar", ReleaseAssetType.API],
   ["-dev.jar", ReleaseAssetType.UNOBF],
-  [".jar", ReleaseAssetType.MOD],
+  [".jar", ReleaseAssetType.MOD]
 ];
 
 /**
  * Try to find the mod jar among the release assets and download it.
  */
 function classifyReleaseAssets(
-  assets: GithubReleaseAsset[]
-): Partial<Record<ReleaseAssetType, GithubReleaseAsset>> {
-  const result: Partial<Record<ReleaseAssetType, GithubReleaseAsset>> = {};
+  assets: ApiGithubReleaseAsset[]
+): Partial<Record<ReleaseAssetType, ApiGithubReleaseAsset>> {
+  const result: Partial<Record<ReleaseAssetType, ApiGithubReleaseAsset>> = {};
 
   const assetsByName = Object.fromEntries(
     assets.map((asset) => [asset.name, asset])
@@ -131,7 +129,7 @@ function classifyReleaseAssets(
 
 async function processRelease(
   cache: GithubReleaseCache,
-  release: GithubRelease,
+  release: ApiGithubRelease,
   allMinecraftVersions: string[]
 ) {
   const { tag_name: tagName } = release;
@@ -140,55 +138,63 @@ async function processRelease(
     return;
   }
 
-  let cachedData = cache.get(tagName);
-  if (!cachedData) {
-    cachedData = {
-      tagName,
-      url: release.html_url,
-      assets: {},
-    };
-  }
-
+  let oldCachedData = cache.get(tagName);
   const assetsByType = classifyReleaseAssets(release.assets);
 
   // Update basic release properties we can gather from the top-level listing
-  cachedData.tagName = tagName;
-  cachedData.url = release.html_url;
-  cachedData.assets = Object.fromEntries(
+  const assets: GithubRelease["assets"] = Object.fromEntries(
     Object.entries(assetsByType).map(([type, asset]) => [
       type,
       {
         filename: asset.name,
         size: asset.size,
         browser_download_url: asset.browser_download_url,
-        url: asset.url,
-      } as CachedGithubAsset,
+        url: asset.url
+      } satisfies ModReleaseAsset
     ])
   );
-  cachedData.published = release.published_at ?? undefined;
-  cachedData.changelog = release.body?.replaceAll("\r\n", "\n") ?? undefined;
-  cache.set(tagName, cachedData);
 
-  // Update Mod metadata if it's missing
-  if (
-    !cachedData.version ||
-    !cachedData.minecraftVersions ||
-    !cachedData.modLoaders
-  ) {
-    // Try deducing a version from the tag first, which will then be overwritten by the mod-data if successful
-    for (const [pattern, loaders] of tagPatterns) {
-      const m = tagName.match(pattern);
-      if (m) {
-        cachedData.version = m[1];
-        // rv.beta.1 is actually versioned rv-beta-1 in the mod metadata
-        if (tagName.match(/^(rv.*)/)) {
-          cachedData.version = cachedData.version.replaceAll(".", "-");
-        }
-        cachedData.modLoaders = loaders.slice();
-        break;
+  // Try deducing a version from the tag first, which will then be overwritten by the mod-data if successful
+  let modVersion: string | undefined;
+  let modLoaders: ModLoader[] | undefined;
+  for (const [pattern, loaders] of tagPatterns) {
+    const m = tagName.match(pattern);
+    if (m) {
+      modVersion = m[1];
+      // rv.beta.1 is actually versioned rv-beta-1 in the mod metadata
+      if (tagName.match(/^(rv.*)/)) {
+        modVersion = modVersion.replaceAll(".", "-");
       }
+      modLoaders = loaders.slice();
+      break;
     }
+  }
 
+  if (!modVersion || !modLoaders) {
+    console.warn("Failed to determine mod version from tag name: %s", tagName);
+    return;
+  }
+
+  let releaseType = ReleaseType.STABLE;
+
+
+  const releaseInfo: GithubRelease = {
+    ...oldCachedData,
+    source: "github",
+    modVersion,
+    modLoaders,
+    releaseType,
+    gameVersions: [],
+    url: release.html_url,
+    tagName,
+    published: new Date(release.published_at ?? release.created_at).getTime(),
+    changelog: release.body?.replaceAll("\r\n", "\n") ?? undefined,
+    assets
+  };
+  cache.set(tagName, releaseInfo);
+
+  // Try updating mod metadata if it's missing
+  if (!releaseInfo.gameVersions || !releaseInfo.modLoaders) {
     const modJarAsset = assetsByType[ReleaseAssetType.MOD];
     if (!modJarAsset) {
       console.warn(
@@ -200,15 +206,14 @@ async function processRelease(
 
     const { data } = await octokit.request(modJarAsset.url, {
       headers: {
-        accept: "application/octet-stream",
-      },
+        accept: "application/octet-stream"
+      }
     });
     const modMetadata = extractModMetadata(data, allMinecraftVersions);
-    cachedData.version = modMetadata.modVersion;
     // Remove anything that is not in the version list. Sometimes this includes "Java" or "Forge"
-    cachedData.minecraftVersions = modMetadata.minecraftVersions;
-    cachedData.modLoaders = modMetadata.modLoaders;
-    cache.set(tagName, cachedData);
+    releaseInfo.gameVersions = modMetadata.minecraftVersions;
+    releaseInfo.modLoaders = modMetadata.modLoaders;
+    cache.set(tagName, releaseInfo);
   }
 }
 
@@ -221,7 +226,7 @@ console.info(
 const releases = await listReleases();
 console.info("Read %d releases", releases.length);
 
-const cache = new PersistentCache<CachedGithubRelease>(
+const cache = new PersistentCache<GithubRelease>(
   "caches/github_releases.json"
 );
 try {

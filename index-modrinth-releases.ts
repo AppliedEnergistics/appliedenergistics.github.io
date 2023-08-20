@@ -1,5 +1,45 @@
-import {writeFileSync} from "node:fs";
-import { ModrinthRelease } from "./lib/releases/ModrinthRelease";
+import { writeFileSync } from "node:fs";
+import { ModReleaseInfo, ModrinthRelease, ReleaseAssetType, ReleaseType } from "./lib/releases/types.js";
+
+function getReleaseType(record: any): ReleaseType {
+  switch (record.version_type) {
+    case "beta":
+      return ReleaseType.BETA;
+    case "alpha":
+      return ReleaseType.ALPHA;
+    default:
+      return ReleaseType.STABLE;
+  }
+}
+
+function getModAssets(record: any): ModrinthRelease["assets"] {
+  let primaryFile = record.files.find((f: any) => f.primary);
+  if (!primaryFile) {
+    if (record.files.length === 1) {
+      primaryFile = record.files[0];
+    } else {
+      return {};
+    }
+  }
+
+  if (record.files.length > 1) {
+    console.warn("Modrinth Release has more than one file: %o", record);
+  }
+
+  return {
+    [ReleaseAssetType.MOD]: {
+      filename: primaryFile.filename,
+      size: primaryFile.size,
+      url: primaryFile.url
+    }
+  };
+}
+
+function getModVersion(record: any) {
+  const version = record.version_number;
+  // Some older releases had "fabric-" or "forge-" prefixes
+  return version.replace(/^(fabric|forge)-/, "");
+}
 
 async function fetchReleases(): Promise<ModrinthRelease[]> {
   const url = "https://api.modrinth.com/v2/project/XxWD5pD3/version";
@@ -7,8 +47,8 @@ async function fetchReleases(): Promise<ModrinthRelease[]> {
   console.info("Requesting %s", url);
   const response = await fetch(url, {
     headers: {
-      "User-Agent": "ae2",
-    },
+      "User-Agent": "ae2"
+    }
   });
 
   if (!response.ok) {
@@ -26,14 +66,17 @@ async function fetchReleases(): Promise<ModrinthRelease[]> {
   return data.map(
     (record: any) =>
       ({
+        source: "modrinth",
+        url: "https://modrinth.com/mod/ae2/version/" + record.id,
         id: record.id,
-        displayName: record.name,
-        version: record.version_number,
-        type: record.version_type,
+        modVersion: getModVersion(record),
         gameVersions: record.game_versions,
-        published: record.date_published,
-        filename: record.files.find((f: any) => f.primary)?.filename ?? "",
-        loaders: record.loaders,
+        published: new Date(record.date_published).getTime(),
+        releaseType: getReleaseType(record),
+        modLoaders: record.loaders,
+        assets: getModAssets(record),
+        changelog: record.changelog,
+        totalDownloads: record.downloads,
       } satisfies ModrinthRelease)
   );
 }
@@ -43,6 +86,6 @@ writeFileSync(
   "caches/modrinth_releases.json",
   JSON.stringify(releases, null, 2),
   {
-    encoding: "utf-8",
+    encoding: "utf-8"
   }
 );

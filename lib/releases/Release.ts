@@ -1,3 +1,5 @@
+import { CurseforgeRelease, GithubRelease, ModrinthRelease } from "./types";
+
 /**
  * This must be JSON serializable.
  */
@@ -10,11 +12,13 @@ export interface Release {
 
   published: number;
 
-  githubReleasePage?: string;
-
-  curseforgePage?: string;
-
-  modrinthPage?: string;
-
   markdownChangelog?: string;
+
+  totalDownloads: number;
+
+  githubRelease?: GithubRelease;
+
+  curseforgeRelease?: CurseforgeRelease;
+
+  modrinthRelease?: ModrinthRelease;
 }

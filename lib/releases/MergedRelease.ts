@@ -1,30 +1,39 @@
-import { ModLoader } from "./types";
-import { CachedGithubRelease } from "./GithubRelease";
-import { CurseforgeRelease } from "./CurseforgeRelease";
+import {
+  CurseforgeRelease,
+  GithubRelease,
+  ModLoader,
+  ModRelease,
+  ModrinthRelease,
+} from "./types";
 import { Release } from "./Release";
 import { isUndefined, omitBy } from "lodash-es";
-import { ModrinthRelease } from "./ModrinthRelease";
 
 function omitUndefined<T extends object>(obj: T): T {
   return omitBy(obj, isUndefined) as T;
 }
 
+/**
+ * Accumulates and merges release info from different sources (Github,
+ * Curseforge, Modrinth).
+ */
 export class MergedRelease {
   constructor(readonly version: string) {}
 
-  published: Date | undefined;
+  private published: Date | undefined;
 
-  githubReleasePage: string | undefined;
+  private githubRelease: GithubRelease | undefined;
 
-  curseforgePage: string | undefined;
+  private curseforgeRelease: CurseforgeRelease | undefined;
 
-  modrinthPage: string | undefined;
+  private modrinthRelease: ModrinthRelease | undefined;
 
-  markdownChangelog: string | undefined;
+  private markdownChangelog: string | undefined;
 
-  minecraftVersions = new Set<string>();
+  private gameVersions = new Set<string>();
 
-  modLoaders = new Set<ModLoader>();
+  private modLoaders = new Set<ModLoader>();
+
+  private totalDownloads: number = 0;
 
   toReleases(): Release[] {
     if (!this.published) {
@@ -35,13 +44,14 @@ export class MergedRelease {
     const base = omitUndefined({
       modVersion: this.version,
       published: this.published.getTime(),
-      githubReleasePage: this.githubReleasePage,
-      curseforgePage: this.curseforgePage,
-      modrinthPage: this.modrinthPage,
+      githubRelease: this.githubRelease,
+      curseforgeRelease: this.curseforgeRelease,
+      modrinthRelease: this.modrinthRelease,
       markdownChangelog: this.markdownChangelog,
-    });
+      totalDownloads: this.totalDownloads,
+    } satisfies Partial<Release>);
 
-    const minecraftVersions = [...this.minecraftVersions];
+    const minecraftVersions = [...this.gameVersions];
     const modLoaders = [...this.modLoaders];
     return minecraftVersions.flatMap((minecraftVersion) =>
       modLoaders.map((modLoader) => ({
@@ -52,85 +62,27 @@ export class MergedRelease {
     );
   }
 
-  mergeGithubRelease(ghRelease: CachedGithubRelease) {
-    this.githubReleasePage = ghRelease.url;
-    if (ghRelease.published && !this.published) {
-      this.published = new Date(ghRelease.published);
+  mergeRelease(release: ModRelease) {
+    switch (release.source) {
+      case "github":
+        this.githubRelease = release;
+        break;
+      case "curseforge":
+        this.curseforgeRelease = release;
+        this.totalDownloads += release.totalDownloads;
+        break;
+      case "modrinth":
+        this.modrinthRelease = release;
+        this.totalDownloads += release.totalDownloads;
+        break;
     }
-    if (ghRelease.changelog && !this.markdownChangelog) {
-      this.markdownChangelog = ghRelease.changelog;
+    if (release.published && !this.published) {
+      this.published = new Date(release.published);
     }
-    ghRelease.minecraftVersions?.forEach((v) => this.minecraftVersions.add(v));
-    ghRelease.modLoaders?.forEach((v) => this.modLoaders.add(v));
-  }
-
-  mergeCurseforgeRelease(cfRelease: CurseforgeRelease) {
-    const curseforgeUrl = `https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/${cfRelease.id}`;
-    this.curseforgePage = curseforgeUrl;
-
-    for (let gameVersion of cfRelease.gameVersions) {
-      switch (gameVersion) {
-        case "Forge":
-          this.modLoaders.add(ModLoader.FORGE);
-          break;
-        case "NeoForge":
-          this.modLoaders.add(ModLoader.NEOFORGE);
-          break;
-        case "Fabric":
-          this.modLoaders.add(ModLoader.FABRIC);
-          break;
-        default:
-          if (gameVersion.startsWith("Java ")) {
-            // ignore Java version
-          } else if (gameVersion.match(/\d+\.\d+(\.\d+|)/)) {
-            this.minecraftVersions.add(gameVersion);
-          } else {
-            console.warn(
-              "Cannot handle CurseForge Game Version '%s' for %s",
-              gameVersion,
-              curseforgeUrl
-            );
-          }
-          break;
-      }
+    if (release.changelog && !this.markdownChangelog) {
+      this.markdownChangelog = release.changelog;
     }
-
-    if (!this.published) {
-      this.published = new Date(cfRelease.published);
-    }
-  }
-
-  mergeModrinthRelease(modrinthRelease: ModrinthRelease) {
-    const modrinthUrl = `https://modrinth.com/mod/ae2/version/${modrinthRelease.version}`;
-    this.modrinthPage = modrinthUrl;
-
-    for (let loader of modrinthRelease.loaders) {
-      switch (loader) {
-        case "forge":
-          this.modLoaders.add(ModLoader.FORGE);
-          break;
-        case "neoforge":
-          this.modLoaders.add(ModLoader.NEOFORGE);
-          break;
-        case "fabric":
-          this.modLoaders.add(ModLoader.FABRIC);
-          break;
-        default:
-          console.warn(
-            "Cannot handle Modrinth loader '%s' for %s",
-            loader,
-            modrinthUrl
-          );
-          break;
-      }
-    }
-
-    for (const minecraftVersion of modrinthRelease.gameVersions) {
-      this.minecraftVersions.add(minecraftVersion);
-    }
-
-    if (!this.published) {
-      this.published = new Date(modrinthRelease.published);
-    }
+    release.gameVersions?.forEach((v) => this.gameVersions.add(v));
+    release.modLoaders?.forEach((v) => this.modLoaders.add(v));
   }
 }

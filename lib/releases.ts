@@ -2,11 +2,14 @@ import modrinthReleases from "../caches/modrinth_releases.json";
 import curseforgeReleases from "../caches/curseforge_releases.json";
 import githubReleases from "../caches/github_releases.json";
 import { MergedRelease } from "./releases/MergedRelease";
-import { CachedGithubRelease } from "./releases/GithubRelease";
-import { CurseforgeRelease } from "./releases/CurseforgeRelease";
 import { Release } from "./releases/Release";
-import { release } from "os";
-import { ModrinthRelease } from "./releases/ModrinthRelease";
+import {
+  CurseforgeRelease,
+  GithubRelease,
+  ModrinthRelease,
+} from "./releases/types";
+import { coerce } from "semver";
+import { compareMinecraftVersion } from "./util";
 
 // Load caches. Updated by external scripts.
 console.info("Loaded %d Github Releases", Object.keys(githubReleases).length);
@@ -27,53 +30,26 @@ function getOrCreateRelease(version: string): MergedRelease {
 }
 
 for (let ghRelease of Object.values(githubReleases)) {
-  let version = ghRelease.version;
-  if (!version) {
-    console.warn("Github release for tag %s has no version", ghRelease.tagName);
-    continue;
-  }
-
-  const release = getOrCreateRelease(version);
-  release.mergeGithubRelease(ghRelease as CachedGithubRelease);
-}
-
-function guessModVersionFromFilename(filename: string): string | undefined {
-  const m = filename.match(
-    /^appliedenergistics2-(?:forge-|fabric-|)(.+)\.jar$/
-  );
-  return m ? m[1] : undefined;
+  const release = getOrCreateRelease(ghRelease.modVersion);
+  release.mergeRelease(ghRelease as GithubRelease);
 }
 
 for (const cfRelease of curseforgeReleases) {
-  const modVersion = guessModVersionFromFilename(cfRelease.filename);
-  if (!modVersion) {
-    console.warn(
-      "Cannot guess Mod version from filename: %s",
-      modVersion,
-      cfRelease.filename
-    );
-    continue;
-  }
-
-  const release = getOrCreateRelease(modVersion);
-  release.mergeCurseforgeRelease(cfRelease as CurseforgeRelease);
+  const release = getOrCreateRelease(cfRelease.modVersion);
+  release.mergeRelease(cfRelease as CurseforgeRelease);
 }
 
 for (const modrinthRelease of modrinthReleases) {
-  const modVersion = guessModVersionFromFilename(modrinthRelease.filename);
-  if (!modVersion) {
-    console.warn(
-      "Cannot guess Mod version from Modrinth filename: %s (%s)",
-      modVersion,
-      modrinthRelease.filename,
-      modrinthRelease.displayName
-    );
-    continue;
-  }
-
-  const release = getOrCreateRelease(modVersion);
-  release.mergeModrinthRelease(modrinthRelease as ModrinthRelease);
+  const release = getOrCreateRelease(modrinthRelease.modVersion);
+  release.mergeRelease(modrinthRelease as ModrinthRelease);
 }
+
+const flattenedReleases = [...releases.values()].flatMap((r) => r.toReleases());
+
+// Order releases by minecraft version in descending order
+flattenedReleases.sort((a, b) => {
+  return compareMinecraftVersion(b.minecraftVersion, a.minecraftVersion);
+});
 
 /**
  * Returns releases for each minecraft / mod-loader combination.
@@ -81,5 +57,5 @@ for (const modrinthRelease of modrinthReleases) {
  * Minecraft or Mod-Loader versions.
  */
 export function getFlattenedReleases(): Release[] {
-  return [...releases.values()].flatMap((r) => r.toReleases());
+  return flattenedReleases;
 }

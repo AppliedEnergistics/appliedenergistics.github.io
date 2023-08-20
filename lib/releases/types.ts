@@ -1,7 +1,6 @@
 import PersistentCache from "./PersistentCache.js";
-import { CachedGithubRelease } from "./GithubRelease";
 
-export type GithubReleaseCache = PersistentCache<CachedGithubRelease>;
+export type GithubReleaseCache = PersistentCache<GithubRelease>;
 
 export enum ModLoader {
   NEOFORGE = "neoforge",
@@ -9,11 +8,17 @@ export enum ModLoader {
   FABRIC = "fabric",
 }
 
-export type ModReleaseInfo = {
+export enum ReleaseType {
+  STABLE = "stable",
+  BETA = "beta",
+  ALPHA = "alpha",
+}
+
+export interface ModReleaseInfo<Source extends string> {
   /**
-   * Git tag for the source.
+   * Identifies the source of the information.
    */
-  tagName: string;
+  source: Source;
   /**
    * The version number of the mod. May have -beta or -alpha suffixes.
    */
@@ -21,11 +26,76 @@ export type ModReleaseInfo = {
   /**
    * Minecraft versions supported by this release.
    */
-  minecraftVersions: string[];
+  gameVersions: string[];
   /**
    * Modloader supported by this release.
    */
   modLoaders: ModLoader[];
+  /**
+   * When this release was published.
+   * @see Date
+   */
+  published: number;
+  /**
+   * URL for linking a user to this release.
+   */
+  url: string;
+  /**
+   * Markdown code of the changelog.
+   */
+  changelog?: string;
+  /**
+   * The type of release.
+   */
+  releaseType: ReleaseType;
+  /**
+   * Files attached to the release.
+   */
+  assets: Partial<Record<ReleaseAssetType, ModReleaseAsset>>;
+}
+
+export interface ModrinthRelease extends ModReleaseInfo<"modrinth"> {
+  /**
+   * Release-ID on Modrinth.
+   */
+  id: string;
+  /**
+   * The total number of downloads for this release.
+   */
+  totalDownloads: number;
+}
+
+export interface GithubRelease extends ModReleaseInfo<"github"> {
+  /**
+   * Name of the Git tag backing this release.
+   */
+  tagName: string;
+}
+
+export interface CurseforgeRelease extends ModReleaseInfo<"curseforge"> {
+  /**
+   * Release-ID on Curseforge.
+   */
+  id: string;
+  /**
+   * The total number of downloads for this release.
+   */
+  totalDownloads: number;
+}
+
+export type ModRelease = GithubRelease | ModrinthRelease | CurseforgeRelease;
+
+export type ModReleaseAsset = {
+  filename: string;
+  size: number;
+  /**
+   * Direct download URL for tools and such.
+   */
+  url?: string;
+  /**
+   * URL to direct a browser to for downloading.
+   */
+  browser_download_url?: string;
 };
 
 export enum ReleaseAssetType {
