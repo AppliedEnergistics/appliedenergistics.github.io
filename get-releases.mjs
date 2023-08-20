@@ -60,4 +60,4 @@ const apiContent = await octokit.repos.getContent({
     accept: "application/vnd.github.v3.raw",
   },
 });
-fs.writeFileSync("content/api.md", apiContent.data);
+// fs.writeFileSync("content/api.md", apiContent.data);
