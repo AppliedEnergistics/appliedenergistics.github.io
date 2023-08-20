@@ -6,7 +6,7 @@ on:
     - cron: "0 4 * * *"
   push:
     branches:
-      - source
+      - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
