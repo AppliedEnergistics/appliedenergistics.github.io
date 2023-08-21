@@ -13,11 +13,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.png" sizes="any" />
       </Head>
       <NavBar pagePath={pagePath} />
-      <main>
+      <section className="section">
         <div className="container">
           <Component {...pageProps} />
         </div>
-      </main>
+      </section>
     </>
   );
 }

@@ -7,7 +7,7 @@ import Image from "next/image";
 function Index() {
   return (
     <>
-      <section className="section">
+      <div className="block">
         <h1 className="title">Applied Energistics 2</h1>
         <h2 className="subtitle">Automation and Storage for Minecraft</h2>
 
@@ -37,9 +37,9 @@ function Index() {
             alt="image of subnetworks from the guidebook"
           />
         </p>
-      </section>
+      </div>
 
-      <section className="section">
+      <div className="block">
         <h2 className="title">Key Features</h2>
         <div className="box">
           <strong>Storage Systems</strong>: AE2 revolutionizes storage in
@@ -82,7 +82,7 @@ function Index() {
           large-scale, efficient systems. It is a fantastic mod for those who
           love to automate processes and manage resources efficiently.
         </div>{" "}
-      </section>
+      </div>
     </>
   );
 }
