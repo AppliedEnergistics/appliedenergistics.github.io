@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Icon from "@mdi/react";
-import { mdiDiscord, mdiFileDocumentEdit, mdiGithub } from "@mdi/js";
-import FeaturesSideNav from "./FeaturesSideNav";
+import { mdiDiscord, mdiGithub } from "@mdi/js";
 import { DocSearch } from "@docsearch/react";
 
 export interface NavBarProps {
@@ -10,103 +9,65 @@ export interface NavBarProps {
 }
 
 function NavBar({ pagePath }: NavBarProps) {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = (e: React.MouseEvent) => {
-    e.preventDefault();
-    setMenuOpen((o) => !o);
-  };
-
-  function closeMenuOnNavigation(e: React.MouseEvent) {
-    // Close the menu when a link is clicked
-    if (e.target instanceof HTMLAnchorElement) {
-      setMenuOpen(false);
-    }
-  }
-
   return (
     <nav
       className="navbar has-shadow"
       role="navigation"
       aria-label="main navigation"
     >
-      <div className="navbar-brand">
-        <Link className="navbar-item" href="/">
-          <img alt="" src="/assets/logo/logo_00.png" />
-          Applied Energistics 2
-        </Link>
-
-        <a
-          role="button"
-          className={menuOpen ? "navbar-burger is-active" : "navbar-burger"}
-          aria-label="menu"
-          aria-expanded={menuOpen}
-          onClick={toggleMenu}
-        >
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-        </a>
-      </div>
-
-      <div className={menuOpen ? "navbar-menu is-active" : "navbar-menu"}>
-        <div className="navbar-start">
-          <Link href="/" className="navbar-item">
-            Documentation
+      <div className="container">
+        <div className="navbar-brand">
+          <Link className="navbar-item" href="/">
+            <img alt="" src="/assets/logo/logo_00.png" />
+            Applied Energistics 2
           </Link>
-
-          <Link href="/pages" className="navbar-item">
-            Download
-          </Link>
-
-          <a
-            className="navbar-item"
-            href="https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/new/choose"
-          >
-            Report Issue
-          </a>
         </div>
 
-        <div className="navbar-end">
-          <div className="navbar-item">
-            <DocSearch
-              appId="BH4D9OD16A"
-              indexName="appliedenergistics"
-              apiKey="94d3e24246b4e2a2e8bc6cb3c2da05e4"
-            />
-          </div>
-          <div className="navbar-item">
-            <div className="buttons">
-              <a
-                href="https://discord.gg/Zd6t9ka7ne"
-                target="_blank"
-                rel="noreferrer"
-                className="button"
-              >
-                <span className="icon">
-                  <Icon path={mdiDiscord} color="#5865F2" />
-                </span>
-                <span>Discord</span>
-              </a>
-              <a
-                href="https://github.com/AppliedEnergistics/Applied-Energistics-2"
-                target="_blank"
-                rel="noreferrer"
-                className="button"
-              >
-                <span className="icon">
-                  <Icon path={mdiGithub} color="#181717" />
-                </span>
-                <span>GitHub</span>
-              </a>
-            </div>
+        <div className={"navbar-menu"}>
+          <div className="navbar-start">
+            <Link href="/guide" className="navbar-item">
+              Documentation
+            </Link>
+
+            <Link href="/download" className="navbar-item">
+              Download
+            </Link>
+
+            <a
+              className="navbar-item"
+              href="https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/new/choose"
+            >
+              Report Issue
+            </a>
           </div>
 
-          <div
-            className="navbar-item is-hidden-desktop"
-            onClick={closeMenuOnNavigation}
-          >
-            <FeaturesSideNav />
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <div className="buttons">
+                <a
+                  href="https://discord.gg/Zd6t9ka7ne"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="button"
+                >
+                  <span className="icon">
+                    <Icon path={mdiDiscord} color="#5865F2" />
+                  </span>
+                  <span>Discord</span>
+                </a>
+                <a
+                  href="https://github.com/AppliedEnergistics/Applied-Energistics-2"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="button"
+                >
+                  <span className="icon">
+                    <Icon path={mdiGithub} color="#181717" />
+                  </span>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
