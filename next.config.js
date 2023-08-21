@@ -7,7 +7,7 @@ export const config = {
   output: "export",
   reactStrictMode: true,
   images: {
-    loader: "custom",
+    unoptimized: true,
   },
   webpack: (config) => {
     config.module.rules = [
@@ -21,7 +21,7 @@ export const config = {
               executableFile: path.resolve(
                 path.dirname(url.fileURLToPath(import.meta.url)),
                 "data",
-                "generate-all-pages.js"
+                "generate-all-pages.js",
               ),
             },
           },

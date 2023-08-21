@@ -1,6 +1,8 @@
 import React from "react";
 import { mdiDiscord } from "@mdi/js";
 import Icon from "@mdi/react";
+import subnetworksImage from "./subnetworks.png";
+import Image from "next/image";
 
 function Index() {
   return (
@@ -30,8 +32,8 @@ function Index() {
           </a>
         </div>
         <p>
-          <img
-            src="https://i.imgur.com/K02yDrh.png"
+          <Image
+            src={subnetworksImage}
             alt="image of subnetworks from the guidebook"
           />
         </p>
