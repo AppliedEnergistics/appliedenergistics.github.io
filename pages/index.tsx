@@ -1,8 +1,9 @@
 import React from "react";
-import { mdiDiscord } from "@mdi/js";
+import { mdiBookOpenPageVariant, mdiDiscord, mdiDownload } from "@mdi/js";
 import Icon from "@mdi/react";
 import subnetworksImage from "./subnetworks.png";
 import Image from "next/image";
+import Link from "next/link";
 
 function Index() {
   return (
@@ -18,25 +19,42 @@ function Index() {
           and vice versa, to store and transport your items and fluids
           instantaneously!
         </div>
-        <div className="block">
-          <a
-            href="https://discord.gg/Zd6t9ka7ne"
-            target="_blank"
-            rel="noreferrer"
-            className="button"
-          >
-            <span className="icon">
-              <Icon path={mdiDiscord} color="#5865F2" />
-            </span>
-            <span>Chat with us on Discord!</span>
-          </a>
+        <div className="block mt-1 mb-1">
+          <div className="level">
+            <Link href="/guide" className="button is-large level-item">
+              <span className="icon">
+                <Icon path={mdiBookOpenPageVariant} />
+              </span>
+              <span>Guide</span>
+            </Link>
+            <Link
+              href="/download"
+              className="button is-large level-item ml-1 mr-1"
+            >
+              <span className="icon">
+                <Icon path={mdiDownload} />
+              </span>
+              <span>Download</span>
+            </Link>
+            <a
+              href="https://discord.gg/Zd6t9ka7ne"
+              target="_blank"
+              rel="noreferrer"
+              className="button is-large level-item"
+            >
+              <span className="icon">
+                <Icon path={mdiDiscord} />
+              </span>
+              <span>Join our Discord</span>
+            </a>
+          </div>
+          <p>
+            <Image
+              src={subnetworksImage}
+              alt="image of subnetworks from the guidebook"
+            />
+          </p>
         </div>
-        <p>
-          <Image
-            src={subnetworksImage}
-            alt="image of subnetworks from the guidebook"
-          />
-        </p>
       </div>
 
       <div className="block">

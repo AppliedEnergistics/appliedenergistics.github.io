@@ -1,22 +1,29 @@
 @charset "utf-8";
 
-$navbar-background-color: #fafafa;
+$black: hsl(0, 0%, 100%);
+$black-bis: hsl(0, 0%, 98%);
+$black-ter: hsl(0, 0%, 96%);
+$grey-darker: hsl(0, 0%, 93%);
+$grey-dark: hsl(0, 0%, 86%);
+$grey: hsl(0, 0%, 71%);
+$grey-light: hsl(0, 0%, 48%);
+$grey-lighter: hsl(0, 0%, 29%);
+$grey-lightest: hsl(0, 0%, 21%);
+$white-ter: hsl(0, 0%, 14%);
+$white-bis: hsl(0, 0%, 7%);
+$white: hsl(0, 0%, 4%);
+
+$box-background-color: rgba($white, 0.7);
+$shadow: 0 0.5em 1em -0.125em rgba($grey, 0.1), 0 0px 0 1px rgba($grey, 0.02);
+
+$primary: #895CA8;
 
 @import "~bulma/bulma.sass";
 
-.navbar-brand {
-  white-space: nowrap;
-  font-weight: bolder;
-}
-
-img.item-icon {
-  width: 64px;
-  height: 64px;
-  max-width: unset;
-  min-width: unset;
-  max-height: unset;
-  min-height: unset;
-  display: block;
+body {
+  background-color: #2234ae;
+  background-image: linear-gradient(315deg, #1B2344 0%, #141209 40%);
+  min-height: 100vh;
 }
 
 .main-container {
@@ -36,32 +43,4 @@ img.item-icon {
   .container {
     padding-top: 1.25rem;
   }
-}
-
-.tippy-box {
-  &[data-placement^="top"] > .tippy-arrow::before {
-    border-top-color: tomato;
-  }
-
-  &[data-placement^="bottom"] > .tippy-arrow::before {
-    border-bottom-color: tomato;
-  }
-
-  &[data-placement^="left"] > .tippy-arrow::before {
-    border-left-color: tomato;
-  }
-
-  &[data-placement^="right"] > .tippy-arrow::before {
-    border-right-color: tomato;
-  }
-}
-
-.downloadButtons {
-  display: inline-grid;
-  grid-auto-columns: auto;
-  row-gap: 1rem;
-}
-
-.DocSearch {
-  min-width: 20rem;
 }

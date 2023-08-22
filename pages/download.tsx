@@ -1,5 +1,5 @@
 import Icon from "@mdi/react";
-import { mdiArrowRightBold, mdiGithub } from "@mdi/js";
+import { mdiBookOpenPageVariant, mdiGithub } from "@mdi/js";
 import React, { useState } from "react";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
 import { getFlattenedReleases } from "../lib/releases";
@@ -207,12 +207,10 @@ C-1987.4,866.2-1988.1,867.6-1988.9,868.1z"
                     <td>
                       {guideUrl && (
                         <a className="button is-primary" href={guideUrl}>
-                          <Icon
-                            path={mdiArrowRightBold}
-                            color="#ffffff"
-                            size={"20px"}
-                          />
-                          Mod Guide
+                          <span className="icon">
+                            <Icon path={mdiBookOpenPageVariant} />
+                          </span>
+                          <span>Mod Guide</span>
                         </a>
                       )}
                     </td>
