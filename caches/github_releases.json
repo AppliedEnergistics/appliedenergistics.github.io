@@ -8799,5 +8799,113 @@
     "modVersion": "15.0.7-beta",
     "releaseType": "stable",
     "gameVersions": []
+  },
+  "forge/v12.9.7": {
+    "source": "github",
+    "modVersion": "12.9.7",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v12.9.7",
+    "tagName": "forge/v12.9.7",
+    "published": 1692740274000,
+    "changelog": "## What's Changed\n* [1.19.2-forge] Backport #7264 by @Christofmeg in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7301\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v12.9.5...forge/v12.9.7",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-12.9.7-api.jar",
+        "size": 584941,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.7/appliedenergistics2-forge-12.9.7-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122666933"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-12.9.7.jar",
+        "size": 9929320,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.7/appliedenergistics2-forge-12.9.7.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122666927"
+      }
+    }
+  },
+  "forge/v11.7.5": {
+    "source": "github",
+    "modVersion": "11.7.5",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v11.7.5",
+    "tagName": "forge/v11.7.5",
+    "published": 1692737424000,
+    "changelog": "## What's Changed\n* [1.18.2-forge] Backport #7264 by @Christofmeg in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7306\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v11.7.4...forge/v11.7.5",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-11.7.5-api.jar",
+        "size": 584866,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v11.7.5/appliedenergistics2-forge-11.7.5-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122662751"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-11.7.5.jar",
+        "size": 5138796,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v11.7.5/appliedenergistics2-forge-11.7.5.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122662748"
+      }
+    }
+  },
+  "fabric/v12.9.7": {
+    "source": "github",
+    "modVersion": "12.9.7",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v12.9.7",
+    "tagName": "fabric/v12.9.7",
+    "published": 1692739836000,
+    "changelog": "## What's Changed\n* [1.19.2-fabric] Backport #7264 by @Christofmeg in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7305\n* Merge Spatial Anchor Implementation to 1.19.2 by @Ovionyx in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7292\n\n## New Contributors\n* @Ovionyx made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7292\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.6...fabric/v12.9.7",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-fabric-12.9.7-api.jar",
+        "size": 596923,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v12.9.7/appliedenergistics2-fabric-12.9.7-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122666012"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-12.9.7.jar",
+        "size": 10153630,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v12.9.7/appliedenergistics2-fabric-12.9.7.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122666008"
+      }
+    }
+  },
+  "fabric/v11.7.5": {
+    "source": "github",
+    "modVersion": "11.7.5",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v11.7.5",
+    "tagName": "fabric/v11.7.5",
+    "published": 1692737342000,
+    "changelog": "## What's Changed\n* [1.18.2-fabric] Backport #7264 by @Christofmeg in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7307\n\n## New Contributors\n* @Christofmeg made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7307\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v11.7.4...fabric/v11.7.5",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-fabric-11.7.5-api.jar",
+        "size": 599222,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v11.7.5/appliedenergistics2-fabric-11.7.5-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122662792"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-11.7.5.jar",
+        "size": 5363694,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v11.7.5/appliedenergistics2-fabric-11.7.5.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122662790"
+      }
+    }
   }
 }
