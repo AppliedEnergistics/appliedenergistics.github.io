@@ -8,8 +8,8 @@ import { groupBy, mapValues } from "lodash-es";
 import { getGuideUrl, getGuideVersions } from "../lib/guides";
 import { isPopularVersion } from "../lib/popularVersions";
 import { compareMinecraftVersion } from "../lib/util";
-import Link from "next/link";
 import ButtonBar from "../components/ButtonBar";
+import Head from "next/head";
 
 const GithubIcon = (
   <Icon
@@ -111,6 +111,10 @@ function Download({
 
   return (
     <>
+      <Head>
+        <title>Applied Energistics 2 - Download</title>
+      </Head>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         style={{ display: "none" }}

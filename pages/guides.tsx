@@ -14,12 +14,17 @@ import {
   mdiHome,
 } from "@mdi/js";
 import ButtonBar from "../components/ButtonBar";
+import Head from "next/head";
 
 type GuideProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 export default function Guides({ guides }: GuideProps) {
   return (
     <>
+      <Head>
+        <title>Applied Energistics 2 - Guides</title>
+      </Head>
+
       <h1 className="title">Guides</h1>
 
       <ButtonBar />

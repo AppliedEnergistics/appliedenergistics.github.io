@@ -1,14 +1,15 @@
 import React from "react";
-import { mdiBookOpenPageVariant, mdiDiscord, mdiDownload } from "@mdi/js";
-import Icon from "@mdi/react";
 import subnetworksImage from "./subnetworks.png";
 import Image from "next/image";
-import Link from "next/link";
 import ButtonBar from "../components/ButtonBar";
+import Head from "next/head";
 
 function Index() {
   return (
     <>
+      <Head>
+        <title>Applied Energistics 2</title>
+      </Head>
       <div className="block">
         <h1 className="title">Applied Energistics 2</h1>
         <h2 className="subtitle">Automation and Storage for Minecraft</h2>
