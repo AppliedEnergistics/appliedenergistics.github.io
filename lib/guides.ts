@@ -34,7 +34,7 @@ export async function getGuideVersions(): Promise<GuideVersion[]> {
   // Add the old wiki as a guide for 1.7
   filteredVersions.unshift({
     minecraftVersion: "1.7.10",
-    url: "https://appliedenergistics.github.io/ae2-site-archive/",
+    url: "https://appliedenergistics.org/ae2-site-archive/",
   });
 
   return filteredVersions;
