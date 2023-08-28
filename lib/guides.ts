@@ -7,27 +7,43 @@ export type GuideVersion = {
 
 export async function getGuideVersions(): Promise<GuideVersion[]> {
   const response = await fetch(
-    "https://guide-assets.appliedenergistics.org/index.json"
+    "https://guide-assets.appliedenergistics.org/index.json",
   );
   if (!response.ok) {
     throw new Error("Failed to fetch guide index: " + response.status);
   }
   const guideIndex = await response.json();
-  const versions = guideIndex.versions;
+  let versions = guideIndex.versions;
   if (!Array.isArray(versions)) {
     throw new Error("Corrupt guide index");
   }
 
-  return versions
+  let filteredVersions = versions
     .filter((version) => !version.development)
-    .map((version) => ({
-      minecraftVersion: version.gameVersion,
-      url:
-        "https://guide.appliedenergistics.org/#/" + version.gameVersion + "/"
-    } satisfies GuideVersion));
+    .map(
+      (version) =>
+        ({
+          minecraftVersion: version.gameVersion,
+          url:
+            "https://guide.appliedenergistics.org/#/" +
+            version.gameVersion +
+            "/",
+        }) satisfies GuideVersion,
+    );
+
+  // Add the old wiki as a guide for 1.7
+  filteredVersions.unshift({
+    minecraftVersion: "1.7.10",
+    url: "https://appliedenergistics.github.io/ae2-site-archive/",
+  });
+
+  return filteredVersions;
 }
 
-export function getGuideUrl(guideVersions: GuideVersion[], releaseMinecraftVersion: string): string | undefined {
+export function getGuideUrl(
+  guideVersions: GuideVersion[],
+  releaseMinecraftVersion: string,
+): string | undefined {
   // 1) Exact match always wins
   for (const guideVersion of guideVersions) {
     if (guideVersion.minecraftVersion === releaseMinecraftVersion) {
@@ -39,22 +55,43 @@ export function getGuideUrl(guideVersions: GuideVersion[], releaseMinecraftVersi
   const olderVersions: GuideVersion[] = [];
   const newerVersions: GuideVersion[] = [];
   for (const guideVersion of guideVersions) {
-    if (compareMinecraftVersion(guideVersion.minecraftVersion, releaseMinecraftVersion) < 0) {
+    if (
+      compareMinecraftVersion(
+        guideVersion.minecraftVersion,
+        releaseMinecraftVersion,
+      ) < 0
+    ) {
       olderVersions.push(guideVersion);
     } else {
       newerVersions.push(guideVersion);
     }
   }
   // For versions older than the release, the newest is closest
-  olderVersions.sort((a, b) => compareMinecraftVersion(b.minecraftVersion, a.minecraftVersion));
+  olderVersions.sort((a, b) =>
+    compareMinecraftVersion(b.minecraftVersion, a.minecraftVersion),
+  );
   // For versions newer than the release, the oldest is closest
-  newerVersions.sort((a, b) => compareMinecraftVersion(a.minecraftVersion, b.minecraftVersion));
+  newerVersions.sort((a, b) =>
+    compareMinecraftVersion(a.minecraftVersion, b.minecraftVersion),
+  );
 
   // Prefer a pick from the same major version
-  if (olderVersions.length > 0 && isSameMinecraftMajor(olderVersions[0].minecraftVersion, releaseMinecraftVersion)) {
+  if (
+    olderVersions.length > 0 &&
+    isSameMinecraftMajor(
+      olderVersions[0].minecraftVersion,
+      releaseMinecraftVersion,
+    )
+  ) {
     return olderVersions[0].url;
   }
-  if (newerVersions.length > 0 && isSameMinecraftMajor(newerVersions[0].minecraftVersion, releaseMinecraftVersion)) {
+  if (
+    newerVersions.length > 0 &&
+    isSameMinecraftMajor(
+      newerVersions[0].minecraftVersion,
+      releaseMinecraftVersion,
+    )
+  ) {
     return newerVersions[0].url;
   }
 
