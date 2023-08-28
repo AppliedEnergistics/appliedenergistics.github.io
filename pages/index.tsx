@@ -4,6 +4,7 @@ import Icon from "@mdi/react";
 import subnetworksImage from "./subnetworks.png";
 import Image from "next/image";
 import Link from "next/link";
+import ButtonBar from "../components/ButtonBar";
 
 function Index() {
   return (
@@ -20,34 +21,7 @@ function Index() {
           instantaneously!
         </div>
         <div className="block mt-1 mb-1">
-          <div className="level">
-            <Link href="/guide" className="button is-large level-item">
-              <span className="icon">
-                <Icon path={mdiBookOpenPageVariant} />
-              </span>
-              <span>Guide</span>
-            </Link>
-            <Link
-              href="/download"
-              className="button is-large level-item ml-1 mr-1"
-            >
-              <span className="icon">
-                <Icon path={mdiDownload} />
-              </span>
-              <span>Download</span>
-            </Link>
-            <a
-              href="https://discord.gg/Zd6t9ka7ne"
-              target="_blank"
-              rel="noreferrer"
-              className="button is-large level-item"
-            >
-              <span className="icon">
-                <Icon path={mdiDiscord} />
-              </span>
-              <span>Join our Discord</span>
-            </a>
-          </div>
+          <ButtonBar />
           <p>
             <Image
               src={subnetworksImage}

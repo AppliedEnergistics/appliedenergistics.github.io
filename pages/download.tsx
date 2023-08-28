@@ -8,6 +8,8 @@ import { groupBy, mapValues } from "lodash-es";
 import { getGuideUrl, getGuideVersions } from "../lib/guides";
 import { isPopularVersion } from "../lib/popularVersions";
 import { compareMinecraftVersion } from "../lib/util";
+import Link from "next/link";
+import ButtonBar from "../components/ButtonBar";
 
 const GithubIcon = (
   <Icon
@@ -142,7 +144,9 @@ C-1987.4,866.2-1988.1,867.6-1988.9,868.1z"
 
       <h1 className="title">Downloads</h1>
 
-      <div className="content">
+      <ButtonBar />
+
+      <div className="content box">
         <p>
           You can download AE2 from{" "}
           <a
