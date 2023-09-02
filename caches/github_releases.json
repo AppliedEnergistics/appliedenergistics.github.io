@@ -9015,5 +9015,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124190972"
       }
     }
+  },
+  "forge/v15.0.10": {
+    "source": "github",
+    "modVersion": "15.0.10",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.0.10",
+    "tagName": "forge/v15.0.10",
+    "published": 1693666234000,
+    "changelog": "## What's Changed\n* Add `<SubPages />` tag and document it. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7326\n* Updated Guidebook Content by @Sea-Kerman in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7328\n* Reduce width of crafting amount input to make fluid unit visible by @torhayes in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7193\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7309\n* Fix quantum link chamber not dropping singularity by @rlnt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7318\n* Guidebook: Fix translucency rendering intersecting with BEs and fabulous compatibility by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7357\n* Clear inventory after dropping crafting CPU items once, since unintentional recursion caused dupes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7368\n* Fix dupe issue with nameplates and the inscriber by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7371\n* Make key bind to open in-game guide configurable by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7360\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7369\n* Allow for extended versions of ME Interfaces by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7354\n\n## New Contributors\n* @torhayes made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7193\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.7-beta...fabric/v15.0.10",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 10974623,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.0.10/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124255483"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.0.10-api.jar",
+        "size": 613418,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.0.10/appliedenergistics2-forge-15.0.10-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124255354"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.0.10.jar",
+        "size": 9752175,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.0.10/appliedenergistics2-forge-15.0.10.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124255351"
+      }
+    }
+  },
+  "fabric/v15.0.10": {
+    "source": "github",
+    "modVersion": "15.0.10",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.0.10",
+    "tagName": "fabric/v15.0.10",
+    "published": 1693655817000,
+    "changelog": "## What's Changed\n* Add `<SubPages />` tag and document it. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7326\n* Updated Guidebook Content by @Sea-Kerman in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7328\n* Reduce width of crafting amount input to make fluid unit visible by @torhayes in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7193\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7309\n* Fix quantum link chamber not dropping singularity by @rlnt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7318\n* Guidebook: Fix translucency rendering intersecting with BEs and fabulous compatibility by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7357\n* Clear inventory after dropping crafting CPU items once, since unintentional recursion caused dupes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7368\n* Fix dupe issue with nameplates and the inscriber by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7371\n* Make key bind to open in-game guide configurable by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7360\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7369\n* Allow for extended versions of ME Interfaces by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7354\n\n## New Contributors\n* @torhayes made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7193\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.7-beta...fabric/v15.0.10",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 10696005,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.10/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124242443"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.0.10-api.jar",
+        "size": 599651,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.10/appliedenergistics2-fabric-15.0.10-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124242391"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.0.10.jar",
+        "size": 9853900,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.10/appliedenergistics2-fabric-15.0.10.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124242388"
+      }
+    }
   }
 }
