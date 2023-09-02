@@ -8907,5 +8907,113 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/122662790"
       }
     }
+  },
+  "forge/v12.9.8": {
+    "source": "github",
+    "modVersion": "12.9.8",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v12.9.8",
+    "tagName": "forge/v12.9.8",
+    "published": 1693616154000,
+    "changelog": "Fixes a dupe involving disconnected crafting CPUs.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v12.9.7...forge/v12.9.8",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-12.9.8-api.jar",
+        "size": 584941,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.8/appliedenergistics2-forge-12.9.8-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124191054"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-12.9.8.jar",
+        "size": 9929338,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.8/appliedenergistics2-forge-12.9.8.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124191047"
+      }
+    }
+  },
+  "forge/v11.7.6": {
+    "source": "github",
+    "modVersion": "11.7.6",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v11.7.6",
+    "tagName": "forge/v11.7.6",
+    "published": 1693616010000,
+    "changelog": "Fixes a dupe involving disconnected crafting CPUs.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v11.7.5...forge/v11.7.6",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-11.7.6-api.jar",
+        "size": 584866,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v11.7.6/appliedenergistics2-forge-11.7.6-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124190696"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-11.7.6.jar",
+        "size": 5138814,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v11.7.6/appliedenergistics2-forge-11.7.6.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124190691"
+      }
+    }
+  },
+  "fabric/v12.9.8": {
+    "source": "github",
+    "modVersion": "12.9.8",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v12.9.8",
+    "tagName": "fabric/v12.9.8",
+    "published": 1693616199000,
+    "changelog": "Fixes a dupe involving disconnected crafting CPUs.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.7...fabric/v12.9.8",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-fabric-12.9.8-api.jar",
+        "size": 596923,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v12.9.8/appliedenergistics2-fabric-12.9.8-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124191681"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-12.9.8.jar",
+        "size": 10153650,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v12.9.8/appliedenergistics2-fabric-12.9.8.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124191663"
+      }
+    }
+  },
+  "fabric/v11.7.6": {
+    "source": "github",
+    "modVersion": "11.7.6",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v11.7.6",
+    "tagName": "fabric/v11.7.6",
+    "published": 1693616089000,
+    "changelog": "Fixes a dupe involving disconnected crafting CPUs.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v11.7.5...fabric/v11.7.6",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-fabric-11.7.6-api.jar",
+        "size": 599222,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v11.7.6/appliedenergistics2-fabric-11.7.6-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124190978"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-11.7.6.jar",
+        "size": 5363717,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v11.7.6/appliedenergistics2-fabric-11.7.6.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/124190972"
+      }
+    }
   }
 }
