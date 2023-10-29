@@ -25,9 +25,7 @@ export async function getGuideVersions(): Promise<GuideVersion[]> {
         ({
           minecraftVersion: version.gameVersion,
           url:
-            "https://guide.appliedenergistics.org/#/" +
-            version.gameVersion +
-            "/",
+            "https://guide.appliedenergistics.org/" + version.gameVersion + "/",
         }) satisfies GuideVersion,
     );
 

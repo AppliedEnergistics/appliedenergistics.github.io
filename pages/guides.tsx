@@ -4,15 +4,7 @@ import { compareMinecraftVersion } from "../lib/util";
 import openGuideImage from "./open_guide_tooltip.png";
 import openGuideGuiImage from "./open_guide_gui.png";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import Icon from "@mdi/react";
-import {
-  mdiBookOpenPageVariant,
-  mdiDiscord,
-  mdiDownload,
-  mdiHome,
-} from "@mdi/js";
 import ButtonBar from "../components/ButtonBar";
 import Head from "next/head";
 
