@@ -9333,5 +9333,65 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/133111920"
       }
     }
+  },
+  "forge/v15.0.15": {
+    "source": "github",
+    "modVersion": "15.0.15",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.0.15",
+    "tagName": "forge/v15.0.15",
+    "published": 1699654609000,
+    "changelog": "## What's Changed\n* Add option to restrict inscriber input slot stack size by Sea-Kerman\n* Guidebook Updates by Sea-Kerman\n* Always clamp current power when changing max power by Mithi83\n* Updated Crowdin Translations\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.14...forge/v15.0.15",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-15.0.15-api.jar",
+        "size": 614552,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.0.15/appliedenergistics2-forge-15.0.15-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/134974905"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.0.15.jar",
+        "size": 9801496,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.0.15/appliedenergistics2-forge-15.0.15.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/134974902"
+      }
+    }
+  },
+  "fabric/v15.0.15": {
+    "source": "github",
+    "modVersion": "15.0.15",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.0.15",
+    "tagName": "fabric/v15.0.15",
+    "published": 1699653949000,
+    "changelog": "## What's Changed\n* Add option to restrict inscriber input slot stack size by Sea-Kerman\n* Guidebook Updates by Sea-Kerman\n* Always clamp current power when changing max power by Mithi83\n* Updated Crowdin Translations\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.14...fabric/v15.0.15",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11467575,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.15/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/134973233"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.0.15-api.jar",
+        "size": 600785,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.15/appliedenergistics2-fabric-15.0.15-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/134972826"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.0.15.jar",
+        "size": 9902328,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.15/appliedenergistics2-fabric-15.0.15.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/134972820"
+      }
+    }
   }
 }
