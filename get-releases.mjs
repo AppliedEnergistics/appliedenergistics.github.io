@@ -17,20 +17,20 @@ const { data } = await octokit.rest.repos.listReleases({
   per_page: 50,
 });
 
-// Find the latest release from master that has javadocs attached
-const masterRelease = data.find((r) => {
+// Find the latest release from main that has javadocs attached
+const mainRelease = data.find((r) => {
   return (
-    r.target_commitish === "master" &&
+    (r.target_commitish === "master" || r.target_commitish === "main") &&
     r.assets.find((a) => a.name.endsWith("-javadoc.jar"))
   );
 });
 
-if (masterRelease.length === 0) {
-  throw new Error("Couldn't find latest master release!)");
+if (!mainRelease) {
+  throw new Error("Couldn't find latest master/main release!)");
 }
 
 // Find the javadoc jar
-const javadocJar = masterRelease.assets.find((a) =>
+const javadocJar = mainRelease.assets.find((a) =>
   a.name.endsWith("-javadoc.jar")
 );
 if (!javadocJar) {
@@ -55,7 +55,6 @@ zip.extractAllTo("public/javadoc/", true);
 const apiContent = await octokit.repos.getContent({
   ...repoInfo,
   path: "API.md",
-  ref: "master",
   headers: {
     accept: "application/vnd.github.v3.raw",
   },
