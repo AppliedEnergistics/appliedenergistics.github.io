@@ -9393,5 +9393,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/134972820"
       }
     }
+  },
+  "fabric/v15.0.16": {
+    "source": "github",
+    "modVersion": "15.0.16",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.0.16",
+    "tagName": "fabric/v15.0.16",
+    "published": 1703507322000,
+    "changelog": "## What's Changed\n* Fix item insertion into Condenser giving free singularities under some circumstances by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7506\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.15...fabric/v15.0.16",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11461361,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.16/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/142367273"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.0.16-api.jar",
+        "size": 600785,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.16/appliedenergistics2-fabric-15.0.16-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/142367113"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.0.16.jar",
+        "size": 9902527,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.16/appliedenergistics2-fabric-15.0.16.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/142367109"
+      }
+    }
   }
 }
