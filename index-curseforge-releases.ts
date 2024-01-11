@@ -115,7 +115,9 @@ async function fetchReleases(): Promise<CurseforgeRelease[]> {
 
     const page = await response.json();
     const { index, totalCount } = page.pagination;
-    data.push(...page.data);
+    if (Array.isArray(page.data)) {
+      data.push(...page.data);
+    }
 
     if ((index + 1) * pageSize <= totalCount) {
       nextPageIndex = index + 1;
