@@ -9639,5 +9639,65 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/144242728"
       }
     }
+  },
+  "forge/v15.0.20": {
+    "source": "github",
+    "modVersion": "15.0.20",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.0.20",
+    "tagName": "forge/v15.0.20",
+    "published": 1705251516000,
+    "changelog": "## What's Changed\n* Fix quantum bridge infinite update loop by @shBLOCK in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\n\n## New Contributors\n* @shBLOCK made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.19...forge/v15.0.20",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-15.0.20-api.jar",
+        "size": 614835,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.0.20/appliedenergistics2-forge-15.0.20-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/145556034"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.0.20.jar",
+        "size": 9804630,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.0.20/appliedenergistics2-forge-15.0.20.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/145556019"
+      }
+    }
+  },
+  "fabric/v15.0.20": {
+    "source": "github",
+    "modVersion": "15.0.20",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.0.20",
+    "tagName": "fabric/v15.0.20",
+    "published": 1705251595000,
+    "changelog": "## What's Changed\n* Fix quantum bridge infinite update loop by @shBLOCK in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\n\n## New Contributors\n* @shBLOCK made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.19...fabric/v15.0.20",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11471285,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.20/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/145555089"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.0.20-api.jar",
+        "size": 601077,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.20/appliedenergistics2-fabric-15.0.20-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/145555216"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.0.20.jar",
+        "size": 9906808,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.20/appliedenergistics2-fabric-15.0.20.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/145555200"
+      }
+    }
   }
 }
