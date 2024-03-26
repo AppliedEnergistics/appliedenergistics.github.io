@@ -9879,5 +9879,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/155786288"
       }
     }
+  },
+  "fabric/v15.0.24": {
+    "source": "github",
+    "modVersion": "15.0.24",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.0.24",
+    "tagName": "fabric/v15.0.24",
+    "published": 1711451996000,
+    "changelog": "## What's Changed\n* Fix early crash when enchantability is checked before AE2 is initialized by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7792\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.23...fabric/v15.0.24",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11476853,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.24/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/158677399"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.0.24-api.jar",
+        "size": 603167,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.24/appliedenergistics2-fabric-15.0.24-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/158677000"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.0.24.jar",
+        "size": 9911860,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.0.24/appliedenergistics2-fabric-15.0.24.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/158676998"
+      }
+    }
   }
 }
