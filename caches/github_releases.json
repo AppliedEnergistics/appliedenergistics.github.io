@@ -9912,5 +9912,32 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/158676998"
       }
     }
+  },
+  "forge/v15.1.0": {
+    "source": "github",
+    "modVersion": "15.1.0",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.1.0",
+    "tagName": "forge/v15.1.0",
+    "published": 1712010814000,
+    "changelog": "This release contains several backported fixes and content from 1.20.4.\nIn particular, this introduces a passive energy generation device, of which there can only be one per network (including across quartz-fibers): The [Crystal Resonance Generator](https://guide.appliedenergistics.org/1.20.4/items-blocks-machines/crystal_resonance_generator).\n\n## What's Changed\n\n- Fix annihilation planes staying asleep when blocks in front of them change (#7530)\n- Fix Clouds being visible in the Spatial Storage Dimension (#7548)\n- Make crafting unit recipies consistent (#7550)\n- Stop logging certain errors only when AE debug logging was enabled, always log them instead (#7561)\n- Adjust amount input width depending on the width of the unit shown (#7586)\n- Config option spawn only flawless budding quartz in meteorites  (#7575)\n- Allow cocoa to be accelerated by the growth accelerator (#7587)\n- Fix to Divide by 0 Crash (#7611)\n- Use stack-aware getMaxStackSize. Fixes #7589. (#7614)\n- Add API to cancel crafting jobs from ICraftingCPU (#7625)\n- Number entry fixes: NaN & division with integer result handling (#7629)\n- Fix #7522: Fix tiny TNT not passing blockentity to Block.dropResources (#7626)\n- Fix #7552: Invisible facades in guide book (#7624)\n- Fix cable bus breaking showing particles with missing texture (#7643)\n- Allow non-AE2 pattern implementations to be inserted via the pattern terminal (#7647)\n- Fix handling of container items that can contain multiple key types (#7666)\n- Remove Platform Random, use Level Random wherever applicable (#7685)\n- Align light detecting fixture recipe with new quartz fixture recipe (using cable anchor instead of iron ingot) (#7775)\n- Tunnels should not disconnect when they were active but moved to a grid that is rebooting (causes reboot loop) (#7767)\n- Pattern providers now only push ingredients for crafting patterns to molecular assemblers, not other inventories (#7751)\n- Show the energy generation capacity of machines in the network status (#7750)\n- Fix initialization of debug item generator (#7816)\n- Increase the generation rate of the crystal resonance generator to 20 AE/t (#7776)\n- Crystal Resonance Generator model tweaks (#7725)\n- Fix blocks behind hidden facades being non-interactable (#7754)\n- Always hide facades when a network tool is held in either hand (#7755)\n- Add datagenned files to the repo (#7582)\n- Space+Click now only moves slots from the same group as the clicked slot (#7710)\n- Delay DebugItemGen Initialization (#7692)\n- Improve Markdown loading performance under FML (#7690)\n- Implement a crystal resonance generator (passive power generation for AE) (#7716)\n- Rename RF power unit to FE (#7737)\n- Highlight devices that are missing a channel on the network status UI (#7749)\n- Allow crafting of quartz fixtures from cable anchors to replace iron ingots (#7748)\n- Slight encoded pattern tooltip readability improvement (#7747)\n- Highlight invalid patterns in the pattern access terminal (#7746)\n- Add sounds to Facade placement based on underlying block and rework pickup sound for wrenches (#7056)\n- Fix use of memory cards on molecular assemblers (#7743)\n- Fix some held tools not fully being in-view in first-person (#7741)\n- Fix rare QNB crash when leaving a single-player world (#7739)\n- Don't use an external process to determine the mod version since it causes CurseForge malware detection to trip.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.23...forge/v15.1.0",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-15.1.0-api.jar",
+        "size": 621584,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.1.0/appliedenergistics2-forge-15.1.0-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/159767106"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.1.0.jar",
+        "size": 9726644,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.1.0/appliedenergistics2-forge-15.1.0.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/159767104"
+      }
+    }
   }
 }
