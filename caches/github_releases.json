@@ -10005,5 +10005,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/161481937"
       }
     }
+  },
+  "forge/v15.2.0": {
+    "source": "github",
+    "modVersion": "15.2.0",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.0",
+    "tagName": "forge/v15.2.0",
+    "published": 1715268551000,
+    "changelog": "## What's Changed\n* Reintroduce RF PowerUnit for addon compatibility by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7824\n* Backported various Guidebook improvements by @GlodBlock in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7861\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.1.0...forge/v15.2.0",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11826630,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.0/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/166971436"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.0-api.jar",
+        "size": 621766,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.0/appliedenergistics2-forge-15.2.0-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/166970996"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.0.jar",
+        "size": 9728700,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.0/appliedenergistics2-forge-15.2.0.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/166970993"
+      }
+    }
+  },
+  "fabric/v15.2.0": {
+    "source": "github",
+    "modVersion": "15.2.0",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.2.0",
+    "tagName": "fabric/v15.2.0",
+    "published": 1715270359000,
+    "changelog": "## What's Changed\n* Backported various Guidebook improvements (Fabric) by @GlodBlock in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7862\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.1.0...fabric/v15.2.0",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11503129,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.0/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/166976137"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.2.0-api.jar",
+        "size": 607834,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.0/appliedenergistics2-fabric-15.2.0-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/166975780"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.2.0.jar",
+        "size": 9852919,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.0/appliedenergistics2-fabric-15.2.0.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/166975771"
+      }
+    }
   }
 }
