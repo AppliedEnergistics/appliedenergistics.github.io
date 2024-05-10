@@ -10071,5 +10071,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/166975771"
       }
     }
+  },
+  "forge/v15.2.1": {
+    "source": "github",
+    "modVersion": "15.2.1",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.1",
+    "tagName": "forge/v15.2.1",
+    "published": 1715285752000,
+    "changelog": "## What's Changed\n* Refer to page IDs rather than source pack for add-on guidebook pages by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7863\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.0...forge/v15.2.1",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11855704,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.1/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/167012331"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.1-api.jar",
+        "size": 621766,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.1/appliedenergistics2-forge-15.2.1-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/167011677"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.1.jar",
+        "size": 9728619,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.1/appliedenergistics2-forge-15.2.1.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/167011672"
+      }
+    }
   }
 }
