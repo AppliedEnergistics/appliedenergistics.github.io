@@ -10104,5 +10104,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/167011672"
       }
     }
+  },
+  "forge/v15.2.2": {
+    "source": "github",
+    "modVersion": "15.2.2",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.2",
+    "tagName": "forge/v15.2.2",
+    "published": 1717191293000,
+    "changelog": "## What's Changed\n* [1.20.1] Grid Ticking Optimizations by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7889\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.1...forge/v15.2.2",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11837182,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.2/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/171228432"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.2-api.jar",
+        "size": 623171,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.2/appliedenergistics2-forge-15.2.2-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/171228202"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.2.jar",
+        "size": 9731663,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.2/appliedenergistics2-forge-15.2.2.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/171228198"
+      }
+    }
   }
 }
