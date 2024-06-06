@@ -10137,5 +10137,32 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/171228198"
       }
     }
+  },
+  "forge/v15.2.3": {
+    "source": "github",
+    "modVersion": "15.2.3",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.3",
+    "tagName": "forge/v15.2.3",
+    "published": 1717628284000,
+    "changelog": "## What's Changed\n* Free memory potentially held by JEI when it unloads by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7901\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.2...forge/v15.2.3",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.3-api.jar",
+        "size": 623171,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.3/appliedenergistics2-forge-15.2.3-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/172156501"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.3.jar",
+        "size": 9731743,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.3/appliedenergistics2-forge-15.2.3.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/172156484"
+      }
+    }
   }
 }
