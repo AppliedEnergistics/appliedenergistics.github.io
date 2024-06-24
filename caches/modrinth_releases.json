@@ -1,6 +1,29 @@
 [
   {
     "source": "modrinth",
+    "url": "https://modrinth.com/mod/ae2/version/v48VlCNF",
+    "id": "v48VlCNF",
+    "modVersion": "19.0.5-alpha",
+    "gameVersions": [
+      "1.21"
+    ],
+    "published": 1719192171596,
+    "releaseType": "alpha",
+    "modLoaders": [
+      "neoforge"
+    ],
+    "assets": {
+      "mod": {
+        "filename": "appliedenergistics2-19.0.5-alpha.jar",
+        "size": 9502821,
+        "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/v48VlCNF/appliedenergistics2-19.0.5-alpha.jar"
+      }
+    },
+    "changelog": "## What's Changed\r\n* Add AE2 walls to the wall item tag by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7952\r\n* Fix FacadeRecipe out of bound crashes by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7954\r\n* Fix P2P Light output not updating when input is removed by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7945\r\n* Fix fluid handling for Emi integration by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7960\r\n* Gradle magic by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7961\r\n* Fix clearing of memory card by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7964\r\n* Fix Spatial Anchor overlay rendering by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7955\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v19.0.4-alpha...neoforge/v19.0.5-alpha",
+    "totalDownloads": 10
+  },
+  {
+    "source": "modrinth",
     "url": "https://modrinth.com/mod/ae2/version/G13uBrme",
     "id": "G13uBrme",
     "modVersion": "15.2.4",
@@ -21,7 +44,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Work around REIPC incompatibility by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7947\r\n* Improved ME Terminal Search to be more similar to REI/EMI (Forge) by @JoelMorrisey in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7924\r\n* Sanitise texture item IDs for facades (Forge) by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7906\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.3...forge/v15.2.4",
-    "totalDownloads": 1754
+    "totalDownloads": 1945
   },
   {
     "source": "modrinth",
@@ -44,7 +67,7 @@
       }
     },
     "changelog": "## What's Changed\r\n\r\n* Fix charger voiding items on right-click by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7942\r\n* Fix Spatial IO Port opening the wrong menu by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7932\r\n* Fix player inventory slot misalignment in Quantum Bridge GUI by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7933\r\n* Fix cables briefly connecting to incomplete Quantum Ring by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7941\r\n\r\n## New Contributors\r\n* @Kazuhiko-Gushiken made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7929\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v19.0.3-alpha...neoforge/v19.0.4-alpha",
-    "totalDownloads": 201
+    "totalDownloads": 217
   },
   {
     "source": "modrinth",
@@ -67,7 +90,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix Z-Order in icon buttons and item icons by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7923\r\n* Fixes various crafting related problems by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7928\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v19.0.2-alpha...neoforge/v19.0.3-alpha",
-    "totalDownloads": 58
+    "totalDownloads": 59
   },
   {
     "source": "modrinth",
@@ -160,7 +183,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Free memory potentially held by JEI when it unloads by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7901\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.2...forge/v15.2.3",
-    "totalDownloads": 6011
+    "totalDownloads": 6090
   },
   {
     "source": "modrinth",
@@ -184,7 +207,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* [1.20.1] Grid Ticking Optimizations by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7889\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.1...forge/v15.2.2",
-    "totalDownloads": 2434
+    "totalDownloads": 2436
   },
   {
     "source": "modrinth",
@@ -207,7 +230,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Update to the latest NeoForge version.\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v18.1.2-alpha...neoforge/v18.1.3-alpha",
-    "totalDownloads": 269
+    "totalDownloads": 272
   },
   {
     "source": "modrinth",
@@ -230,7 +253,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Make export storage implementation public by @rlnt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7848\r\n* Fix GuidebookPlot signs being blank by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7860\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7853\r\n* Fix being unable to encode processing patterns by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7866\r\n* fix ingredient amount being ignored in non EmiStack instance by @GlodBlock in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7874\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v18.1.1-alpha...neoforge/v18.1.2-alpha",
-    "totalDownloads": 106
+    "totalDownloads": 107
   },
   {
     "source": "modrinth",
@@ -254,7 +277,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Refer to page IDs rather than source pack for add-on guidebook pages by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7863\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.0...forge/v15.2.1",
-    "totalDownloads": 7966
+    "totalDownloads": 7972
   },
   {
     "source": "modrinth",
@@ -277,7 +300,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Backported various Guidebook improvements (Fabric) by @GlodBlock in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7862\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.1.0...fabric/v15.2.0",
-    "totalDownloads": 33304
+    "totalDownloads": 33997
   },
   {
     "source": "modrinth",
@@ -417,7 +440,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Reintroduce RF PowerUnit for addon compatibility by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7824\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.1.0...forge/v15.1.1",
-    "totalDownloads": 9362
+    "totalDownloads": 9367
   },
   {
     "source": "modrinth",
@@ -440,7 +463,7 @@
       }
     },
     "changelog": "This release contains several backported fixes and content from 1.20.4.\r\nIn particular, this introduces a passive energy generation device, of which there can only be one per network (including across quartz-fibers): The [Crystal Resonance Generator](https://guide.appliedenergistics.org/1.20.4/items-blocks-machines/crystal_resonance_generator).\r\n\r\n## What's Changed\r\n\r\n- Fix annihilation planes staying asleep when blocks in front of them change (#7530)\r\n- Make crafting unit recipies consistent (#7550)\r\n- Stop logging certain errors only when AE debug logging was enabled, always log them instead (#7561)\r\n- Adjust amount input width depending on the width of the unit shown (#7586)\r\n- Config option spawn only flawless budding quartz in meteorites  (#7575)\r\n- Allow cocoa to be accelerated by the growth accelerator (#7587)\r\n- Fix to Divide by 0 Crash (#7611)\r\n- Use stack-aware getMaxStackSize. Fixes #7589. (#7614)\r\n- Add API to cancel crafting jobs from ICraftingCPU (#7625)\r\n- Number entry fixes: NaN & division with integer result handling (#7629)\r\n- Fix #7522: Fix tiny TNT not passing blockentity to Block.dropResources (#7626)\r\n- Fix #7552: Invisible facades in guide book (#7624)\r\n- Fix cable bus breaking showing particles with missing texture (#7643)\r\n- Allow non-AE2 pattern implementations to be inserted via the pattern terminal (#7647)\r\n- Fix handling of container items that can contain multiple key types (#7666)\r\n- Remove Platform Random, use Level Random wherever applicable (#7685)\r\n- Align light detecting fixture recipe with new quartz fixture recipe (using cable anchor instead of iron ingot) (#7775)\r\n- Tunnels should not disconnect when they were active but moved to a grid that is rebooting (causes reboot loop) (#7767)\r\n- Pattern providers now only push ingredients for crafting patterns to molecular assemblers, not other inventories (#7751)\r\n- Show the energy generation capacity of machines in the network status (#7750)\r\n- Fix initialization of debug item generator (#7816)\r\n- Increase the generation rate of the crystal resonance generator to 20 AE/t (#7776)\r\n- Crystal Resonance Generator model tweaks (#7725)\r\n- Fix blocks behind hidden facades being non-interactable (#7754)\r\n- Always hide facades when a network tool is held in either hand (#7755)\r\n- Add datagenned files to the repo (#7582)\r\n- Space+Click now only moves slots from the same group as the clicked slot (#7710)\r\n- Delay DebugItemGen Initialization (#7692)\r\n- Improve Markdown loading performance under FML (#7690)\r\n- Implement a crystal resonance generator (passive power generation for AE) (#7716)\r\n- Highlight devices that are missing a channel on the network status UI (#7749)\r\n- Allow crafting of quartz fixtures from cable anchors to replace iron ingots (#7748)\r\n- Slight encoded pattern tooltip readability improvement (#7747)\r\n- Highlight invalid patterns in the pattern access terminal (#7746)\r\n- Add sounds to Facade placement based on underlying block and rework pickup sound for wrenches (#7056)\r\n- Fix use of memory cards on molecular assemblers (#7743)\r\n- Fix some held tools not fully being in-view in first-person (#7741)\r\n- Fix rare QNB crash when leaving a single-player world (#7739)\r\n- Don't use an external process to determine the mod version since it causes CurseForge malware detection to trip.\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.24...fabric/v15.1.0",
-    "totalDownloads": 14523
+    "totalDownloads": 14540
   },
   {
     "source": "modrinth",
@@ -464,7 +487,7 @@
       }
     },
     "changelog": "This release contains several backported fixes and content from 1.20.4.\r\nIn particular, this introduces a passive energy generation device, of which there can only be one per network (including across quartz-fibers): The [Crystal Resonance Generator](https://guide.appliedenergistics.org/1.20.4/items-blocks-machines/crystal_resonance_generator).\r\n\r\n## What's Changed\r\n\r\n- Fix annihilation planes staying asleep when blocks in front of them change (#7530)\r\n- Fix Clouds being visible in the Spatial Storage Dimension (#7548)\r\n- Make crafting unit recipies consistent (#7550)\r\n- Stop logging certain errors only when AE debug logging was enabled, always log them instead (#7561)\r\n- Adjust amount input width depending on the width of the unit shown (#7586)\r\n- Config option spawn only flawless budding quartz in meteorites  (#7575)\r\n- Allow cocoa to be accelerated by the growth accelerator (#7587)\r\n- Fix to Divide by 0 Crash (#7611)\r\n- Use stack-aware getMaxStackSize. Fixes #7589. (#7614)\r\n- Add API to cancel crafting jobs from ICraftingCPU (#7625)\r\n- Number entry fixes: NaN & division with integer result handling (#7629)\r\n- Fix #7522: Fix tiny TNT not passing blockentity to Block.dropResources (#7626)\r\n- Fix #7552: Invisible facades in guide book (#7624)\r\n- Fix cable bus breaking showing particles with missing texture (#7643)\r\n- Allow non-AE2 pattern implementations to be inserted via the pattern terminal (#7647)\r\n- Fix handling of container items that can contain multiple key types (#7666)\r\n- Remove Platform Random, use Level Random wherever applicable (#7685)\r\n- Align light detecting fixture recipe with new quartz fixture recipe (using cable anchor instead of iron ingot) (#7775)\r\n- Tunnels should not disconnect when they were active but moved to a grid that is rebooting (causes reboot loop) (#7767)\r\n- Pattern providers now only push ingredients for crafting patterns to molecular assemblers, not other inventories (#7751)\r\n- Show the energy generation capacity of machines in the network status (#7750)\r\n- Fix initialization of debug item generator (#7816)\r\n- Increase the generation rate of the crystal resonance generator to 20 AE/t (#7776)\r\n- Crystal Resonance Generator model tweaks (#7725)\r\n- Fix blocks behind hidden facades being non-interactable (#7754)\r\n- Always hide facades when a network tool is held in either hand (#7755)\r\n- Add datagenned files to the repo (#7582)\r\n- Space+Click now only moves slots from the same group as the clicked slot (#7710)\r\n- Delay DebugItemGen Initialization (#7692)\r\n- Improve Markdown loading performance under FML (#7690)\r\n- Implement a crystal resonance generator (passive power generation for AE) (#7716)\r\n- Rename RF power unit to FE (#7737)\r\n- Highlight devices that are missing a channel on the network status UI (#7749)\r\n- Allow crafting of quartz fixtures from cable anchors to replace iron ingots (#7748)\r\n- Slight encoded pattern tooltip readability improvement (#7747)\r\n- Highlight invalid patterns in the pattern access terminal (#7746)\r\n- Add sounds to Facade placement based on underlying block and rework pickup sound for wrenches (#7056)\r\n- Fix use of memory cards on molecular assemblers (#7743)\r\n- Fix some held tools not fully being in-view in first-person (#7741)\r\n- Fix rare QNB crash when leaving a single-player world (#7739)\r\n- Don't use an external process to determine the mod version since it causes CurseForge malware detection to trip.\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.23...forge/v15.1.0",
-    "totalDownloads": 5480
+    "totalDownloads": 5500
   },
   {
     "source": "modrinth",
@@ -487,7 +510,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix searching for pattern outputs in the pattern access terminal by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7799\r\n* Disallow moving wrapped GenericStacks between to the player via Space+Click by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7803\r\n* Disallow cloning of wrapped itemstacks in creative mode by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7804\r\n* Fix shade and AO flags of facade source quads being ignored by @XFactHD in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7788\r\n* Make lake meteors have outer slope down replacing air/replaceable blocks by @TelepathicGrunt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7781\r\n* Bump EMI to fix sources by @rlnt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7806\r\n\r\n## New Contributors\r\n* @XFactHD made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7788\r\n* @TelepathicGrunt made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7781\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v17.12.1-beta...neoforge/v17.12.2-beta",
-    "totalDownloads": 4116
+    "totalDownloads": 4157
   },
   {
     "source": "modrinth",
@@ -533,7 +556,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix early crash when enchantability is checked before AE2 is initialized by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7792\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.23...fabric/v15.0.24",
-    "totalDownloads": 2876
+    "totalDownloads": 2879
   },
   {
     "source": "modrinth",
@@ -810,7 +833,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix #7590: Fix rare endless loop with alertDevice [Forge 1.20.1] by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7730\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.22...forge/v15.0.23",
-    "totalDownloads": 11420
+    "totalDownloads": 11434
   },
   {
     "source": "modrinth",
@@ -833,7 +856,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix #7590: Fix rare endless loop with alertDevice [Fabric 1.20.1] by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7731\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.22...fabric/v15.0.23",
-    "totalDownloads": 5642
+    "totalDownloads": 5644
   },
   {
     "source": "modrinth",
@@ -1063,7 +1086,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix void/dupe when cell is removed from ME chest while the menu is open by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7673\r\n \r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.21...fabric/v15.0.22",
-    "totalDownloads": 4807
+    "totalDownloads": 4811
   },
   {
     "source": "modrinth",
@@ -1202,7 +1225,7 @@
       }
     },
     "changelog": "Fix https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/7621: Energy cells keeping chunks loaded forever by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7623\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.20...forge/v15.0.21",
-    "totalDownloads": 7107
+    "totalDownloads": 7108
   },
   {
     "source": "modrinth",
@@ -1271,7 +1294,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Allow cocoa to be accelerated by the growth accelerator by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7587\r\n* Curio Integration by @Mari023 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7572\r\n* Invalidate capabilities when appropriate by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7604\r\n* Rework item based menus to use suppliers by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7593\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7592\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v17.0.7-beta...neoforge/v17.1.0-beta",
-    "totalDownloads": 21
+    "totalDownloads": 22
   },
   {
     "source": "modrinth",
@@ -1318,7 +1341,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix quantum bridge infinite update loop by @shBLOCK in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\r\n\r\n## New Contributors\r\n* @shBLOCK made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.19...forge/v15.0.20",
-    "totalDownloads": 14112
+    "totalDownloads": 14118
   },
   {
     "source": "modrinth",
@@ -1341,7 +1364,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix quantum bridge infinite update loop by @shBLOCK in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\r\n\r\n## New Contributors\r\n* @shBLOCK made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7558\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.19...fabric/v15.0.20",
-    "totalDownloads": 15349
+    "totalDownloads": 15354
   },
   {
     "source": "modrinth",
@@ -1387,7 +1410,7 @@
       }
     },
     "changelog": "- Fix Spatial Storage Dimension Sky Rendering Artifacts / Incompatibility\n- Fix Clouds being visible in the Spatial Storage Dimension\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v12.9.8...forge/v12.9.9",
-    "totalDownloads": 11733
+    "totalDownloads": 11768
   },
   {
     "source": "modrinth",
@@ -1457,7 +1480,7 @@
       }
     },
     "changelog": "Fix Spatial Storage Dimension Sky Rendering Artifacts / Incompatibilies\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.8...fabric/v12.9.9",
-    "totalDownloads": 9164
+    "totalDownloads": 9222
   },
   {
     "source": "modrinth",
@@ -1549,7 +1572,7 @@
       }
     },
     "changelog": "* Ensure block entities are not accidentally recreated during Spatial IO move by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7521\r\n* Fix annihilation planes staying asleep when blocks in front of them change by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7530\r\n* Add Silk Touch enchanted annihilation plane to creative tab by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7529\r\n \r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.16...fabric/v15.0.18",
-    "totalDownloads": 2817
+    "totalDownloads": 2818
   },
   {
     "source": "modrinth",
@@ -1596,7 +1619,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Update Jade and WTHIT by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7516\r\n* Fix plane, p2p, terminal item models by @serenibyss in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7502\r\n* Fix dense covered cable item model by @serenibyss in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7500\r\n* Update REI and implement an entropy manipulator category by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7515\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7469\r\n* Ensure block entities are not accidentally recreated during Spatial IO move by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7521\r\n* Fix annihilation planes staying asleep when blocks in front of them change by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7530\r\n* Add Silk Touch enchanted annihilation plane to creative tab by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7529\r\n\r\n## New Contributors\r\n* @serenibyss made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7502\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v17.0.1-alpha...neoforge/v17.0.2-beta",
-    "totalDownloads": 33
+    "totalDownloads": 34
   },
   {
     "source": "modrinth",
@@ -1620,7 +1643,7 @@
       }
     },
     "changelog": "Removed unused third party dependency (Flatbuffers) from the mod jar, preventing compatibility issues with other mods that make the same mistake.",
-    "totalDownloads": 2333
+    "totalDownloads": 2334
   },
   {
     "source": "modrinth",
@@ -1712,7 +1735,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Update to NeoForge 1.20.2 stable by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7488\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v16.0.1-alpha...neoforge/v16.0.2",
-    "totalDownloads": 522
+    "totalDownloads": 523
   },
   {
     "source": "modrinth",
@@ -1735,7 +1758,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Port to Neoforge 1.20.2 by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7467\r\n* check render before rendering it by @GlodBlock in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7479\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.15...neoforge/v16.0.1\r\n",
-    "totalDownloads": 192
+    "totalDownloads": 193
   },
   {
     "source": "modrinth",
@@ -1759,7 +1782,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Add option to restrict inscriber input slot stack size by Sea-Kerman\r\n* Guidebook Updates by Sea-Kerman\r\n* Always clamp current power when changing max power by Mithi83\r\n* Updated Crowdin Translations\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.14...forge/v15.0.15",
-    "totalDownloads": 17005
+    "totalDownloads": 17009
   },
   {
     "source": "modrinth",
@@ -1782,7 +1805,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Add option to restrict inscriber input slot stack size by Sea-Kerman\r\n* Guidebook Updates by Sea-Kerman\r\n* Always clamp current power when changing max power by Mithi83\r\n* Updated Crowdin Translations\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.14...fabric/v15.0.15",
-    "totalDownloads": 86195
+    "totalDownloads": 86215
   },
   {
     "source": "modrinth",
@@ -1806,7 +1829,7 @@
       }
     },
     "changelog": "* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7426\r\n* Make CellLedRenderer public for add-on use by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7452",
-    "totalDownloads": 4586
+    "totalDownloads": 4593
   },
   {
     "source": "modrinth",
@@ -1829,7 +1852,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7426\r\n* Make CellLedRenderer public for add-on use by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7452\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.13...fabric/v15.0.14",
-    "totalDownloads": 3621
+    "totalDownloads": 3623
   },
   {
     "source": "modrinth",
@@ -1876,7 +1899,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Draw more attention to the guide navbar until it is interacted with by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7432\r\n* Updated Guidebook Content by @Sea-Kerman in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7433\r\n* Make the bound hotkey for wireless terminals/portable cells also close them by @Mari023 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7425\r\n* Make wireless terminals / portable cells not consume power in creative mode by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7434\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.12...fabric/v15.0.13",
-    "totalDownloads": 7497
+    "totalDownloads": 7504
   },
   {
     "source": "modrinth",
@@ -1923,7 +1946,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix itemstacks only ever dropping once as result of an entropy manipuator recipe. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7389\r\n* Fix certus quartz cluster waterlogging by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7388\r\n* Add in-game guide recipe (beyond initial method to obtain) by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7384\r\n* Fix saving of internal network energy buffer and make it scale with network size by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7406\r\n* Add Manifest attribute to enable remapping of the API artifact on Fabric/Loom by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7407\r\n* Fix typo in README.md by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7408\r\n* Fix transporting entities back from spatial cells if those cells are not chunk loaded by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7410\r\n* Switch P2P to only signal neighbor updates for the side they're facing by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7411\r\n* Allow colour applicator to remove colour from glass/terracotta by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7392\r\n* Bump color applicator storage to 4k bytes, harmonizing it with portable cells by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7412\r\n* Update Minecraft Wiki links to new domain by @Spongecade in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7422\r\n* Remove AE2 crafting recipes for daylight detector and comparator by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7383\r\n* Add StorageCell method to prevent recursive storage of non-empty cells other than IBasicCellItem by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7377\r\n* Gave Matter Cannon unique view/held model positions by @coyo-t in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7352\r\n* Hide AE2 developer tools from creative tab unless enabled in config by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7385\r\n* Add = operator to crafting amount screen to only craft whats needed to reach a certain stored amount by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7382\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7374\r\n\r\n## New Contributors\r\n* @Mithi83 made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7408\r\n* @Spongecade made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7422\r\n* @coyo-t made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7352\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.11...fabric/v15.0.12",
-    "totalDownloads": 577
+    "totalDownloads": 578
   },
   {
     "source": "modrinth",
@@ -1947,7 +1970,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Implement unfocusing by clicking outside of text-fields in AE screens by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7373\r\n* Fix open wireless/portable cell hotkeys by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7375\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.0.10...forge/v15.0.11",
-    "totalDownloads": 3271
+    "totalDownloads": 3272
   },
   {
     "source": "modrinth",
@@ -1970,7 +1993,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Implement unfocusing by clicking outside of text-fields in AE screens by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7373\r\n* Fix open wireless/portable cell hotkeys by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7375\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.10...fabric/v15.0.11",
-    "totalDownloads": 4705
+    "totalDownloads": 4707
   },
   {
     "source": "modrinth",
@@ -2017,7 +2040,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Add <SubPages /> tag and document it. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7326\r\n* Updated Guidebook Content by @Sea-Kerman in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7328\r\n* Reduce width of crafting amount input to make fluid unit visible by @torhayes in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7193\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7309\r\n* Fix quantum link chamber not dropping singularity by @rlnt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7318\r\n* Guidebook: Fix translucency rendering intersecting with BEs and fabulous compatibility by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7357\r\n* Clear inventory after dropping crafting CPU items once, since unintentional recursion caused dupes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7368\r\n* Fix dupe issue with nameplates and the inscriber by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7371\r\n* Make key bind to open in-game guide configurable by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7360\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7369\r\n* Allow for extended versions of ME Interfaces by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7354\r\n\r\n## New Contributors\r\n* @torhayes made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7193\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.7-beta...fabric/v15.0.10",
-    "totalDownloads": 1032
+    "totalDownloads": 1033
   },
   {
     "source": "modrinth",
@@ -2040,7 +2063,7 @@
       }
     },
     "changelog": "Fixes a dupe involving disconnected crafting CPUs.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.7...fabric/v12.9.8",
-    "totalDownloads": 24266
+    "totalDownloads": 24312
   },
   {
     "source": "modrinth",
@@ -2086,7 +2109,7 @@
       }
     },
     "changelog": "Fixes a dupe involving disconnected crafting CPUs.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v11.7.5...fabric/v11.7.6",
-    "totalDownloads": 2384
+    "totalDownloads": 2389
   },
   {
     "source": "modrinth",
@@ -2109,7 +2132,7 @@
       }
     },
     "changelog": "Fixes a dupe involving disconnected crafting CPUs.\n\n*Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v11.7.5...forge/v11.7.6",
-    "totalDownloads": 7589
+    "totalDownloads": 7609
   },
   {
     "source": "modrinth",
@@ -2132,7 +2155,7 @@
       }
     },
     "changelog": "## What's Changed\n* [1.19.2-forge] Backport #7264 by @Christofmeg in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7301\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v12.9.5...forge/v12.9.7",
-    "totalDownloads": 634
+    "totalDownloads": 635
   },
   {
     "source": "modrinth",
@@ -2201,7 +2224,7 @@
       }
     },
     "changelog": "## What's Changed\n* [1.18.2-fabric] Backport #7264 by @Christofmeg in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7307\n\n## New Contributors\n* @Christofmeg made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7307\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v11.7.4...fabric/v11.7.5",
-    "totalDownloads": 5868
+    "totalDownloads": 5892
   },
   {
     "source": "modrinth",
@@ -2225,7 +2248,7 @@
       }
     },
     "changelog": "Some of the fixes supposed to be released in 15.0.7-beta were not correctly released as part of the Forge version.\r\nThis release fixes that issue and the fixes listed in 15.0.7-beta are now included as intended.",
-    "totalDownloads": 7643
+    "totalDownloads": 7649
   },
   {
     "source": "modrinth",
@@ -2296,7 +2319,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix cable bounding box with cable anchor by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7300\r\n* Export bus with crafting card causes crash using slots beyond the first 9. Fixes #7312. by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7313\r\n* Inscriber doesn't switch recipe when input is replaced. Fixes #7272. by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7274\r\n* Don't update neighbors when controller state changes. Fixes #7152. by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7268\r\n* Add Addon API method to get cell inventories from IChestOrDrive by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7299\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.6-beta...fabric/v15.0.7-beta",
-    "totalDownloads": 2627
+    "totalDownloads": 2628
   },
   {
     "source": "modrinth",
@@ -2411,7 +2434,7 @@
       }
     },
     "changelog": "## What's Changed\n* Fix #7164: Optimize quartz fiber performance in deeply nested networks by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7258\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.5...fabric/v12.9.6",
-    "totalDownloads": 17067
+    "totalDownloads": 17084
   },
   {
     "source": "modrinth",
@@ -2434,7 +2457,7 @@
       }
     },
     "changelog": "## What's Changed\n* Fix interfaces always exposing their own inventory to storage buses, making subnets impossible by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7249\n* Move fluix sword to Combat tab instead of Tools & Utilities by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7242\n* Fix channel lines not lining up in certain directions by @Sea-Kerman in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7239",
-    "totalDownloads": 346
+    "totalDownloads": 347
   },
   {
     "source": "modrinth",
@@ -2457,7 +2480,7 @@
       }
     },
     "changelog": "## What's Changed\n* Move fluix sword to Combat tab instead of Tools & Utilities by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7242\n* fix channel lines not lining up in certain directions by @Sea-Kerman in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/7239\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.0.3-alpha...fabric/v15.0.4-beta",
-    "totalDownloads": 478
+    "totalDownloads": 479
   },
   {
     "source": "modrinth",
@@ -2687,7 +2710,7 @@
       }
     },
     "changelog": "### What's changed\n- Fix spatial cells not properly checking the maximum size (#7061) by @soepie7\n- Fix #6990: Crash when moving controller with SCS (#7067) by @Technici4n\n- Fix #6725: Too many items in the system, prevents items from showing up (#7069) by @Technici4n\n- Fix Wireless Terminal IEnergyHost implementation (fixes #7077) (#7081) by @jpenilla\n- Fix #7105: Make export busses try to give overflow back (#7106) by @Technici4n\n- Fix #7066: Lazily initalize AEKey display name cache (#7108) by @Technici4n\n- Fix #6857: Clear pinned keys and pending jobs on game join (#7120) by @Technici4n\n- Check stack size before comparing stacks in InternalInventory (#7149) by @Technici4n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v11.7.3...forge/v11.7.4",
-    "totalDownloads": 1507
+    "totalDownloads": 1508
   },
   {
     "source": "modrinth",
@@ -2710,7 +2733,7 @@
       }
     },
     "changelog": "### What's changed\n- Fix spatial cells not properly checking the maximum size (#7061) by @soepie7\n- Fix #6990: Crash when moving controller with SCS (#7067) by @Technici4n\n- Fix #6725: Too many items in the system, prevents items from showing up (#7069) by @Technici4n\n- Fix Wireless Terminal IEnergyHost implementation (fixes #7077) (#7081) by @jpenilla\n- Fix #7105: Make export busses try to give overflow back (#7106) by @Technici4n\n- Fix #7066: Lazily initalize AEKey display name cache (#7108) by @Technici4n\n- Fix #6857: Clear pinned keys and pending jobs on game join (#7120) by @Technici4n\n- Check stack size before comparing stacks in InternalInventory (#7149) by @Technici4n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.3...fabric/v12.9.5",
-    "totalDownloads": 2480
+    "totalDownloads": 2481
   },
   {
     "source": "modrinth",
@@ -2733,7 +2756,7 @@
       }
     },
     "changelog": "### What's changed\n- Fix spatial cells not properly checking the maximum size (#7061) by @soepie7\n- Fix #6990: Crash when moving controller with SCS (#7067) by @Technici4n\n- Fix #6725: Too many items in the system, prevents items from showing up (#7069) by @Technici4n\n- Fix Wireless Terminal IEnergyHost implementation (fixes #7077) (#7081) by @jpenilla\n- Fix #7105: Make export busses try to give overflow back (#7106) by @Technici4n\n- Fix #7066: Lazily initalize AEKey display name cache (#7108) by @Technici4n\n- Fix #6857: Clear pinned keys and pending jobs on game join (#7120) by @Technici4n\n- Check stack size before comparing stacks in InternalInventory (#7149) by @Technici4n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.3...fabric/v12.9.5",
-    "totalDownloads": 5887
+    "totalDownloads": 5889
   },
   {
     "source": "modrinth",
@@ -2827,7 +2850,7 @@
       }
     },
     "changelog": "### Notable changes\n * Fix #6968: Make PPs round-robin across their sides (#6997)\n * Fix #6987: Terminal fluid dupe when less can be extracted than expected (#6988). **This fixes a critical dupe bug**.\n * Intern tags of AEItemKeys (#6885). **This largely improves performance of networks with lots of different damaged items, e.g. large numbers of mob farm drops.**\n\n### Other fixes\n * Fix some cases of loading chunks while unloading them (#7053)\n * Fix interfaces and PPs not saving after inv changes (#7050)\n * Fix rare texture rendering issues in GUIs (#7049)\n * Fix #6644: Network toolbox slots visible in terminal settings subscreen (#7048)\n * Fix #6821: Client/server desync in network tool upgrade slots (#7047)\n * Add level key to BE readying crash reports\n * Fix #7012: Spatial anchor keeps loading extra chunks (#7046)\n * Don't try to access AEKeyRendering server-side in PatternProviderDataProvider (#7044)\n * Fix #7041: Allow AddOns to add their own TestPlots (#7043)\n * Fix #7016: Allow both modNames and modID in the terminal search (#7039)\n * Fix issues relating to Annihilation Plane checking if it can store a block and then breaking it in two separate ticks (by doing it all in one tick) (#7037)\n * Fix  Matter condensor adds 81k energy for a bucket of water on fabric (#7035)\n * Add event to find terminal for the \"Crafting job completed\" toasts (#7031)\n * Update Platform.getFluidDisplayName to align with FluidKeyRenderHandler (#7029)\n * Fix fluid NBT tags going missing when dragging ghost fluids from REI (#7025)\n * Make SavedData more resistant to crashes. Fixes #6976\n * Fix #6840: Wireless terminals print out of range message multiple times (#7005)\n * Fix IO port redstone button, fixes #6989 (#7000)\n * Fix #6931: use world height for spatial anchor overlay (#6955)\n * Fix #6879: facades don't use the correct biome colors (#6952)\n * bugfix: matter condenser should generate 8 energy per bucket of liquid. (#6907)\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v11.7.1...fabric/v11.7.2",
-    "totalDownloads": 2042
+    "totalDownloads": 2044
   },
   {
     "source": "modrinth",
@@ -3011,7 +3034,7 @@
       }
     },
     "changelog": "Support for 1.19.3 JEI\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v13.0.3-alpha...fabric/v13.0.6-beta",
-    "totalDownloads": 7593
+    "totalDownloads": 7602
   },
   {
     "source": "modrinth",
@@ -3080,7 +3103,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Further Pattern Provider extensibility by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6810\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.9.1...fabric/v12.9.2",
-    "totalDownloads": 15474
+    "totalDownloads": 15498
   },
   {
     "source": "modrinth",
@@ -3287,7 +3310,7 @@
       }
     },
     "changelog": "## What's Changed\r\n\r\n* Allow charger to also connect via back and sides by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6797\r\n* Add more variation to terminal screen sizes by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6799\r\n* Retexture directional pattern provider to be more clearly directional by @Sea-Kerman in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6802\r\n* \"Lock Crafting\" modes for the Pattern Provider to allow more automation opportunities (disable crafting while low/high redstone, until redstone pulse, until item return) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6807\r\n",
-    "totalDownloads": 3076
+    "totalDownloads": 3077
   },
   {
     "source": "modrinth",
@@ -4299,7 +4322,7 @@
       }
     },
     "changelog": "## Highlight: Mysterious Cube\r\nMeteorites will now contain a Mysterious Cube instead of a Sky Stone Chest. Break the cube to obtain the 4 presses ! The compass has been changed to track the closest cube, but note that it doesn't track them in chunks that haven't generated yet for now. Thanks to @Sea-Kerman for the amazing model !\r\n![image](https://user-images.githubusercontent.com/13494793/190480051-3ba2cf3c-ba29-41ce-a61b-752f37a2c564.png)\r\n* Fix #6537: Change press obtention to use the Mysterious Cube by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6562\r\n\r\n## Other changes\r\n* (Forge only) Fix lighting issues with some rotated models (notably the ME Drive).\r\n* Fix #6552: Use conventional budding block tag for CGA whitelist by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6553\r\n* Fix #6538: Add mode to clear JEI-synched search when opening terminal by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6554\r\n* Fix #6418: Update Tooltip for Crafting/Processing and Substitution Buttons by @Shadow-Devil in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6546\r\n* Fix facade color multiplication, because tint was provided as rgb and not abgr by @agnor99 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6556\r\n* Fix storage bus connecting to interface's internal inventory of the attached network in some cases by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6555\r\n* Fix blank level emitters causing lag by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6558\r\n* Fix #6534: Better configuration of facade display in JEI by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6559\r\n* Remove ability to place the meteorite compass by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6563\r\n* Fix #6564: Missing texture for zombie villager version of Fluix Researcher by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6565\r\n\r\n## New Contributors\r\n* @Shadow-Devil made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6546\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v12.4.0-beta...fabric/v12.5.0-beta",
-    "totalDownloads": 149
+    "totalDownloads": 150
   },
   {
     "source": "modrinth",
@@ -4460,7 +4483,7 @@
       }
     },
     "changelog": "- Fix mod-compatibility with mods that modify item tooltips (i.e. Apotheosis) in certain ways, causing incomplete tooltips to show in ME terminals (#6501)\r\n- Fix network devices sometimes going off inexplicably (#6432)\r\n- Make storage bus query target handler every time it's used (#6460)\r\n- Support visual tooltip components added by items (i.e. the elusive Bundle) in ME terminals.\r\n- Fix storage monitor and crafting monitor rotation issues (#6518)\r\n- Grab focus on search box right click (#6311)\r\n- Fix #6488: Crash when trying to place invalid facade (#6515)\r\n- Cache damage values for items to greatly improve auto-crafting involving damageable items (#6514)\r\n- Fix Item duplication bug when multiple CPUs accept the same item (#6510)\r\n- Fix extra space in Bytes Used cell tooltip (#6496)\r\n- Make Storage import/export strategies public  (for addon authors, #6502)\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v11.1.6...forge/v11.1.7",
-    "totalDownloads": 2395
+    "totalDownloads": 2396
   },
   {
     "source": "modrinth",
@@ -4690,7 +4713,7 @@
       }
     },
     "changelog": "## What's Changed\r\n* Fix #6434: Processing patterns not preserving the order of the inputs by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6437\r\n* Use a different injection point for model reloads by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6468\r\n* avoid encoding hidden items in patterns by @DAmNRelentless in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6463\r\n* change amount setting logic by @DAmNRelentless in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6457\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v11.1.4...fabric/v11.1.5",
-    "totalDownloads": 3427
+    "totalDownloads": 3430
   },
   {
     "source": "modrinth",
@@ -4943,7 +4966,7 @@
       }
     },
     "changelog": "### Highlight: CTRL+click from JEI to autocraft unavailable items\r\nWe finally implemented this heavily requested feature from Refined Storage, since we think it also fits AE2. The following image speaks for itself:\r\n![image](https://user-images.githubusercontent.com/13494793/172951479-d2f1399e-1d83-4293-8fd3-42873aff3e28.png)\r\n* Fix #4856: Use ctrl+click to request missing items in JEI by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6349\r\n\r\n### Other changes\r\n* (Forge only) Allow annihilation plane to be enchanted via anvil by @62832 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6339.\r\n* Fix HotkeyActions#register crashing when addons use it on dedicated servers by @Mari023 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6336. Updating to this AE2 release will fix a crash experienced when using wireless terminals from AE2WTLib.\r\n* Don't reset channels immediately when a node changes grids by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6337. Notably, this fixes various issues where items in ME Drives would randomly become \"invisible\" to the network.\r\n* A few additional cleanups / fixes.\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v11.1.1...forge/v11.1.2",
-    "totalDownloads": 248
+    "totalDownloads": 249
   },
   {
     "source": "modrinth",
@@ -5150,7 +5173,7 @@
       }
     },
     "changelog": "## Highlight: Equal Distribution Card and Overflow Destruction Card\r\nThis release introduces two new upgrade cards for item storage cells.\r\n- The Equal Distribution Card ensures that bytes are split equally between all stored items.\r\n- The Overflow Destruction Card will cause any item that matches the cell's filter, but can't be stored due to the type limit or the item limit, to be destroyed.\r\n- We hope that these two cards will provide a nice alternative to storage drawer walls.\r\n\r\n## What's changed\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6134\r\n* Fix #6139: rare crash when level emitter is broken by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6144\r\n* Fix #6142: add grid and grid node logging (off by default) by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6148\r\n* Fix #6141: Add blasting recipe for silicon by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6149\r\n* Add waterlogging to QNB and other blocks by @skrrt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6150\r\n* Fix #6082: Parts not persisting their custom name by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6151\r\n* Fix #5851: remaining interface terminal references by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6152\r\n* Fix #5962: Add pattern provider priority setting by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6153\r\n* Fix #5994: Let automation access the blank pattern slot by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6154\r\n* Updated Crowdin Translations by @github-actions in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6155\r\n* Fix usage of PartModels for addons using IAEAddonEntrypoint by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6166\r\n* Fix #5240: Add equal distribution card for cells to evenly split bytes between configured items by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6161\r\n* fix poweredInsert return doc by @DAmNRelentless in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6176\r\n* Fix #465: add void card by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6172\r\n* Fix #6183: level emitter iterating network contents multiple times by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6184\r\n* Fix #6181: annihilation plane crash with blocks whose drops contain empty stacks by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6187\r\n* Fix #6167: Platform#canAccess always reporting false for empty action sources by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6188\r\n* Fix #6168: API to create IActionSources by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6186\r\n* Fix #6163: spatial anchor crash when turned into contraption by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6190\r\n* Fix blocking mode on inventories (e.g. chest or machine) by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6192\r\n* Fix #6198: Cache stack display names to improve terminal sorting performance by @MidCoard in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6199\r\n* fix `ICraftingRequester#insertCraftedItems` doc by @DAmNRelentless in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6195\r\n* Fix #5613 and #6137: network flashing when booting status changes, and level emitter cycle restart (other approach) by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6191\r\n* Fix #6196: Add Inverter Card support to Import Bus by @skrrt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6197\r\n\r\n## New Contributors\r\n* @skrrt made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6150\r\n* @DAmNRelentless made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6176\r\n* @MidCoard made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6199\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v11.0.0-alpha.3...fabric/v11.0.0-alpha.5",
-    "totalDownloads": 203
+    "totalDownloads": 204
   },
   {
     "source": "modrinth",
@@ -5219,7 +5242,7 @@
       }
     },
     "changelog": "## What's changed\r\n### Bug fixes\r\n* Fix #6104: MA ignores damage value when combining tools by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6124\r\n* Fix #6032: p2p tunnel attunement using tags by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6128\r\n* Fix #6074: try to give import bus overflow back by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6127\r\n* Fix #6107: dense cable on p2p not rendering straight by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6126\r\n* Fix https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/6125: molecular assembler sometimes voiding some recipe remainders.\r\n* Fix https://github.com/AppliedEnergistics/Applied-Energistics-2/issues/6051: energy cells sometimes not persisting power.\r\n### Forge-specific bug fixes:\r\n* Fix #5645: ender pearl dust using the wrong tag.\r\n* Fix #6033: fluid p2p tunnels draining way too much power.\r\n* Fix #6108: import bus crash with immersive engineering.\r\n\r\n### API\r\n* Allow AEKeys to define their own dropping mechanism by @ramidzkh in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6117\r\n* Better AppMek support by removing checks for fluids or items by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6130\r\n\r\n\r\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v11.0.0-alpha.2...forge/v11.0.0-alpha.3",
-    "totalDownloads": 39
+    "totalDownloads": 40
   },
   {
     "source": "modrinth",
@@ -5334,7 +5357,7 @@
       }
     },
     "changelog": "## What's Changed\r\n\r\n* Optimize storage tick performance by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6043\r\n* Fix #6053: Incompatibility with The Bumblezone mod by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6056\r\n* Fix #6049: storage cells ignoring inverter cards by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6057\r\n* Account for notifications sent to grid nodes potentially destroying the grid that is currently being ticked, fixing potential crashes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6058\r\n* Fixes #6031: add API for addons to register common AE2 behaviors (import, export, UI, etc.) for their custom storage types (i.e. gases) by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6041\r\n* Allow addons to register custom JEI entrystacks for their custom storage types (i.e. gases) by @shartte\r\n",
-    "totalDownloads": 168
+    "totalDownloads": 170
   },
   {
     "source": "modrinth",
@@ -5357,7 +5380,7 @@
       }
     },
     "changelog": "## What's Changed\r\n\r\n* Optimize storage tick performance by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6043\r\n* Fix #6053: Incompatibility with The Bumblezone mod by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6056\r\n* Fix #6049: storage cells ignoring inverter cards by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6057\r\n* Account for notifications sent to grid nodes potentially destroying the grid that is currently being ticked, fixing potential crashes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6058\r\n* Fixes #6031: add API for addons to register common AE2 behaviors (import, export, UI, etc.) for their custom storage types (i.e. gases) by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6041\r\n* Allow addons to register custom REI entrystacks for their custom storage types (i.e. gases) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/6037\r\n",
-    "totalDownloads": 229
+    "totalDownloads": 230
   },
   {
     "source": "modrinth",
@@ -5403,7 +5426,7 @@
       }
     },
     "changelog": "## What's changed\r\n\r\n* Overhaul of the crafting status screen. It now shows a scrollable list of all CPUs on the network.\r\n  ![grafik](https://user-images.githubusercontent.com/1261399/151709412-91b0f4d2-81ca-400f-8f86-ea26f3055d38.png)\r\n* Processing Patterns can now have up to 18 inputs and 6 outputs, accessible using a scrollbar on the left side (when in processing mode)\r\n  ![grafik](https://user-images.githubusercontent.com/1261399/151709490-12a5fae5-01e2-465e-94e4-c956366e2759.png)\r\n* Pattern Providers now limit the size of their return inventory similar to interfaces\r\n\r\n",
-    "totalDownloads": 79
+    "totalDownloads": 80
   },
   {
     "source": "modrinth",
@@ -5564,7 +5587,7 @@
       }
     },
     "changelog": "## New Features and Other Changes\r\n\r\n- Overhaul how fluids and amounts can be encoded for processing patterns in the pattern encoding terminal.\r\n  - Drag and drop items and fluids directly from REI/JEI \r\n    ![grafik](https://user-images.githubusercontent.com/1261399/147856813-45707bf1-7ace-43e3-9bcb-8cb48409b026.png)\r\n  - or Right-Click with any fluid container in hand\r\n    ![grafik](https://user-images.githubusercontent.com/1261399/147856805-8f0d01ff-c65b-4599-8c74-ecd31d7f7498.png)\r\n  - Middle-Click to Modify the Amount\r\n    ![grafik](https://user-images.githubusercontent.com/1261399/147856799-2152202f-49d0-492c-a1ba-e48853df25c7.png)\r\n    ![grafik](https://user-images.githubusercontent.com/1261399/147856789-fc80f720-cbc8-4998-b66f-98f1bc51350d.png)\r\n    ![grafik](https://user-images.githubusercontent.com/1261399/147856782-7bfd5c76-3511-4c73-9aa6-9135540a8cbf.png)\r\n  - Modifying the amount works for items too. Setting to 0 will clear the slot.\r\n- Added Energy Upgrade to increase energy capacity of portable items (Thanks Azercoco! #5914)\r\n  ![grafik](https://user-images.githubusercontent.com/1261399/147856769-a815bf9c-3068-45ac-a322-a0edb1561ce7.png)\r\n    - Crafted from **Advanced Card** and **Dense Energy Cell**.\r\n    - Can be added to **Portable Cells**, **Color Applicator**, and the **Matter Cannon** in the Cell Workbench\r\n    - Added upgrade slots directly to the **Wireless and Wireless Crafting Terminal** user interface. The card can be added there.\r\n- More colorfoul item tooltips (thanks Azercoco!)\r\n  ![grafik](https://user-images.githubusercontent.com/1261399/147856871-57c5001f-cb5c-4052-ab2a-3ca19445084d.png)\r\n- Added a type filter to terminals (fluids, items, both) (Thanks DrummerMC! #5927)\r\n  ![grafik](https://user-images.githubusercontent.com/1261399/147856895-51909923-42d0-449c-81bb-f0c0eec61a46.png)\r\n  ![grafik](https://user-images.githubusercontent.com/1261399/147856900-2bc4ec35-d4bc-4668-87c3-54d4b96aa406.png)\r\n  ![grafik](https://user-images.githubusercontent.com/1261399/147856907-721ce2ea-cfaf-4843-9fa4-b50cd396267c.png)\r\n- Play the appropriate emptying sound when directly emptying a bucket of fluid onto a closed portable cell in the player inventory\r\n- [Fabric] Minimum MC version is now 1.18.1\r\n- [Forge] Slightly improved JEI recipe transfer for fluids/non-standard recipes (still some work to do)\r\n- [API, Breaking] Upgrades have changed significantly and now allow addons to add custom upgrades. (see [API Docs](https://appliedenergistics.github.io/api.html))\r\n\r\n## Fixes\r\n\r\n- Fix spatial storage dimension causing Minecraft version update to fail due to Vanilla incompatibility with custom dimensions during world upgrade process.\r\n- Automatically readd the spatial storage dimension on world-load when it goes missing from `level.dat` for some reason.\r\n- Fixes unlocalized advancement names.\r\n- Fixes wireless terminal / portable cell not being able to be opened from off-hand. (#5944, #5869)\r\n- Trigger block/neighbor updates while still generating the world-gen chunk to prevent world-gen from stalling when it tries to flow water/make obsidian after the fact. (#5939)\r\n- Fixes crash when an interface crafting job is canceled but the requested item is subsequently inserted on the same tick (#5919)\r\n- Correctly decode processing patterns where the same item was specified as a primary and secondary output (#5917)\r\n- [Fabric] Fixes potential crashes with ModernIndustrialization when storage buses are too thorough while checking for extractable content. (#5930)\r\n",
-    "totalDownloads": 53
+    "totalDownloads": 54
   },
   {
     "source": "modrinth",
