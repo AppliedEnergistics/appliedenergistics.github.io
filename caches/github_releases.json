@@ -10449,5 +10449,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/181402361"
       }
     }
+  },
+  "forge/v15.2.11": {
+    "source": "github",
+    "modVersion": "15.2.11",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.11",
+    "tagName": "forge/v15.2.11",
+    "published": 1721936625000,
+    "changelog": "## What's Changed\n* Optimize performance of \"can craft\" checks in ME Terminals (for EMI/JEI/REI) (#7763) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8065\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.10...forge/v15.2.11",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11848848,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.11/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/181850443"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.11-api.jar",
+        "size": 624210,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.11/appliedenergistics2-forge-15.2.11-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/181850388"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.11.jar",
+        "size": 9739544,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.11/appliedenergistics2-forge-15.2.11.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/181850383"
+      }
+    }
   }
 }
