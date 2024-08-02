@@ -10515,5 +10515,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/182185992"
       }
     }
+  },
+  "fabric/v15.2.12": {
+    "source": "github",
+    "modVersion": "15.2.12",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.2.12",
+    "tagName": "fabric/v15.2.12",
+    "published": 1722549757000,
+    "changelog": "## What's Changed\n* Fix #7819: Energy Acceptor randomly stops accepting power by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8087\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.2.11...fabric/v15.2.12",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11512328,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.12/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/183309205"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.2.12-api.jar",
+        "size": 607834,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.12/appliedenergistics2-fabric-15.2.12-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/183309226"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.2.12.jar",
+        "size": 9858791,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.12/appliedenergistics2-fabric-15.2.12.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/183309222"
+      }
+    }
   }
 }
