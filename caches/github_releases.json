@@ -10548,5 +10548,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/183309222"
       }
     }
+  },
+  "forge/v15.2.13": {
+    "source": "github",
+    "modVersion": "15.2.13",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.13",
+    "tagName": "forge/v15.2.13",
+    "published": 1724002945000,
+    "changelog": "## What's Changed\n* Optimize ListCraftingInventory#extract by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8146\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.11...forge/v15.2.13",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11842638,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.13/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/186736930"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.13-api.jar",
+        "size": 624449,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.13/appliedenergistics2-forge-15.2.13-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/186736902"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.13.jar",
+        "size": 9739699,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.13/appliedenergistics2-forge-15.2.13.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/186736899"
+      }
+    }
   }
 }
