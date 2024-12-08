@@ -10647,5 +10647,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211843813"
       }
     }
+  },
+  "forge/v15.2.15": {
+    "source": "github",
+    "modVersion": "15.2.15",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.15",
+    "tagName": "forge/v15.2.15",
+    "published": 1733659098000,
+    "changelog": "Fixes a build problem affecting 15.2.14. No other changes.",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11802774,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.15/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211891891"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.15-api.jar",
+        "size": 624449,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.15/appliedenergistics2-forge-15.2.15-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211891886"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.15.jar",
+        "size": 9743083,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.15/appliedenergistics2-forge-15.2.15.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211891856"
+      }
+    }
   }
 }
