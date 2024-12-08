@@ -10581,5 +10581,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/186736899"
       }
     }
+  },
+  "fabric/v15.2.14": {
+    "source": "github",
+    "modVersion": "15.2.14",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.2.14",
+    "tagName": "fabric/v15.2.14",
+    "published": 1733625230000,
+    "changelog": "## What's Changed\n* Fix and Backport newer P2P Frequency Tooltips on Memory-Cards and Tunnels\n* Craft items until the inventory is full by holding space and clicking the output slot in the crafting terminal\n* Fix crafting job progress bar exceeding 100% with container items\n* Normalized crafting progress across items/fluids/etc.\n* Fix pulse unlock mode being broken by a constant redstone signal  \n",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11510288,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.14/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211844191"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.2.14-api.jar",
+        "size": 607834,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.14/appliedenergistics2-fabric-15.2.14-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211844252"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.2.14.jar",
+        "size": 9862279,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.2.14/appliedenergistics2-fabric-15.2.14.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211844250"
+      }
+    }
+  },
+  "forge/v15.2.14": {
+    "source": "github",
+    "modVersion": "15.2.14",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.14",
+    "tagName": "forge/v15.2.14",
+    "published": 1733624799000,
+    "changelog": "## What's Changed\n* Fix and Backport newer P2P Frequency Tooltips on Memory-Cards and Tunnels\n* Craft items until the inventory is full by holding space and clicking the output slot in the crafting terminal\n* Fix crafting job progress bar exceeding 100% with container items\n* Normalized crafting progress across items/fluids/etc.\n* Fix pulse unlock mode being broken by a constant redstone signal  \n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.13...forge/v15.2.14",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11816317,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.14/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211843754"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.14-api.jar",
+        "size": 624449,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.14/appliedenergistics2-forge-15.2.14-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211843816"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.14.jar",
+        "size": 9743066,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.14/appliedenergistics2-forge-15.2.14.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211843813"
+      }
+    }
   }
 }
