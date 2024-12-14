@@ -10680,5 +10680,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/211891856"
       }
     }
+  },
+  "forge/v15.2.16": {
+    "source": "github",
+    "modVersion": "15.2.16",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.2.16",
+    "tagName": "forge/v15.2.16",
+    "published": 1734131938000,
+    "changelog": "- Make P2P tunnel operation energy cost configurable\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.15...forge/v15.2.16",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11829383,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.16/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/213231457"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.2.16-api.jar",
+        "size": 624449,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.16/appliedenergistics2-forge-15.2.16-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/213231450"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.2.16.jar",
+        "size": 9743813,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.2.16/appliedenergistics2-forge-15.2.16.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/213231447"
+      }
+    }
   }
 }
