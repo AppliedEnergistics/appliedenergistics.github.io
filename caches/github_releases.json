@@ -10713,5 +10713,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/213231447"
       }
     }
+  },
+  "forge/v15.3.0-beta": {
+    "source": "github",
+    "modVersion": "15.3.0-beta",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.3.0-beta",
+    "tagName": "forge/v15.3.0-beta",
+    "published": 1734461452000,
+    "changelog": "## What's Changed\n\nThis release optimizes channel computation. There is no network \"booting\" delay anymore: channels are recomputed and network devices become operational near-instantly. Released as a beta for now. Please let us know if you notice bugs in the new channel computation algorithm.\n\n* Instantly recompute channels when changing parts of a network (backport of #8285) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8289\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.2.16...forge/v15.3.0-beta",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11840849,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.0-beta/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214012033"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.3.0-beta-api.jar",
+        "size": 624449,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.0-beta/appliedenergistics2-forge-15.3.0-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214012103"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.3.0-beta.jar",
+        "size": 9751582,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.0-beta/appliedenergistics2-forge-15.3.0-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214012092"
+      }
+    }
+  },
+  "fabric/v15.3.0-beta": {
+    "source": "github",
+    "modVersion": "15.3.0-beta",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.3.0-beta",
+    "tagName": "fabric/v15.3.0-beta",
+    "published": 1734462106000,
+    "changelog": "This release optimizes channel computation. There is no network \"booting\" delay anymore: channels are recomputed and network devices become operational near-instantly. Released as a beta for now. Please let us know if you notice bugs in the new channel computation algorithm.\n\n- Optimize channel computation by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8285\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.2.14...fabric/v15.3.0-beta",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11507067,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.0-beta/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214013395"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.3.0-beta-api.jar",
+        "size": 607834,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.0-beta/appliedenergistics2-fabric-15.3.0-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214013343"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.3.0-beta.jar",
+        "size": 9870208,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.0-beta/appliedenergistics2-fabric-15.3.0-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214013340"
+      }
+    }
   }
 }
