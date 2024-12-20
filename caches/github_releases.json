@@ -10779,5 +10779,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214013340"
       }
     }
+  },
+  "forge/v15.3.1-beta": {
+    "source": "github",
+    "modVersion": "15.3.1-beta",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.3.1-beta",
+    "tagName": "forge/v15.3.1-beta",
+    "published": 1734648814000,
+    "changelog": "Use the correct event to register the AE2 commands, fixing use after reload. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8293\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.3.0-beta...forge/v15.3.1-beta",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11838404,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.1-beta/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214568590"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.3.1-beta-api.jar",
+        "size": 624449,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.1-beta/appliedenergistics2-forge-15.3.1-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214568528"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.3.1-beta.jar",
+        "size": 9751484,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.1-beta/appliedenergistics2-forge-15.3.1-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214568523"
+      }
+    }
   }
 }
