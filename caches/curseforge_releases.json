@@ -1,6 +1,51 @@
 [
   {
     "source": "curseforge",
+    "id": "6006235",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/6006235",
+    "modVersion": "15.3.1-beta",
+    "releaseType": "beta",
+    "gameVersions": [
+      "1.20.1"
+    ],
+    "modLoaders": [
+      "neoforge",
+      "forge"
+    ],
+    "published": 1734649420660,
+    "totalDownloads": 140,
+    "assets": {
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.3.1-beta.jar",
+        "size": 9751484,
+        "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/download/6006235"
+      }
+    }
+  },
+  {
+    "source": "curseforge",
+    "id": "6006016",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/6006016",
+    "modVersion": "19.1.1-beta",
+    "releaseType": "beta",
+    "gameVersions": [
+      "1.21.1"
+    ],
+    "modLoaders": [
+      "neoforge"
+    ],
+    "published": 1734643768580,
+    "totalDownloads": 3341,
+    "assets": {
+      "mod": {
+        "filename": "appliedenergistics2-19.1.1-beta.jar",
+        "size": 9572901,
+        "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/download/6006016"
+      }
+    }
+  },
+  {
+    "source": "curseforge",
     "id": "5999412",
     "url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/5999412",
     "modVersion": "15.3.0-beta",
@@ -12,7 +57,7 @@
       "fabric"
     ],
     "published": 1734462499627,
-    "totalDownloads": 177,
+    "totalDownloads": 221,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.3.0-beta.jar",
@@ -35,7 +80,7 @@
       "forge"
     ],
     "published": 1734461985330,
-    "totalDownloads": 1045,
+    "totalDownloads": 1243,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.3.0-beta.jar",
@@ -57,7 +102,7 @@
       "neoforge"
     ],
     "published": 1734433245993,
-    "totalDownloads": 682,
+    "totalDownloads": 968,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.1.0-beta.jar",
@@ -80,7 +125,7 @@
       "forge"
     ],
     "published": 1734132416897,
-    "totalDownloads": 30606,
+    "totalDownloads": 33329,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.16.jar",
@@ -102,7 +147,7 @@
       "neoforge"
     ],
     "published": 1734132060100,
-    "totalDownloads": 102052,
+    "totalDownloads": 108937,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.27.jar",
@@ -124,7 +169,7 @@
       "neoforge"
     ],
     "published": 1733832278887,
-    "totalDownloads": 12766,
+    "totalDownloads": 13231,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.26.jar",
@@ -146,7 +191,7 @@
       "neoforge"
     ],
     "published": 1733743061477,
-    "totalDownloads": 1002,
+    "totalDownloads": 1003,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.25.jar",
@@ -168,7 +213,7 @@
       "neoforge"
     ],
     "published": 1733675634237,
-    "totalDownloads": 907,
+    "totalDownloads": 910,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.24.jar",
@@ -191,7 +236,7 @@
       "forge"
     ],
     "published": 1733659584303,
-    "totalDownloads": 30570,
+    "totalDownloads": 31036,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.15.jar",
@@ -213,7 +258,7 @@
       "fabric"
     ],
     "published": 1733625621467,
-    "totalDownloads": 5189,
+    "totalDownloads": 5394,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.2.14.jar",
@@ -258,7 +303,7 @@
       "neoforge"
     ],
     "published": 1726506701303,
-    "totalDownloads": 1779861,
+    "totalDownloads": 1782048,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.23-beta.jar",
@@ -280,7 +325,7 @@
       "neoforge"
     ],
     "published": 1724600023683,
-    "totalDownloads": 235890,
+    "totalDownloads": 235898,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.22-beta.jar",
@@ -325,7 +370,7 @@
       "forge"
     ],
     "published": 1724003327697,
-    "totalDownloads": 2064141,
+    "totalDownloads": 2069364,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.13.jar",
@@ -347,7 +392,7 @@
       "neoforge"
     ],
     "published": 1723200729950,
-    "totalDownloads": 107794,
+    "totalDownloads": 107795,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.20-beta.jar",
@@ -369,7 +414,7 @@
       "neoforge"
     ],
     "published": 1722701194000,
-    "totalDownloads": 128188,
+    "totalDownloads": 128323,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.19-beta.jar",
@@ -391,7 +436,7 @@
       "fabric"
     ],
     "published": 1722550124967,
-    "totalDownloads": 899304,
+    "totalDownloads": 903402,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.2.12.jar",
@@ -457,7 +502,7 @@
       "fabric"
     ],
     "published": 1722079396877,
-    "totalDownloads": 10809,
+    "totalDownloads": 10811,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.2.11.jar",
@@ -480,7 +525,7 @@
       "forge"
     ],
     "published": 1721937006273,
-    "totalDownloads": 813848,
+    "totalDownloads": 814146,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.11.jar",
@@ -503,7 +548,7 @@
       "forge"
     ],
     "published": 1721769449023,
-    "totalDownloads": 34269,
+    "totalDownloads": 34275,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.10.jar",
@@ -679,7 +724,7 @@
       "fabric"
     ],
     "published": 1720778006740,
-    "totalDownloads": 28439,
+    "totalDownloads": 28440,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.2.9.jar",
@@ -702,7 +747,7 @@
       "forge"
     ],
     "published": 1720777644787,
-    "totalDownloads": 736805,
+    "totalDownloads": 737359,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.9.jar",
@@ -747,7 +792,7 @@
       "forge"
     ],
     "published": 1719831836050,
-    "totalDownloads": 269966,
+    "totalDownloads": 270167,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.8.jar",
@@ -791,7 +836,7 @@
       "neoforge"
     ],
     "published": 1719782635583,
-    "totalDownloads": 43713,
+    "totalDownloads": 43714,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.8-alpha.jar",
@@ -837,7 +882,7 @@
       "forge"
     ],
     "published": 1719707290897,
-    "totalDownloads": 2225,
+    "totalDownloads": 2226,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.6.jar",
@@ -926,7 +971,7 @@
       "neoforge"
     ],
     "published": 1719192187620,
-    "totalDownloads": 17398,
+    "totalDownloads": 17400,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-19.0.5-alpha.jar",
@@ -949,7 +994,7 @@
       "forge"
     ],
     "published": 1718837526353,
-    "totalDownloads": 700636,
+    "totalDownloads": 700682,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.4.jar",
@@ -971,7 +1016,7 @@
       "neoforge"
     ],
     "published": 1718751681327,
-    "totalDownloads": 4161,
+    "totalDownloads": 4162,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-neoforge-19.0.4-alpha.jar",
@@ -1082,7 +1127,7 @@
       "forge"
     ],
     "published": 1717628602820,
-    "totalDownloads": 331428,
+    "totalDownloads": 331439,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.3.jar",
@@ -1105,7 +1150,7 @@
       "forge"
     ],
     "published": 1717191606240,
-    "totalDownloads": 244672,
+    "totalDownloads": 244683,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.2.jar",
@@ -1127,7 +1172,7 @@
       "neoforge"
     ],
     "published": 1716931039940,
-    "totalDownloads": 2267,
+    "totalDownloads": 2268,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-neoforge-18.1.3-alpha.jar",
@@ -1172,7 +1217,7 @@
       "forge"
     ],
     "published": 1715286098723,
-    "totalDownloads": 729857,
+    "totalDownloads": 729913,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.2.1.jar",
@@ -1194,7 +1239,7 @@
       "fabric"
     ],
     "published": 1715270675930,
-    "totalDownloads": 934542,
+    "totalDownloads": 934585,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.2.0.jar",
@@ -1330,7 +1375,7 @@
       "forge"
     ],
     "published": 1712819184307,
-    "totalDownloads": 545580,
+    "totalDownloads": 545708,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.1.1.jar",
@@ -1352,7 +1397,7 @@
       "fabric"
     ],
     "published": 1712075351350,
-    "totalDownloads": 54393,
+    "totalDownloads": 54406,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.1.0.jar",
@@ -1375,7 +1420,7 @@
       "forge"
     ],
     "published": 1712011142953,
-    "totalDownloads": 113733,
+    "totalDownloads": 113794,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.1.0.jar",
@@ -1397,7 +1442,7 @@
       "neoforge"
     ],
     "published": 1711735184687,
-    "totalDownloads": 148073,
+    "totalDownloads": 148196,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-neoforge-17.13.0-beta.jar",
@@ -1441,7 +1486,7 @@
       "fabric"
     ],
     "published": 1711452365393,
-    "totalDownloads": 16979,
+    "totalDownloads": 16981,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.0.24.jar",
@@ -1706,7 +1751,7 @@
       "forge"
     ],
     "published": 1709997332247,
-    "totalDownloads": 1001322,
+    "totalDownloads": 1001566,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.23.jar",
@@ -2081,7 +2126,7 @@
       "forge"
     ],
     "published": 1708252165240,
-    "totalDownloads": 534970,
+    "totalDownloads": 535001,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.21.jar",
@@ -2169,7 +2214,7 @@
       "neoforge"
     ],
     "published": 1706831027883,
-    "totalDownloads": 501,
+    "totalDownloads": 502,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-neoforge-17.0.7-beta.jar",
@@ -2192,7 +2237,7 @@
       "forge"
     ],
     "published": 1705252476600,
-    "totalDownloads": 862367,
+    "totalDownloads": 862432,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.20.jar",
@@ -2258,7 +2303,7 @@
       "forge"
     ],
     "published": 1704643294873,
-    "totalDownloads": 1569734,
+    "totalDownloads": 1571011,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.9.9.jar",
@@ -2303,7 +2348,7 @@
       "forge"
     ],
     "published": 1704641676287,
-    "totalDownloads": 160701,
+    "totalDownloads": 160712,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.19.jar",
@@ -2325,7 +2370,7 @@
       "fabric"
     ],
     "published": 1704640996357,
-    "totalDownloads": 166514,
+    "totalDownloads": 166659,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-12.9.9.jar",
@@ -2436,7 +2481,7 @@
       "forge"
     ],
     "published": 1704038010160,
-    "totalDownloads": 309921,
+    "totalDownloads": 309924,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.18.jar",
@@ -2481,7 +2526,7 @@
       "forge"
     ],
     "published": 1703859166407,
-    "totalDownloads": 8175,
+    "totalDownloads": 8177,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.17.jar",
@@ -2525,7 +2570,7 @@
       "fabric"
     ],
     "published": 1703507654780,
-    "totalDownloads": 27885,
+    "totalDownloads": 27904,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.0.16.jar",
@@ -2569,7 +2614,7 @@
       "neoforge"
     ],
     "published": 1701607656397,
-    "totalDownloads": 5627,
+    "totalDownloads": 5628,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-neoforge-16.0.2.jar",
@@ -2614,7 +2659,7 @@
       "forge"
     ],
     "published": 1699655098757,
-    "totalDownloads": 1150534,
+    "totalDownloads": 1150562,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.15.jar",
@@ -2636,7 +2681,7 @@
       "fabric"
     ],
     "published": 1699654180050,
-    "totalDownloads": 1198253,
+    "totalDownloads": 1198266,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.0.15.jar",
@@ -2659,7 +2704,7 @@
       "forge"
     ],
     "published": 1698701872787,
-    "totalDownloads": 225145,
+    "totalDownloads": 225147,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.14.jar",
@@ -2704,7 +2749,7 @@
       "forge"
     ],
     "published": 1696551178003,
-    "totalDownloads": 409833,
+    "totalDownloads": 409854,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.13.jar",
@@ -2726,7 +2771,7 @@
       "fabric"
     ],
     "published": 1696550682450,
-    "totalDownloads": 186631,
+    "totalDownloads": 186633,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.0.13.jar",
@@ -2794,7 +2839,7 @@
       "forge"
     ],
     "published": 1693757017007,
-    "totalDownloads": 569962,
+    "totalDownloads": 569976,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.11.jar",
@@ -2816,7 +2861,7 @@
       "fabric"
     ],
     "published": 1693752794100,
-    "totalDownloads": 102280,
+    "totalDownloads": 102283,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.0.11.jar",
@@ -2883,7 +2928,7 @@
       "fabric"
     ],
     "published": 1693616936533,
-    "totalDownloads": 167731,
+    "totalDownloads": 167744,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-12.9.8.jar",
@@ -2905,7 +2950,7 @@
       "forge"
     ],
     "published": 1693616769520,
-    "totalDownloads": 2445477,
+    "totalDownloads": 2445778,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.9.8.jar",
@@ -2927,7 +2972,7 @@
       "fabric"
     ],
     "published": 1693616700337,
-    "totalDownloads": 62232,
+    "totalDownloads": 62438,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-11.7.6.jar",
@@ -2949,7 +2994,7 @@
       "forge"
     ],
     "published": 1693616583110,
-    "totalDownloads": 1860826,
+    "totalDownloads": 1863091,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.7.6.jar",
@@ -2971,7 +3016,7 @@
       "forge"
     ],
     "published": 1692740967620,
-    "totalDownloads": 35798,
+    "totalDownloads": 35799,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.9.7.jar",
@@ -3015,7 +3060,7 @@
       "forge"
     ],
     "published": 1692738715267,
-    "totalDownloads": 73040,
+    "totalDownloads": 73043,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.7.5.jar",
@@ -3060,7 +3105,7 @@
       "forge"
     ],
     "published": 1691307362737,
-    "totalDownloads": 310991,
+    "totalDownloads": 310995,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.9-beta.jar",
@@ -3128,7 +3173,7 @@
       "fabric"
     ],
     "published": 1691070997333,
-    "totalDownloads": 60588,
+    "totalDownloads": 60596,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.0.7-beta.jar",
@@ -3194,7 +3239,7 @@
       "forge"
     ],
     "published": 1689531599530,
-    "totalDownloads": 70359,
+    "totalDownloads": 70367,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.5-beta.jar",
@@ -3238,7 +3283,7 @@
       "fabric"
     ],
     "published": 1689455815970,
-    "totalDownloads": 89530,
+    "totalDownloads": 89535,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-12.9.6.jar",
@@ -3260,7 +3305,7 @@
       "forge"
     ],
     "published": 1688766482937,
-    "totalDownloads": 295282,
+    "totalDownloads": 295286,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.4-beta.jar",
@@ -3304,7 +3349,7 @@
       "fabric"
     ],
     "published": 1687846103003,
-    "totalDownloads": 21282,
+    "totalDownloads": 21284,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-15.0.3-alpha.jar",
@@ -3326,7 +3371,7 @@
       "forge"
     ],
     "published": 1687824722843,
-    "totalDownloads": 60384,
+    "totalDownloads": 60386,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.3-alpha.jar",
@@ -3348,7 +3393,7 @@
       "forge"
     ],
     "published": 1686870295953,
-    "totalDownloads": 65910,
+    "totalDownloads": 65914,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-15.0.2-alpha.jar",
@@ -3480,7 +3525,7 @@
       "fabric"
     ],
     "published": 1684795671003,
-    "totalDownloads": 30575,
+    "totalDownloads": 30582,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-11.7.4.jar",
@@ -3502,7 +3547,7 @@
       "forge"
     ],
     "published": 1684795405230,
-    "totalDownloads": 624769,
+    "totalDownloads": 624854,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.7.4.jar",
@@ -3524,7 +3569,7 @@
       "forge"
     ],
     "published": 1684795208160,
-    "totalDownloads": 1589735,
+    "totalDownloads": 1589768,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.9.5.jar",
@@ -3546,7 +3591,7 @@
       "fabric"
     ],
     "published": 1684795106890,
-    "totalDownloads": 203030,
+    "totalDownloads": 203039,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-12.9.5.jar",
@@ -3568,7 +3613,7 @@
       "forge"
     ],
     "published": 1681928143450,
-    "totalDownloads": 101949,
+    "totalDownloads": 101951,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.7.3.jar",
@@ -3590,7 +3635,7 @@
       "forge"
     ],
     "published": 1681927415500,
-    "totalDownloads": 811318,
+    "totalDownloads": 811342,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.9.4.jar",
@@ -3612,7 +3657,7 @@
       "fabric"
     ],
     "published": 1681580362903,
-    "totalDownloads": 8690,
+    "totalDownloads": 8691,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-11.7.2.jar",
@@ -3678,7 +3723,7 @@
       "fabric"
     ],
     "published": 1681579679427,
-    "totalDownloads": 109560,
+    "totalDownloads": 109565,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-12.9.3.jar",
@@ -3700,7 +3745,7 @@
       "forge"
     ],
     "published": 1677280788853,
-    "totalDownloads": 40270,
+    "totalDownloads": 40272,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-13.0.10-beta.jar",
@@ -3722,7 +3767,7 @@
       "fabric"
     ],
     "published": 1677251275777,
-    "totalDownloads": 461927,
+    "totalDownloads": 461934,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-11.7.1.jar",
@@ -3810,7 +3855,7 @@
       "fabric"
     ],
     "published": 1674076993257,
-    "totalDownloads": 23966,
+    "totalDownloads": 23970,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-13.0.6-beta.jar",
@@ -3832,7 +3877,7 @@
       "forge"
     ],
     "published": 1672768556983,
-    "totalDownloads": 19069,
+    "totalDownloads": 19070,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-13.0.5-beta.jar",
@@ -3854,7 +3899,7 @@
       "forge"
     ],
     "published": 1672767166893,
-    "totalDownloads": 1729961,
+    "totalDownloads": 1729984,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.9.2.jar",
@@ -3876,7 +3921,7 @@
       "fabric"
     ],
     "published": 1672765967080,
-    "totalDownloads": 377360,
+    "totalDownloads": 377364,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-12.9.2.jar",
@@ -4052,7 +4097,7 @@
       "forge"
     ],
     "published": 1670280753983,
-    "totalDownloads": 3160976,
+    "totalDownloads": 3161647,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.7.0.jar",
@@ -4074,7 +4119,7 @@
       "fabric"
     ],
     "published": 1670272676673,
-    "totalDownloads": 98032,
+    "totalDownloads": 98034,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-11.7.0.jar",
@@ -4096,7 +4141,7 @@
       "forge"
     ],
     "published": 1670267645040,
-    "totalDownloads": 438516,
+    "totalDownloads": 438518,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.9.1.jar",
@@ -4118,7 +4163,7 @@
       "fabric"
     ],
     "published": 1670265830313,
-    "totalDownloads": 124071,
+    "totalDownloads": 124074,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-12.9.1.jar",
@@ -4250,7 +4295,7 @@
       "forge"
     ],
     "published": 1669073213900,
-    "totalDownloads": 287193,
+    "totalDownloads": 287194,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.8.6.jar",
@@ -4360,7 +4405,7 @@
       "forge"
     ],
     "published": 1668015348603,
-    "totalDownloads": 263636,
+    "totalDownloads": 263646,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.6.4.jar",
@@ -4382,7 +4427,7 @@
       "forge"
     ],
     "published": 1667598273240,
-    "totalDownloads": 100350,
+    "totalDownloads": 100352,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.6.3.jar",
@@ -4404,7 +4449,7 @@
       "forge"
     ],
     "published": 1667036697040,
-    "totalDownloads": 267648,
+    "totalDownloads": 267650,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.8.4.jar",
@@ -4470,7 +4515,7 @@
       "fabric"
     ],
     "published": 1666994826237,
-    "totalDownloads": 143297,
+    "totalDownloads": 143312,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-11.6.2.jar",
@@ -4558,7 +4603,7 @@
       "forge"
     ],
     "published": 1665342049873,
-    "totalDownloads": 881056,
+    "totalDownloads": 881062,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-11.6.1-beta.jar",
@@ -4602,7 +4647,7 @@
       "forge"
     ],
     "published": 1665336754747,
-    "totalDownloads": 35446,
+    "totalDownloads": 35447,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-forge-12.8.2-beta.jar",
@@ -4778,7 +4823,7 @@
       "forge"
     ],
     "published": 1664623611400,
-    "totalDownloads": 209787,
+    "totalDownloads": 209791,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.5.0.jar",
@@ -4866,7 +4911,7 @@
       "forge"
     ],
     "published": 1664235744213,
-    "totalDownloads": 89519,
+    "totalDownloads": 89521,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.4.0.jar",
@@ -5240,7 +5285,7 @@
       "forge"
     ],
     "published": 1662219132843,
-    "totalDownloads": 30880,
+    "totalDownloads": 30882,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-12.2.0-beta.jar",
@@ -5284,7 +5329,7 @@
       "forge"
     ],
     "published": 1662150866467,
-    "totalDownloads": 312084,
+    "totalDownloads": 312087,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.7.jar",
@@ -5306,7 +5351,7 @@
       "fabric"
     ],
     "published": 1662150297970,
-    "totalDownloads": 565046,
+    "totalDownloads": 565140,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.7.jar",
@@ -5350,7 +5395,7 @@
       "fabric"
     ],
     "published": 1661080774457,
-    "totalDownloads": 3279,
+    "totalDownloads": 3280,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-12.1.2-beta.jar",
@@ -5438,7 +5483,7 @@
       "forge"
     ],
     "published": 1659566131150,
-    "totalDownloads": 11370,
+    "totalDownloads": 11374,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-12.1.0-alpha.jar",
@@ -5460,7 +5505,7 @@
       "forge"
     ],
     "published": 1659563820147,
-    "totalDownloads": 32289,
+    "totalDownloads": 32293,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-12.0.2-alpha.jar",
@@ -5482,7 +5527,7 @@
       "forge"
     ],
     "published": 1659393739893,
-    "totalDownloads": 248586,
+    "totalDownloads": 248587,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.5.jar",
@@ -5592,7 +5637,7 @@
       "fabric"
     ],
     "published": 1659220342367,
-    "totalDownloads": 36965,
+    "totalDownloads": 36969,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-12.0.2-alpha.jar",
@@ -5636,7 +5681,7 @@
       "forge"
     ],
     "published": 1656975412083,
-    "totalDownloads": 674159,
+    "totalDownloads": 674160,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.4.jar",
@@ -5680,7 +5725,7 @@
       "fabric"
     ],
     "published": 1656974832983,
-    "totalDownloads": 128405,
+    "totalDownloads": 128406,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.4.jar",
@@ -5702,7 +5747,7 @@
       "forge"
     ],
     "published": 1655497692017,
-    "totalDownloads": 246505,
+    "totalDownloads": 246506,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.3.jar",
@@ -5724,7 +5769,7 @@
       "fabric"
     ],
     "published": 1655495938710,
-    "totalDownloads": 95180,
+    "totalDownloads": 95181,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.3.jar",
@@ -5746,7 +5791,7 @@
       "forge"
     ],
     "published": 1654811963083,
-    "totalDownloads": 123477,
+    "totalDownloads": 123478,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.2.jar",
@@ -5834,7 +5879,7 @@
       "fabric"
     ],
     "published": 1654357638820,
-    "totalDownloads": 3289,
+    "totalDownloads": 3290,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.1.0.jar",
@@ -5856,7 +5901,7 @@
       "forge"
     ],
     "published": 1652633922837,
-    "totalDownloads": 226899,
+    "totalDownloads": 226901,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.0.0.jar",
@@ -5944,7 +5989,7 @@
       "fabric"
     ],
     "published": 1650659962917,
-    "totalDownloads": 120092,
+    "totalDownloads": 120093,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.0.0-alpha.5.jar",
@@ -5966,7 +6011,7 @@
       "fabric"
     ],
     "published": 1650274794643,
-    "totalDownloads": 17986,
+    "totalDownloads": 17987,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.1.0-beta.3.jar",
@@ -6076,7 +6121,7 @@
       "forge"
     ],
     "published": 1648490974053,
-    "totalDownloads": 13093,
+    "totalDownloads": 13094,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.0.0-alpha.2.jar",
@@ -6098,7 +6143,7 @@
       "forge"
     ],
     "published": 1648382934987,
-    "totalDownloads": 1289,
+    "totalDownloads": 1290,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-11.0.0-alpha.1.jar",
@@ -6142,7 +6187,7 @@
       "forge"
     ],
     "published": 1644691596263,
-    "totalDownloads": 174884,
+    "totalDownloads": 174886,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.1.0-beta.2.jar",
@@ -6164,7 +6209,7 @@
       "fabric"
     ],
     "published": 1644688433600,
-    "totalDownloads": 441564,
+    "totalDownloads": 441566,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.1.0-beta.2.jar",
@@ -6230,7 +6275,7 @@
       "forge"
     ],
     "published": 1642715630767,
-    "totalDownloads": 156380,
+    "totalDownloads": 156384,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.0.1.jar",
@@ -6252,7 +6297,7 @@
       "fabric"
     ],
     "published": 1642375756553,
-    "totalDownloads": 346946,
+    "totalDownloads": 346990,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.0.0.jar",
@@ -6274,7 +6319,7 @@
       "forge"
     ],
     "published": 1642375552453,
-    "totalDownloads": 50960,
+    "totalDownloads": 50961,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.0.0.jar",
@@ -6296,7 +6341,7 @@
       "forge"
     ],
     "published": 1642365874063,
-    "totalDownloads": 6830037,
+    "totalDownloads": 6832438,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.4.7.jar",
@@ -6384,7 +6429,7 @@
       "forge"
     ],
     "published": 1641078512303,
-    "totalDownloads": 1257718,
+    "totalDownloads": 1257773,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.4.6.jar",
@@ -6585,7 +6630,7 @@
       "forge"
     ],
     "published": 1639912274167,
-    "totalDownloads": 148050,
+    "totalDownloads": 148057,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.4.5.jar",
@@ -6630,7 +6675,7 @@
       "fabric"
     ],
     "published": 1639494235447,
-    "totalDownloads": 41092,
+    "totalDownloads": 41100,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.0.0-alpha.7.jar",
@@ -6697,7 +6742,7 @@
       "forge"
     ],
     "published": 1639177699703,
-    "totalDownloads": 44416,
+    "totalDownloads": 44423,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-10.0.0-alpha.4.jar",
@@ -6896,7 +6941,7 @@
       "forge"
     ],
     "published": 1637106945670,
-    "totalDownloads": 2233672,
+    "totalDownloads": 2233971,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.4.4.jar",
@@ -6918,7 +6963,7 @@
       "forge"
     ],
     "published": 1637013834440,
-    "totalDownloads": 132456,
+    "totalDownloads": 132460,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-9.0.0-beta.2.jar",
@@ -6940,7 +6985,7 @@
       "fabric"
     ],
     "published": 1636483793470,
-    "totalDownloads": 143483,
+    "totalDownloads": 143490,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-9.0.0-beta.2.jar",
@@ -7072,7 +7117,7 @@
       "forge"
     ],
     "published": 1635099747137,
-    "totalDownloads": 500536,
+    "totalDownloads": 500540,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.4.3.jar",
@@ -7204,7 +7249,7 @@
       "fabric"
     ],
     "published": 1633909620807,
-    "totalDownloads": 126233,
+    "totalDownloads": 126257,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-8.4.0-alpha.3.jar",
@@ -7270,7 +7315,7 @@
       "forge"
     ],
     "published": 1633264229977,
-    "totalDownloads": 527465,
+    "totalDownloads": 527475,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.4.2.jar",
@@ -7358,7 +7403,7 @@
       "forge"
     ],
     "published": 1623918439810,
-    "totalDownloads": 1351673,
+    "totalDownloads": 1351758,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.4.0.jar",
@@ -7512,7 +7557,7 @@
       "forge"
     ],
     "published": 1620649628073,
-    "totalDownloads": 371608,
+    "totalDownloads": 371629,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.3.1.jar",
@@ -7622,7 +7667,7 @@
       "forge"
     ],
     "published": 1618161785893,
-    "totalDownloads": 80799,
+    "totalDownloads": 80800,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.3.0-alpha.3.jar",
@@ -7644,7 +7689,7 @@
       "forge"
     ],
     "published": 1615661734137,
-    "totalDownloads": 133940,
+    "totalDownloads": 133942,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.3.0-alpha.2.jar",
@@ -7710,7 +7755,7 @@
       "forge"
     ],
     "published": 1614029014620,
-    "totalDownloads": 808703,
+    "totalDownloads": 808706,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.3.0-alpha.1.jar",
@@ -7754,7 +7799,7 @@
       "forge"
     ],
     "published": 1611945198073,
-    "totalDownloads": 262575,
+    "totalDownloads": 262582,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.2.0.jar",
@@ -7776,7 +7821,7 @@
       "forge"
     ],
     "published": 1611050014230,
-    "totalDownloads": 35024,
+    "totalDownloads": 35025,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.2.0-beta.3.jar",
@@ -7798,7 +7843,7 @@
       "forge"
     ],
     "published": 1609603430860,
-    "totalDownloads": 659609,
+    "totalDownloads": 659612,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.2.0-beta.2.jar",
@@ -7842,7 +7887,7 @@
       "forge"
     ],
     "published": 1605949124407,
-    "totalDownloads": 293390,
+    "totalDownloads": 293391,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.2.0-alpha.2.jar",
@@ -7886,7 +7931,7 @@
       "forge"
     ],
     "published": 1605889861177,
-    "totalDownloads": 998,
+    "totalDownloads": 999,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.2.0-alpha.1.jar",
@@ -7910,7 +7955,7 @@
       "forge"
     ],
     "published": 1604930882570,
-    "totalDownloads": 298080,
+    "totalDownloads": 298081,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.1.0.jar",
@@ -7955,7 +8000,7 @@
       "forge"
     ],
     "published": 1604166251677,
-    "totalDownloads": 15833,
+    "totalDownloads": 15835,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.0.0.jar",
@@ -7978,7 +8023,7 @@
       "forge"
     ],
     "published": 1604164844447,
-    "totalDownloads": 89975,
+    "totalDownloads": 89988,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-7.0.5.jar",
@@ -8023,7 +8068,7 @@
       "forge"
     ],
     "published": 1603842405757,
-    "totalDownloads": 70997,
+    "totalDownloads": 70999,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.1.0-beta.2.jar",
@@ -8092,7 +8137,7 @@
       "forge"
     ],
     "published": 1600601193333,
-    "totalDownloads": 82639,
+    "totalDownloads": 82641,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.1.0-alpha.3.jar",
@@ -8115,7 +8160,7 @@
       "forge"
     ],
     "published": 1600599913783,
-    "totalDownloads": 14767,
+    "totalDownloads": 14768,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.0.0-beta.4.jar",
@@ -8159,7 +8204,7 @@
       "fabric"
     ],
     "published": 1599838536697,
-    "totalDownloads": 12710,
+    "totalDownloads": 12711,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-fabric-8.1.0-alpha.9.jar",
@@ -8227,7 +8272,7 @@
       "forge"
     ],
     "published": 1599676749423,
-    "totalDownloads": 170735,
+    "totalDownloads": 170736,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-7.0.4.jar",
@@ -8384,7 +8429,7 @@
       "forge"
     ],
     "published": 1598310636543,
-    "totalDownloads": 72800,
+    "totalDownloads": 72801,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-8.0.0-beta.2.jar",
@@ -8769,7 +8814,7 @@
       "forge"
     ],
     "published": 1563909552153,
-    "totalDownloads": 39161868,
+    "totalDownloads": 39167170,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-stable-7.jar",
@@ -8791,7 +8836,7 @@
       "forge"
     ],
     "published": 1545781202660,
-    "totalDownloads": 14078809,
+    "totalDownloads": 14079205,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-stable-6.jar",
@@ -8835,7 +8880,7 @@
       "forge"
     ],
     "published": 1541958838220,
-    "totalDownloads": 845086,
+    "totalDownloads": 845096,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-stable-4.jar",
@@ -8879,7 +8924,7 @@
       "forge"
     ],
     "published": 1538777537080,
-    "totalDownloads": 274694,
+    "totalDownloads": 274697,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-stable-2.jar",
@@ -8901,7 +8946,7 @@
       "forge"
     ],
     "published": 1538308614240,
-    "totalDownloads": 121681,
+    "totalDownloads": 121682,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-stable-1.jar",
@@ -8923,7 +8968,7 @@
       "forge"
     ],
     "published": 1537641853700,
-    "totalDownloads": 11233,
+    "totalDownloads": 11234,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-beta-1.jar",
@@ -8967,7 +9012,7 @@
       "forge"
     ],
     "published": 1531599622710,
-    "totalDownloads": 63676,
+    "totalDownloads": 63677,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-alpha-3.jar",
@@ -8989,7 +9034,7 @@
       "forge"
     ],
     "published": 1531090375630,
-    "totalDownloads": 193796,
+    "totalDownloads": 193797,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv6-alpha-2.jar",
@@ -9033,7 +9078,7 @@
       "forge"
     ],
     "published": 1521723941587,
-    "totalDownloads": 5166378,
+    "totalDownloads": 5166415,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-stable-11.jar",
@@ -9055,7 +9100,7 @@
       "forge"
     ],
     "published": 1520524530390,
-    "totalDownloads": 157905,
+    "totalDownloads": 157908,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-stable-10.jar",
@@ -9099,7 +9144,7 @@
       "forge"
     ],
     "published": 1517842502077,
-    "totalDownloads": 486470,
+    "totalDownloads": 486472,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-stable-8.jar",
@@ -9143,7 +9188,7 @@
       "forge"
     ],
     "published": 1517145310977,
-    "totalDownloads": 5020,
+    "totalDownloads": 5021,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-stable-6.jar",
@@ -9165,7 +9210,7 @@
       "forge"
     ],
     "published": 1515937713300,
-    "totalDownloads": 436945,
+    "totalDownloads": 436957,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-stable-5.jar",
@@ -9187,7 +9232,7 @@
       "forge"
     ],
     "published": 1514723584463,
-    "totalDownloads": 172164,
+    "totalDownloads": 172167,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-stable-4.jar",
@@ -9209,7 +9254,7 @@
       "forge"
     ],
     "published": 1511708553963,
-    "totalDownloads": 378808,
+    "totalDownloads": 378810,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-stable-3.jar",
@@ -9365,7 +9410,7 @@
       "forge"
     ],
     "published": 1506977971057,
-    "totalDownloads": 77014,
+    "totalDownloads": 77019,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-alpha-7.jar",
@@ -9437,7 +9482,7 @@
       "forge"
     ],
     "published": 1504002609663,
-    "totalDownloads": 108990,
+    "totalDownloads": 108995,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv5-alpha-4.jar",
@@ -9527,7 +9572,7 @@
       "forge"
     ],
     "published": 1500818274053,
-    "totalDownloads": 4676418,
+    "totalDownloads": 4676761,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv4-stable-1.jar",
@@ -9549,7 +9594,7 @@
       "forge"
     ],
     "published": 1483206056057,
-    "totalDownloads": 3045312,
+    "totalDownloads": 3045341,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv4-alpha-11.jar",
@@ -9593,7 +9638,7 @@
       "forge"
     ],
     "published": 1480779607460,
-    "totalDownloads": 183678,
+    "totalDownloads": 183679,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv4-alpha-8.jar",
@@ -9769,7 +9814,7 @@
       "forge"
     ],
     "published": 1461755641390,
-    "totalDownloads": 12561361,
+    "totalDownloads": 12562028,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv3-beta-6.jar",
@@ -9791,7 +9836,7 @@
       "forge"
     ],
     "published": 1452695465803,
-    "totalDownloads": 1166173,
+    "totalDownloads": 1166197,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv3-beta-5.jar",
@@ -9879,7 +9924,7 @@
       "forge"
     ],
     "published": 1450622833547,
-    "totalDownloads": 76547,
+    "totalDownloads": 76551,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv3-beta-1.jar",
@@ -9901,7 +9946,7 @@
       "forge"
     ],
     "published": 1449870312483,
-    "totalDownloads": 27361,
+    "totalDownloads": 27362,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv3-alpha-13.jar",
@@ -9945,7 +9990,7 @@
       "forge"
     ],
     "published": 1447671336470,
-    "totalDownloads": 19211,
+    "totalDownloads": 19212,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv3-alpha-10.jar",
@@ -9967,7 +10012,7 @@
       "forge"
     ],
     "published": 1444509524793,
-    "totalDownloads": 110549,
+    "totalDownloads": 110552,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv3-alpha-9.jar",
@@ -10143,7 +10188,7 @@
       "forge"
     ],
     "published": 1437770867973,
-    "totalDownloads": 10139,
+    "totalDownloads": 10143,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv3-alpha-1.jar",
@@ -10165,7 +10210,7 @@
       "forge"
     ],
     "published": 1436170683503,
-    "totalDownloads": 8656891,
+    "totalDownloads": 8657271,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-stable-10.jar",
@@ -10231,7 +10276,7 @@
       "forge"
     ],
     "published": 1434269807447,
-    "totalDownloads": 29035,
+    "totalDownloads": 29037,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-stable-7.jar",
@@ -10275,7 +10320,7 @@
       "forge"
     ],
     "published": 1433538958617,
-    "totalDownloads": 82817,
+    "totalDownloads": 82818,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-stable-5.jar",
@@ -10473,7 +10518,7 @@
       "forge"
     ],
     "published": 1428522593750,
-    "totalDownloads": 62023,
+    "totalDownloads": 62026,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-beta-28.jar",
@@ -10583,7 +10628,7 @@
       "forge"
     ],
     "published": 1428092921017,
-    "totalDownloads": 2398,
+    "totalDownloads": 2399,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-beta-23.jar",
@@ -10825,7 +10870,7 @@
       "forge"
     ],
     "published": 1425980511570,
-    "totalDownloads": 4839,
+    "totalDownloads": 4840,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-beta-9.jar",
@@ -10935,7 +10980,7 @@
       "forge"
     ],
     "published": 1419893061613,
-    "totalDownloads": 790,
+    "totalDownloads": 791,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-beta-4.jar",
@@ -10957,7 +11002,7 @@
       "forge"
     ],
     "published": 1419788805203,
-    "totalDownloads": 7973,
+    "totalDownloads": 7974,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-beta-3.jar",
@@ -11067,7 +11112,7 @@
       "forge"
     ],
     "published": 1417515577990,
-    "totalDownloads": 773,
+    "totalDownloads": 774,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-alpha-27.jar",
@@ -11089,7 +11134,7 @@
       "forge"
     ],
     "published": 1417265985763,
-    "totalDownloads": 42532,
+    "totalDownloads": 42533,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-alpha-26.jar",
@@ -11309,7 +11354,7 @@
       "forge"
     ],
     "published": 1415212078860,
-    "totalDownloads": 540,
+    "totalDownloads": 541,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv2-alpha-15.jar",
@@ -11639,7 +11684,7 @@
       "forge"
     ],
     "published": 1411275272490,
-    "totalDownloads": 352867,
+    "totalDownloads": 352870,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-stable-1.jar",
@@ -11661,7 +11706,7 @@
       "forge"
     ],
     "published": 1411178886567,
-    "totalDownloads": 6186,
+    "totalDownloads": 6187,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-37.jar",
@@ -11705,7 +11750,7 @@
       "forge"
     ],
     "published": 1411092445380,
-    "totalDownloads": 1160,
+    "totalDownloads": 1162,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-35.jar",
@@ -11749,7 +11794,7 @@
       "forge"
     ],
     "published": 1410914261033,
-    "totalDownloads": 988,
+    "totalDownloads": 989,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-33.jar",
@@ -11771,7 +11816,7 @@
       "forge"
     ],
     "published": 1410844215363,
-    "totalDownloads": 1306,
+    "totalDownloads": 1307,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-32.jar",
@@ -11815,7 +11860,7 @@
       "forge"
     ],
     "published": 1410672893073,
-    "totalDownloads": 1879,
+    "totalDownloads": 1880,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-30.jar",
@@ -11837,7 +11882,7 @@
       "forge"
     ],
     "published": 1410582754253,
-    "totalDownloads": 1410,
+    "totalDownloads": 1411,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-29.jar",
@@ -11925,7 +11970,7 @@
       "forge"
     ],
     "published": 1410204784240,
-    "totalDownloads": 1406,
+    "totalDownloads": 1407,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-24.jar",
@@ -11947,7 +11992,7 @@
       "forge"
     ],
     "published": 1410118714650,
-    "totalDownloads": 1398,
+    "totalDownloads": 1400,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-23.jar",
@@ -11969,7 +12014,7 @@
       "forge"
     ],
     "published": 1410109542020,
-    "totalDownloads": 860,
+    "totalDownloads": 861,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-22.jar",
@@ -12013,7 +12058,7 @@
       "forge"
     ],
     "published": 1409848537017,
-    "totalDownloads": 2147,
+    "totalDownloads": 2148,
     "assets": {
       "mod": {
         "filename": "appliedenergistics2-rv1-beta-20.jar",
