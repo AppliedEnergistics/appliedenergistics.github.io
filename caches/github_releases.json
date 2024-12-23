@@ -10812,5 +10812,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/214568523"
       }
     }
+  },
+  "forge/v15.3.2-beta": {
+    "source": "github",
+    "modVersion": "15.3.2-beta",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.3.2-beta",
+    "tagName": "forge/v15.3.2-beta",
+    "published": 1734908926000,
+    "changelog": "## What's Changed\n* Cherry picked Fix #8295: CPU IGridMultiblock returning null nodes (#8298) by @Aresiel in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8299\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.3.1-beta...forge/v15.3.2-beta",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11823553,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.2-beta/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/215213803"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.3.2-beta-api.jar",
+        "size": 624449,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.2-beta/appliedenergistics2-forge-15.3.2-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/215213904"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.3.2-beta.jar",
+        "size": 9751697,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.2-beta/appliedenergistics2-forge-15.3.2-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/215213902"
+      }
+    }
+  },
+  "fabric/v15.3.2-beta": {
+    "source": "github",
+    "modVersion": "15.3.2-beta",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.3.2-beta",
+    "tagName": "fabric/v15.3.2-beta",
+    "published": 1734908986000,
+    "changelog": "## What's Changed\n* Cherry picked Fix #8295: CPU IGridMultiblock returning null nodes (#8298) by @Aresiel in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8300\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.3.0-beta...fabric/v15.3.2-beta",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11500567,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.2-beta/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/215212596"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.3.2-beta-api.jar",
+        "size": 607834,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.2-beta/appliedenergistics2-fabric-15.3.2-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/215212435"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.3.2-beta.jar",
+        "size": 9870419,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.2-beta/appliedenergistics2-fabric-15.3.2-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/215212422"
+      }
+    }
   }
 }
