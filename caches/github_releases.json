@@ -10944,5 +10944,86 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/220455157"
       }
     }
+  },
+  "forge/v12.9.12": {
+    "source": "github",
+    "modVersion": "12.9.12",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v12.9.12",
+    "tagName": "forge/v12.9.12",
+    "published": 1740268218000,
+    "changelog": "Backported energy grid optimizations from 1.20.1\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v12.9.11...forge/v12.9.12",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-12.9.12-api.jar",
+        "size": 586070,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.12/appliedenergistics2-forge-12.9.12-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/231697531"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-12.9.12.jar",
+        "size": 9931625,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.12/appliedenergistics2-forge-12.9.12.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/231697528"
+      }
+    }
+  },
+  "forge/v12.9.11": {
+    "source": "github",
+    "modVersion": "12.9.11",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v12.9.11",
+    "tagName": "forge/v12.9.11",
+    "published": 1740264509000,
+    "changelog": "Backport grid ticking optimizations from 1.21.1\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/neoforge/v19.2.3-beta...forge/v12.9.11",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-12.9.11-api.jar",
+        "size": 586351,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.11/appliedenergistics2-forge-12.9.11-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/231681426"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-12.9.11.jar",
+        "size": 9930409,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.11/appliedenergistics2-forge-12.9.11.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/231681424"
+      }
+    }
+  },
+  "forge/v12.9.10": {
+    "source": "github",
+    "modVersion": "12.9.10",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v12.9.10",
+    "tagName": "forge/v12.9.10",
+    "published": 1740262072000,
+    "changelog": "Backport a Vanilla optimization speeding up saving of drives whenever their content changes (by not notifying neighboring blocks of non-existent comparator level changes).\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v12.9.9...forge/v12.9.10",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-12.9.10-api.jar",
+        "size": 584941,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.10/appliedenergistics2-forge-12.9.10-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/231674364"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-12.9.10.jar",
+        "size": 9928092,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v12.9.10/appliedenergistics2-forge-12.9.10.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/231674362"
+      }
+    }
   }
 }
