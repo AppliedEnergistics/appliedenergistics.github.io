@@ -11025,5 +11025,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/231674362"
       }
     }
+  },
+  "forge/v15.3.4": {
+    "source": "github",
+    "modVersion": "15.3.4",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.3.4",
+    "tagName": "forge/v15.3.4",
+    "published": 1743107095000,
+    "changelog": "Backported a fix for mistranslated 256k storage components and cells\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.3.3...forge/v15.3.4",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11809665,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.4/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/241385542"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.3.4-api.jar",
+        "size": 624586,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.4/appliedenergistics2-forge-15.3.4-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/241385993"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.3.4.jar",
+        "size": 9746206,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.4/appliedenergistics2-forge-15.3.4.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/241385970"
+      }
+    }
+  },
+  "fabric/v15.3.4": {
+    "source": "github",
+    "modVersion": "15.3.4",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.3.4",
+    "tagName": "fabric/v15.3.4",
+    "published": 1743107103000,
+    "changelog": "Backported a fix for mistranslated 256k storage components and cells\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.3.3...fabric/v15.3.4",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11499906,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.4/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/241385485"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.3.4-api.jar",
+        "size": 607982,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.4/appliedenergistics2-fabric-15.3.4-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/241385428"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.3.4.jar",
+        "size": 9870505,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.4/appliedenergistics2-fabric-15.3.4.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/241385419"
+      }
+    }
   }
 }
