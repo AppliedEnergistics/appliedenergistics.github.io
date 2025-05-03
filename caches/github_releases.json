@@ -11091,5 +11091,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/241385419"
       }
     }
+  },
+  "forge/v15.3.5": {
+    "source": "github",
+    "modVersion": "15.3.5",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.3.5",
+    "tagName": "forge/v15.3.5",
+    "published": 1746222708000,
+    "changelog": "Backported the following:\n\n- Fix crafting status sometimes crashing when repeatedly opened/closed (#8390)\n- Avoid Object2LongMap.Entry allocations (#8362)\n- Do not allow items to be inserted into the Matter Condenser when the output slot is full (#8335)\n- Allow filtering config stack slots with containers holding 0 of a stack (#8324)\n- Update collision mesh on cable recoloring (#8317)\n- Do not void items not already stored on a cell using an Overflow Destruction card (#8336)\n- Rewrite extraction from IItemHandlers: streamline and fix (#8478)\n- Add translation for the spatial storage dimension (#8483)\n- Fix villager point of interest not being moved by a spatial transition (#8468)\n- Fix spatial cell tooltip by using client-side data (#8469)\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.3.4...forge/v15.3.5",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11829194,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.5/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251415492"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.3.5-api.jar",
+        "size": 624605,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.5/appliedenergistics2-forge-15.3.5-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251415315"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.3.5.jar",
+        "size": 9749673,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.5/appliedenergistics2-forge-15.3.5.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251415305"
+      }
+    }
+  },
+  "fabric/v15.3.5": {
+    "source": "github",
+    "modVersion": "15.3.5",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.3.5",
+    "tagName": "fabric/v15.3.5",
+    "published": 1746224264000,
+    "changelog": "Backported the following:\n\n- Fix crafting status sometimes crashing when repeatedly opened/closed (#8390)\n- Avoid Object2LongMap.Entry allocations (#8362)\n- Do not allow items to be inserted into the Matter Condenser when the output slot is full (#8335)\n- Allow filtering config stack slots with containers holding 0 of a stack (#8324)\n- Update collision mesh on cable recoloring (#8317)\n- Do not void items not already stored on a cell using an Overflow Destruction card (#8336)\n- Add translation for the spatial storage dimension (#8483)\n- Fix villager point of interest not being moved by a spatial transition (#8468)\n- Fix spatial cell tooltip by using client-side data (#8469)\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.3.4...fabric/v15.3.5",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11509105,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.5/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251421167"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.3.5-api.jar",
+        "size": 608005,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.5/appliedenergistics2-fabric-15.3.5-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251420936"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.3.5.jar",
+        "size": 9873143,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.5/appliedenergistics2-fabric-15.3.5.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251420930"
+      }
+    }
   }
 }
