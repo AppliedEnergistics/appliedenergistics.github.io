@@ -11157,5 +11157,137 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251420930"
       }
     }
+  },
+  "forge/v15.4.1": {
+    "source": "github",
+    "modVersion": "15.4.1",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.1",
+    "tagName": "forge/v15.4.1",
+    "published": 1746310102000,
+    "changelog": "Fix client-side disconnect when opening Crafting CPU Screen.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.0...forge/v15.4.1",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11825940,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.1/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251628743"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.1-api.jar",
+        "size": 624605,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.1/appliedenergistics2-forge-15.4.1-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251628271"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.1.jar",
+        "size": 5582320,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.1/appliedenergistics2-forge-15.4.1.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251628268"
+      }
+    }
+  },
+  "forge/v15.4.0": {
+    "source": "github",
+    "modVersion": "15.4.0",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.0",
+    "tagName": "forge/v15.4.0",
+    "published": 1746295407000,
+    "changelog": "## What's Changed\n* Backport of GuideME to 1.20.1 by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8487\n\nNote that the use of GuideME also now brings with it the ability to search in the guidebook along many other enhancements.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.3.5...forge/v15.4.0",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11833250,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.0/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251591333"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.0-api.jar",
+        "size": 624605,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.0/appliedenergistics2-forge-15.4.0-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251591037"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.0.jar",
+        "size": 5582314,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.0/appliedenergistics2-forge-15.4.0.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251591028"
+      }
+    }
+  },
+  "forge/v15.3.6": {
+    "source": "github",
+    "modVersion": "15.3.6",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.3.6",
+    "tagName": "forge/v15.3.6",
+    "published": 1746309587000,
+    "changelog": "Fix client-side disconnect when opening Crafting CPU Screen.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.3.5...forge/v15.3.6",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11831848,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.6/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251627198"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.3.6-api.jar",
+        "size": 624605,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.6/appliedenergistics2-forge-15.3.6-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251627062"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.3.6.jar",
+        "size": 9749679,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.3.6/appliedenergistics2-forge-15.3.6.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251627058"
+      }
+    }
+  },
+  "fabric/v15.3.6": {
+    "source": "github",
+    "modVersion": "15.3.6",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.3.6",
+    "tagName": "fabric/v15.3.6",
+    "published": 1746309506000,
+    "changelog": "Fix client-side disconnect when opening Crafting CPU Screen.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.3.5...fabric/v15.3.6",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11500288,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.6/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251626847"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.3.6-api.jar",
+        "size": 608005,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.6/appliedenergistics2-fabric-15.3.6-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251626789"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.3.6.jar",
+        "size": 9873154,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.3.6/appliedenergistics2-fabric-15.3.6.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251626787"
+      }
+    }
   }
 }
