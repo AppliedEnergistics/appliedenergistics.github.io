@@ -11289,5 +11289,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/251626787"
       }
     }
+  },
+  "forge/v15.4.2": {
+    "source": "github",
+    "modVersion": "15.4.2",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.2",
+    "tagName": "forge/v15.4.2",
+    "published": 1746519218000,
+    "changelog": "Fix guidebook packaging issue.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.1...forge/v15.4.2",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11830234,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.2/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/252241762"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.2-api.jar",
+        "size": 624605,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.2/appliedenergistics2-forge-15.4.2-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/252241686"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.2.jar",
+        "size": 8410614,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.2/appliedenergistics2-forge-15.4.2.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/252241673"
+      }
+    }
   }
 }
