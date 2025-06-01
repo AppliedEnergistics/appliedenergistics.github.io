@@ -11322,5 +11322,65 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/252241673"
       }
     }
+  },
+  "forge/v15.4.4": {
+    "source": "github",
+    "modVersion": "15.4.4",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.4",
+    "tagName": "forge/v15.4.4",
+    "published": 1748788865000,
+    "changelog": "## What's Changed\n* Add explicit block break/place permission checks to the matter cannon. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8530\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.3...forge/v15.4.4",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11840727,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.4/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/259948635"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.4-api.jar",
+        "size": 624900,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.4/appliedenergistics2-forge-15.4.4-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/259948445"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.4.jar",
+        "size": 8413070,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.4/appliedenergistics2-forge-15.4.4.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/259948442"
+      }
+    }
+  },
+  "forge/v15.4.3": {
+    "source": "github",
+    "modVersion": "15.4.3",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.3",
+    "tagName": "forge/v15.4.3",
+    "published": 1748775692000,
+    "changelog": "- Fix inscriber recipes in REI.\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.2...forge/v15.4.3",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.3-api.jar",
+        "size": 624605,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.3/appliedenergistics2-forge-15.4.3-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/259920578"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.3.jar",
+        "size": 8410881,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.3/appliedenergistics2-forge-15.4.3.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/259920573"
+      }
+    }
   }
 }
