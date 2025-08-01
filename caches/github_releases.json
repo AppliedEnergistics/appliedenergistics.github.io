@@ -11481,5 +11481,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/272462412"
       }
     }
+  },
+  "forge/v15.4.7": {
+    "source": "github",
+    "modVersion": "15.4.7",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.7",
+    "tagName": "forge/v15.4.7",
+    "published": 1753995613000,
+    "changelog": "## What's Changed\n* Fix #8511: Mistake in IItemHandler simulated extract wrapper by @Technici4n in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8613\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.6...forge/v15.4.7",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11843347,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.7/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/278223419"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.7-api.jar",
+        "size": 624900,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.7/appliedenergistics2-forge-15.4.7-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/278223154"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.7.jar",
+        "size": 8423742,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.7/appliedenergistics2-forge-15.4.7.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/278223152"
+      }
+    }
   }
 }
