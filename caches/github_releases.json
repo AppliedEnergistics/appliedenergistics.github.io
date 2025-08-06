@@ -11514,5 +11514,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/278223152"
       }
     }
+  },
+  "forge/v15.4.8": {
+    "source": "github",
+    "modVersion": "15.4.8",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.8",
+    "tagName": "forge/v15.4.8",
+    "published": 1754429501000,
+    "changelog": "* Close UIs of parts when they are removed from the world by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8615\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.7...forge/v15.4.8",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11830380,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.8/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/279677793"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.8-api.jar",
+        "size": 624900,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.8/appliedenergistics2-forge-15.4.8-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/279677683"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.8.jar",
+        "size": 8423946,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.8/appliedenergistics2-forge-15.4.8.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/279677673"
+      }
+    }
+  },
+  "fabric/v15.4.8": {
+    "source": "github",
+    "modVersion": "15.4.8",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.4.8",
+    "tagName": "fabric/v15.4.8",
+    "published": 1754429537000,
+    "changelog": "* Close UIs of parts when they are removed from the world by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8615\n \n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.4.6...fabric/v15.4.8",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11506336,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.8/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/279677855"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.4.8-api.jar",
+        "size": 608005,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.8/appliedenergistics2-fabric-15.4.8-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/279677492"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.4.8.jar",
+        "size": 9883997,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.8/appliedenergistics2-fabric-15.4.8.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/279677479"
+      }
+    }
   }
 }
