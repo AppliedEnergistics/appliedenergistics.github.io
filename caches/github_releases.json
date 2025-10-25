@@ -11646,5 +11646,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/303193826"
       }
     }
+  },
+  "forge/v15.4.10": {
+    "source": "github",
+    "modVersion": "15.4.10",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.10",
+    "tagName": "forge/v15.4.10",
+    "published": 1761403578000,
+    "changelog": "## What's Changed\n* Add native EMI support for Forge 1.20.1. by @pedroksl in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8659\n* Only prevent recursive use of network storage, but not multiple uses on the same subnetwork depth\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.9...forge/v15.4.10",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11821736,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.10/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/308588345"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.10-api.jar",
+        "size": 628054,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.10/appliedenergistics2-forge-15.4.10-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/308588358"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.10.jar",
+        "size": 8495956,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.10/appliedenergistics2-forge-15.4.10.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/308588348"
+      }
+    }
+  },
+  "fabric/v15.4.10": {
+    "source": "github",
+    "modVersion": "15.4.10",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.4.10",
+    "tagName": "fabric/v15.4.10",
+    "published": 1761403955000,
+    "changelog": "- Added native EMI support\n- Only prevent recursive use of network storage, but not multiple uses on the same subnetwork depth\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.4.9...fabric/v15.4.10",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11504400,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.10/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/308588555"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.4.10-api.jar",
+        "size": 611159,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.10/appliedenergistics2-fabric-15.4.10-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/308588485"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.4.10.jar",
+        "size": 9824629,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.10/appliedenergistics2-fabric-15.4.10.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/308588480"
+      }
+    }
   }
 }
