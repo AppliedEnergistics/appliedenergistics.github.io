@@ -11811,5 +11811,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/332293273"
       }
     }
+  },
+  "v26.1.4-alpha": {
+    "source": "github",
+    "modVersion": "26.1.4-alpha",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.1.4-alpha",
+    "tagName": "v26.1.4-alpha",
+    "published": 1766960981000,
+    "changelog": "**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.1.3-alpha...v26.1.4-alpha",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11309806,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.4-alpha/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/333871415"
+      },
+      "api": {
+        "filename": "appliedenergistics2-26.1.4-alpha-api.jar",
+        "size": 654955,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.4-alpha/appliedenergistics2-26.1.4-alpha-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/333870980"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.1.4-alpha.jar",
+        "size": 8357955,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.4-alpha/appliedenergistics2-26.1.4-alpha.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/333870974"
+      }
+    }
   }
 }
