@@ -82,7 +82,13 @@ export class MergedRelease {
     if (release.changelog && !this.markdownChangelog) {
       this.markdownChangelog = release.changelog;
     }
-    release.gameVersions?.forEach((v) => this.gameVersions.add(v));
+    for (let gameVersion of release.gameVersions) {
+      // Unqualify snapshot versions to not have an explosion of versions on the page
+      if (gameVersion.includes("-")) {
+        gameVersion = gameVersion.split("-")[0];
+      }
+      this.gameVersions.add(gameVersion);
+    }
     release.modLoaders?.forEach((v) => this.modLoaders.add(v));
   }
 }
