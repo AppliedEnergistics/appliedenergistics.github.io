@@ -21,12 +21,14 @@ export async function getGuideVersions(): Promise<GuideVersion[]> {
   let filteredVersions = versions
     .filter((version) => !version.development)
     .map(
-      (version) =>
-        ({
+      (version) => {
+        const majorVersion = version.gameMajorVersion ?? version.gameVersion;
+        return ({
           minecraftVersion: version.gameVersion,
           url:
-            "https://guide.appliedenergistics.org/" + version.gameVersion + "/",
-        }) satisfies GuideVersion,
+              "https://guide.appliedenergistics.org/" + majorVersion + "/",
+        }) satisfies GuideVersion;
+      },
     );
 
   // Add the old wiki as a guide for 1.7
