@@ -1,5 +1,10 @@
 import { writeFileSync } from "node:fs";
-import { ModReleaseInfo, ModrinthRelease, ReleaseAssetType, ReleaseType } from "./lib/releases/types.js";
+import {
+  ModReleaseInfo,
+  ModrinthRelease,
+  ReleaseAssetType,
+  ReleaseType,
+} from "./lib/releases/types.js";
 
 function getReleaseType(record: any): ReleaseType {
   switch (record.version_type) {
@@ -30,8 +35,8 @@ function getModAssets(record: any): ModrinthRelease["assets"] {
     [ReleaseAssetType.MOD]: {
       filename: primaryFile.filename,
       size: primaryFile.size,
-      url: primaryFile.url
-    }
+      url: primaryFile.url,
+    },
   };
 }
 
@@ -47,17 +52,17 @@ async function fetchReleases(): Promise<ModrinthRelease[]> {
   console.info("Requesting %s", url);
   const response = await fetch(url, {
     headers: {
-      "User-Agent": "ae2"
-    }
+      "User-Agent": "ae2",
+    },
   });
 
   if (!response.ok) {
     throw new Error(
       "Failed to fetch. " +
-      response.status +
-      " (" +
-      (await response.text()) +
-      ")"
+        response.status +
+        " (" +
+        (await response.text()) +
+        ")",
     );
   }
 
@@ -77,7 +82,7 @@ async function fetchReleases(): Promise<ModrinthRelease[]> {
         assets: getModAssets(record),
         changelog: record.changelog,
         totalDownloads: record.downloads,
-      } satisfies ModrinthRelease)
+      }) satisfies ModrinthRelease,
   );
 }
 
@@ -86,6 +91,6 @@ writeFileSync(
   "caches/modrinth_releases.json",
   JSON.stringify(releases, null, 2),
   {
-    encoding: "utf-8"
-  }
+    encoding: "utf-8",
+  },
 );

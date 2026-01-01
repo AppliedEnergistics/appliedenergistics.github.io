@@ -9,7 +9,8 @@ import {
   GithubReleaseCache,
   ModLoader,
   ModReleaseAsset,
-  ReleaseAssetType, ReleaseType
+  ReleaseAssetType,
+  ReleaseType,
 } from "./lib/releases/types.js";
 
 type ApiGithubRelease = components["schemas"]["release"];
@@ -23,7 +24,7 @@ if (typeof githubToken !== "string") {
 const PaginatingOctokit = Octokit.plugin(paginateRest);
 const octokit = new PaginatingOctokit({
   auth: githubToken,
-  userAgent: "AE2-Release-Indexer"
+  userAgent: "AE2-Release-Indexer",
 });
 
 const owner = "AppliedEnergistics";
@@ -33,16 +34,16 @@ const tagPatterns: [RegExp, ModLoader[]][] = [
   [/^fabric\/v([0-9].*)$/, [ModLoader.FABRIC]],
   [/^forge\/v([0-9].*)$/, [ModLoader.FORGE]],
   [/^v([0-9].*)$/, [ModLoader.FORGE]],
-  [/^(rv.*)/, [ModLoader.FORGE]]
+  [/^(rv.*)/, [ModLoader.FORGE]],
 ];
 
 async function listReleases(): Promise<
-  Awaited<ReturnType<typeof octokit["rest"]["repos"]["listReleases"]>>["data"]
+  Awaited<ReturnType<(typeof octokit)["rest"]["repos"]["listReleases"]>>["data"]
 > {
   const options = octokit.rest.repos.listReleases.endpoint.merge({
     owner,
     repo,
-    per_page: 100
+    per_page: 100,
   });
   return await octokit.paginate(options);
 }
@@ -75,19 +76,19 @@ const jarSuffixToAssetType: [string, ReleaseAssetType][] = [
   ["-javadoc.jar", ReleaseAssetType.API],
   ["-api.jar", ReleaseAssetType.API],
   ["-dev.jar", ReleaseAssetType.UNOBF],
-  [".jar", ReleaseAssetType.MOD]
+  [".jar", ReleaseAssetType.MOD],
 ];
 
 /**
  * Try to find the mod jar among the release assets and download it.
  */
 function classifyReleaseAssets(
-  assets: ApiGithubReleaseAsset[]
+  assets: ApiGithubReleaseAsset[],
 ): Partial<Record<ReleaseAssetType, ApiGithubReleaseAsset>> {
   const result: Partial<Record<ReleaseAssetType, ApiGithubReleaseAsset>> = {};
 
   const assetsByName = Object.fromEntries(
-    assets.map((asset) => [asset.name, asset])
+    assets.map((asset) => [asset.name, asset]),
   );
 
   // Special case for guide assets
@@ -102,7 +103,7 @@ function classifyReleaseAssets(
   // appliedenergistics2-rv2-beta-1.jar
   // The longest common prefix is usually the basename of the actual mod jar
   const jarBaseName = longestCommonPrefix(
-    Object.keys(assetsByName).filter((name) => name.endsWith(".jar"))
+    Object.keys(assetsByName).filter((name) => name.endsWith(".jar")),
   );
 
   for (const [classifier, assetType] of jarSuffixToAssetType) {
@@ -130,7 +131,7 @@ function classifyReleaseAssets(
 async function processRelease(
   cache: GithubReleaseCache,
   release: ApiGithubRelease,
-  allMinecraftVersions: string[]
+  allMinecraftVersions: string[],
 ) {
   const { tag_name: tagName } = release;
   // Ignore drafts
@@ -149,9 +150,9 @@ async function processRelease(
         filename: asset.name,
         size: asset.size,
         browser_download_url: asset.browser_download_url,
-        url: asset.url
-      } satisfies ModReleaseAsset
-    ])
+        url: asset.url,
+      } satisfies ModReleaseAsset,
+    ]),
   );
 
   // Try deducing a version from the tag first, which will then be overwritten by the mod-data if successful
@@ -177,7 +178,6 @@ async function processRelease(
 
   let releaseType = ReleaseType.STABLE;
 
-
   const releaseInfo: GithubRelease = {
     ...oldCachedData,
     source: "github",
@@ -189,7 +189,7 @@ async function processRelease(
     tagName,
     published: new Date(release.published_at ?? release.created_at).getTime(),
     changelog: release.body?.replaceAll("\r\n", "\n") ?? undefined,
-    assets
+    assets,
   };
   cache.set(tagName, releaseInfo);
 
@@ -199,15 +199,15 @@ async function processRelease(
     if (!modJarAsset) {
       console.warn(
         "Couldn't find a mod jar in the release assets of %s",
-        tagName
+        tagName,
       );
       return;
     }
 
     const { data } = await octokit.request(modJarAsset.url, {
       headers: {
-        accept: "application/octet-stream"
-      }
+        accept: "application/octet-stream",
+      },
     });
     const modMetadata = extractModMetadata(data, allMinecraftVersions);
     // Remove anything that is not in the version list. Sometimes this includes "Java" or "Forge"
@@ -220,15 +220,13 @@ async function processRelease(
 const allMinecraftVersions = await getMinecraftVersions();
 console.info(
   "Found %d Minecraft versions overall",
-  allMinecraftVersions.length
+  allMinecraftVersions.length,
 );
 
 const releases = await listReleases();
 console.info("Read %d releases", releases.length);
 
-const cache = new PersistentCache<GithubRelease>(
-  "caches/github_releases.json"
-);
+const cache = new PersistentCache<GithubRelease>("caches/github_releases.json");
 try {
   for (const release of releases) {
     try {

@@ -34,24 +34,25 @@ function mcToSemver(mcVersion: string): string {
 
 function findMinecraftVersions(
   allMinecraftVersions: string[],
-  minecraftDependency: string
+  minecraftDependency: string,
 ) {
   // Remove trailing dash from MC versions
   minecraftDependency = minecraftDependency.replaceAll(
     /(\d+(?:\.\d+)*)-/g,
-    "$1"
+    "$1",
   );
 
   // Only consider versions that are within the same x.y range since Mods never
   // supported different minors
   const minVersion = semver.minSatisfying(
     allMinecraftVersions,
-    minecraftDependency
+    minecraftDependency,
   );
   const minecraftVersions = allMinecraftVersions.filter(
     (mcVersion) =>
       semver.satisfies(mcToSemver(mcVersion), minecraftDependency) &&
-      (!minVersion || semver.satisfies(mcToSemver(mcVersion), "~" + minVersion))
+      (!minVersion ||
+        semver.satisfies(mcToSemver(mcVersion), "~" + minVersion)),
   );
   if (!minecraftVersions.length) {
     throw new Error(`MC Version ${minecraftDependency} didn't match any.`);
@@ -61,7 +62,7 @@ function findMinecraftVersions(
 
 function mergeLoaderResults(
   forgeMetadata: ModMetadata | undefined,
-  fabricMetadata: ModMetadata | undefined
+  fabricMetadata: ModMetadata | undefined,
 ): ModMetadata {
   if (forgeMetadata && fabricMetadata) {
     // Make sure they agree
@@ -69,14 +70,14 @@ function mergeLoaderResults(
       forgeMetadata.modVersion !== fabricMetadata.modVersion ||
       !arraysHaveSameContent(
         forgeMetadata.minecraftVersions,
-        fabricMetadata.minecraftVersions
+        fabricMetadata.minecraftVersions,
       )
     ) {
       throw new Error(
         "Fabric and Forge don't agree: " +
           JSON.stringify(fabricMetadata) +
           " != " +
-          JSON.stringify(forgeMetadata)
+          JSON.stringify(forgeMetadata),
       );
     }
     return {
@@ -95,7 +96,7 @@ function mergeLoaderResults(
 
 export default function extractModMetadata(
   modJarData: ArrayBuffer,
-  allMinecraftVersions: string[]
+  allMinecraftVersions: string[],
 ): ModMetadata {
   const zip = new AdmZip(Buffer.from(modJarData));
 
@@ -112,7 +113,7 @@ export default function extractModMetadata(
   if (modsToml) {
     const tomlMetadata = toml.parse(modsToml);
     const modVersion = tomlMetadata.mods?.find(
-      (e: any) => e.modId === "ae2" || e.modId == "appliedenergistics2"
+      (e: any) => e.modId === "ae2" || e.modId == "appliedenergistics2",
     )?.version;
     if (!modVersion) {
       throw new Error("Couldn't extract mod version from mods.toml");
@@ -159,7 +160,7 @@ export default function extractModMetadata(
         }
         const semverCondition = semverConditions.join(" ");
         minecraftVersions.push(
-          ...findMinecraftVersions(allMinecraftVersions, semverCondition)
+          ...findMinecraftVersions(allMinecraftVersions, semverCondition),
         );
       }
     }
@@ -172,7 +173,7 @@ export default function extractModMetadata(
   } else if (mcmodInfo) {
     const mods = JSON.parse(mcmodInfo);
     const { version, mcversion } = mods.find(
-      ({ modid }: any) => modid === "appliedenergistics2"
+      ({ modid }: any) => modid === "appliedenergistics2",
     );
     if (!version || !mcversion) {
       throw new Error("Malformed mcmod.info");
@@ -193,7 +194,7 @@ export default function extractModMetadata(
 
     const minecraftVersions = findMinecraftVersions(
       allMinecraftVersions,
-      minecraftDependency
+      minecraftDependency,
     );
 
     fabricMetadata = {
@@ -209,7 +210,7 @@ export default function extractModMetadata(
     "Mod Version: %s, Minecraft Versions: %s, Loaders: %s",
     modMetadata.modVersion,
     modMetadata.minecraftVersions,
-    modMetadata.modLoaders
+    modMetadata.modLoaders,
   );
 
   return modMetadata;

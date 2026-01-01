@@ -5,7 +5,7 @@ export default async function getMinecraftVersions(): Promise<string[]> {
   const response = await fetch(launcherMetaUrl);
   if (!response.ok) {
     throw new Error(
-      "Failed to query Minecraft version list from " + launcherMetaUrl
+      "Failed to query Minecraft version list from " + launcherMetaUrl,
     );
   }
 

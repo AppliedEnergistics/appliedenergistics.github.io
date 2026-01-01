@@ -14,15 +14,17 @@ $white-bis: hsl(0, 0%, 7%);
 $white: hsl(0, 0%, 4%);
 
 $box-background-color: rgba($white, 0.7);
-$shadow: 0 0.5em 1em -0.125em rgba($grey, 0.1), 0 0px 0 1px rgba($grey, 0.02);
+$shadow:
+  0 0.5em 1em -0.125em rgba($grey, 0.1),
+  0 0px 0 1px rgba($grey, 0.02);
 
-$primary: #895CA8;
+$primary: #895ca8;
 
 @import "~bulma/bulma.sass";
 
 body {
   background-color: #2234ae;
-  background-image: linear-gradient(315deg, #1B2344 0%, #141209 40%);
+  background-image: linear-gradient(315deg, #1b2344 0%, #141209 40%);
   min-height: 100vh;
 }
 

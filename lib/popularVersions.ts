@@ -6,7 +6,7 @@ import { getMajorVersion } from "./util";
 // For every Minecraft major version, pick the one with the most overall downloads as the popular one.
 const versionsByMajor = groupBy(
   getFlattenedReleases(),
-  ({ minecraftVersion }) => getMajorVersion(minecraftVersion)
+  ({ minecraftVersion }) => getMajorVersion(minecraftVersion),
 );
 
 const mostPopularByMajor = mapValues(versionsByMajor, (versionGroup) => {
@@ -15,7 +15,7 @@ const mostPopularByMajor = mapValues(versionsByMajor, (versionGroup) => {
 });
 
 const latestMajor = Object.keys(versionsByMajor).sort((a, b) =>
-  compare(b + ".0", a + ".0")
+  compare(b + ".0", a + ".0"),
 )[0];
 
 // Completely hide major versions that in total have less than a million downloads,

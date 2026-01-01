@@ -1,12 +1,17 @@
 import { writeFileSync } from "node:fs";
 import { coerce, lte } from "semver";
-import { CurseforgeRelease, ModLoader, ReleaseAssetType, ReleaseType } from "./lib/releases/types.js";
+import {
+  CurseforgeRelease,
+  ModLoader,
+  ReleaseAssetType,
+  ReleaseType,
+} from "./lib/releases/types.js";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function filterTruthy<T>(values: (T|undefined|null)[]): T[] {
+function filterTruthy<T>(values: (T | undefined | null)[]): T[] {
   return values.filter(Boolean) as T[];
 }
 
@@ -60,7 +65,7 @@ function getModLoaders(record: ReleaseApiRecord): ModLoader[] {
   if (actualLoaders.length === 0) {
     console.warn(
       "Failed to determine the mod loader for Curseforge release %s",
-      record.displayName
+      record.displayName,
     );
   }
   return actualLoaders;
@@ -79,7 +84,7 @@ function convertReleaseType(releaseType: CurseforgeReleaseType): ReleaseType {
 
 function guessModVersionFromFilename(filename: string): string | undefined {
   const m = filename.match(
-    /^appliedenergistics2-(?:forge-|fabric-|)(.+)\.jar$/
+    /^appliedenergistics2-(?:forge-|fabric-|)(.+)\.jar$/,
   );
   return m ? m[1] : undefined;
 }
@@ -99,17 +104,17 @@ async function fetchReleases(): Promise<CurseforgeRelease[]> {
     const response = await fetch(url, {
       headers: {
         "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0"
-      }
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
+      },
     });
 
     if (!response.ok) {
       throw new Error(
         "Failed to fetch. " +
-        response.status +
-        " (" +
-        (await response.text()) +
-        ")"
+          response.status +
+          " (" +
+          (await response.text()) +
+          ")",
       );
     }
 
@@ -142,28 +147,36 @@ async function fetchReleases(): Promise<CurseforgeRelease[]> {
   return data.flatMap((record: ReleaseApiRecord) => {
     const modVersion = guessModVersionFromFilename(record.fileName);
     if (!modVersion) {
-      console.warn("Cannot deduce Mod version from Curseforge filename: %s", record.fileName);
+      console.warn(
+        "Cannot deduce Mod version from Curseforge filename: %s",
+        record.fileName,
+      );
       return [];
     }
 
-    return [{
-      source: "curseforge",
-      id: String(record.id),
-      url: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/" + record.id,
-      modVersion,
-      releaseType: convertReleaseType(record.releaseType),
-      gameVersions: getGameVersions(record),
-      modLoaders: getModLoaders(record),
-      published: new Date(record.dateCreated).getTime(),
-      totalDownloads: record.totalDownloads,
-      assets: {
-        [ReleaseAssetType.MOD]: {
-          filename: record.fileName,
-          size: record.fileLength,
-          browser_download_url: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/download/" + record.id
-        }
-      }
-    } satisfies CurseforgeRelease
+    return [
+      {
+        source: "curseforge",
+        id: String(record.id),
+        url:
+          "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/" +
+          record.id,
+        modVersion,
+        releaseType: convertReleaseType(record.releaseType),
+        gameVersions: getGameVersions(record),
+        modLoaders: getModLoaders(record),
+        published: new Date(record.dateCreated).getTime(),
+        totalDownloads: record.totalDownloads,
+        assets: {
+          [ReleaseAssetType.MOD]: {
+            filename: record.fileName,
+            size: record.fileLength,
+            browser_download_url:
+              "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/download/" +
+              record.id,
+          },
+        },
+      } satisfies CurseforgeRelease,
     ];
   });
 }
@@ -173,6 +186,6 @@ writeFileSync(
   "caches/curseforge_releases.json",
   JSON.stringify(releases, null, 2),
   {
-    encoding: "utf-8"
-  }
+    encoding: "utf-8",
+  },
 );

@@ -58,7 +58,7 @@ export class MergedRelease {
         ...base,
         minecraftVersion,
         modLoader,
-      }))
+      })),
     );
   }
 

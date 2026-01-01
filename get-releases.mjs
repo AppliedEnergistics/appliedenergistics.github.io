@@ -31,7 +31,7 @@ if (!mainRelease) {
 
 // Find the javadoc jar
 const javadocJar = mainRelease.assets.find((a) =>
-  a.name.endsWith("-javadoc.jar")
+  a.name.endsWith("-javadoc.jar"),
 );
 if (!javadocJar) {
   throw new Error("No javadoc asset found!");

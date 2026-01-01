@@ -3,7 +3,7 @@ import { coerce, compare } from "semver";
 export function getMajorVersion(minecraftVersion: string) {
   if (parseInt(minecraftVersion.split(".")[0]) >= 26) {
     // Strip any qualifier off, i.e. 26.1-snapshot...
-    const unqualified = minecraftVersion.split('-')[0];
+    const unqualified = minecraftVersion.split("-")[0];
     return unqualified.split(".").slice(0, 2).join(".");
   }
 
