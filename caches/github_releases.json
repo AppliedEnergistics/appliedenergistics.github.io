@@ -11970,5 +11970,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/415467171"
       }
     }
+  },
+  "v26.1.9-alpha": {
+    "source": "github",
+    "modVersion": "26.1.9-alpha",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.1.9-alpha",
+    "tagName": "v26.1.9-alpha",
+    "published": 1779486970000,
+    "changelog": "## What's Changed\n* Fix crash when mining crafting cube by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8859\n* fix keybinding category by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8864\n* fix Crystal Resonance Generator facing by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8863\n* fix inscriber rendering by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8871\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.1.8-alpha...v26.1.9-alpha",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 9787662,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.9-alpha/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/427412177"
+      },
+      "api": {
+        "filename": "appliedenergistics2-26.1.9-alpha-api.jar",
+        "size": 691916,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.9-alpha/appliedenergistics2-26.1.9-alpha-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/427411673"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.1.9-alpha.jar",
+        "size": 8347586,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.9-alpha/appliedenergistics2-26.1.9-alpha.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/427411648"
+      }
+    }
   }
 }
