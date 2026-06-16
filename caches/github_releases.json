@@ -12003,5 +12003,32 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/427411648"
       }
     }
+  },
+  "v26.1.10-beta": {
+    "source": "github",
+    "modVersion": "26.1.10-beta",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.1.10-beta",
+    "tagName": "v26.1.10-beta",
+    "published": 1781610745000,
+    "changelog": "## What's Changed\n* Fix custom ingredients in fluid transform recipes crashing\n* Replace JLine static `Log` reference with SLF4J `Logger` instance by @JackPGreen in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8883\n* perf: cache stack max damage for getFuzzySearchMaxValue (1.21.1) by @Vonr in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8891\n* Fix tooltip offset for crafting status table by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8898\n* Update recipe after \"Take items\" in Crafting Terminal by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8897\n* correct world position and block flags in attemptRecovery by @quasar8842 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8885\n\n## New Contributors\n* @JackPGreen made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8883\n* @Vonr made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8891\n* @quasar8842 made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8885\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.1.9-alpha...v26.1.10-beta",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-26.1.10-beta-api.jar",
+        "size": 691948,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.10-beta/appliedenergistics2-26.1.10-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/449158816"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.1.10-beta.jar",
+        "size": 8347899,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.10-beta/appliedenergistics2-26.1.10-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/449158745"
+      }
+    }
   }
 }
