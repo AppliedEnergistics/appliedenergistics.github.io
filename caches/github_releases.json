@@ -12063,5 +12063,32 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/528900237"
       }
     }
+  },
+  "v26.1.12-beta": {
+    "source": "github",
+    "modVersion": "26.1.12-beta",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.1.12-beta",
+    "tagName": "v26.1.12-beta",
+    "published": 1789688248000,
+    "changelog": "## What's Changed\n* Fix JEI integration for merequester by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8962\n* Fix JEI drag&drop highlights by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8971\n* Fix internal inventory resource handlers by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8970\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.1.11-beta...v26.1.12-beta",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-26.1.12-beta-api.jar",
+        "size": 692574,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.12-beta/appliedenergistics2-26.1.12-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/571383321"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.1.12-beta.jar",
+        "size": 8366457,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.12-beta/appliedenergistics2-26.1.12-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/571383238"
+      }
+    }
   }
 }
