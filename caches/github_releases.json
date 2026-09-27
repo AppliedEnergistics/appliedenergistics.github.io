@@ -12096,5 +12096,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/571383238"
       }
     }
+  },
+  "forge/v15.4.11": {
+    "source": "github",
+    "modVersion": "15.4.11",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.11",
+    "tagName": "forge/v15.4.11",
+    "published": 1790521252000,
+    "changelog": "## What's Changed\n* Fix Tooltips crashing for extremely large byte amounts (#8991)\n* Fix Spatial Anchor overlay rendering in 1.20.1 by @paperky in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8630\n* Be more lenient about misplaced addon crafting storage units leading to permanent world crashes by @pedroksl in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8707\n* Fix Korean translation by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8936\n* Fix ingredients being moved out of the crafting grid when transferring a recipe not being used for other slots of that recipe\n\n## New Contributors\n* @paperky made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8630\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.10...forge/v15.4.11",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11842682,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.11/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/593157174"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.11-api.jar",
+        "size": 628054,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.11/appliedenergistics2-forge-15.4.11-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/593154373"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.11.jar",
+        "size": 8501309,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.11/appliedenergistics2-forge-15.4.11.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/593154280"
+      }
+    }
+  },
+  "fabric/v15.4.11": {
+    "source": "github",
+    "modVersion": "15.4.11",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.4.11",
+    "tagName": "fabric/v15.4.11",
+    "published": 1790521959000,
+    "changelog": "## What's Changed\n* Fix Tooltips crashing for extremely large byte amounts (#8991)\n* Fix Korean translation by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8937\n* Only prevent recursive use of network storage, but not multiple uses on the same subnetwork depth (#8095) by @tsbreuer in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8653\n* Fix ingredients being moved out of the crafting grid when transferring a recipe not being used for other slots of that recipe\n* Be more lenient about misplaced addon crafting storage units leading to permanent world crashes by @pedroksl in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8707\n\n## New Contributors\n* @tsbreuer made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8653\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.4.10...fabric/v15.4.11",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11508079,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.11/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/593175852"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.4.11-api.jar",
+        "size": 611441,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.11/appliedenergistics2-fabric-15.4.11-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/593176047"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.4.11.jar",
+        "size": 9828299,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.11/appliedenergistics2-fabric-15.4.11.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/593176012"
+      }
+    }
   }
 }
