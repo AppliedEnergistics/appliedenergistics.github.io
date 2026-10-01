@@ -12162,5 +12162,38 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/593176012"
       }
     }
+  },
+  "v26.1.13-beta": {
+    "source": "github",
+    "modVersion": "26.1.13-beta",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.1.13-beta",
+    "tagName": "v26.1.13-beta",
+    "published": 1790803832000,
+    "changelog": "## What's Changed\n* Fix bottom face rendering of partial faces (crafting CPU, cables, QN Bridge) by @andrewsf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8980\n* Updated Crowdin Translations by @github-actions[bot] in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8446\n* (26.1.2) Use IBlockExtension#getCloneItemStack instead of new ItemStack(Block) by @Frinn38 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8716\n* Fix Tooltips crashing for extremely large byte amounts by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8991\n* Remove neighbor updates from the Condenser caused by changes in the internal power level by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8992\n* Fix issue where crafting CPUs could act as-if they had infinite Co-Processors for a tick by @HaphLife in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8789\n* Fix fluid rendering in recipes in JEI by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8902\n* Fix items being moved out of a crafting grid not being considered for the new recipe by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8993\n* Refresh crafting CPU list once per second instead of every tick by @JoelCranston in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8989\n* Allow only storage cells as input to ME IO Port by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8974\n* Improve various user-facing English text (Guide, GUI, Advancement name) by @andrewsf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8932\n* Update \"example Main Network\" guidebook entry: cabling (#8947) by @andrewsf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8948\n* Add a suspend icon in CPUs selection list of crafting status screen by @Godox in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8744\n* Fix spatial transitions when pylons and I/O ports are in different dimensions. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8994\n* Add JMH benchmark infrastructure for storage code paths by @ghshhf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8964\n* Automatic pattern restock by @Satherov in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8873\n* Avoid map allocation in VariantCounter for small key counts by @ghshhf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8965\n* Add MEStorage#getEstimatedStackCount to pre-size KeyCounter by @ghshhf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8966\n* Fix GUI Pick Block: support both mouse button and keyboard bindings by @andrewsf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8976\n\n## New Contributors\n* @andrewsf made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8980\n* @Frinn38 made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8716\n* @HaphLife made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8789\n* @JoelCranston made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8989\n* @Godox made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8744\n* @ghshhf made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8964\n* @Satherov made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/8873\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.1.12-beta...v26.1.13-beta",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 10399730,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.13-beta/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/601836939"
+      },
+      "api": {
+        "filename": "appliedenergistics2-26.1.13-beta-api.jar",
+        "size": 696584,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.13-beta/appliedenergistics2-26.1.13-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/601835692"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.1.13-beta.jar",
+        "size": 8397322,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.13-beta/appliedenergistics2-26.1.13-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/601835624"
+      }
+    }
   }
 }
