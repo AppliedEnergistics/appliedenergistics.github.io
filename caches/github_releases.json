@@ -12228,5 +12228,32 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/604304964"
       }
     }
+  },
+  "v26.3.1-alpha": {
+    "source": "github",
+    "modVersion": "26.3.1-alpha",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.3.1-alpha",
+    "tagName": "v26.3.1-alpha",
+    "published": 1791062559000,
+    "changelog": "## What's Changed\n* Port to Minecraft 26.3 by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9016\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.2.1-alpha...v26.3.1-alpha",
+    "assets": {
+      "api": {
+        "filename": "appliedenergistics2-26.3.1-alpha-api.jar",
+        "size": 696584,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.3.1-alpha/appliedenergistics2-26.3.1-alpha-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/608560847"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.3.1-alpha.jar",
+        "size": 8397266,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.3.1-alpha/appliedenergistics2-26.3.1-alpha.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/608560791"
+      }
+    }
   }
 }
