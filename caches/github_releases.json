@@ -12255,5 +12255,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/608560791"
       }
     }
+  },
+  "forge/v15.4.12": {
+    "source": "github",
+    "modVersion": "15.4.12",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/forge/v15.4.12",
+    "tagName": "forge/v15.4.12",
+    "published": 1793227095000,
+    "changelog": "## What's Changed\n* Fix Simplified Chinese naming of light gray items by @JocuperDARY in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9032\n* Copy the tag into AEItemKey's read-only stack instead of sharing it by @Savallator in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9025\n\n## New Contributors\n* @JocuperDARY made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9032\n* @Savallator made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9025\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/forge/v15.4.11...forge/v15.4.12\n",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11821559,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.12/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/686588881"
+      },
+      "api": {
+        "filename": "appliedenergistics2-forge-15.4.12-api.jar",
+        "size": 628140,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.12/appliedenergistics2-forge-15.4.12-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/686585048"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-forge-15.4.12.jar",
+        "size": 8501298,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/forge/v15.4.12/appliedenergistics2-forge-15.4.12.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/686584965"
+      }
+    }
+  },
+  "fabric/v15.4.12": {
+    "source": "github",
+    "modVersion": "15.4.12",
+    "modLoaders": [
+      "fabric"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/fabric/v15.4.12",
+    "tagName": "fabric/v15.4.12",
+    "published": 1793226921000,
+    "changelog": "## What's Changed\n* Fix Simplified Chinese naming of light gray items by @JocuperDARY in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9033\n\n## New Contributors\n* @JocuperDARY made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9033\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/fabric/v15.4.11...fabric/v15.4.12\n",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 11514112,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.12/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/686574974"
+      },
+      "api": {
+        "filename": "appliedenergistics2-fabric-15.4.12-api.jar",
+        "size": 611441,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.12/appliedenergistics2-fabric-15.4.12-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/686572589"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-fabric-15.4.12.jar",
+        "size": 9828296,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/fabric/v15.4.12/appliedenergistics2-fabric-15.4.12.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/686572482"
+      }
+    }
   }
 }
