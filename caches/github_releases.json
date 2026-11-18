@@ -12321,5 +12321,71 @@
         "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/686572482"
       }
     }
+  },
+  "v26.3.2-alpha": {
+    "source": "github",
+    "modVersion": "26.3.2-alpha",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.3.2-alpha",
+    "tagName": "v26.3.2-alpha",
+    "published": 1794967097000,
+    "changelog": "## What's Changed\n* Generate the guide website with GuideME by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9023\n* Update Github Actions by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9043\n* (#8988) Fix closest meteorite cache lookups by @dajiaohuang in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9042\n* Update NeoForge to 26.3.0.100 by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9057\n* Fix storage cell LEDs when shader packs are enabled by rendering them as spider eyes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9056\n* Use light_emission for emissive model faces by @embeddedt in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9053\n* Rely on standard behavior to clear blocks for tiny tnt by @voidsipp in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9061\n* Allow the guide on a bookshelf by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9075\n* Fix NetworkStatusScreen tooltip offset by @Mithi83 in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9020\n* Fix energy providers being dropped when extracting tiny amounts by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9078\n* Pass the pushed tag's version to Gradle in gradle-setup by @andrewsf in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9015\n* Skip unrelated key-space extraction probes in basic cells by @voidsipp in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9068\n* Keep ingredient data components when encoding JEI crafting recipes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9087\n* Fix the Transform Logic cache never being invalidated. by @Satherov in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9011\n* Fix the Cell Workbench Menu display not syncing as intended. by @Satherov in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9010\n* Fixes certain config commands not persisting by @Satherov in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9009\n* Fix flaky crafting gametests by waiting for the grid to be online by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9095\n* Fix item transition particles rendering at the wrong coordinates by @Satherov in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9008\n* Preserve saved data of ManagedGridNodes that have not been created yet by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9099\n\n## New Contributors\n* @dajiaohuang made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9042\n* @voidsipp made their first contribution in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9061\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.3.1-alpha...v26.3.2-alpha",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 10808401,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.3.2-alpha/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/761479664"
+      },
+      "api": {
+        "filename": "appliedenergistics2-26.3.2-alpha-api.jar",
+        "size": 696584,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.3.2-alpha/appliedenergistics2-26.3.2-alpha-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/761468013"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.3.2-alpha.jar",
+        "size": 8409455,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.3.2-alpha/appliedenergistics2-26.3.2-alpha.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/761468012"
+      }
+    }
+  },
+  "v26.1.14-beta": {
+    "source": "github",
+    "modVersion": "26.1.14-beta",
+    "modLoaders": [
+      "forge"
+    ],
+    "releaseType": "stable",
+    "gameVersions": [],
+    "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/tag/v26.1.14-beta",
+    "tagName": "v26.1.14-beta",
+    "published": 1794967085000,
+    "changelog": "## What's Changed\n* Fix invisible unit label in NumberEntryWidget by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9013\n* Fix cache for closest meteorite lookups by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9046\n* Use a minimal physics simulation for the compass needle by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9049\n* Fix storage cell LEDs when shader packs are enabled by rendering them as spider eyes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9051\n* Use light_emission for emissive model faces by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9059\n* Allow the guide on a bookshelf by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9076\n* Fix energy providers being dropped when extracting tiny amounts by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9080\n* Skip unrelated key-space extraction probes in basic cells by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9081\n* Backport: Fix NetworkStatusScreen tooltip offset (#9020) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9086\n* Keep ingredient data components when encoding JEI crafting recipes by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9088\n* Fix the Transform Logic cache never being invalidated. (#9011) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9090\n* Fix the Cell Workbench Menu display not syncing as intended. by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9091\n* Fixes certain config commands not persisting (#9009) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9094\n* Fix flaky crafting gametests by waiting for the grid to be online (#9095) by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9097\n* Fix item transition particles rendering at the wrong coordinates by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9098\n* Backport: Preserve saved data of ManagedGridNodes that have not been created yet by @shartte in https://github.com/AppliedEnergistics/Applied-Energistics-2/pull/9100\n\n\n**Full Changelog**: https://github.com/AppliedEnergistics/Applied-Energistics-2/compare/v26.1.13-beta...v26.1.14-beta",
+    "assets": {
+      "guide-assets": {
+        "filename": "guide-assets.zip",
+        "size": 10419066,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.14-beta/guide-assets.zip",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/761470234"
+      },
+      "api": {
+        "filename": "appliedenergistics2-26.1.14-beta-api.jar",
+        "size": 696584,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.14-beta/appliedenergistics2-26.1.14-beta-api.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/761468234"
+      },
+      "mod": {
+        "filename": "appliedenergistics2-26.1.14-beta.jar",
+        "size": 8400599,
+        "browser_download_url": "https://github.com/AppliedEnergistics/Applied-Energistics-2/releases/download/v26.1.14-beta/appliedenergistics2-26.1.14-beta.jar",
+        "url": "https://api.github.com/repos/AppliedEnergistics/Applied-Energistics-2/releases/assets/761468079"
+      }
+    }
   }
 }
